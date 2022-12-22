@@ -1,0 +1,27 @@
+cffi==1.15.1
+cryptography==38.0.4
+css-parser==1.0.8
+decorator==5.1.1
+gajim @ file:///home/god/Documents/dev/gajim-master
+gssapi==1.8.2
+idna==3.4
+importlib-metadata==5.1.0
+jaraco.classes==3.2.3
+jeepney==0.8.0
+keyring==23.11.0
+keyrings.alt==4.2.0
+more-itertools==9.0.0
+nbxmpp==3.2.5
+packaging==22.0
+Pillow==9.3.0
+precis-i18n==1.0.4
+pycairo==1.23.0
+pycparser==2.21
+python-iptables==1.0.0
+pyufw==0.0.3
+ruamel.yaml==0.17.21
+ruamel.yaml.clib==0.2.7
+SecretStorage==3.3.3
+vext==0.7.6
+vext.gi==0.7.4
+zipp==3.11.0

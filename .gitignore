@@ -1,0 +1,31 @@
+syntax: glob
+*.orig
+*.swp
+*.gmo
+*.in
+*.m4
+*.pyc
+*.pyo
+*~
+*#
+
+gajim/gui/*
+!gajim/gui/__init__.py
+
+# Cache
+
+__pycache__/
+.mypy_cache/
+.ruff_cache/
+
+# Build folders
+
+debian_build/
+build/
+dist/
+gajim.egg-info/
+win/_build_root
+
+# IDE files
+
+.vscode

@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017-2022 Gajim Team -->
+<component type="desktop-application">
+  <id>org.gajim.Gajim</id>
+  <metadata_license>CC-BY-SA-3.0</metadata_license>
+  <project_license>GPL-3.0-only</project_license>
+  <name>Gajim</name>
+  <name xml:lang="ro">Gajim</name>
+  <name xml:lang="zh_TW">Gajim</name>
+  <name xml:lang="zh_CN">Gajim</name>
+  <name xml:lang="uk">Gajim</name>
+  <name xml:lang="tr">Gajim</name>
+  <name xml:lang="sv">Gajim</name>
+  <name xml:lang="sr@Latn">Gajim</name>
+  <name xml:lang="sr">Гајим</name>
+  <name xml:lang="sk">Gajim</name>
+  <name xml:lang="ru">Gajim</name>
+  <name xml:lang="pt_BR">Gajim</name>
+  <name xml:lang="pt">Gajim</name>
+  <name xml:lang="pl">Gajim</name>
+  <name xml:lang="nl">Gajim</name>
+  <name xml:lang="nb_NO">Gajim</name>
+  <name xml:lang="lt">Gajim</name>
+  <name xml:lang="kk">Gajim</name>
+  <name xml:lang="ja">Gajim</name>
+  <name xml:lang="it">Gajim</name>
+  <name xml:lang="hu">Gajim</name>
+  <name xml:lang="hr">Gajim</name>
+  <name xml:lang="he">‫Gajim</name>
+  <name xml:lang="gl">Gajim</name>
+  <name xml:lang="fr">Gajim</name>
+  <name xml:lang="eu">Gajim</name>
+  <name xml:lang="es">Gajim</name>
+  <name xml:lang="eo">Gajim</name>
+  <name xml:lang="en_GB">Gajim</name>
+  <name xml:lang="el">Gajim</name>
+  <name xml:lang="de">Gajim</name>
+  <name xml:lang="da">Gajim</name>
+  <name xml:lang="cs">Gajim</name>
+  <name xml:lang="ca">Gajim</name>
+  <name xml:lang="br">Gajim</name>
+  <name xml:lang="bg">Gajim</name>
+  <name xml:lang="be@latin">Gajim</name>
+  <name xml:lang="be">Gajim</name>
+  <summary>Fully-featured XMPP chat client</summary>
+  <summary xml:lang="ro">Client de chat XMPP complet echipat cu funcții complete</summary>
+  <summary xml:lang="zh_CN">功能齐备的 XMPP 聊天客户端</summary>
+  <summary xml:lang="pt">Cliente de Bate-papo XMPP com todos os recursos</summary>
+  <summary xml:lang="pl">W pełni funkcjonalny klient rozmów XMPP</summary>
+  <summary xml:lang="ja">機能満載の XMPP チャットクライアント</summary>
+  <summary xml:lang="hu">Funkciógazdag XMPP üzenetküldő</summary>
+  <summary xml:lang="fr">Un client de chat XMPP complet</summary>
+  <summary xml:lang="es">Cliente de chat XMPP con todas las características</summary>
+  <summary xml:lang="de">Ein vollwertiger XMPP-Chat-Client</summary>
+  <summary xml:lang="cs">Plně vybavený klient XMPP</summary>
+  <description>
+    <p>Gajim aims to be an easy to use and fully-featured XMPP client.
+    Just chat with your friends or family, easily share pictures and 
+    thoughts or discuss the news with your groups.
+    </p>
+    <p xml:lang="ro">Gajim își propune să fie un client XMPP ușor de utilizat și complet echipat. Pur și simplu discutați cu prietenii sau familia, împărtășiți cu ușurință imagini și gânduri sau discutați știrile cu grupurile dumneavoastră.</p>
+    <p xml:lang="zh_CN">Gajim 的目标是提供一个易于使用且功能完备的 XMPP 客户端。尽情的与您的朋友和家人聊天，轻松分享图片和想法，或者和您的群组讨论新闻。</p>
+    <p xml:lang="pt">O Gajim pretende ser um cliente XMPP fácil de usar e com todos os recursos. Basta conversar com seus amigos ou familiares, compartilhar facilmente fotos e pensamentos ou discutir as notícias com seus grupos.</p>
+    <p xml:lang="pl">Gajim stara się być łatwym w użyciu i w pełni funkcjonalnym klientem XMPP. Po prostu rozmawiaj ze swoimi przyjaciółmi i rodziną, łatwo udostępniaj obrazki, dziel się przemyśleniami lub dyskutuj o wiadomościach w swoich grupach.</p>
+    <p xml:lang="ja">Gajimは、使いやすい機能満載の XMPP クライアントとなることを目指しています。友人や家族とチャットはもちろん、画像や考えをかんたんに共有したりグループでニュースについて議論したりもできます。</p>
+    <p xml:lang="it">Gajim mira a essere un client XMPP completo e facile da usare. Chiacchiera con amici e familiari, condividi facilmente immagini e pensieri oppure discuti delle ultime notizie all'interno dei gruppi.</p>
+    <p xml:lang="hu">A Gajim célja, hogy egy könnyen használható és sok funkcióval rendelkező XMPP-kliensként lehetőséget biztosítson az ismerősökkel való kapcsolattartásra, képek és gondolatok egyszerű megosztására, vagy hírek megvitatására.</p>
+    <p xml:lang="fr">Gajim a pour vocation d'être un client XMPP complet et facile à utiliser. Discutez simplement avec vos amis ou votre famille, partagez facilement des photos et des idées, ou discutez des actualités avec votre entourage.</p>
+    <p xml:lang="es">Gajim quiere ser un cliente XMPP fácil de usar y con todas las funciones. Simplemente charla con tus amigos o familiares, comparte imágenes y pensamientos fácilmente o discute las noticias con tus grupos.</p>
+    <p xml:lang="de">Gajim ist ein einfach zu benutzender und vollwertiger XMPP-Client. Chatte einfach mit deinen Freunden oder deiner Familie, teile Fotos und Gedanken oder diskutiere die neuesten Nachrichten mit deinen Gruppen.</p>
+    <p xml:lang="cs">Gajim si klade za cíl být snadno použitelný a plně vybavený klient XMPP. Chatujte se svými přáteli nebo rodinou, snadno sdílejte obrázky a myšlenky, nebo diskutujte o novinkách se svými skupinami.</p>
+    <p>Chat securely with End-to-End encryption via OMEMO or OpenPGP.</p>
+    <p xml:lang="ro">Discutați în siguranță cu criptare End-to-End prin OMEMO sau OpenPGP.</p>
+    <p xml:lang="zh_CN">通过 OMEMO 或 OpenGPG 端对端加密安全聊天。</p>
+    <p xml:lang="uk">Спілкуватися з наскрізним шифруванням за допомогою OMEMO або OpenPGP.</p>
+    <p xml:lang="ru">Безопасно общайтесь с помощью сквозного шифрования с помощью OMEMO или OpenPGP.</p>
+    <p xml:lang="pt_BR">Converse com segurança com criptografia de ponta a ponta via OMEMO ou OpenPGP.</p>
+    <p xml:lang="pt">Converse com segurança usando criptografia de Ponta-a-Ponta via OMEMO ou OpenPGP.</p>
+    <p xml:lang="pl">Rozmawiaj bezpiecznie z szyfrowaniem od początku do końca używając OMEMO lub OpenPGP.</p>
+    <p xml:lang="ja">OMEMO または OpenPGP での端末間暗号化による安全なチャット。</p>
+    <p xml:lang="it">Conversazioni sicure, cifrate End-to-End tramite OMEMO o OpenPGP.</p>
+    <p xml:lang="hu">Biztonságos beszélgetés OMEMO vagy PGP által biztosított végpontok közötti titkosítással.</p>
+    <p xml:lang="fr">Discutez de manière sécurisée avec un chiffrement de bout en bout au moyen de OMEMO ou OpenPGP.</p>
+    <p xml:lang="es">Chatea de forma segura con cifrado de extremo a extremo a través de OMEMO u OpenPGP.</p>
+    <p xml:lang="de">Chatte sicher und verschlüsselt durch Ende-zu-Ende-Verschlüsselung per OMEMO oder OpenPGP.</p>
+    <p xml:lang="cs">Chatujte bezpečně s koncovým šifrováním přes OMEMO nebo OpenPGP.</p>
+    <p>Gajim integrates well with your other devices: simply continue conversations on your mobile device.
+    </p>
+    <p xml:lang="ro">Gajim se integrează bine cu celelalte dispozitive: pur și simplu continuați conversațiile pe dispozitivul dumneavoastră mobil.</p>
+    <p xml:lang="zh_CN">Gajim 可与您的其他设备集成: 在您的移动设备上轻松继续对话。</p>
+    <p xml:lang="ru">Gajim интегрируется с другими Вашими устройствами: просто продолжайте разговор на своем мобильном устройстве.</p>
+    <p xml:lang="pt">O Gajim integra-se bem com seus outros dispositivos: basta continuar as conversas em seu dispositivo móvel.</p>
+    <p xml:lang="pl">Gajim integruje się dobrze z Twoimi pozostałymi urządzeniami: po prostu kontynuuj rozmowę na telefonie.</p>
+    <p xml:lang="ja">Gajimは他のデバイスとよく連携します。モバイル端末でも会話を続けられます。</p>
+    <p xml:lang="it">Grazie all'integrazione, le conversazioni di Gajim saranno disponibili anche suoi tuoi dispositivi mobili.</p>
+    <p xml:lang="hu">A Gajim kiválóan együttműködik más eszközökkel: egy beszélgetés egyszerűen folytatható mobil eszközről is.</p>
+    <p xml:lang="fr">Gajim s'intègre bien avec vos autres appareils : continuez vos discussions sur votre appareil mobile en toute simplicité.</p>
+    <p xml:lang="es">Gajim se integra bien con tus otros dispositivos: solo continúa las conversaciones en tu dispositivo móvil.</p>
+    <p xml:lang="de">Gajim vernetzt sich gut mit deinen übrigen Geräten: Einfach auf dem PC schreiben und auf dem Handy sehen, was geschrieben wurde.</p>
+    <p xml:lang="cs">Gajim se dobře integruje s Vašimi ostatními zařízeními: jednoduše pokračujte v konverzacích na svém mobilním zařízení.</p>
+    <p>Features:</p>
+    <p xml:lang="ro">Funcții:</p>
+    <p xml:lang="zh_CN">功能:</p>
+    <p xml:lang="uk">Можливості:</p>
+    <p xml:lang="ru">Возможности:</p>
+    <p xml:lang="pt_BR">Características:</p>
+    <p xml:lang="pt">Recursos:</p>
+    <p xml:lang="pl">Możliwości:</p>
+    <p xml:lang="nl">Functies:</p>
+    <p xml:lang="nb_NO">Funksjonalitet:</p>
+    <p xml:lang="ja">機能:</p>
+    <p xml:lang="it">Caratteristiche:</p>
+    <p xml:lang="hu">Funkciók:</p>
+    <p xml:lang="fr">Fonctionnalités :</p>
+    <p xml:lang="es">Características:</p>
+    <p xml:lang="de">Features:</p>
+    <ul>
+      <li>Never miss a message, keep all your chat clients synchronized</li>
+      <li xml:lang="ro">Nu pierdeți niciodată un mesaj, păstrați toți clienții de chat sincronizați</li>
+      <li xml:lang="zh_CN">绝不错过任何消息，与您的所有的聊天客户端保持同步</li>
+      <li xml:lang="ru">Никогда не пропустите сообщение, синхронизируйте все свои чат-клиенты</li>
+      <li xml:lang="pt_BR">Nunca perca uma mensagem, mantenha todos os seus clientes de bate-papo sincronizados</li>
+      <li xml:lang="pt">Nunca perca uma mensagem, mantenha todos os seus clientes de chat sincronizados</li>
+      <li xml:lang="pl">Nigdy nie przegap wiadomości, utrzymaj wszystkie swoje komunikatory w synchronizacji</li>
+      <li xml:lang="nl">Mis nooit een bericht, en hou al je chatcliënten gesynchroniseerd</li>
+      <li xml:lang="ja">他のクライアントと同期し、メッセージを取りこぼしません</li>
+      <li xml:lang="it">Non perdere alcun messaggio, mantenendo sincronizzati tutti i tuoi client</li>
+      <li xml:lang="hu">A csevegőklienseket szinkronban tartva egy üzenet sem vész el</li>
+      <li xml:lang="fr">Ne ratez jamais un message, gardez tous vous clients de messagerie synchronisés</li>
+      <li xml:lang="es">No te pierdas ni un mensaje, mantén todos tus clientes de chat sincronizados</li>
+      <li xml:lang="de">Verpasse keine Nachrichten, halte alle deine Chat-Clients synchron</li>
+      <li xml:lang="cs">Nikdy nezmeškejte zprávu, mějte všechny své chatovací klienty synchronizované</li>
+      <li>Invite friends to group chats or join one</li>
+      <li xml:lang="ro">Invitați-vă prietenii la discuții de grup sau alăturați-vă la una</li>
+      <li xml:lang="zh_CN">邀请朋友加入群聊或者加入一个</li>
+      <li xml:lang="ru">Пригласите друзей в групповые чаты или присоединитесь к ним</li>
+      <li xml:lang="pt_BR">Convide amigos para conversar em grupo ou participe de um</li>
+      <li xml:lang="pt">Convide amigos para bate-papos em grupo ou participe de um</li>
+      <li xml:lang="pl">Zaproś znajomych do czatów grupowych lub dołącz do takich</li>
+      <li xml:lang="nl">Nodig vrienden uit in groepsgesprekken, of neem eraan deel</li>
+      <li xml:lang="ja">談話室への招待と参加</li>
+      <li xml:lang="it">Invita gli amici alle conversazioni di gruppo oppure unisciti ad una</li>
+      <li xml:lang="hu">A barátokat meg lehet hívni társalgókba, csatlakozni lehet társalgókhoz</li>
+      <li xml:lang="fr">Inviter des amis dans un salon de discussion ou en rejoindre un</li>
+      <li xml:lang="es">Invita a amigos a grupos o únete a uno</li>
+      <li xml:lang="de">Lade Freunde zum Gruppenchat ein oder tritt selbst einem bei</li>
+      <li xml:lang="cs">Pozvěte přátele do skupinové konverzace, nebo se k jedné připojte</li>
+      <li>Easily send pictures, videos or other files to friends and groups</li>
+      <li xml:lang="ro">Trimiteți cu ușurință imagini, clipuri video sau alte fișiere către prieteni și grupuri</li>
+      <li xml:lang="zh_CN">轻松地发送图片、视频或其他文件给朋友或群组</li>
+      <li xml:lang="uk">Легко надсилайте картинки, відео та інші файли друзям або групам</li>
+      <li xml:lang="ru">Легко отправляйте изображения, видео и другие файлы друзьям и группам</li>
+      <li xml:lang="pt_BR">Envie facilmente fotos, vídeos ou outros arquivos para amigos e grupos</li>
+      <li xml:lang="pt">Envie facilmente fotos, vídeos ou outros arquivos para amigos e grupos</li>
+      <li xml:lang="pl">Łatwo wysyłaj obrazki, filmy i inne pliki do znajomych i grup</li>
+      <li xml:lang="nl">Stuur foto’s, video’s of andere bestanden naar vrienden en groepen</li>
+      <li xml:lang="ja">友人やグループへの画像・動画やその他のファイルの簡単な送信</li>
+      <li xml:lang="it">Invia facilmente immagini, video o altri file ad amici e gruppi</li>
+      <li xml:lang="hu">Könnyen küldhetők képek, videók vagy más fájlok a barátoknak vagy csoportoknak</li>
+      <li xml:lang="fr">Envoyez facilement des photos, vidéos ou autres fichiers à des amis et des groupes</li>
+      <li xml:lang="es">Envía fácilmente fotos, videos u otros archivos a amigos y grupos</li>
+      <li xml:lang="de">Versende ganz einfach Fotos, Videos oder andere Dateien an Freunde und Gruppen</li>
+      <li xml:lang="cs">Snadno posílejte obrázky, videa nebo jiné soubory přátelům a skupinám</li>
+      <li>Chat securely with End-to-End encryption via OMEMO or OpenPGP</li>
+      <li xml:lang="ro">Conversați în siguranță cu criptare End-to-End prin OMEMO sau OpenPGP</li>
+      <li xml:lang="zh_CN">通过 OMEMO 或者 OpenPGP 运用端到端加密技术保证聊天的安全</li>
+      <li xml:lang="uk">Спілкуватися з наскрізним шифруванням за допомогою OMEMO або OpenPGP</li>
+      <li xml:lang="ru">Безопасный чат с помощью сквозного шифрования OMEMO или OpenPGP</li>
+      <li xml:lang="pt_BR">Converse com segurança com criptografia de ponta a ponta via OMEMO ou OpenPGP</li>
+      <li xml:lang="pt">Converse com segurança com criptografia de Ponta-a-Ponta via OMEMO ou OpenPGP</li>
+      <li xml:lang="pl">Rozmawiaj bezpiecznie z szyfrowaniem od początku do końca używając OMEMO lub OpenPGP</li>
+      <li xml:lang="ja">OMEMO または OpenPGP での端末間暗号化による安全なチャット</li>
+      <li xml:lang="it">Conversazioni sicure, cifrate End-to-End tramite OMEMO o OpenPGP</li>
+      <li xml:lang="hu">Biztonságos beszélgetés OMEMO vagy PGP által biztosított végpontok közötti titkosítással</li>
+      <li xml:lang="fr">Discutez de manière sécurisée avec un chiffrement de bout en bout au moyen de OMEMO ou OpenPGP</li>
+      <li xml:lang="es">Chatea de forma segura con cifrado de extremo a extremo a través de OMEMO u OpenPGP</li>
+      <li xml:lang="de">Chatte sicher und verschlüsselt durch Ende-zu-Ende-Verschlüsselung per OMEMO oder OpenPGP</li>
+      <li xml:lang="cs">Chatujte bezpečně s koncovým šifrováním přes OMEMO nebo OpenPGP</li>
+      <li>Use your favorite emoticons, set your own profile picture</li>
+      <li xml:lang="ro">Folosește-ți emoticoanele preferate, setează-ți propria imagine de profil</li>
+      <li xml:lang="zh_CN">使用您最喜爱的表情图标，设置您专属的配置文件图片</li>
+      <li xml:lang="ru">Используйте свои любимые смайлы, установите собственное изображение профиля</li>
+      <li xml:lang="pt_BR">Use seus emoticons favoritos, defina sua própria foto de perfil</li>
+      <li xml:lang="pt">Use seus emoticons favoritos, defina sua própria foto de perfil</li>
+      <li xml:lang="pl">Używaj swoich ulubionych emotikonek, ustaw sobie własny obrazek profilowy</li>
+      <li xml:lang="nl">Gebruik je favoriete emoticons, stel je eigen avatar in</li>
+      <li xml:lang="ja">お好みの絵文字の利用、プロフィール画像の設定</li>
+      <li xml:lang="it">Usa le tue emoticon preferite e imposta la tua immagine di profilo</li>
+      <li xml:lang="hu">Választható hangulatjelkészletek, személyre szabható profilkép</li>
+      <li xml:lang="fr">Utilisez vos émoticônes préférées, configurez votre photo de profil</li>
+      <li xml:lang="es">Usa tus emoticonos favoritos, configura tu propia foto de perfil</li>
+      <li xml:lang="de">Benutze deine liebsten Emojis, lade dein eigenes Profilbild hoch</li>
+      <li>Keep and manage all your chat history</li>
+      <li xml:lang="ro">Păstrați și gestionați tot istoricul de chat</li>
+      <li xml:lang="zh_CN">保留并管理您所有的聊天记录</li>
+      <li xml:lang="ru">Храните и управляйте всей своей историей чатов</li>
+      <li xml:lang="pt_BR">Mantenha e gerencie todo o seu histórico de bate-papo</li>
+      <li xml:lang="pt">Manter e gerenciar todo o seu histórico de bate-papo</li>
+      <li xml:lang="pl">Przechowuj i zarządzaj całą swoją historią rozmów</li>
+      <li xml:lang="nl">Bewaar en beheer je gespreksgeschiedenis</li>
+      <li xml:lang="ja">すべての会話記録の保存と管理</li>
+      <li xml:lang="it">Archivia e gestisci la cronologia delle tue conversazioni</li>
+      <li xml:lang="hu">A beszélgetési előzmények tárolása és kezelése</li>
+      <li xml:lang="fr">Sauvegardez et gérez votre historique de conversation</li>
+      <li xml:lang="es">Mantén y gestiona todo su historial de chat</li>
+      <li xml:lang="de">Behalte und verwalte deinen Nachrichtenverlauf</li>
+      <li xml:lang="cs">Uchovávejte a spravujte celou historii konverzace</li>
+      <li>Organize your chats with workspaces</li>
+      <li xml:lang="ro">Organizați-vă chat-urile cu spații de lucru</li>
+      <li xml:lang="zh_CN">用工作区组织您的聊天</li>
+      <li xml:lang="pt">Organize seus Bate-papos com Áreas-de-trabalho</li>
+      <li xml:lang="pl">Organizuj swoje rozmowy w obszarach roboczych</li>
+      <li xml:lang="hu">A beszélgetések munkaterületekre rendszerezhetőek</li>
+      <li xml:lang="fr">Organisez vos discussions avec des espaces de travail</li>
+      <li xml:lang="es">Organiza tus chats con espacios de trabajo</li>
+      <li xml:lang="de">Ordne deine Chats mit Arbeitsbereichen</li>
+      <li xml:lang="cs">Organizujte Vaše konverzace pomocí pracovních ploch</li>
+      <li>Automatic spell-checking for your messages</li>
+      <li xml:lang="ro">Verificarea ortografică automată a mesajelor dumneavoastră</li>
+      <li xml:lang="zh_CN">自动对消息执行拼写检查</li>
+      <li xml:lang="ru">Автоматическая проверка орфографии для Ваших сообщений</li>
+      <li xml:lang="pt_BR">Verificação ortográfica automática para suas mensagens</li>
+      <li xml:lang="pt">Verificação ortográfica automática para suas mensagens</li>
+      <li xml:lang="pl">Automatyczne sprawdzanie pisowni w twoich wiadomościach</li>
+      <li xml:lang="nl">Automatische spellingscontrole voor je berichten</li>
+      <li xml:lang="ja">入力メッセージの自動スペルチェック</li>
+      <li xml:lang="it">Supporto per il controllo ortografico dei messaggi</li>
+      <li xml:lang="hu">Az üzenetek automatikus helyesírás-ellenőrzése</li>
+      <li xml:lang="fr">Vérification orthographique automatique des messages composés</li>
+      <li xml:lang="es">Corrección ortográfica automática de tus mensajes</li>
+      <li xml:lang="de">Automatische Rechtschreibprüfung für deine Nachrichten</li>
+      <li>Connect to other Messengers via Transports (Facebook, IRC, ...)</li>
+      <li xml:lang="ro">Conectați-vă la alți mesageri prin intermediul transporturilor (Facebook, IRC, ...)</li>
+      <li xml:lang="zh_CN">通过枢纽连接其他通讯软件(Facebook, IRC 等)</li>
+      <li xml:lang="uk">Підключення до інших месенджерів через Транспорти (Facebook, IRC, …)</li>
+      <li xml:lang="ru">Подключайтесь к другим мессенджерам через транспорты (Facebook, IRC, ...)</li>
+      <li xml:lang="pt_BR">Conecte-se a outros Mensageiros via Transportes (Facebook, IRC, ...)</li>
+      <li xml:lang="pt">Conecte-se a outros Mensageiros via Transportes (Facebook, IRC, ...)</li>
+      <li xml:lang="pl">Połączenia z innymi komunikatorami przez tzw. transporty (Facebook, IRC itd.)</li>
+      <li xml:lang="nl">Maak verbinding met andere Messengers via Transporten (Facebook, IRC, …)</li>
+      <li xml:lang="ja">中継による他のメッセンジャー(Facebook, IRC, ...)への接続</li>
+      <li xml:lang="it">Connettiti ad altre piattaforme di messaggistica utilizzando i Transport (Facebook, IRC, …)</li>
+      <li xml:lang="hu">Más üzenetküldőkhöz való kapcsolódás közvetített kapcsolaton át (Facebook, IRC, …)</li>
+      <li xml:lang="fr">Connectez-vous à d'autres messageries avec des passerelles (Facebook, IRC, …)</li>
+      <li xml:lang="es">Conéctate a otros mensajeros a través de transportes (Facebook, IRC, ...)</li>
+      <li xml:lang="de">Verbinde dich mit anderen Messengern durch Transporte (Facebook, IRC, ...)</li>
+      <li xml:lang="cs">Připojit se k ostatním IM službám přes transporty (Facebook, IRC, ...)</li>
+      <li>Lookup things on Wikipedia, dictionaries or other search engines directly from the chat window</li>
+      <li xml:lang="ro">Căutați lucruri pe Wikipedia, dicționare sau alte motoare de căutare direct din fereastra de chat</li>
+      <li xml:lang="zh_CN">从聊天窗口中直接查询 Wikipedia、词典或者其他搜索引擎</li>
+      <li xml:lang="ru">Ищите информацию в Википедии, словарях или других поисковых системах прямо из окна чата</li>
+      <li xml:lang="pt_BR">Pesquise coisas na Wikipédia, dicionários ou outros mecanismos de busca diretamente da janela de bate-papo</li>
+      <li xml:lang="pt">Pesquise coisas na Wikipedia, dicionários ou outros mecanismos de pesquisa diretamente da janela de bate-papo</li>
+      <li xml:lang="pl">Wyszukuj hasła na Wikipedii, w słownikach i innych wyszukiwarkach bezpośrednio z okna rozmowy</li>
+      <li xml:lang="nl">Zoek dingen op op Wikipedia, in woordenboeken of met andere zoekmachines, rechtstreeks vanuit het gespreksvenster</li>
+      <li xml:lang="ja">チャットウィンドウから直接 Wikipedia や辞書その他の検索エンジンの利用</li>
+      <li xml:lang="it">Cerca su Wikipedia, dizionario o altri motori di ricerca direttamente dalla finestra di conversazione</li>
+      <li xml:lang="hu">A beszélgetésekből közvetlenül lehet keresni a Wikipédián, szótárakban vagy más keresőkkel is</li>
+      <li xml:lang="fr">Consultez Wikipédia, des dictionnaires ou utilisez des moteurs de recherche directement depuis la fenêtre de discussion</li>
+      <li xml:lang="es">Busca cosas en Wikipedia, diccionarios u otros motores de búsqueda directamente desde la ventana de chat</li>
+      <li xml:lang="de">Schaue Dinge bei Wikipedia, in Wörterbüchern oder anderen Suchmaschinen nach - direkt aus dem Chatfenster</li>
+      <li xml:lang="cs">Vyhledávejte věci na Wikipedii, slovnících nebo jiných vyhledávačích přímo z okna konverzace</li>
+      <li>Set your activity or tune to show your friends how you are feeling</li>
+      <li xml:lang="ro">Setează-ți activitatea sau melodia pentru a le arăta prietenilor tăi cum te simți</li>
+      <li xml:lang="zh_CN">设置您的活动或曲调来向您的朋友展示您的感觉</li>
+      <li xml:lang="pt">Defina sua atividade ou sintonize para mostrar aos seus amigos como você está se sentindo</li>
+      <li xml:lang="pl">Ustaw swoją aktywność lub słuchany utwór, żeby przekazać swoim znajomym, jak się czujesz</li>
+      <li xml:lang="hu">Tudatható a barátokkal az elfoglaltság, zenehallgatás vagy hangulat</li>
+      <li xml:lang="fr">Définissez votre activité, musique et humeur pour montrer à vos amis comment vous vous sentez</li>
+      <li xml:lang="es">Establece tu actividad o melodía para mostrar a tus amigos cómo te sientes</li>
+      <li xml:lang="de">Wenn du magst, teile deine Aktivität und die Musik, die du gerade hörst, mit deinen Freunden</li>
+      <li xml:lang="cs">Nastavte si aktivitu</li>
+      <li>Support for multiple accounts</li>
+      <li xml:lang="ro">Suport pentru conturi multiple</li>
+      <li xml:lang="zh_CN">支持多个账号</li>
+      <li xml:lang="ru">Поддержка нескольких учетных записей</li>
+      <li xml:lang="pt_BR">Suporte para várias contas</li>
+      <li xml:lang="pt">Suporte para várias contas</li>
+      <li xml:lang="pl">Obsługa wielu kont</li>
+      <li xml:lang="nl">Ondersteuning voor meerdere accounts</li>
+      <li xml:lang="ja">複数アカウントに対応</li>
+      <li xml:lang="it">Supporto per account multipli</li>
+      <li xml:lang="hu">Több fiók kezelése</li>
+      <li xml:lang="fr">Support pour plusieurs comptes</li>
+      <li xml:lang="es">Soporte para múltiples cuentas</li>
+      <li xml:lang="de">Unterstützung für mehrere Konten</li>
+      <li xml:lang="cs">Podpora pro více účtů</li>
+      <li>XML console to see what's happening on the protocol layer</li>
+      <li xml:lang="ro">Consola XML pentru a vedea ce se întâmplă la nivelul protocolului</li>
+      <li xml:lang="zh_CN">XML 控制台可用来查看协议层发生了什么</li>
+      <li xml:lang="ru">XML-консоль, чтобы видеть, что происходит на уровне протокола</li>
+      <li xml:lang="pt_BR">Console XML para ver o que está acontecendo na camada de protocolo</li>
+      <li xml:lang="pt">Console XML para ver o que está acontecendo na camada de protocolo</li>
+      <li xml:lang="pl">Konsola XML do sprawdzenia, co się dzieje w protokole</li>
+      <li xml:lang="nl">XML-console om na te kijken wat er gebeurt in de protocollaag</li>
+      <li xml:lang="ja">プロトコル層で何が起こったか確認できる XML コンソール</li>
+      <li xml:lang="it">Console XML per controllare cosa succede a livello di protocollo</li>
+      <li xml:lang="hu">XML-parancssor a kommunikáció protokollszintű követéséhez</li>
+      <li xml:lang="fr">Console XML pour voir ce qui se passe sur la couche protocole</li>
+      <li xml:lang="es">Consola XML para ver qué sucede en la capa de protocolo</li>
+      <li xml:lang="de">XML-Konsole, um zu sehen, was auf Protokollebene passiert</li>
+      <li>Support for service discovery including nodes and search for users</li>
+      <li xml:lang="ro">Suport pentru descoperirea serviciilor, inclusiv a nodurilor și căutarea de utilizatori</li>
+      <li xml:lang="zh_CN">支持包括用户搜索和节点在内的服务发现功能</li>
+      <li xml:lang="uk">Підтримка пошуку служб включно з вузлами та пошуком користувачів</li>
+      <li xml:lang="ru">Поддержка обнаружения сервисов, включая узлы и поиск пользователей</li>
+      <li xml:lang="pt">Suporte para descoberta de serviços, incluindo nós e pesquisa de usuários</li>
+      <li xml:lang="pl">Obsługa odkrywania usług, w tym węzłów oraz wyszukiwania użytkowników</li>
+      <li xml:lang="nl">Ondersteuning voor dienstontdekking, inclusief knooppunten en zoeken naar gebruikers</li>
+      <li xml:lang="ja">ノードやユーザー検索などのサービス探索に対応</li>
+      <li xml:lang="it">Supporto per la ricerca di nuovi servizi, inclusi nodi e ricerca degli utenti</li>
+      <li xml:lang="hu">A csomópontokat is érintő szolgáltatásfelderítés és felhasználók keresése</li>
+      <li xml:lang="fr">Support pour la découverte des services incluant les nœuds et la recherche d'utilisateurs</li>
+      <li xml:lang="es">Soporte para descubrimiento de servicios incluyendo nodos y búsqueda de usuarios</li>
+      <li xml:lang="de">Unterstützung für Service discovery inkl. Nodes, Benutzer-Suche</li>
+      <li>Even more features via plugins</li>
+      <li xml:lang="ro">Chiar mai multe caracteristici prin intermediul plugin-urilor</li>
+      <li xml:lang="zh_CN">通过插件增加更多功能</li>
+      <li xml:lang="uk">Більше можливостей у додатках</li>
+      <li xml:lang="ru">Ещё больше возможностей с плагинами</li>
+      <li xml:lang="pt_BR">Ainda mais recursos através de plugins</li>
+      <li xml:lang="pt">Ainda mais recursos através de plugins</li>
+      <li xml:lang="pl">Jeszcze więcej funkcjonalności dzięki wtyczkom</li>
+      <li xml:lang="nl">Nog meer functies via plug-ins</li>
+      <li xml:lang="ja">プラグインによる機能拡張</li>
+      <li xml:lang="it">Ulteriori funzionalità attraverso le estensioni</li>
+      <li xml:lang="hu">További funkciók hozzáadása bővítmények segítségével</li>
+      <li xml:lang="fr">Encore plus de fonctionnalités avec des greffons</li>
+      <li xml:lang="es">Incluso más funciones a través de extensiones</li>
+      <li xml:lang="de">Erweiterbarer Funktionsumfang durch Plugins</li>
+      <li xml:lang="cs">Více možností skrze zásuvné moduly</li>
+    </ul>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://gajim.org/img/screenshots/single-window-mode.png</image>
+      <caption>Contact list</caption>
+      <caption xml:lang="ro">Lista de contacte</caption>
+      <caption xml:lang="zh_CN">联系人列表</caption>
+      <caption xml:lang="uk">Список контактів</caption>
+      <caption xml:lang="ru">Список контактов</caption>
+      <caption xml:lang="pt_BR">Lista de contatos</caption>
+      <caption xml:lang="pt">Lista de contatos</caption>
+      <caption xml:lang="pl">Lista kontaktów</caption>
+      <caption xml:lang="ja">相手先一覧</caption>
+      <caption xml:lang="it">Lista contatti</caption>
+      <caption xml:lang="hu">Névjegyek</caption>
+      <caption xml:lang="fr">Liste de contacts</caption>
+      <caption xml:lang="es">Lista de contactos</caption>
+      <caption xml:lang="de">Kontaktliste</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gajim.org/img/screenshots/tabbed-chat.png</image>
+      <caption>Tabbed chat window</caption>
+      <caption xml:lang="ro">Fereastră de chat cu file</caption>
+      <caption xml:lang="zh_CN">标签页式聊天窗口</caption>
+      <caption xml:lang="ru">Окно чата с вкладками</caption>
+      <caption xml:lang="pt_BR">Janela de bate-papo tabbed</caption>
+      <caption xml:lang="pt">Janela de bate-papo com guias</caption>
+      <caption xml:lang="pl">Okno rozmów w kartach</caption>
+      <caption xml:lang="nl">Gespreksvenster met tabbladen</caption>
+      <caption xml:lang="nb_NO">Fanebasert sludrevindu</caption>
+      <caption xml:lang="ja">タブ化チャットウィンドウ</caption>
+      <caption xml:lang="it">Finestra delle conversazioni dotata di schede</caption>
+      <caption xml:lang="hu">Beszélgetések külön lapokon</caption>
+      <caption xml:lang="fr">Fenêtre de discussion avec onglets</caption>
+      <caption xml:lang="es">Ventana de conversación con pestañas</caption>
+      <caption xml:lang="de">Chatfenster mit Tabs</caption>
+      <caption xml:lang="cs">Okno konverzací s kartami</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gajim.org/img/screenshots/groupchat-window.png</image>
+      <caption>Group chat support</caption>
+      <caption xml:lang="ro">Suport pentru grupul de chat</caption>
+      <caption xml:lang="zh_CN">群聊支持</caption>
+      <caption xml:lang="ru">Поддержка группового чата</caption>
+      <caption xml:lang="pt_BR">Suporte de chat em grupo</caption>
+      <caption xml:lang="pt">Suporte de bate-papo em grupo</caption>
+      <caption xml:lang="pl">Obsługa rozmów grupowych</caption>
+      <caption xml:lang="nl">Ondersteuning voor groepsgesprekken</caption>
+      <caption xml:lang="nb_NO">Gruppesludringsstøtte</caption>
+      <caption xml:lang="ja">談話室に対応</caption>
+      <caption xml:lang="it">Supporto per le conversazioni di gruppo</caption>
+      <caption xml:lang="hu">Csoportos beszélgetések</caption>
+      <caption xml:lang="fr">Support des salons de discussion</caption>
+      <caption xml:lang="es">Soporte para grupos de conversación</caption>
+      <caption xml:lang="de">Unterstützung von Gruppenchats</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gajim.org/img/screenshots/history-window.png</image>
+      <caption>Chat history</caption>
+      <caption xml:lang="ro">Istoric chat</caption>
+      <caption xml:lang="zh_CN">聊天记录</caption>
+      <caption xml:lang="uk">Історія балачки</caption>
+      <caption xml:lang="ru">История чата</caption>
+      <caption xml:lang="pt_BR">Histórico de Bate-papo</caption>
+      <caption xml:lang="pt">Histórico de Bate-papo</caption>
+      <caption xml:lang="pl">Historia rozmów</caption>
+      <caption xml:lang="nl">Gespreksgeschiedenis</caption>
+      <caption xml:lang="nb_NO">Sludrehistorikk</caption>
+      <caption xml:lang="ja">会話の履歴</caption>
+      <caption xml:lang="it">Cronologia delle conversazioni</caption>
+      <caption xml:lang="hu">Előzmények</caption>
+      <caption xml:lang="fr">Historique des discussions</caption>
+      <caption xml:lang="es">Histórico de conversación</caption>
+      <caption xml:lang="de">Nachrichtenverlauf</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gajim.org/img/screenshots/plugins.png</image>
+      <caption>Plugin manager</caption>
+      <caption xml:lang="ro">Manager de plugin-uri</caption>
+      <caption xml:lang="zh_CN">插件管理器</caption>
+      <caption xml:lang="ru">Менеджер плагинов</caption>
+      <caption xml:lang="pt_BR">Gerenciador de Plugins</caption>
+      <caption xml:lang="pt">Gerenciador de plugin</caption>
+      <caption xml:lang="pl">Menedżer wtyczek</caption>
+      <caption xml:lang="nl">Plug-inbeheer</caption>
+      <caption xml:lang="nb_NO">Programtilleggsbehandler</caption>
+      <caption xml:lang="ja">プラグイン管理</caption>
+      <caption xml:lang="it">Gestione delle estensioni</caption>
+      <caption xml:lang="hu">Bővítménykezelő</caption>
+      <caption xml:lang="fr">Gestionnaire d'extensions</caption>
+      <caption xml:lang="es">Administrador de extensiones</caption>
+      <caption xml:lang="de">Plugin-Verwaltung</caption>
+    </screenshot>
+  </screenshots>
+  <launchable type="desktop-id">org.gajim.Gajim.desktop</launchable>
+  <developer_name>Gajim Team</developer_name>
+  <update_contact>gajim-devel_AT_gajim.org</update_contact>
+  <url type="homepage">https://gajim.org/</url>
+  <url type="bugtracker">https://dev.gajim.org/gajim/gajim</url>
+  <url type="faq">https://dev.gajim.org/gajim/gajim/-/wikis/help/gajimfaq</url>
+  <url type="help">https://dev.gajim.org/gajim/gajim/-/wikis/help/Help</url>
+  <url type="donation">https://gajim.org/development/#donations</url>
+  <url type="translate">https://dev.gajim.org/gajim/gajim/-/wikis/development/devtranslate</url>
+  <translation type="gettext">gajim</translation>
+  <content_rating type="oars-1.1">
+    <content_attribute id="social-chat">intense</content_attribute>
+    <content_attribute id="social-audio">intense</content_attribute>
+  </content_rating>
+  <recommends>
+    <control>keyboard</control>
+    <control>pointing</control>
+  </recommends>
+  <releases>
+    <release version="1.5.4" date="2022-12-03"/>
+    <release version="1.5.3" date="2022-10-31"/>
+    <release version="1.5.2" date="2022-10-08"/>
+    <release version="1.5.1" date="2022-09-19"/>
+    <release version="1.5.0" date="2022-09-19"/>
+    <release version="1.4.7" date="2022-07-24"/>
+    <release version="1.4.6" date="2022-07-07"/>
+    <release version="1.4.5" date="2022-06-21"/>
+    <release version="1.4.4" date="2022-06-18"/>
+    <release version="1.4.3" date="2022-06-01"/>
+    <release version="1.4.2" date="2022-05-25"/>
+    <release version="1.4.1" date="2022-05-21"/>
+    <release version="1.4.0" date="2022-05-11"/>
+    <release version="1.3.3" date="2021-10-10"/>
+    <release version="1.3.2" date="2021-04-24"/>
+    <release version="1.3.1" date="2021-03-01"/>
+    <release version="1.3.0" date="2021-02-08"/>
+    <release version="1.2.2" date="2020-08-15"/>
+    <release version="1.2.1" date="2020-07-08"/>
+    <release version="1.2.0" date="2020-06-21"/>
+    <release version="1.1.3" date="2019-04-23"/>
+    <release version="1.1.2" date="2019-01-15"/>
+    <release version="1.1.1" date="2018-12-23"/>
+    <release version="1.1.0" date="2018-11-06"/>
+    <release version="1.0.3" date="2018-05-20"/>
+    <release version="1.0.2" date="2018-04-30"/>
+    <release version="1.0.1" date="2018-04-01"/>
+    <release version="1.0.0" date="2018-03-17"/>
+  </releases>
+</component>

@@ -1,0 +1,245 @@
+[build-system]
+requires = [
+  "setuptools >= 43.0.0",
+]
+build-backend = "setuptools.build_meta"
+
+
+[tool.codespell]
+skip = "*__pycache__*,gajim/gui,gajim/data/icons,gajim/data/sounds"
+ignore-words-list = "claus,pres,ser,trough"
+
+
+[tool.pyright]
+pythonVersion = "3.9"
+pythonPlatform = "All"
+typeCheckingMode = "strict"
+
+reportUnnecessaryTypeIgnoreComment = "error"
+reportPropertyTypeMismatch = "error"
+reportMissingModuleSource = "none"
+
+exclude = [
+  "**/__pycache__",
+  ".git"
+]
+include = [
+    "launch.py",
+    "setup.py",
+    ".ci/*",
+    "scripts/*",
+    "win/*",
+    "gajim/common/application.py",
+    "gajim/common/call_manager.py",
+    "gajim/common/cert_store.py",
+    "gajim/common/commands.py",
+    "gajim/common/configpaths.py",
+    "gajim/common/const.py",
+    "gajim/common/dbus/*",
+    "gajim/common/events.py",
+    "gajim/common/exceptions.py",
+    "gajim/common/filetransfer.py",
+    "gajim/common/ged.py",
+    "gajim/common/i18n.py",
+    "gajim/common/idle.py",
+    "gajim/common/logging_helpers.py",
+    "gajim/common/modules/chat_markers.py",
+    "gajim/common/modules/pep.py",
+    "gajim/common/modules/register.py",
+    "gajim/common/modules/vcard4.py",
+    "gajim/common/modules/vcard_temp.py",
+    "gajim/common/passwords.py",
+    "gajim/common/preview_helpers.py",
+    "gajim/common/regex.py",
+    "gajim/common/setting_values.py",
+    "gajim/common/sound.py",
+    "gajim/common/storage/*",
+    "gajim/common/styling.py",
+    "gajim/common/task_manager.py",
+    "gajim/common/text_helpers.py",
+    "gajim/gajim.py",
+    "gajim/gajim_remote.py",
+    "gajim/gtk/about.py",
+    "gajim/gtk/account_page.py",
+    "gajim/gtk/account_side_bar.py",
+    "gajim/gtk/accounts.py",
+    "gajim/gtk/app_page.py",
+    "gajim/gtk/app_side_bar.py",
+    "gajim/gtk/application.py",
+    "gajim/gtk/apply_button_box.py",
+    "gajim/gtk/assistant.py",
+    "gajim/gtk/avatar.py",
+    "gajim/gtk/avatar_selector.py",
+    "gajim/gtk/blocking.py",
+    "gajim/gtk/bookmarks.py",
+    "gajim/gtk/builder.py",
+    "gajim/gtk/call_window.py",
+    "gajim/gtk/certificate_dialog.py",
+    "gajim/gtk/change_password.py",
+    "gajim/gtk/chat_action_processor.py",
+    "gajim/gtk/chat_banner.py",
+    "gajim/gtk/chat_filter.py",
+    "gajim/gtk/chat_function_page.py",
+    "gajim/gtk/chat_list.py",
+    "gajim/gtk/chat_list_row.py",
+    "gajim/gtk/chat_list_stack.py",
+    "gajim/gtk/chat_page.py",
+    "gajim/gtk/chat_stack.py",
+    "gajim/gtk/const.py",
+    "gajim/gtk/contact_info.py",
+    "gajim/gtk/contact_settings.py",
+    "gajim/gtk/contacts_flowbox.py",
+    "gajim/gtk/control.py",
+    "gajim/gtk/conversation/*",
+    "gajim/gtk/dialogs.py",
+    "gajim/gtk/emoji_data_gtk.py",
+    "gajim/gtk/exception.py",
+    "gajim/gtk/features.py",
+    "gajim/gtk/filechoosers.py",
+    "gajim/gtk/file_transfer_selector.py",
+    "gajim/gtk/groupchat_affiliation.py",
+    "gajim/gtk/groupchat_config.py",
+    "gajim/gtk/groupchat_creation.py",
+    "gajim/gtk/groupchat_details.py",
+    "gajim/gtk/groupchat_invitation.py",
+    "gajim/gtk/groupchat_inviter.py",
+    "gajim/gtk/groupchat_join.py",
+    "gajim/gtk/groupchat_nick.py",
+    "gajim/gtk/groupchat_nick_completion.py",
+    "gajim/gtk/groupchat_outcasts.py",
+    "gajim/gtk/groupchat_roster.py",
+    "gajim/gtk/groupchat_settings.py",
+    "gajim/gtk/groupchat_state.py",
+    "gajim/gtk/groupchat_voice_requests_button.py",
+    "gajim/gtk/gstreamer.py",
+    "gajim/gtk/history_export.py",
+    "gajim/gtk/history_sync.py",
+    "gajim/gtk/main.py",
+    "gajim/gtk/main_stack.py",
+    "gajim/gtk/mam_preferences.py",
+    "gajim/gtk/manage_sounds.py",
+    "gajim/gtk/menus.py",
+    "gajim/gtk/message_actions_box.py",
+    "gajim/gtk/message_input.py",
+    "gajim/gtk/notification.py",
+    "gajim/gtk/notification_manager.py",
+    "gajim/gtk/password_dialog.py",
+    "gajim/gtk/pep_config.py",
+    "gajim/gtk/plugins.py",
+    "gajim/gtk/preferences.py",
+    "gajim/gtk/preview.py",
+    "gajim/gtk/preview_audio.py",
+    "gajim/gtk/preview_audio_analyzer.py",
+    "gajim/gtk/preview_audio_visualizer.py",
+    "gajim/gtk/proxies.py",
+    "gajim/gtk/remove_account.py",
+    "gajim/gtk/resource_selector.py",
+    "gajim/gtk/roster.py",
+    "gajim/gtk/roster_item_exchange.py",
+    "gajim/gtk/search_view.py",
+    "gajim/gtk/service_registration.py",
+    "gajim/gtk/sidebar_switcher.py",
+    "gajim/gtk/ssl_error_dialog.py",
+    "gajim/gtk/status_icon.py",
+    "gajim/gtk/status_message_selector.py",
+    "gajim/gtk/status_selector.py",
+    "gajim/gtk/structs.py",
+    "gajim/gtk/synchronize_accounts.py",
+    "gajim/gtk/themes.py",
+    "gajim/gtk/tooltips.py",
+    "gajim/gtk/util.py",
+    "gajim/gtk/video_preview.py",
+    "gajim/gtk/workspace_dialog.py",
+    "gajim/gtk/workspace_side_bar.py",
+    "gajim/gtk/xml_console.py",
+    "gajim/plugins/gajimplugin.py",
+    "gajim/plugins/helpers.py",
+    "gajim/plugins/plugins_i18n.py",
+    "gajim/plugins/repository.py",
+]
+
+
+[tool.ruff]
+line-length = 80
+
+select = [
+  "A",      # flake8-builtins
+  # "ANN",  # flake8-annotations
+  "B",      # flake8-bugbear
+  "BLE",    # flake8-blind-except
+  "C",      # flake8-comprehensions
+  "C901",   # mccabe
+  # "D",    # pydocstyle
+  "E",      # pycodestyle
+  # "ERA",    # eradicate
+  "F",      # pyflakes  
+  # "FBT",    # flake8-boolean-trap
+  # "I",    # flake8-tidy-imports, isort
+  "N",      # pep8-naming
+  "PGH",    # pylint
+  "PLC",    # pylint
+  "PLE",    # pylint
+  "PLR",    # pylint
+  "PLW",    # pylint
+  "Q",      # flake8-quotes
+  "RUF",    # Ruff-specific rules
+  # "RET",    # flake8-return
+  "S",      # flake8-bandit
+  # "T",      # flake8-debugger, flake8-print
+  "UP",     # pyupgrade
+  "W",      # pycodestyle
+  "YTT",    # flake8-2020
+]
+
+ignore = [
+  "A003",   # Class attribute is shadowing python builtin
+  "B904",   # Within an except clause ..
+  "BLE001", # Blind except Exception: statement
+  "C901",   # too complex
+  "FBT003", # Boolean positional value in function call
+  "N802",   # Function name should be lower case
+  "N806",   # Variable should be lower case
+  "N817",   # CamelCase imported as acronym
+  "N818",   # Exception name should be named with an Error suffix
+  "RUF001", # AmbiguousUnicodeCharacterString
+  "RUF002", # AmbiguousUnicodeCharacterDocstring
+  "RUF003", # AmbiguousUnicodeCharacterComment
+  "RUF100", # Unused `noqa` directive
+  "S101",   # Use of `assert` detected
+  "UP007",  # Use X | Y for type annotations
+]
+
+exclude = [
+  ".eggs",
+  ".git",
+  ".ruff_cache",
+  ".venv",
+  "build",
+  "dist",
+  "venv",
+  "*.pyi",
+  # Code Folders
+  "gajim/gui",
+  "typings",
+  "gajim/common/config.py",     # legacy module, will be removed
+  "gajim/common/optparser.py",  # legacy module, will be removed
+  "gajim/common/socks5.py",     # legacy module, will be removed
+]
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+target-version = "py39"
+
+[tool.ruff.per-file-ignores]
+"test/*" = ["E402"]
+"test/no_gui/test_styling.py" = ["RUF001", "E501"]
+"test/no_gui/test_regex.py" = ["RUF001"]
+
+
+[tool.ruff.mccabe]
+max-complexity = 15
+
+[tool.ruff.flake8-quotes]
+inline-quotes = "single"
+docstring-quotes = "single"
+multiline-quotes = "single"

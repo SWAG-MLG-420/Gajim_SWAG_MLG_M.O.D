@@ -1,0 +1,5521 @@
+# Copyright (C) Gajim Team
+# This file is distributed under the same license as the Gajim package.
+#
+# Gabriel Papp <gabriel.papp@gmx.com>, 2010.
+# Róbert Somogyvári <cr04ch@disroot.org>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gajim\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-03 08:42+0000\n"
+"PO-Revision-Date: 2022-12-02 04:53+0000\n"
+"Last-Translator: cr04ch <cr04ch@disroot.org>\n"
+"Language-Team: Hungarian <https://translate.gajim.org/projects/gajim/master/"
+"hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.11.2\n"
+
+msgid " (Video Call)"
+msgstr " (Videóhívás)"
+
+msgid " (Voice Call)"
+msgstr " (Hanghívás)"
+
+#, python-brace-format
+msgid " by {actor}"
+msgstr " {actor} döntése alapján"
+
+#, python-format
+msgid "%(contact)s declined your invitation to %(chat)s"
+msgstr "%(contact)s elutasította a társalgóba (%(chat)s) szóló meghívást"
+
+#, python-format
+msgid "%(contact)s invited you to %(chat)s"
+msgstr "%(contact)s egy %(chat)s nevű társalgóba szóló meghívót küldött"
+
+#, python-format
+msgid "%(days)s days, %(hours)s hours"
+msgstr "%(days)s nap, %(hours)s óra"
+
+#, python-format
+msgid "%(minutes)s min %(seconds)s s"
+msgstr "%(minutes)s perc %(seconds)s mp"
+
+#, python-format
+msgid "%(name)s %(jid)s suggested me to add you to my contact list."
+msgstr "%(name)s %(jid)s javaslatára szeretnélek hozzáadni a névjegyeimhez."
+
+#, python-format
+msgid ""
+"%(name)s (%(jid)s) would like to add some contacts to your contact list."
+msgstr "%(name)s (%(jid)s) névjegyeket szeretne küldeni."
+
+#, python-format
+msgid ""
+"%(name)s (%(jid)s) would like to delete some contacts from your contact list."
+msgstr "%(name)s (%(jid)s) törölni szeretne a névjegyeid közül."
+
+#, python-format
+msgid ""
+"%(name)s (%(jid)s) would like to modify some contacts in your contact list."
+msgstr "%(name)s (%(jid)s) szeretné módosítani néhány névjegyedet."
+
+#, python-format
+msgid "%(name)s cancelled the transfer (%(reason)s)"
+msgstr "%(name)s leállította a fájlátvitelt (%(reason)s)"
+
+#, python-format
+msgid "%(nickname)s:"
+msgstr "%(nickname)s:"
+
+#, python-format
+msgid "%(owner_or_admin_or_member)s of this group chat"
+msgstr "%(owner_or_admin_or_member)s ebben a társalgóban"
+
+#, python-format
+msgid "%(progress)s %% (%(time)s remaining)"
+msgstr "%(progress)s %% (%(time)s van hátra)"
+
+#, python-format
+msgid "%(received)s of %(max)s"
+msgstr "%(received)s/%(max)s"
+
+#, python-format
+msgid "%(type)s encryption is active %(authenticated)s."
+msgstr "%(authenticated)s %(type)s titkosítás"
+
+#, python-format
+msgid "%i min ago"
+msgid_plural "%i mins ago"
+msgstr[0] "%i perce"
+msgstr[1] "%i perce"
+
+#, python-format
+msgid "%s (desynced)"
+msgstr "%s (nem egységes)"
+
+#, python-format
+msgid "%s asks you to share your status"
+msgstr "%s a jelenléti állapot megosztására kér"
+
+#, python-format
+msgid "%s group chats found"
+msgstr "%s társalgó található"
+
+#, python-format
+msgid "%s has been invited to this group chat"
+msgstr "%s meg lett hívva ebbe a társalgóba"
+
+#, python-format
+msgid "%s has joined"
+msgstr "%s belépett"
+
+#, python-format
+msgid "%s has read up to this point"
+msgstr "%s eddig olvasta"
+
+#, python-format
+msgid "%s is a file but it should be a directory"
+msgstr "%s nem könyvtár, hanem fájl"
+
+#, python-format
+msgid "%s is already in your contact list"
+msgstr "%s már szerepel a névjegyek között"
+
+#, python-format
+msgid "%s is calling"
+msgstr "%s hív"
+
+#, python-format
+msgid "%s is not a valid loglevel"
+msgstr "Érvénytelen naplózási szint: %s"
+
+#, python-format
+msgid ""
+"%s is online with multiple devices.\n"
+"Choose the device you would like to send the files to."
+msgstr ""
+"%s több eszközön is elérhető.\n"
+"Ki kell választani, hogy melyik eszköz legyen a fájlküldés célja."
+
+#, python-format
+msgid "%s s"
+msgstr "%s mp"
+
+#, python-format
+msgid "%s stopped sharing their status"
+msgstr "%s már nem osztja meg a jelenléti állapotát"
+
+#, python-format
+msgid "%s stopped the transfer"
+msgstr "%s leállította a fájlátvitelt"
+
+#, python-format
+msgid "%s wants to send you a file"
+msgstr "%s egy fájlt szeretne küldeni"
+
+#, python-format
+msgctxt "positive longitude"
+msgid "%sE"
+msgstr "k.h. %s"
+
+#, python-format
+msgctxt "positive latitude"
+msgid "%sN"
+msgstr "é.sz. %s"
+
+#, python-format
+msgctxt "negative latitude"
+msgid "%sS"
+msgstr "d.sz. %s"
+
+#, python-format
+msgctxt "negative longitude"
+msgid "%sW"
+msgstr "ny.h. %s"
+
+#, python-format
+msgid "(%(filesize_unit)s/s)"
+msgstr "(%(filesize_unit)s/s)"
+
+#, python-brace-format
+msgid "** Affiliation of {nick} has been set to {affiliation}{actor}{reason}"
+msgstr "** {nick} tagsági szintje mostantól {affiliation}{actor}{reason}"
+
+#, python-brace-format
+msgid "** Role of {nick} has been set to {role}{actor}{reason}"
+msgstr "** {nick} szerepköre mostantól {role}{actor}{reason}"
+
+#, python-brace-format
+msgid "** Your Affiliation has been set to {affiliation}{actor}{reason}"
+msgstr "** A tagsági szintem mostantól {affiliation}{actor}{reason}"
+
+#, python-brace-format
+msgid "** Your Role has been set to {role}{actor}{reason}"
+msgstr "** A szerepköröm mostantól {role}{actor}{reason}"
+
+msgid "1 Day"
+msgstr "1 nap"
+
+msgid "1 Month"
+msgstr "1 hónap"
+
+msgid "1 Week"
+msgstr "1 hét"
+
+msgid "1 Year"
+msgstr "1 év"
+
+msgid "2 Days"
+msgstr "2 nap"
+
+msgid "3 Months"
+msgstr "3 hónap"
+
+msgid "6 Months"
+msgstr "6 hónap"
+
+msgid ": Affiliation changed"
+msgstr ": a tagság elvétele"
+
+msgid ": Group chat configuration changed to members-only"
+msgstr ": a társalgóba mostantól csak tagok léphetnek be"
+
+msgid "<Description>"
+msgstr "<Leírás>"
+
+msgid "<Plugin Name>"
+msgstr "<Bővítmény neve>"
+
+#, python-format
+msgid ""
+"<b>\"%(title)s\"</b> by <i>%(artist)s</i>\n"
+"from <i>%(source)s</i>"
+msgstr ""
+"<i>%(artist)s</i> – <b>%(title)s</b>\n"
+"<i>(%(source)s)</i>"
+
+msgid "<b>#</b>"
+msgstr "<b>#</b>"
+
+msgid "<b>*</b>"
+msgstr "<b>*</b>"
+
+msgid "<b>0</b>"
+msgstr "<b>0</b>"
+
+msgid "<b>1</b>"
+msgstr "<b>1</b>"
+
+msgid "<b>2</b> abc"
+msgstr "<b>2</b> abc"
+
+msgid "<b>3</b> def"
+msgstr "<b>3</b> def"
+
+msgid "<b>4</b> ghi"
+msgstr "<b>4</b> ghi"
+
+msgid "<b>5</b> jkl"
+msgstr "<b>5</b> jkl"
+
+msgid "<b>6</b> mno"
+msgstr "<b>6</b> mno"
+
+msgid "<b>7</b> pqrs"
+msgstr "<b>7</b> pqrs"
+
+msgid "<b>8</b> tuv"
+msgstr "<b>8</b> tuv"
+
+msgid "<b>9</b> wxyz"
+msgstr "<b>9</b> wxyz"
+
+msgid ""
+"<b>XMPP Address</b>\n"
+"&lt;user@domain/resource&gt; (only that resource matches)\n"
+"&lt;user@domain&gt; (any resource matches)\n"
+"&lt;domain/resource&gt; (only that resource matches)\n"
+"&lt;domain&gt; (the domain itself matches, as does any user@domain or domain/"
+"resource)\n"
+msgstr ""
+"<b>XMPP-cím</b>\n"
+"&lt;felhasználó@tartomány/erőforrás&gt; (csak a megadott erőforrás "
+"illeszkedik)\n"
+"&lt;felhasználó@tartomány&gt; (az összes erőforrás illeszkedik)\n"
+"&lt;felhasználó/erőforrás&gt; (csak a megadott erőforrás illeszkedik)\n"
+"&lt;tartomány&gt; (a tartomány illeszkedik, vagyis minden "
+"felhasználó@tartomány vagy tartomány/erőforrás)\n"
+
+msgid "<empty>"
+msgstr "<üres>"
+
+msgid "<error>"
+msgstr "<hiba>"
+
+msgid "?Ask (for Subscription):None"
+msgstr "Nincs"
+
+msgid "?Gender:None"
+msgstr "Egyik sem"
+
+msgid "?Gender:Other"
+msgstr "Egyéb"
+
+msgid "?Group Chat Contact Affiliation:None"
+msgstr "Nincs"
+
+msgid "?Group Chat Contact Role:None"
+msgstr "Nincs"
+
+msgid "?Group chat address:family"
+msgstr "család"
+
+msgid "?Group chat address:news"
+msgstr "hírek"
+
+msgid "?Group chat address:repairs"
+msgstr "javítások"
+
+msgid "?Group chat address:team"
+msgstr "csapat"
+
+msgid "?Group chat address:vacation"
+msgstr "szünidő"
+
+msgid "?Group chat description:Local help group"
+msgstr "Helyi segítőcsoport"
+
+msgid "?Group chat description:Local news and reports"
+msgstr "Helyi hírek és tudósítások"
+
+msgid "?Group chat description:Project discussion"
+msgstr "Projektmegbeszélés"
+
+msgid "?Group chat description:Spring gathering"
+msgstr "Tavaszi találkozó"
+
+msgid "?Group chat description:Trip planning"
+msgstr "Útiterv"
+
+msgid "?Group chat feature:Archiving"
+msgstr "Archiválás"
+
+msgid "?Group chat feature:Hidden"
+msgstr "Rejtett"
+
+msgid "?Group chat feature:Members Only"
+msgstr "Csak tagoknak"
+
+msgid "?Group chat feature:Moderated"
+msgstr "Moderált"
+
+msgid "?Group chat feature:No Password Required"
+msgstr "Nem kell jelszó"
+
+msgid "?Group chat feature:Not Anonymous"
+msgstr "Nem névtelen"
+
+msgid "?Group chat feature:Not Moderated"
+msgstr "Nem moderált"
+
+msgid "?Group chat feature:Open"
+msgstr "Nyitott"
+
+msgid "?Group chat feature:Password Required"
+msgstr "Jelszó szükséges"
+
+msgid "?Group chat feature:Persistent"
+msgstr "Állandó"
+
+msgid "?Group chat feature:Public"
+msgstr "Nyilvános"
+
+msgid "?Group chat feature:Semi-Anonymous"
+msgstr "Részben névtelen"
+
+msgid "?Group chat feature:Temporary"
+msgstr "Ideiglenes"
+
+msgid "?Group chat name:Family"
+msgstr "Család"
+
+msgid "?Group chat name:News"
+msgstr "Hírek"
+
+msgid "?Group chat name:Repairs"
+msgstr "Javítások"
+
+msgid "?Group chat name:Team"
+msgstr "Csapat"
+
+msgid "?Group chat name:Vacation"
+msgstr "Szünidő"
+
+msgid "?Message row action:Copy"
+msgstr "Másolás"
+
+msgid "?Message row action:Correct…"
+msgstr "Helyesbítés…"
+
+msgid "?Message row action:Quote…"
+msgstr "Idézés…"
+
+msgid "?Message row action:Retract…"
+msgstr "Visszavonás…"
+
+msgid "?Message row action:Select Messages…"
+msgstr "Üzenetek kijelölése…"
+
+msgid "?Message state:Received"
+msgstr "Kézbesített"
+
+msgid "?Noun:Download"
+msgstr "Letöltés"
+
+msgid "?Noun:Upload"
+msgstr "Feltöltés"
+
+msgid "?Subscription we already have:None"
+msgstr "Egyik sem"
+
+msgid "?config description:None"
+msgstr "Nincs leírás"
+
+msgid "?config type:Boolean"
+msgstr "Logikai"
+
+msgid "?config type:Integer"
+msgstr "Egész szám"
+
+msgid "?config type:Text"
+msgstr "Szöveg"
+
+msgid "?config:Preference Name"
+msgstr "Beállítás"
+
+msgid "?config:Type"
+msgstr "Típus"
+
+msgid "?config:Value"
+msgstr "Érték"
+
+msgid "?profile:Address"
+msgstr "Cím"
+
+msgid "?profile:Full Name"
+msgstr "Teljes név"
+
+msgid "?profile:Gender"
+msgstr "Nem"
+
+msgid "?profile:IM Address"
+msgstr "Azonnali üzenetküldő címe"
+
+msgid "?profile:Note"
+msgstr "Megjegyzés"
+
+msgid "?profile:Organisation"
+msgstr "Szervezet"
+
+msgid "?profile:Public Encryption Key"
+msgstr "Publikus titkosítókulcs"
+
+msgid "?profile:Role"
+msgstr "Munkakör"
+
+msgid "?profile:Title"
+msgstr "Beosztás"
+
+msgid "?switch:Off"
+msgstr "Ki"
+
+msgid "?switch:On"
+msgstr "Be"
+
+msgid "?transfer status:Aborted"
+msgstr "Megszakítva"
+
+msgid "?transfer status:Completed"
+msgstr "Befejezve"
+
+msgid "?transfer status:Not started"
+msgstr "Nem indult el"
+
+msgid "?transfer status:Paused"
+msgstr "Szüneteltetve"
+
+msgid "?transfer status:Stalled"
+msgstr "Leállítva"
+
+msgid "?transfer status:Status: "
+msgstr "Állapot: "
+
+msgid "?transfer status:Transferred: "
+msgstr "Kész: "
+
+msgid "?transfer status:Transferring"
+msgstr "Folyamatban"
+
+msgid "?transfer type:Type: "
+msgstr "Típus: "
+
+msgid "?user status:Available"
+msgstr "Elérhető"
+
+msgid "?user status:_Available"
+msgstr "_Elérhető"
+
+msgid "A Feature Comparison of Various Servers"
+msgstr "Egy kiszolgálókat összehasonlító webhely"
+
+msgid "A Group Chat needs at least one Owner"
+msgstr "Legalább egy tulajdonosa kell legyen egy társalgónak"
+
+msgid ""
+"A file with this name already exists and you do not have permission to "
+"overwrite it."
+msgstr "Már létezik ilyen nevű fájl, de nincs jogosultság a felülírásához."
+
+msgid "A fully-featured XMPP chat client"
+msgstr "Egy funkciógazdag XMPP üzenetküldő"
+
+msgid "A list of active, completed and stopped file transfers"
+msgstr "A folyamatban lévő, befejezett és megállított fájlátvitelek"
+
+msgid ""
+"A list of words (semicolon separated) that will be highlighted in group "
+"chats."
+msgstr "A társalgókban kiemelendő szavak pontosvesszővel tagolt felsorolása."
+
+msgid "A new group chat has been created"
+msgstr "Az új társalgó elkészült"
+
+msgid "A restart may be required for some settings to take effect"
+msgstr "Némelyik beállítás csak újraindítás után érvényesül"
+
+msgid "A setting not related to privacy has been changed"
+msgstr "Egy magánszférát nem érintő beállítás megváltozott"
+
+#, python-format
+msgid "ALSA: %s"
+msgstr "ALSA: %s"
+
+msgid "API Preferences. Possible values: \"http\", \"iq\""
+msgstr "Az API beállítása. Lehet „http” vagy „iq”"
+
+msgid "A_way"
+msgstr "_Távol"
+
+msgid "Abort"
+msgstr "Megszakítás"
+
+msgid "Abuse"
+msgstr "Visszaélés"
+
+msgid "Accept"
+msgstr "Elfogadás"
+
+msgid "Accept all Contact Requests"
+msgstr "Minden kérés elfogadása"
+
+msgid "Account"
+msgstr "Fiók"
+
+#, python-format
+msgid "Account %s is still connected"
+msgstr "A fiók (%s) még csatlakozva van a kiszolgálóhoz"
+
+msgid "Account Added"
+msgstr "A fiók elkészült"
+
+msgid "Account Name..."
+msgstr "Fióknév…"
+
+msgid "Account Removal Failed"
+msgstr "Sikertelen fióktörlés"
+
+msgid "Account Removed"
+msgstr "A fiók törlése kész"
+
+msgid "Account Settings…"
+msgstr "Fiókbeállítások…"
+
+msgid "Account Wizard"
+msgstr "Fiókkészítő segéd"
+
+msgid "Account disabled"
+msgstr "A fiók le van tiltva"
+
+msgid "Account has been added successfully"
+msgstr "A fiók létrehozása sikerült"
+
+msgid "Account has to be connected"
+msgstr "A fiókot csatlakoztatni kell"
+
+msgid "Account is being created"
+msgstr "A fiók létrehozása folyamatban van"
+
+#, python-format
+msgid "Account: %s"
+msgstr "Fiók: %s"
+
+msgid "Accounts"
+msgstr "Fiókok"
+
+msgid "Action for left-clicking a preview"
+msgstr "Az előnézet bal egérgombos művelete"
+
+msgid "Action on Close"
+msgstr "Művelet bezáráskor"
+
+msgid "Action when closing Gajim’s window"
+msgstr "Az ablak bezárásakor végrehajtandó művelet"
+
+msgid "Activate"
+msgstr "Bekapcsolás"
+
+msgid "Activated"
+msgstr "Bekapcsolva"
+
+msgid "Active"
+msgstr "Aktív"
+
+msgid "Add"
+msgstr "Hozzáadás"
+
+msgid "Add Account"
+msgstr "Új fiók"
+
+msgid "Add Contact"
+msgstr "Új névjegy"
+
+msgid "Add Contact…"
+msgstr "Névjegy felvétele…"
+
+msgid "Add Entry"
+msgstr "Új bejegyzés"
+
+msgid "Add Files…"
+msgstr "Fájlok kiválasztása…"
+
+msgid "Add Group…"
+msgstr "Csoport hozzáadása…"
+
+msgid "Add Proxy"
+msgstr "Proxy hozzáadása"
+
+msgid "Add Setting"
+msgstr "Hozzáadás"
+
+msgid "Add Workspace"
+msgstr "Új munkaterület"
+
+msgid "Add _Contact…"
+msgstr "_Névjegy felvétele…"
+
+msgid "Add a checkmark to received messages"
+msgstr "A kézbesített üzenet jelzése"
+
+msgid "Add a name and color for your account"
+msgstr "A fiók nevének és színének beállítása"
+
+msgid "Add a setting you would like to change"
+msgstr "Módosítandó tulajdonság hozzáadása"
+
+msgid "Add new Theme"
+msgstr "Új téma"
+
+msgid "Add new line"
+msgstr "Új sor"
+
+msgid "Add some details…"
+msgstr "Részletezés…"
+
+msgid "Add this certificate to the list of _trusted certificates"
+msgstr "A _tanúsítvány felvétele a megbízható tanúsítványok közé"
+
+msgid "Add to Contact List…"
+msgstr "Hozzáadás a névjegyekhez…"
+
+#, python-format
+msgid "Added %d contact"
+msgid_plural "Added %d contacts"
+msgstr[0] "%d névjegy lett hozzáadva"
+msgstr[1] "%d névjegy lett hozzáadva"
+
+msgid "Address"
+msgstr "Cím"
+
+msgid "Address does not belong to a group chat server"
+msgstr "Az adott címen nincs társalgó"
+
+msgid "Adjust to Status"
+msgstr "Jelenléti állapot szerint"
+
+msgid "Adjust to status"
+msgstr "Jelenléti állapot szerint"
+
+msgid "Admin"
+msgstr "Adminisztrátor"
+
+msgid "Administration"
+msgstr "Adminisztráció"
+
+msgid "Administrator"
+msgstr "Adminisztrátor"
+
+msgid "Administrators"
+msgstr "Adminisztrátorok"
+
+msgid "Advanced"
+msgstr "Speciális"
+
+msgid "Advanced Configuration Editor (ACE)"
+msgstr "Speciális beállításszerkesztő (ACE)"
+
+msgid "Advanced Configuration Editor… "
+msgstr "Speciális beállításszerkesztő… "
+
+msgid "Advanced Settings"
+msgstr "Speciális beállítások"
+
+msgid "Advanced settings"
+msgstr "Speciális beállítások"
+
+msgid "Affiliation"
+msgstr "Tagsági szint"
+
+msgid "Affiliations"
+msgstr "Tagság"
+
+msgid "All"
+msgstr "Mind"
+
+msgid "All Accounts"
+msgstr "Minden fiók"
+
+msgid "All Chat States"
+msgstr "Minden értesítés"
+
+msgid "All chat and group chat windows will be closed."
+msgstr "Az összes beszélgetés és társalgó be lesz zárva."
+
+msgid "All files"
+msgstr "Minden fájl"
+
+msgid "All other group chat participants can see your XMPP address"
+msgstr "A társalgóban jelenlévők látják egymás címét"
+
+msgid ""
+"Allow Gajim to broadcast useful information via D-Bus. It also allows other "
+"applications to control Gajim remotely."
+msgstr ""
+"Lehetővé teszi a D-Bus felületen keresztüli információközlést, illetve a "
+"Gajim távirányítását."
+
+msgid "Allows opening file:/ URIs when clicked."
+msgstr "A file:/ URI megnyitásának engedélyezése."
+
+msgid "Alternate venue (optional)..."
+msgstr "Alternatív hely (nem kötelező)…"
+
+msgid "Always"
+msgstr "Mindig"
+
+msgid "An Error Occurred"
+msgstr "Hiba történt"
+
+msgid "An entry with this XMPP Address already exists"
+msgstr "Ez az XMPP-cím már be van jegyezve"
+
+msgid "An error occurred"
+msgstr "Hiba történt"
+
+msgid "An error occurred during account creation"
+msgstr "Hiba történt a fiók létrehozása során"
+
+msgid "An error occurred while exporting your messages"
+msgstr "Hiba történt az üzenetek exportálása közben"
+
+msgid "An error occurred while trying to change your password."
+msgstr "Hiba történt a jelszómódosítás során."
+
+#, python-format
+msgid "An error occurred while trying to create a file at %(path)s: %(error)s"
+msgstr "Hiba történt a fájl létrehozása során: %(path)s: %(error)s"
+
+msgid "Anonymous login not supported"
+msgstr "Nem lehet névtelenül bejelentkezni"
+
+msgid "Another process is using this file."
+msgstr "Ezt a fájlt egy másik folyamat használja."
+
+msgid "Any participant is allowed to see your full XMPP Address"
+msgstr "A résztvevők látják egymás teljes XMPP-címét"
+
+msgid "Anyone can join"
+msgstr "Bárki beléphet"
+
+msgid "Anyone can join this group chat"
+msgstr "Bárki beléphet ebbe a társalgóba"
+
+msgid "Application verification failure"
+msgstr "Alkalmazásfüggő ellenőrzési hiba"
+
+msgid "Apply"
+msgstr "Alkalmaz"
+
+msgid "Approve"
+msgstr "Jóváhagyás"
+
+msgid "Archive"
+msgstr "Archiválás"
+
+msgid "Archive corrupted"
+msgstr "Az archívum sérült"
+
+msgid "Archive empty"
+msgstr "Az archívum üres"
+
+msgid "Archive is malformed"
+msgstr "Az archívum hibás"
+
+msgid "Archiving Preferences"
+msgstr "Archiválási beállítások"
+
+msgid "Archiving Preferences Error"
+msgstr "Archiválásbeállítási hiba"
+
+msgid "Archiving Preferences Saved"
+msgstr "Az archiválási beállítások mentése kész"
+
+#, python-format
+msgid "Archiving Preferences for %s"
+msgstr "%s archiválási beállításai"
+
+msgid "Are you sure you want to leave this group chat?"
+msgstr "Biztos elhagyható a társalgó?"
+
+msgid "Are you sure you want to quit Gajim?"
+msgstr "Biztos leállítható a Gajim?"
+
+msgid "Artists"
+msgstr "Alkotók"
+
+msgid "Ask For Status Message on…"
+msgstr "Rákérdezés az állapotüzenetre…"
+
+msgid "Ask before closing a group chat tab/window."
+msgstr "Megerősítés egy társalgó lapjának/ablakának bezárásakor."
+
+msgid "Ask before quitting when Gajim’s window is closed"
+msgstr "A Gajim ablakának bezárásakor kilépés előtt legyen megerősítés"
+
+msgid "Attention Message Received"
+msgstr "Figyelemfelhívás érkezett"
+
+msgid "Audio"
+msgstr "Hang"
+
+msgid "Audio / Video Calls"
+msgstr "Hang- / videohívás"
+
+msgid "Audio File"
+msgstr "Hangfájl"
+
+msgid "Audio Input Device"
+msgstr "Bemeneti eszköz"
+
+msgid "Audio Output Device"
+msgstr "Kimeneti eszköz"
+
+msgid "Audio Preview"
+msgstr "Hangbemutató"
+
+msgid "Audio preview is not available"
+msgstr "A hangbemutató nem áll rendelkezésre"
+
+msgid "Audio test"
+msgstr "Hangpróba"
+
+msgid "Audio/Video"
+msgstr "Hang/Videó"
+
+msgid "Authentication aborted"
+msgstr "A hitelesítés megszakítva"
+
+msgid "Authentication currently not possible"
+msgstr "A hitelesítés jelenleg nem lehetséges"
+
+msgid "Authentication failed"
+msgstr "Sikertelen hitelesítés"
+
+msgid "Authentication mechanism not supported"
+msgstr "Nem támogatott hitelesítési mód"
+
+msgid "Authentication mechanism too weak"
+msgstr "Túl gyenge hitelesítési mód"
+
+msgid "Author"
+msgstr "Szerző"
+
+msgid "Authority and issuer serial number mismatch"
+msgstr "A hitelesítő és a kibocsátó sorozatszáma eltérő"
+
+msgid "Authority and subject key identifier mismatch"
+msgstr "A hitelesítő és a tárgy kulcsazonosítója eltérő"
+
+msgid "Authorization Request"
+msgstr "Engedélykérelem"
+
+msgid "Authors"
+msgstr "Készítők"
+
+msgid "Auto Away"
+msgstr "Automatikus távollét"
+
+msgid "Auto Away Settings"
+msgstr "Automatikus távollét beállításai"
+
+msgid "Auto Extended Away Settings"
+msgstr "Automatikus tartós távollét beállításai"
+
+msgid "Auto Not Available"
+msgstr "Automatikus tartós távollét"
+
+msgid "Autodetect"
+msgstr "Automatikus érzékelés"
+
+msgid "Autojoin"
+msgstr "Automatikus csatlakozás"
+
+msgid "Automatic Status"
+msgstr "Automatikus jelenléti állapot"
+
+msgid "Automatic Status Change"
+msgstr "Automatikus jelenléti állapot"
+
+msgid "Automatic preview disabled"
+msgstr "Automatikus előnézet tiltva"
+
+msgid "Automatic preview disabled (file too big)"
+msgstr "Automatikus előnézet tiltva (túl nagy fájl)"
+
+msgid "Automatic spell-checking for your messages"
+msgstr "Az üzenetek automatikus helyesírás-ellenőrzése"
+
+msgid "Automatically accept all contact requests"
+msgstr "Mások kéréseinek automatikus elfogadása"
+
+msgid "Available"
+msgstr "Elérhető"
+
+msgid "Avatar file size too big"
+msgstr "A profilkép fájlmérete túl nagy"
+
+msgid "Away"
+msgstr "Távol"
+
+msgid "Back"
+msgstr "Vissza"
+
+msgid "Back in some minutes."
+msgstr "Pár perc múlva itt vagyok."
+
+msgid "Back soon"
+msgstr "Közeli visszatérés"
+
+msgid "Ban"
+msgstr "Kitiltás"
+
+#, python-format
+msgid "Ban %s"
+msgstr "%s kitiltása"
+
+msgid "Ban…"
+msgstr "Kitiltás…"
+
+msgid "Behaviour of Application Window"
+msgstr "Az alkalmazásablak viselkedése"
+
+msgid "Birthday"
+msgstr "Születésnap"
+
+msgid "Block"
+msgstr "Tiltás"
+
+msgid "Block Contact"
+msgstr "Ismerős tiltása"
+
+msgid "Block Contact…"
+msgstr "Ismerős tiltása…"
+
+msgid "Blocking List"
+msgstr "Tiltólista"
+
+#, python-format
+msgid "Blocking List for %s"
+msgstr "Tiltólista ehhez a fiókhoz: %s"
+
+msgid "Block…"
+msgstr "Tiltás…"
+
+msgid "Bookmarks"
+msgstr "Könyvjelzők"
+
+#, python-format
+msgid "Bookmarks for %s"
+msgstr "Könyvjelzők ehhez a fiókhoz: %s"
+
+msgid "Both"
+msgstr "Mindkettő"
+
+msgid "Browse"
+msgstr "Tallózás"
+
+msgid "Browse history by date"
+msgstr "Tallózás dátum szerint"
+
+#, python-format
+msgid "Browsing %(address)s using account %(account)s"
+msgstr "%(address)s tallózása %(account)s fiókkal"
+
+msgid "Busy"
+msgstr "Elfoglalt"
+
+msgid "CRL has expired"
+msgstr "A CRL lejárt"
+
+msgid "CRL is not yet valid"
+msgstr "A CRL még nem érvényes"
+
+msgid "CRL signature failure"
+msgstr "CRL-aláírási hiba"
+
+msgid "Call"
+msgstr "Hívás"
+
+msgid "Call Incoming"
+msgstr "Bejövő hívás"
+
+msgid "Call Outgoing"
+msgstr "Kimenő hívás"
+
+msgid "Call ended"
+msgstr "A hívás véget ért"
+
+#, python-format
+msgid "Call with %s"
+msgstr "%s hívása"
+
+msgid "Calling (Video)…"
+msgstr "Videóhívás…"
+
+msgid "Calling…"
+msgstr "Hívás…"
+
+msgid "Cancel"
+msgstr "Mégsem"
+
+msgid "Cancel Download"
+msgstr "Letöltés megszakítása"
+
+msgid "Cancel the selected file transfer and remove incomplete files"
+msgstr "A kiválasztott fájlátvitel megszakítása és a nem teljes fájlok törlése"
+
+#, python-format
+msgid "Cannot overwrite existing file \"%s\""
+msgstr "A fájl (%s) létezik és nem írható felül"
+
+msgid "Certificate"
+msgstr "Tanúsítvány"
+
+msgid "Certificate Settings"
+msgstr "Tanúsítvány beállításai"
+
+msgid "Certificate Verification Failed"
+msgstr "A tanúsítvány ellenőrzése sikertelen"
+
+msgid "Certificate chain too long"
+msgstr "A tanúsítványlánc túl hosszú"
+
+#, python-format
+msgid ""
+"Certificate for \n"
+"%s"
+msgstr ""
+"Tanúsítvány ehhez a fiókhoz:\n"
+"%s"
+
+msgid "Certificate has expired"
+msgstr "A tanúsítvány lejárt"
+
+msgid "Certificate is not yet valid"
+msgstr "A tanúsítvány még nem érvényes"
+
+msgid "Certificate not trusted"
+msgstr "A tanúsítvány nem megbízható"
+
+msgid "Certificate rejected"
+msgstr "Visszautasított tanúsítvány"
+
+msgid "Certificate revoked"
+msgstr "Visszavont tanúsítvány"
+
+msgid "Certificate signature failure"
+msgstr "Tanúsítvány-aláírási hiba"
+
+msgid "Ch_ange Subject"
+msgstr "Tém_aváltás"
+
+msgid "Change"
+msgstr "Módosítás"
+
+msgid "Change Nickname"
+msgstr "Becenév módosítása"
+
+msgid "Change Nickname…"
+msgstr "Becenév módosítása…"
+
+msgid "Change Password"
+msgstr "Jelszócsere"
+
+msgid "Change Subject"
+msgstr "Témaváltás"
+
+msgid "Change your account’s password, etc."
+msgstr "A fiókjelszó módosítása stb."
+
+msgid "Change your profile picture"
+msgstr "Profilkép cseréje"
+
+msgid "Change your status to \"Away\" after a certain amount of time"
+msgstr "Bizonyos idejű tétlenség után a jelenléti állapot „távol”-ra állítása"
+
+msgid "Change your status to \"Not Available\" after a certain amount of time"
+msgstr ""
+"Bizonyos idejű tétlenség után a jelenléti állapot „tartósan távol”-ra "
+"állítása"
+
+#, python-format
+msgid "Changed by %s"
+msgstr "%s által módosítva"
+
+msgid "Changing Password..."
+msgstr "Jelszó módosítása…"
+
+msgid ""
+"Character to add after nickname when using nickname completion (tab) in "
+"group chat."
+msgstr ""
+"Egy társalgóban a névkiegészítés (TAB) használatakor a becenév után "
+"elhelyezendő karakter."
+
+msgid "Chat Banner: Background Color"
+msgstr "A beszélgetés felső sávja: háttérszín"
+
+msgid "Chat Banner: Foreground Color"
+msgstr "A beszélgetés felső sávja: előtérszín"
+
+msgid "Chat Banner: Text Font"
+msgstr "A beszélgetés felső sávja: betűkészlet"
+
+msgid "Chat List"
+msgstr "Beszélgetések"
+
+msgid "Chat history"
+msgstr "Előzmények"
+
+msgid "Chat securely with End-to-End encryption via OMEMO or OpenPGP"
+msgstr ""
+"Biztonságos beszélgetés OMEMO vagy PGP által biztosított végpontok közötti "
+"titkosítással"
+
+msgid "Chat securely with End-to-End encryption via OMEMO or OpenPGP."
+msgstr ""
+"Biztonságos beszélgetés OMEMO vagy PGP által biztosított végpontok közötti "
+"titkosítással."
+
+msgid "Chats"
+msgstr "Beszélgetések"
+
+msgid "Chats from this account will use this workspace by default"
+msgstr ""
+"A fiók beszélgetései alapértelmezés szerint erre a munkaterületre kerülnek"
+
+msgid "Check For Updates"
+msgstr "Frissítések keresése"
+
+msgid "Check for Gajim updates periodically"
+msgstr "Programfrissítések rendszeres keresése"
+
+msgid "Check for updates"
+msgstr "Frissítések keresése"
+
+msgid "Check for updates periodically"
+msgstr "A programfrissítések rendszeres ellenőrzése"
+
+msgid "Checking file…"
+msgstr "Fájlellenőrzés…"
+
+msgid "Choose Archive"
+msgstr "Archívum kiválasztása"
+
+msgid "Choose Avatar…"
+msgstr "Profilkép kiválasztása…"
+
+msgid "Choose Device"
+msgstr "Eszköz választása"
+
+msgid "Choose File to Send…"
+msgstr "Küldendő fájl kiválasztása…"
+
+msgid "Choose History Export Directory"
+msgstr "Az exportálás célkönyvtárának kiválasztása"
+
+msgid "Choose Sound"
+msgstr "Hangfájl kiválasztása"
+
+msgid "Choose a color or select an image"
+msgstr "Szín vagy kép kiválasztása"
+
+msgid "Choose a group…"
+msgstr "Csoport választása…"
+
+msgid "Choose encryption"
+msgstr "Titkosítási mód"
+
+msgid "Choose the contact's groups"
+msgstr "A névjegy csoportjai"
+
+msgid "Cipher Suite"
+msgstr "Titkosítási készlet"
+
+msgid "City"
+msgstr "Város"
+
+msgid "Clear"
+msgstr "Törlés"
+
+msgid "Clear File"
+msgstr "Fájlnév törlése"
+
+msgid "Clear Sound"
+msgstr "Hang eltávolítása"
+
+msgid "Clear message entry"
+msgstr "Az üzenetbeviteli mező törlése"
+
+msgid ""
+"Click messages to select them\n"
+"(Ctrl + Double Click to deselect)"
+msgstr ""
+"További üzenetekre kattintva bővíthető,\n"
+"Ctrl + dupla kattintással szűkíthető a kijelölés."
+
+msgid "Click on contacts you would like to invite to this group chat."
+msgstr ""
+"Névjegyeik kiválasztásával egy ebbe a társalgóba szóló meghívó küldhető az "
+"érintetteknek."
+
+msgid "Click to view Gajim's wiki page on how to install plugins in Flatpak."
+msgstr ""
+"A Flatpak használata mellett történő bővítménytelepítésről szóló Gajim-wiki "
+"megtekintése."
+
+msgid "Click to view location"
+msgstr "Kattintás a hely megtekintéséhez"
+
+msgid ""
+"Clickable schemes in addition to the hard-coded list of IANA-registered "
+"ones. Space-separated, lower-case, no colons."
+msgstr ""
+"A program által ismert IANA-bejegyzésű egységes erőforrás-azonosítók "
+"kiegészítése. Szóközökkel tagolt, kisbetűs, kettőspont nélküli felsorolás."
+
+msgid "Client Certificate"
+msgstr "Klienstanúsítvány"
+
+msgid "Close"
+msgstr "Bezárás"
+
+msgid "Close Search"
+msgstr "A keresés bezárása"
+
+msgid "Close a chat by pressing the Escape key"
+msgstr "Az ESC billentyű bezárja a beszélgetést"
+
+msgid "Close chat"
+msgstr "A beszélgetés bezárása"
+
+msgid "Close with Escape"
+msgstr "Bezárás ESC billentyűvel"
+
+msgid "Code snippet"
+msgstr "Kódrészlet"
+
+#, python-format
+msgid "Code snippet (%s)"
+msgstr "Kódrészlet (%s)"
+
+msgid "Color"
+msgstr "Szín"
+
+msgid "Command List"
+msgstr "Parancsok"
+
+msgid "Command executed successfully"
+msgstr "A parancs végrehajtása sikerült"
+
+msgid "Commands"
+msgstr "Parancsok"
+
+msgid "Common Name (CN)"
+msgstr "Általános név (CN)"
+
+msgid "Common Name (CN): "
+msgstr "Általános név (CN): "
+
+msgid "Complete"
+msgstr "Befejezés"
+
+msgid "Complete a command or a nickname"
+msgstr "Parancs vagy becenév kiegészítése"
+
+msgid "Completed"
+msgstr "A parancs eredménye"
+
+msgid "Composing Only"
+msgstr "Csak gépelésértesítés"
+
+msgid "Computer"
+msgstr "Számítógép"
+
+msgid "Configuration"
+msgstr "Tulajdonságok"
+
+msgid "Configure"
+msgstr "Beállítások"
+
+msgid "Configure logging system"
+msgstr "A naplózási szint megadása"
+
+msgid "Confirm Unencrypted Connection"
+msgstr "Titkosítás nélküli kapcsolat jóváhagyása"
+
+msgid "Confirm new password..."
+msgstr "Az új jelszó megerősítése…"
+
+msgid "Connect"
+msgstr "Csatlakozás"
+
+msgid "Connect on startup"
+msgstr "Bejelentkezés induláskor"
+
+msgid "Connect to other Messengers via Transports (Facebook, IRC, ...)"
+msgstr ""
+"Más üzenetküldőkhöz való kapcsolódás közvetített kapcsolaton át (Facebook, "
+"IRC, …)"
+
+msgid "Connecting"
+msgstr "Csatlakozás"
+
+msgid "Connecting to server..."
+msgstr "Csatlakozás a kiszolgálóhoz…"
+
+msgid "Connecting..."
+msgstr "Csatlakozás…"
+
+msgid "Connection"
+msgstr "Kapcsolat"
+
+msgid "Connection Error"
+msgstr "Kapcsolódási hiba"
+
+msgid "Connection Settings"
+msgstr "Kapcsolódási beállítások"
+
+msgid "Connection failed"
+msgstr "Sikertelen kapcsolódás"
+
+msgid "Connection not available"
+msgstr "Nincs kapcsolat"
+
+#, python-format
+msgid "Connection with %s could not be established."
+msgstr "Nem létesíthető kapcsolat vele: %s."
+
+msgid "Contact"
+msgstr "Kapcsolat"
+
+msgid "Contact Addresses"
+msgstr "Kapcsolatfelvétel"
+
+msgid "Contact Connected"
+msgstr "Ismerős csatlakozott"
+
+msgid "Contact Disconnected"
+msgstr "Ismerős kilépett"
+
+msgid "Contact Information"
+msgstr "Névjegyinformációk"
+
+msgid "Contact Infos"
+msgstr "Névjegyinformációk"
+
+msgid "Contact List"
+msgstr "Névjegyek"
+
+msgid "Contact List Exchange"
+msgstr "Névjegyek cseréje"
+
+msgid "Contact List: Contact Background Color"
+msgstr "Névjegyek: névjegy háttérszíne"
+
+msgid "Contact List: Contact Font"
+msgstr "Névjegyek: névjegy betűkészlete"
+
+msgid "Contact List: Contact Foreground Color"
+msgstr "Névjegyek: névjegy előtérszíne"
+
+msgid "Contact List: Group Background Color"
+msgstr "Névjegyek: csoport háttérszíne"
+
+msgid "Contact List: Group Font"
+msgstr "Névjegyek: csoport betűkészlete"
+
+msgid "Contact List: Group Foreground Color"
+msgstr "Névjegyek: csoport előtérszíne"
+
+msgid "Contact Unsubscribed"
+msgstr "Ismerős leiratkozott"
+
+msgid "Contact information"
+msgstr "Információk megjelenítése"
+
+msgid "Contact list"
+msgstr "Névjegyek"
+
+msgid "Contacts"
+msgstr "Ismerősök"
+
+msgid "Conversation: Nickname Color (Incoming)"
+msgstr "Beszélgetés: becenév színe (bejövő)"
+
+msgid "Conversation: Nickname Color (Outgoing)"
+msgstr "Beszélgetés: becenév színe (kimenő)"
+
+msgid "Conversation: Text Color"
+msgstr "Beszélgetés: szövegszín"
+
+msgid "Conversation: Text Font"
+msgstr "Beszélgetés: betűkészlet"
+
+msgid "Conversation: URL Color"
+msgstr "Beszélgetés: hivatkozás színe"
+
+msgid "Conversations"
+msgstr "Beszélgetések"
+
+msgid "Conversations are not stored on the server"
+msgstr "A beszélgetéseket a kiszolgáló nem tárolja"
+
+msgid "Conversations are stored on the server"
+msgstr "A beszélgetéseket a kiszolgáló tárolja"
+
+msgid "Copy"
+msgstr "Másolás"
+
+msgid "Copy Address"
+msgstr "Cím másolása"
+
+msgid "Copy Certificate Information"
+msgstr "Tanúsítvány adatainak másolása"
+
+msgid "Copy Email Address"
+msgstr "E-mail-cím _másolása"
+
+msgid "Copy Link"
+msgstr "Hivatkozás másolása"
+
+msgid "Copy Link Location"
+msgstr "Hivatkozás címének másolása"
+
+msgid "Copy Location"
+msgstr "Hely másolása"
+
+msgid "Copy Text"
+msgstr "Szöveg másolása"
+
+msgid "Copy XMPP Address"
+msgstr "XMPP-cím másolása"
+
+msgid "Copy XMPP Address/Email"
+msgstr "XMPP- vagy e-mail-cím másolása"
+
+msgid "Copy code snippet"
+msgstr "Kódrészlet másolása"
+
+msgid "Copy info to clipboard"
+msgstr "Másolás a vágólapra"
+
+msgid "Correct the last message"
+msgstr "A legutóbbi üzenet helyesbítése"
+
+msgid "Could not access file"
+msgstr "A fájl nem nyitható meg"
+
+#, python-format
+msgid "Could not open file (%s)"
+msgstr "Nem sikerült megnyitni a fájlt (%s)"
+
+msgid "Country"
+msgstr "Ország"
+
+msgid "Create Account"
+msgstr "Fiók létrehozása"
+
+msgid "Create Group Chat"
+msgstr "Társalgó létrehozása"
+
+msgid "Create Group Chat…"
+msgstr "Társalgó létrehozása…"
+
+msgid "Create New Account"
+msgstr "Új fiók létrehozása"
+
+msgid "Create _Group Chat…"
+msgstr "Társal_gó létrehozása…"
+
+msgid "Create new group chat"
+msgstr "Társalgó létrehozása"
+
+msgid "Create new post"
+msgstr "Új üzenet küldése"
+
+msgid "Creating Account..."
+msgstr "Fiók létrehozása…"
+
+msgid "Creating thumbnail failed"
+msgstr "Nem sikerült létrehozni a bélyegképet"
+
+msgid "Credentials expired"
+msgstr "Lejárt hitelesítő adatok"
+
+msgid "Current Developers"
+msgstr "Jelenlegi fejlesztők"
+
+msgid "D-Bus Interface"
+msgstr "D-Bus felület"
+
+msgid "Dark Theme"
+msgstr "Sötét téma"
+
+msgid "Deactivated"
+msgstr "Kikapcsolva"
+
+msgid "Debug Logging"
+msgstr "Hibakeresési naplózás"
+
+msgid "Decline"
+msgstr "Elutasítás"
+
+msgid "Decline Invitation"
+msgstr "A meghívás elutasítása"
+
+msgid "Default"
+msgstr "Alapértelmezett"
+
+msgid "Default Sync Threshold"
+msgstr "Alapértelmezett szinkronizálási küszöb"
+
+msgid "Default Workspace"
+msgstr "Alapértelmezett munkaterület"
+
+msgid "Default device"
+msgstr "Alapértelmezett eszköz"
+
+msgid "Default for chats"
+msgstr "Alapértelmezett érték a beszélgetésekhez"
+
+msgid "Default for chats and private group chats"
+msgstr ""
+"Alapértelmezett érték a beszélgetésekhez és a nem nyilvános társalgókban"
+
+msgid "Default for group chats"
+msgstr "Alapértelmezett érték a társalgókban"
+
+msgid "Default for new group chats"
+msgstr "Alapértelmezett érték az új társalgókban"
+
+msgid "Default for new public group chats"
+msgstr "Alapértelmezett érték az új nyilvános társalgókban"
+
+msgid "Delete"
+msgstr "Törlés"
+
+msgid "Delete Theme"
+msgstr "Téma törlése"
+
+msgid "Deny"
+msgstr "Elutasítás"
+
+msgid "Description"
+msgstr "Leírás"
+
+msgid "Description: "
+msgstr "Leírás: "
+
+msgid "Destroy Group Chat…"
+msgstr "Társalgó megszüntetése…"
+
+msgid "Destroy This Chat"
+msgstr "A társalgó megszüntetése"
+
+msgid "Details"
+msgstr "Tulajdonságok"
+
+#, python-format
+msgid "Device \"%s\""
+msgstr "Eszköz: „%s”"
+
+msgid "Devices"
+msgstr "Eszközök"
+
+#, python-format
+msgid "Dictionary URL is missing a \"%s\""
+msgstr "A szótár URL-jében nincs „%s”"
+
+msgid "Direct Messages"
+msgstr "Közvetlen üzenetek"
+
+msgid "Direct transfer (not encrypted)"
+msgstr "Közvetlen fájlátvitel (titkosítás nélkül)"
+
+msgid "Directory"
+msgstr "Könyvtár"
+
+#, python-format
+msgid "Directory \"%s\" is not writable"
+msgstr "\"A könyvtár (%s) nem írható"
+
+msgid "Disable Account"
+msgstr "Fiók tiltása"
+
+msgid "Disabled"
+msgstr "Tiltva"
+
+msgid "Disabled in Preferences"
+msgstr "A beállításokban tiltva"
+
+msgid ""
+"Disclose information about media that is currently being played on your "
+"system."
+msgstr "A számítógépen aktuálisan játszott média információinak közzététele."
+
+msgid "Disclose information about the operating system you currently use"
+msgstr "A használt operációs rendszer adatainak közzététele"
+
+msgid "Disclose the local system time of the device Gajim runs on"
+msgstr "A helyi rendszeridő közzététele"
+
+msgid "Disclose the time of your last activity"
+msgstr "A legutóbbi tevékenység óta eltelt idő közzététele"
+
+msgid "Discover Services…"
+msgstr "Szolgáltatások felderítése…"
+
+msgid "Discussion Logs"
+msgstr "Vitanapló"
+
+msgid "Dismiss"
+msgstr "Elutasítás"
+
+#, python-format
+msgid "Do you accept this request (account: %s)?"
+msgstr "El legyen fogadva a kérés (fiók: %s)?"
+
+msgid "Do you accept this request?"
+msgstr "El legyen fogadva a kérés?"
+
+#, python-format
+msgid "Do you really want to remove \"%s\"?"
+msgstr "Biztosan törölhető: „%s”?"
+
+msgid ""
+"Do you really want to remove all chat messages from Gajim?\n"
+"Warning: This can’t be undone!\n"
+"Gajim will quit afterwards."
+msgstr ""
+"Biztosan törölhető az összes beszélgetés a Gajimból?\n"
+"Figyelem: ez a művelet nem vonható vissza!\n"
+"A Gajim ki fog lépni a művelet végeztével."
+
+msgid "Do you really want to remove your chat history for this chat?"
+msgstr "Biztosan törölhetők a beszélgetés előzményei?"
+
+msgid "Do you want to delete this theme?"
+msgstr "Törölhető a téma?"
+
+msgid "Do you want to overwrite the currently installed version?"
+msgstr "Felülírható a jelenleg telepített verzió?"
+
+#, python-format
+msgid "Do you want to unregister your account on <b>%s</b> as well?"
+msgstr "A kiszolgálóról (<b>%s</b>) is törölhető a fiók?"
+
+msgid "Don’t show this again"
+msgstr "Ne jelenjen meg újra"
+
+msgid "Download"
+msgstr "Letöltés"
+
+msgid "Download File"
+msgstr "Letöltés"
+
+msgid "Download Update"
+msgstr "Frissítés letöltése"
+
+msgid "Download and Install"
+msgstr "Letöltés és telepítés"
+
+#, python-format
+msgid "Download failed (%s)"
+msgstr "Nem sikerült a letöltés (%s)"
+
+#, python-format
+msgid "Downloaded %s messages"
+msgstr "%s üzenet lett letöltve"
+
+msgid "Downloading…"
+msgstr "Letöltés…"
+
+#, python-format
+msgid "Draft: %s"
+msgstr "Piszkozat: %s"
+
+msgid "Drop files here"
+msgstr "Ide ejthetők a fájlok"
+
+msgid "Drop files or contacts"
+msgstr "Ide ejthetők fájlok vagy névjegyek"
+
+msgid "Easily send pictures, videos or other files to friends and groups"
+msgstr ""
+"Könnyen küldhetők képek, videók vagy más fájlok a barátoknak vagy "
+"csoportoknak"
+
+msgid "Eating"
+msgstr "Étkezés"
+
+msgid "Edit Name…"
+msgstr "Név módosítása…"
+
+msgid "Edit Profile…"
+msgstr "Profil szerkesztése…"
+
+msgid "Edit workspace…"
+msgstr "A munkaterület módosítása…"
+
+msgid "Edit…"
+msgstr "Módosítás…"
+
+#, python-format
+msgid ""
+"Either a custom URL with %%s in it (where %%s is the word/phrase) or "
+"\"WIKTIONARY\" (which means use Wikitionary)."
+msgstr ""
+"Lehet egyéni URL, melyben a %%s jelöli a keresett szót/kifejezést, vagy "
+"lehet „WIKTIONARY”, a Wiktionary használatához."
+
+msgid "Email"
+msgstr "E-mail-cím"
+
+msgid "Emoji Shortcodes"
+msgstr "Hangulatjelkódok"
+
+msgid "Enable"
+msgstr "Engedélyez"
+
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+msgid ""
+"Enables Gajim to measure your computer’s idle time in order to set your "
+"Status automatically"
+msgstr ""
+"A tétlenül töltött idő alapján a jelenléti állapot automatikus beállítása"
+
+msgid "Enables Gajim to play sounds for various notifications"
+msgstr "Hangok lejátszása a különféle értesítésekhez"
+
+msgid "Enables Gajim to provide Audio and Video chats"
+msgstr "Hang- és videóbeszélgetések a Gajimban"
+
+msgid "Enables Gajim to provide a Audio preview"
+msgstr "Hangok kipróbálása a Gajimban"
+
+msgid "Enables Gajim to provide a notification area icon"
+msgstr "A Gajim ikonjának megjelenítése az értesítési területen"
+
+msgid ""
+"Enables Gajim to request your router to forward ports for file transfers"
+msgstr ""
+"A fájlátvitelhez szükséges portok továbbításának automatikus igénylése az "
+"útválasztótól"
+
+msgid "Enables Gajim to spell check your messages while composing"
+msgstr "Az üzenetek automatikus helyesírás-ellenőrzése"
+
+msgid ""
+"Enables Gajim to store Passwords securely instead of storing them in "
+"plaintext"
+msgstr ""
+"Biztonságos jelszótárolás az egyszerű szöveges fájlban történő tárolás "
+"helyett"
+
+msgid "Enables libappindicator, an alternative tray icon provider"
+msgstr "A libappindicator, mint alternatív tálcaikon-szolgáltató használata"
+
+#, python-format
+msgid "Encrypted (%s)"
+msgstr "Titkosított (%s)"
+
+msgid "Encrypted Certificate"
+msgstr "Titkosított tanúsítvány"
+
+msgid "Encrypting file…"
+msgstr "Fájltitkosítás…"
+
+msgid "Encryption error"
+msgstr "Titkosítási hiba"
+
+msgid "Encryption required"
+msgstr "Titkosítás szükséges"
+
+msgid "End call"
+msgstr "Hívás vége"
+
+msgid "Enter a password to join this chat"
+msgstr "A társalgó jelszavának megadása"
+
+msgid "Enter new password..."
+msgstr "Ú jelszó…"
+
+msgid "Enter your new nickname"
+msgstr "Új becenév megadása"
+
+msgid ""
+"Enter your nickname. This is how your name is displayed to your contacts."
+msgstr "A becenevem megadása. Ezen a néven láthatnak a beszélgetőtársak."
+
+msgid "Error"
+msgstr "Hiba"
+
+msgid "Error Loading Image"
+msgstr "Képbetöltési hiba"
+
+#, python-format
+msgid "Error message: %s"
+msgstr "Hibaüzenet: %s"
+
+msgid "Error opening file"
+msgstr "Fájlmegnyitási hiba"
+
+msgid "Error received: {}"
+msgstr "A hibaüzenet: {}"
+
+msgid "Error while Exporting"
+msgstr "Exportálási hiba"
+
+msgid "Error while processing image"
+msgstr "Képfeldolgozási hiba"
+
+msgid "Error while receiving search results."
+msgstr "Hiba történt a találatok fogadásakor."
+
+msgid "Error while retrieving search form."
+msgstr "Hiba történt a keresési űrlap lekérésekor."
+
+msgid "Error while uploading avatar"
+msgstr "A profilkép feltöltése nem sikerült"
+
+msgid "Error!"
+msgstr "Hiba!"
+
+#, python-format
+msgid "Error: %s"
+msgstr "Hiba: %s"
+
+#, python-format
+msgid "Error: cannot open %s for reading"
+msgstr "Hiba: %s nem olvasható"
+
+msgid "Even more features via plugins"
+msgstr "További funkciók hozzáadása bővítmények segítségével"
+
+msgid "Event"
+msgstr "Esemény"
+
+msgid "Everyone"
+msgstr "Mindenki"
+
+msgid "Everything"
+msgstr "Korlátlan"
+
+msgid "Execute"
+msgstr "Végrehajtás"
+
+msgid "Execute Command…"
+msgstr "Parancsvégrehajtás…"
+
+msgid "Executing…"
+msgstr "Parancsvégrehajtás…"
+
+msgid "Expires on"
+msgstr "Vége"
+
+msgid "Expires on: "
+msgstr "Lejárat: "
+
+msgid "Export"
+msgstr "Exportálás"
+
+msgid "Export Chat History"
+msgstr "Üzenetek exportálása"
+
+msgid "Export Finished"
+msgstr "Az exportálás kész"
+
+msgid "Export your chat history from Gajim"
+msgstr "A beszélgetések előzményeinek exportálása"
+
+msgid "Exporting History..."
+msgstr "Az üzenetek exportálása…"
+
+msgid "Exporting your messages..."
+msgstr "Az üzenetek exportálása…"
+
+msgid "Extended Address"
+msgstr "További cím"
+
+msgid "FA_Q (Online)"
+msgstr "_GYIK (Online)"
+
+msgid "Failed to Configure Group Chat"
+msgstr "A társalgó beállítása nem sikerült"
+
+msgid "Failed to Create Group Chat"
+msgstr "Nem sikerült létrehozni a társalgót"
+
+msgid "Failed to Join Group Chat"
+msgstr "Nem sikerült belépni a társalgóba"
+
+msgid "Failed to generate avatar."
+msgstr "Nem sikerült létrehozni a profilképet."
+
+msgid "Fake audio output"
+msgstr "Álkimenet"
+
+msgid "Feature not available on Windows"
+msgstr "A funkció Windows rendszeren nem érhető el"
+
+msgid "Features"
+msgstr "Funkciók"
+
+msgid "Features:"
+msgstr "Funkciók:"
+
+msgid "Feedback"
+msgstr "Visszajelzés"
+
+msgid "Female"
+msgstr "Nő"
+
+msgid "Fetching messages…"
+msgstr "Üzenetek letöltése…"
+
+msgid "File"
+msgstr "Fájl"
+
+msgid "File Name: "
+msgstr "Fájlnév: "
+
+msgid "File Offered"
+msgstr "Felkínálva átvitelre"
+
+msgid "File Offered…"
+msgstr "Felkínálva átvitelre…"
+
+msgid "File Preview"
+msgstr "Előnézet"
+
+msgid "File Size Limit"
+msgstr "Fájlméretkorlát"
+
+msgid "File Transfer"
+msgstr "Fájlátvitel"
+
+msgid "File Transfer Cancelled"
+msgstr "Megszakított fájlátvitel"
+
+msgid "File Transfer Completed"
+msgstr "Sikeres fájlátvitel"
+
+msgid "File Transfer Error"
+msgstr "Fájlátvitel hiba"
+
+msgid "File Transfer Failed"
+msgstr "Sikertelen fájlátvitel"
+
+msgid "File Transfer Stopped"
+msgstr "Befejezett fájlátvitel"
+
+msgid "File Transfers"
+msgstr "Fájlátvitelek"
+
+msgid "File Verification Failed"
+msgstr "Sikertelen fájlellenőrzés"
+
+msgid "File corrupted during transfer"
+msgstr "A fájl az átvitel során sérült"
+
+msgid "File does not exist"
+msgstr "Nem létező fájl"
+
+msgid "File error"
+msgstr "Fájlátviteli hiba"
+
+msgid "File is empty"
+msgstr "Üres fájl"
+
+#, python-format
+msgid "File is too large, maximum allowed file size is: %s"
+msgstr "A fájl túl nagy, a megengedett méret: %s"
+
+msgid "File size unknown"
+msgstr "Ismeretlen fájlméret"
+
+msgid "File too big, will use direct transfer (not encrypted)"
+msgstr ""
+"A fájl mérete miatt az átvitel közvetlenül történik (titkosítás nélkül)"
+
+msgid "File transfer stopped"
+msgstr "Befejezett fájlátvitel"
+
+msgid "File transfers"
+msgstr "Fájlátvitelek"
+
+#, python-format
+msgid "File: %s"
+msgstr "Fájl: %s"
+
+#, python-format
+msgid "Filename: %s"
+msgstr "Fájlnév: %s"
+
+msgid "Filetransfer Preference"
+msgstr "Fájlátvitel"
+
+msgid "Filter"
+msgstr "Szűrés"
+
+msgid "Filter Chats"
+msgstr "Beszélgetések szűrése"
+
+msgid "Filter Chats…"
+msgstr "A beszélgetések szűrése…"
+
+msgid "Fingerprints"
+msgstr "Ujjlenyomatok"
+
+msgid "Finished"
+msgstr "Befejeződött"
+
+#, python-format
+msgid ""
+"Finished synchronising chat history:\n"
+"%s messages downloaded"
+msgstr ""
+"Az előzmények szinkronizálása befejeződött:\n"
+"%s üzenet lett letöltve"
+
+msgid "For example: \"Julia is now online\""
+msgstr "Pédául: „Júlia mostantól elérhető”"
+
+msgid "Force Bookmark 2 usage"
+msgstr "A Bookmark 2 használatának kényszerítése"
+
+msgid "Forever"
+msgstr "Korlátlan"
+
+msgid "Forget Group Chat"
+msgstr "Társalgó elfelejtése"
+
+msgid "Forget this Group Chat"
+msgstr "Társalgó elfelejtése"
+
+msgid "Format error in CRL's lastUpdate field"
+msgstr "A CRL lastUpdate mezője formailag hibás"
+
+msgid "Format error in CRL's nextUpdate field"
+msgstr "A CRL nextUpdate mezője formailag hibás"
+
+msgid "Format error in certificate's notAfter field"
+msgstr "A tanúsítvány notAfter mezője formailag hibás"
+
+msgid "Format error in certificate's notBefore field"
+msgstr "A tanúsítvány notBefore mezője formailag hibás"
+
+msgid "Format your message"
+msgstr "Az üzenet karakterformázása"
+
+msgid "Free for Chat"
+msgstr "Ráér beszélgetni"
+
+msgid "From"
+msgstr "Ő"
+
+msgid "Full Name"
+msgstr "Teljes név"
+
+msgid "Fully-featured XMPP chat client"
+msgstr "Funkciógazdag XMPP üzenetküldő"
+
+#, python-format
+msgid "GLib Version: %s"
+msgstr "GLib verzió: %s"
+
+#, python-format
+msgid "GTK Version: %s"
+msgstr "GTK verzió: %s"
+
+msgid "Gajim"
+msgstr "Gajim"
+
+msgid "Gajim - Error"
+msgstr "Gajim – Hiba"
+
+msgid "Gajim Themes"
+msgstr "A Gajim témái"
+
+msgid "Gajim Update"
+msgstr "A Gajim frissítése"
+
+msgid ""
+"Gajim aims to be an easy to use and fully-featured XMPP client. Just chat "
+"with your friends or family, easily share pictures and thoughts or discuss "
+"the news with your groups."
+msgstr ""
+"A Gajim célja, hogy egy könnyen használható és sok funkcióval rendelkező "
+"XMPP-kliensként lehetőséget biztosítson az ismerősökkel való "
+"kapcsolattartásra, képek és gondolatok egyszerű megosztására, vagy hírek "
+"megvitatására."
+
+msgid "Gajim can not read this file"
+msgstr "A fájl nem olvasható"
+
+msgid ""
+"Gajim encountered an error.\n"
+"Please help us fixing this issue by sending this report."
+msgstr ""
+"Hiba lépett fel a program futása során.\n"
+"E jelentés elküldése segíthet kijavítani a hibát."
+
+msgid ""
+"Gajim integrates well with your other devices: simply continue conversations "
+"on your mobile device."
+msgstr ""
+"A Gajim kiválóan együttműködik más eszközökkel: egy beszélgetés egyszerűen "
+"folytatható mobil eszközről is."
+
+msgid "Gajim is fully synchronised with the archive."
+msgstr "A Gajim teljes szinkronban van az archívummal."
+
+msgid ""
+"Gajim was not able to reach the server. Make sure your XMPP address is "
+"correct."
+msgstr ""
+"A kiszolgáló nem érhető el. Ezt hibásan megadott XMPP-cím is okozhatja."
+
+msgid "Gajim will now exit"
+msgstr "A Gajim most kilép"
+
+msgid "Gathering information…"
+msgstr "Információk lekérése…"
+
+msgid "Gender"
+msgstr "Nem"
+
+msgid "General"
+msgstr "Általános"
+
+msgid "Global Group Chat Search"
+msgstr "Társalgó keresése globálisan"
+
+msgid "Global Proxy"
+msgstr "Globális proxy"
+
+msgid "Global Status"
+msgstr "Egységes jelenléti állapot"
+
+msgid "Go"
+msgstr "Ugrás"
+
+msgid "Grant Voice"
+msgstr "Szólási jog megadása"
+
+msgid "Group"
+msgstr "Csoport"
+
+msgid "Group Chat"
+msgstr "Társalgók"
+
+msgid "Group Chat Details"
+msgstr "A társalgó adatai"
+
+msgid "Group Chat Invitation"
+msgstr "Meghívás társalgóba"
+
+msgid "Group Chat Invitation Declined"
+msgstr "Meghívó visszautasítva"
+
+msgid "Group Chat Invitation Received"
+msgstr "Egy társalgóba szóló meghívó érkezett"
+
+msgid "Group Chat Language"
+msgstr "A társalgó nyelve"
+
+msgid "Group Chat Message Highlight"
+msgstr "Kiemelt üzenet érkezett egy társalgóba"
+
+msgid "Group Chat Message Received"
+msgstr "Üzenet érkezett egy társalgóba"
+
+msgid "Group Chats"
+msgstr "Társalgók"
+
+msgid "Group chat already exists"
+msgstr "A társalgó már létezik"
+
+msgid "Group chat can be found via search"
+msgstr "A társalgó kereséssel megtalálható"
+
+msgid "Group chat does not exist"
+msgstr "A társalgó nem létezik"
+
+msgid "Group chat has been destroyed"
+msgstr "A társalgó megszűnt"
+
+msgid "Group chat is closed"
+msgstr "A társalgó be van zárva"
+
+msgid "Group chat is now fully anonymous"
+msgstr "A társalgóban mostantól teljesen névtelen a jelenlét"
+
+msgid "Group chat is now non-anonymous"
+msgstr "A társalgóban mostantól nem névtelen a jelenlét"
+
+msgid "Group chat is now semi-anonymous"
+msgstr "A társalgóban mostantól félig névtelen a jelenlét"
+
+msgid "Group chat now does not show unavailable members"
+msgstr "A társalgóban mostantól nem láthatók a távollévő tagok"
+
+msgid "Group chat now shows unavailable members"
+msgstr "A társalgóban mostantól láthatók a távollévő tagok is"
+
+msgid "Group chat support"
+msgstr "Csoportos beszélgetések"
+
+msgid "Groups"
+msgstr "Csoportok"
+
+msgctxt "proxy configuration"
+msgid "HTTP"
+msgstr "HTTP"
+
+#, python-format
+msgid "HTTP (%(method)s) Authorization for %(url)s (ID: %(id)s)"
+msgstr "HTTP (%(method)s) engedélykérés ehhez: %(url)s (ID: %(id)s)"
+
+msgid "HTTP Authorization Request"
+msgstr "HTTP engedélykérelem"
+
+msgid "HTTPS Verification"
+msgstr "HTTPS ellenőrzése"
+
+#, python-format
+msgid "Hello, I am $name. %s"
+msgstr "Szia! $name vagyok. %s"
+
+msgid "Helps to establish calls through firewalls"
+msgstr "A hívások tűzfalakon át történő felépítésének segítése"
+
+msgid "Hide"
+msgstr "Elrejtés"
+
+msgid "Hide chat list"
+msgstr "A beszélgetéslista elrejtése"
+
+msgid "Hide this menu"
+msgstr "E menü elrejtése"
+
+msgid "Home"
+msgstr "Otthoni"
+
+msgid "Homepage"
+msgstr "Weboldal"
+
+msgid "Hostname"
+msgstr "Kiszolgálónév"
+
+msgid "How far back should the chat history be synchronised?"
+msgstr "Milyen régi üzenetek legyenek szinkronizálva?"
+
+msgid "How long Gajim should keep your chat history"
+msgstr "A korábbi beszélgetések tárolásának ideje"
+
+msgid "I can see contact's online status"
+msgstr "A jelenléti állapot láthatósága"
+
+msgid "I would like to add you to my contact list."
+msgstr "Szeretnélek felvenni az ismerőseim közé."
+
+msgid "I would like to add you to my roster."
+msgstr "Szeretnélek felvenni az ismerőseim közé."
+
+msgid "IEC standard says KiB = 1024 bytes, KB = 1000 bytes."
+msgstr "Az IEC-szabvány szerinti KiB = 1024 bytes, KB = 1000 bytes használata."
+
+msgid "IM Address"
+msgstr "Azonnali üzenetküldő címe"
+
+msgid "Id"
+msgstr "Azonosító"
+
+msgid "Identified Error"
+msgstr "Azonosítási hiba"
+
+msgid "Idle Time"
+msgstr "Tétlenségi idő"
+
+#, python-format
+msgid "Idle since: %s"
+msgstr "Utolsó aktivitás: %s"
+
+msgid ""
+"If enabled, Gajim makes the window flash (the default behaviour in most "
+"Window Managers) when holding pending events."
+msgstr ""
+"Az ablak villogtatása (a legtöbb ablakkezelőnél ez az alapértelmezett "
+"viselkedés) függőben lévő eseményeknél."
+
+msgid "If enabled, Gajim offers to download plugins hosted on gajim.org"
+msgstr "A gajim.org webhelyen lévő bővítmények letöltésének felajánlása"
+
+msgid "If enabled, Gajim will ignore incoming attention requests (\"wizz\")."
+msgstr "A figyelemkérő üzenetek („wizz”) figyelmen kívül hagyása."
+
+msgid ""
+"If enabled, Gajim will save the main window position when hiding it, and "
+"restore it when showing the window again."
+msgstr ""
+"A főablak pozíciójának mentése elrejtéskor, és visszaállítása ismételt "
+"megnyitáskor."
+
+msgid ""
+"If enabled, Gajim will try to use a STUN server when using Jingle. The one "
+"in \"stun_server\" option, or the one given by the XMPP server."
+msgstr ""
+"A Jingle használata STUN-kiszolgáló segítségével. Vagy a „stun_server” "
+"beállításban megadott, vagy az XMPP-kiszolgáló által felajánlott lesz "
+"használva."
+
+msgid ""
+"If enabled, you will be able to set a negative priority to your account in "
+"the Accounts window. BE CAREFUL, when you are logged in with a negative "
+"priority, you will NOT receive any message from your server."
+msgstr ""
+"Negatív prioritás megadásának engedélyezése a fiók tulajdonságainak "
+"beállításakor. VIGYÁZAT: negatív prioritás esetén semmilyen üzenet nem "
+"érkezik meg a kiszolgálótól."
+
+#, python-format
+msgid "If you close this chat, you will leave \"%s\"."
+msgstr "A beszélgetés bezárása a társalgó („%s”) elhagyásával jár."
+
+msgid ""
+"If you quit now, the file(s) being transferred will be lost.\n"
+"Do you still want to quit?"
+msgstr ""
+"Kilépéskor a folyamatban lévő fájlátvitelek megszakadnak.\n"
+"Kilépés mégis?"
+
+msgid "Ignore Unknown Contacts"
+msgstr "Idegenek mellőzése"
+
+msgid "Ignore everything from contacts not in your contact list"
+msgstr ""
+"A névjegyekben nem szereplőktől származó események figyelmen kívül hagyása"
+
+msgid "Image"
+msgstr "Kép"
+
+msgid "Images"
+msgstr "Képek"
+
+msgid "Import Contacts"
+msgstr "Névjegyek importálása"
+
+msgid ""
+"In order to write messages in this chat, you need to request voice first.\n"
+"A moderator will process your request."
+msgstr ""
+"Ebben a társalgóban hozzászólás előtt szót kell kérni.\n"
+"Egy moderátor fogja elbírálni a kérést."
+
+msgid "Incoming Call"
+msgstr "Bejövő hívás"
+
+msgid "Incoming Call (Video)"
+msgstr "Bejövő videóhívás"
+
+msgid "Information"
+msgstr "Információ"
+
+msgid "Insecure Connection"
+msgstr "Nem biztonságos kapcsolat"
+
+msgid "Insert Emoji"
+msgstr "Hangulatjel beszúrása"
+
+msgid "Install <tt>sentry-sdk</tt> to make reporting issues easier."
+msgstr "A <tt>sentry-sdk</tt> telepítésével könnyebbé tehető a hibajelentés."
+
+msgid "Install Plugin from ZIP-File"
+msgstr "Bővítmény telepítése ZIP-fájlból"
+
+msgid "Install a keyring to store passwords on your system."
+msgstr "Ajánlott egy kulcstartót telepíteni a jelszavak tárolásához."
+
+msgid "Install from File…"
+msgstr "Telepítés fájlból…"
+
+msgid "Installation failed"
+msgstr "A telepítés nem sikerült"
+
+msgid "Installed"
+msgstr "Telepítve"
+
+msgid "Invalid Address"
+msgstr "Érvénytelen cím"
+
+msgid "Invalid CA certificate"
+msgstr "Érvénytelen CA-tanúsítvány"
+
+msgid "Invalid File"
+msgstr "Érvénytelen fájl"
+
+msgid "Invalid Name"
+msgstr "Érvénytelen név"
+
+msgid "Invalid Node"
+msgstr "Érvénytelen csomópont"
+
+msgid "Invalid Server Name"
+msgstr "Érvénytelen kiszolgálónév"
+
+msgid "Invalid XMPP Address"
+msgstr "Érvénytelen XMPP-cím"
+
+#, python-format
+msgid "Invalid address: %s"
+msgstr "Érvénytelen cím: %s"
+
+msgid "Invalid domain name"
+msgstr "Érvénytelen kiszolgálónév"
+
+msgid "Invite"
+msgstr "Meghívás"
+
+msgid "Invite Contacts"
+msgstr "Ismerősök meghívása"
+
+msgid "Invite Contacts…"
+msgstr "Ismerősök meghívása…"
+
+msgid "Invite New Contact"
+msgstr "Új ismerős meghívása"
+
+msgid "Invite friends to group chats or join one"
+msgstr ""
+"A barátokat meg lehet hívni társalgókba, csatlakozni lehet társalgókhoz"
+
+msgid "Invitees"
+msgstr "Meghívottak"
+
+msgid "Issued by"
+msgstr "Kibocsátó"
+
+msgid "Issued by\n"
+msgstr "Kibocsátó\n"
+
+msgid "Issued on"
+msgstr "Kezdete"
+
+msgid "Issued on: "
+msgstr "Érvényesség kezdete: "
+
+msgid "Issued to"
+msgstr "Tulajdonos"
+
+msgid "Issued to\n"
+msgstr "Tulajdonos\n"
+
+msgid "It is not possible to send empty files"
+msgstr "Üres fájlokat nem lehet küldeni"
+
+msgid "I’m eating."
+msgstr "Eszek."
+
+msgid "I’m out enjoying life."
+msgstr "Kint vagyok a szabadban, élvezem az életet."
+
+#, python-format
+msgid ""
+"I’m synchronizing my contacts from my account at \"%s\". Could you please "
+"add this address to your contact list?"
+msgstr ""
+"Szinkronizálom a(z) „%s” kiszolgálón lévő fiókom névjegyeit. Hozzáadnád ezt "
+"a címet a névjegyeidhez?"
+
+msgid "I’m watching a movie."
+msgstr "Filmet nézek."
+
+msgid "I’m working."
+msgstr "Dolgozom."
+
+msgid "JID"
+msgstr "JID"
+
+msgid "JPEG files"
+msgstr "JPEG-fájlok"
+
+msgid "Join"
+msgstr "Belépés"
+
+msgid "Join Group Chat"
+msgstr "Belépés társalgóba"
+
+msgid "Join Group Chat as…"
+msgstr "Belépés társalgóba mint…"
+
+msgid "Join Group Chat?"
+msgstr "Belépés társalgóba"
+
+msgid "Join Groupchat"
+msgstr "Belépés társalgóba"
+
+msgid "Join Support Chat"
+msgstr "Terméktámogatási társalgó"
+
+msgid "Joining…"
+msgstr "Csatlakozás…"
+
+msgid "Join…"
+msgstr "Csatlakozás…"
+
+msgid "Just now"
+msgstr "Az imént"
+
+msgid "Keep Chat History"
+msgstr "A beszélgetések mentése"
+
+msgid "Keep and manage all your chat history"
+msgstr "A beszélgetési előzmények tárolása és kezelése"
+
+msgid "Key usage does not include certificate signing"
+msgstr "A kulcshasználat nem tartalmaz tanúsítvány-aláírást"
+
+msgid "Kick"
+msgstr "Kidobás"
+
+#, python-format
+msgid "Kick %s"
+msgstr "%s kidobása"
+
+msgid "Kick…"
+msgstr "Kidobás…"
+
+msgid "Label"
+msgstr "Címke"
+
+msgid "Last but not least"
+msgstr "Végül, de nem utolsó sorban"
+
+msgid "Leave Group Chat"
+msgstr "Társalgó elhagyása"
+
+msgid "Left Click Action"
+msgstr "Bal egérgomb művelete"
+
+msgid "Let others know if you read up to this point"
+msgstr "Értesítés küldése az üzenet elolvasásáról"
+
+msgid ""
+"List of send hosts (comma separated) in addition to local interfaces for "
+"file transfers (in case of address translation/port forwarding)."
+msgstr ""
+"Szóközökkel tagolt felsorolás a helyi kapcsolatok mellett fájlküldésre "
+"használandó további gépekről (címfordítás/porttovábbítás esetén)."
+
+msgid "Listing of Servers"
+msgstr "Kiszolgálók listája"
+
+msgid "Live Preview"
+msgstr "Előnézet"
+
+msgid "Load Image"
+msgstr "Kép betöltése"
+
+msgid "Loading Avatar Failed"
+msgstr "A profilkép betöltése nem sikerült"
+
+msgid "Loading avatar image failed"
+msgstr "A profilkép betöltése nem sikerült"
+
+msgid "Loading…"
+msgstr "Betöltés…"
+
+msgid "Local System Time"
+msgstr "Helyi rendszeridő"
+
+msgid "Local Time"
+msgstr "Helyi idő"
+
+#, python-format
+msgid "Location at %s"
+msgstr "Hely: %s"
+
+msgid "Location:"
+msgstr "Tartózkodási hely:"
+
+msgid "Log In"
+msgstr "Bejelentkezés"
+
+msgid "Log in with your credentials"
+msgstr "Bejelentkezés hitelesítő adatokkal"
+
+msgid "Login"
+msgstr "Bejelentkezés"
+
+msgid "Login Settings"
+msgstr "Bejelentkezési beállítások"
+
+msgid "Look it up in _Dictionary"
+msgstr "Szócikk az értelmező _szótárban"
+
+msgid ""
+"Lookup things on Wikipedia, dictionaries or other search engines directly "
+"from the chat window"
+msgstr ""
+"A beszélgetésekből közvetlenül lehet keresni a Wikipédián, szótárakban vagy "
+"más keresőkkel is"
+
+msgid "Make Admin"
+msgstr "Adminisztrátori jog adása"
+
+msgid "Make Member"
+msgstr "Tagsági jog adása"
+
+msgid "Make Owner"
+msgstr "Tulajdonosi jog adása"
+
+msgid "Make your profile visible for everyone or just for your contacts."
+msgstr "A profil láthatóvá tehető mindenkinek vagy csak az ismerősöknek."
+
+msgid "Male"
+msgstr "Férfi"
+
+msgid "Manage"
+msgstr "Kezelés"
+
+msgid "Manage Proxies"
+msgstr "Proxyk kezelése"
+
+msgid "Manage Proxies..."
+msgstr "Proxyk kezelése…"
+
+msgid "Manage Sounds"
+msgstr "Hangjelzések kezelése"
+
+msgid "Manually set the hostname for the server"
+msgstr "A kiszolgáló gépnevének kézi beállítása"
+
+msgid "Mark as Read"
+msgstr "Megjelölés olvasottként"
+
+msgid "Mark as read"
+msgstr "Megjelölés olvasottként"
+
+msgid "Maximum file size for preview downloads"
+msgstr "Letöltési méretkorlát az előnézet létrehozásakor"
+
+msgid "Me"
+msgstr "Én"
+
+msgid "Media Playback"
+msgstr "Médialejátszás"
+
+msgid "Member"
+msgstr "Tag"
+
+msgid "Members"
+msgstr "Tagok"
+
+msgid "Mention: Message Background Color"
+msgstr "Említés: üzenet háttérszíne"
+
+msgid "Message"
+msgstr "Üzenet"
+
+msgid "Message Correction: Background Color"
+msgstr "Üzenet helyesbítése: háttérszín"
+
+msgid "Message Receipts (✔)"
+msgstr "Üzenetnyugták (✔)"
+
+msgid "Message Received"
+msgstr "Üzenet érkezett"
+
+msgid "Message Sent"
+msgstr "Üzenet elküldve"
+
+msgid "Message composition"
+msgstr "Üzenetszerkesztés"
+
+#, python-format
+msgid ""
+"Message corrected. Original message:\n"
+"%s"
+msgstr ""
+"Helyesbített üzenet. Az eredeti üzenet:\n"
+"%s"
+
+msgid "Messages are archived on the server"
+msgstr "Az üzeneteket a kiszolgáló tárolja"
+
+msgid ""
+"Messages will only be available for reading them later if storing chat "
+"history is enabled and if the contact is in your contact list."
+msgstr ""
+"Az üzenetek később már csak akkor olvashatók el, ha a beszélgetések mentése "
+"be van kapcsolva és a másik fél szerepel a névjegyek között."
+
+msgid "Minimize"
+msgstr "Minimalizálás"
+
+msgid "Minutes until your status gets changed"
+msgstr "Percben megadott tétlenség, miután a jelenléti állapot megváltozik"
+
+msgid "Miscellaneous"
+msgstr "Vegyes"
+
+msgid "Missing dependencies for Audio/Video"
+msgstr "A hang-/videóhíváshoz szükséges összetevők hiányoznak"
+
+msgid "Missing necessary encryption plugin"
+msgstr "A titkosítás bővítménye hiányzik"
+
+msgid "Moderation"
+msgstr "Moderálás"
+
+msgid "Moderator"
+msgstr "Moderátor"
+
+msgid "Moderators"
+msgstr "Moderátorok"
+
+msgid "Modify"
+msgstr "Módosítás"
+
+msgid "Modify Gateway…"
+msgstr "Átjáró módosítása…"
+
+msgid "Move Chat"
+msgstr "Beszélgetés mozgatása"
+
+msgid "Movie"
+msgstr "Filmnézés"
+
+msgid "Must be a port number"
+msgstr "A port számát kell megadni"
+
+msgid "Mute Sounds"
+msgstr "Hangok némítása"
+
+msgid "My Workspace"
+msgstr "Munkaterület"
+
+msgid "Name"
+msgstr "Név"
+
+msgid "Name <b>default</b> is not allowed"
+msgstr "A <b>default</b> nem használható névként"
+
+msgid "Needs gspell to be installed"
+msgstr "A Gspell szükséges hozzá"
+
+msgid "Never"
+msgstr "Soha"
+
+msgid "Never miss a message, keep all your chat clients synchronized"
+msgstr "A csevegőklienseket szinkronban tartva egy üzenet sem vész el"
+
+msgid "New Contact"
+msgstr "Új ismerős"
+
+msgid "New Group"
+msgstr "Új csoport"
+
+msgid "New Search"
+msgstr "Új keresés"
+
+msgid "New Workspace"
+msgstr "Új munkaterület"
+
+msgid "New message from"
+msgstr "Új üzenet tőle:"
+
+msgid "Next"
+msgstr "Következő"
+
+msgid "Nickname"
+msgstr "Becenév"
+
+msgid "No"
+msgstr "Nem"
+
+msgid "No Connection Available"
+msgstr "Nincs kapcsolat"
+
+msgid "No File Transfer available"
+msgstr "Nem lehet fájlt küldeni"
+
+msgid "No Notifications"
+msgstr "Nincs értesítés"
+
+msgid "No Proxy"
+msgstr "Nincs proxy"
+
+msgid "No Results Found"
+msgstr "Nincs találat"
+
+msgid "No Sync"
+msgstr "Nincs szinkronizálás"
+
+msgid "No Threshold"
+msgstr "Korlátlan"
+
+msgid "No additional requirements"
+msgstr "Nincs további követelmény"
+
+msgid "No commands available"
+msgstr "Nincsenek parancsok"
+
+msgid "No contact addresses published for this server."
+msgstr "Nincs megadva elérhetőség a kiszolgálóhoz."
+
+msgid ""
+"No contacts found\n"
+"You can also type an XMPP address"
+msgstr ""
+"Nincs a feltételnek megfelelő névjegy.\n"
+"XMPP-címet is meg lehet adni"
+
+msgid ""
+"No contacts left.\n"
+"You can also type an XMPP address."
+msgstr ""
+"Nincs a feltételnek megfelelő névjegy.\n"
+"XMPP-címet is meg lehet adni."
+
+msgid "No devices online"
+msgstr "Nincs csatlakozott eszköz"
+
+msgid "No info available"
+msgstr "Nincs információ"
+
+msgid "No proxy used"
+msgstr "Nincs proxy"
+
+msgid "No results"
+msgstr "Nincs találat"
+
+msgid "No results found"
+msgstr "Nincs találat"
+
+msgid "No updates available"
+msgstr "Nincsenek frissítések"
+
+msgid "Node"
+msgstr "Csomópont"
+
+msgid "Not Available"
+msgstr "Tartósan távol"
+
+msgid "Not Connected"
+msgstr "Nincs kapcsolat"
+
+msgid "Not accelerated"
+msgstr "Nincs gyorsítás"
+
+msgid "Not available"
+msgstr "Nem érhető el"
+
+msgid "Not encrypted"
+msgstr "Nem titkosított"
+
+msgid "Note to myself"
+msgstr "Feljegyzés magamnak"
+
+msgid "Note: Anonymous accounts are not possible on all servers"
+msgstr "Figyelem: nem minden kiszolgálón lehet névtelen fiókot létrehozni"
+
+msgid "Notes"
+msgstr "Megjegyzések"
+
+msgid "Notification Area Icon"
+msgstr "Ikon az értesítési területen"
+
+msgid "Notification Sounds"
+msgstr "Értesítési hangok"
+
+msgid "Notifications"
+msgstr "Értesítések"
+
+msgid "Notifications When Away"
+msgstr "Értesítések távollét esetén is"
+
+msgid "Notify after update"
+msgstr "Értesítés frissítés után"
+
+msgid "Notify me when the automatic update was successful"
+msgstr "Üzenet megjelenítése az automatikus frissítés végeztével"
+
+msgid "Notify of events in the notification area."
+msgstr "Értesítések megjelenítése az értesítési területen."
+
+msgid "Notify on all Messages"
+msgstr "Értesítés minden üzenetről"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Offline"
+msgstr "Kijelentkezett"
+
+msgid "One Month"
+msgstr "Egy hónap"
+
+msgid "One Year"
+msgstr "Egy év"
+
+msgid "Online Status"
+msgstr "Jelenléti állapot"
+
+msgid "Only Admins and Owners can modify the affiliation"
+msgstr ""
+"Csak az adminisztrátorok és a tulajdonos módosíthatják a tagsági szintet"
+
+msgid "Only moderators can see your XMPP address"
+msgstr "Csak a moderátorok látják a tagok címét"
+
+msgid "Open"
+msgstr "Megnyitás"
+
+msgid "Open Email Composer"
+msgstr "Levelező _megnyitása"
+
+msgid "Open Folder"
+msgstr "Mappa megnyitása"
+
+msgid "Open Link in Browser"
+msgstr "Hivatkozás megnyitása böngészőben"
+
+msgid "Open Link in _Browser"
+msgstr "_Hivatkozás megnyitása böngészőben"
+
+msgid "Open Plugins…"
+msgstr "Bővítmények megnyitása…"
+
+msgid "Open _Folder"
+msgstr "M_appa megnyitása"
+
+msgid "Open as _Link"
+msgstr "Megnyitás _hivatkozásként"
+
+msgid "Open folder"
+msgstr "Mappa megnyitása"
+
+msgid "Open search bar"
+msgstr "Keresőpanel megnyitása"
+
+msgid "OpenGL accelerated"
+msgstr "OpenGL gyorsítással"
+
+msgid "Operating System"
+msgstr "Operációs rendszer"
+
+msgid "Organisation"
+msgstr "Szervezet"
+
+msgid "Organization (O)"
+msgstr "Szervezet (O)"
+
+msgid "Organization (O): "
+msgstr "Szervezet (O): "
+
+msgid "Organizational Unit (OU)"
+msgstr "Szervezeti egység (OU)"
+
+msgid "Organizational Unit (OU): "
+msgstr "Szervezeti egység (OU): "
+
+msgid "Organize your chats with workspaces"
+msgstr "A beszélgetések munkaterületekre rendszerezhetőek"
+
+msgid "Others"
+msgstr "Egyéb"
+
+msgid "Out"
+msgstr "Szabadban"
+
+msgid "Out of memory"
+msgstr "Elfogyott a memória"
+
+msgid "Outcasts"
+msgstr "Kitiltottak"
+
+msgid "Overwrite Plugin?"
+msgstr "Felül legyen írva a bővítmény?"
+
+msgid "Owner"
+msgstr "Tulajdonos"
+
+msgid "Owners"
+msgstr "Tulajdonosok"
+
+msgid "PEP Configuration"
+msgstr "PEP beállítások"
+
+#, python-format
+msgid "PEP Service Configuration (%s)"
+msgstr "PEP szolgáltatások beállítása (%s)"
+
+#, python-format
+msgid ""
+"PEP node %(node)s was not removed:\n"
+"%(message)s"
+msgstr ""
+"A PEP-elem (%(node)s) nem lett eltávolítva:\n"
+"%(message)s"
+
+msgid "PEP node was not removed"
+msgstr "A PEP-elem nem lett eltávolítva"
+
+msgid "PKCS12 Files"
+msgstr "PKCS12-fájlok"
+
+msgid "PNG files"
+msgstr "PNG-fájlok"
+
+msgid "Pa_use/Resume"
+msgstr "Szü_net/folytatás"
+
+#, python-format
+msgid "Pango Version: %s"
+msgstr "Pango verzió: %s"
+
+msgid "Participant"
+msgstr "Résztvevő"
+
+msgid "Participants"
+msgstr "Résztvevők"
+
+msgid "Participants asking for voice:"
+msgstr "Résztvevők, akik szót kértek:"
+
+msgid "Participants entering this group chat are allowed to send messages"
+msgstr "A társalgóba belépők küldhetnek üzeneteket"
+
+msgid ""
+"Participants entering this group chat need to request permission to send "
+"messages"
+msgstr "A társalgóba belépve engedélyt kell kérni az üzenetek küldéséhez"
+
+msgid "Pass_word"
+msgstr "Jel_szó"
+
+msgid "Password"
+msgstr "Jelszó"
+
+msgid "Password Change Failed"
+msgstr "Sikertelen jelszómódosítás"
+
+msgid "Password Changed"
+msgstr "A jelszó megváltozott"
+
+msgid "Password Required"
+msgstr "Jelszó szükséges"
+
+msgid "Passwords do not match"
+msgstr "A jelszavak nem egyeznek"
+
+msgid "Past Developers"
+msgstr "Fejlesztők voltak"
+
+msgid "Paste Last Input"
+msgstr "A legutóbb bevitt adat beillesztése"
+
+msgid "Paste as Code Block"
+msgstr "Beillesztés forráskódként"
+
+msgid "Paste as Quote"
+msgstr "Beillesztés idézetként"
+
+msgid "Path length constraint exceeded"
+msgstr "Az elérési út túl hosszú"
+
+msgid "Pause or resume file transfer"
+msgstr "A fájlátvitel szüneteltetése vagy folytatása"
+
+msgid "Pending Event"
+msgstr "Várakozó események"
+
+msgid "Pending Voice Requests"
+msgstr "Várakozó szólási kérelmek"
+
+msgid "Personal notes about this contact"
+msgstr "Személyes megjegyzések a névjegyhez"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Phone No."
+msgstr "Telefonszám"
+
+msgid "Picture and Name"
+msgstr "Profilkép és név"
+
+msgid "Pin Chat"
+msgstr "Beszélgetés kitűzése"
+
+msgid "Pinned"
+msgstr "Kitűzve"
+
+msgid "Pipewire"
+msgstr "Pipewire"
+
+msgid "Pl_ugins"
+msgstr "Bő_vítmények"
+
+msgid "Play Sound"
+msgstr "Hang lejátszása"
+
+msgid "Play Sounds"
+msgstr "Hangok lejátszása"
+
+msgid "Play sounds even when you are Away, Busy, etc."
+msgstr "Hangok lejátszása „távol”, „elfoglalt” stb. jelenléti állapotnál"
+
+msgid "Play sounds to notify about events"
+msgstr "Figyelmeztetés hangjelzéssel az eseményekre"
+
+msgid "Please choose an account"
+msgstr "Fiók választása"
+
+msgid "Please enter an XMPP address"
+msgstr "XMPP-cím megadása"
+
+msgid "Please enter your credentials or Sign Up"
+msgstr "Azonosítóadatok megadása vagy regisztráció"
+
+msgid "Please enter your new password."
+msgstr "Az új jelszó megadása."
+
+#, python-format
+msgid ""
+"Please enter your password for\n"
+"%(jid)s\n"
+"(Account: %(account)s)"
+msgstr ""
+"Jelszó megadása ehhez:\n"
+"%(jid)s\n"
+"(Fiók: %(account)s)"
+
+#, python-format
+msgid "Please make sure you are connected with \"%s\"."
+msgstr "Ellenőrizni kell, hogy csatlakozva van-e a fiók (%s)."
+
+msgid ""
+"Please select one of your accounts.\n"
+"Gajim will export all messages from the selected account to a directory of "
+"your choice."
+msgstr ""
+"Választani kell egy fiókot.\n"
+"Ennek a fióknak az összes üzenete a megadott könyvtárba lesz exportálva."
+
+msgid "Please use these settings with caution!"
+msgstr "Ez a funkció körültekintéssel használandó!"
+
+msgid "Please use yyyy-mm-dd"
+msgstr "Dátumformátum: ÉÉÉÉ-HH-NN"
+
+msgid "Plugin Settings"
+msgstr "Bővítménybeállítások"
+
+msgid "Plugin Updates"
+msgstr "Bővítmények frissítése"
+
+msgid "Plugin already exists"
+msgstr "A bővítmény már létezik"
+
+msgid "Plugin failed"
+msgstr "A bővítmény betöltése nem sikerült"
+
+msgid "Plugin manager"
+msgstr "Bővítménykezelő"
+
+msgid "Plugins"
+msgstr "Bővítmények"
+
+msgid "Plugins Updated Successfully"
+msgstr "A bővítmények frissítése sikerült"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Port must be a number between 0 and 65535"
+msgstr "A port egy 0 és 65535 közötti szám kell legyen"
+
+msgid "Post Office Box"
+msgstr "Postacím"
+
+msgid "Postal Code"
+msgstr "Irányítószám"
+
+msgid "Prefer direct messages in private group chats "
+msgstr ""
+"A közvetlen üzenetek előnyben részesítése a nem nyilvános társalgókban "
+
+msgid "Preferences"
+msgstr "Beállítások"
+
+msgid "Preferred file transfer mechanism for file drag&drop on a chat window"
+msgstr "A beszélgetésbe ejtett fájlok küldési módja"
+
+msgid "Presets"
+msgstr "Sablonok"
+
+msgid "Preview Size"
+msgstr "Előnézet mérete"
+
+msgid "Preview all Image URLs"
+msgstr "Előnézet minden képhivatkozáshoz"
+
+msgid "Preview in Public Group Chats"
+msgstr "Előnézet nyilvános társalgókban"
+
+msgid "Preview new messages in notification popup?"
+msgstr "Szerepeljen-e az üzenet előnézete az értesítésben?"
+
+msgid "Previous"
+msgstr "Előző"
+
+msgid "Print XML stanzas and other debug information"
+msgstr "XML üzenetblokkok és egyéb hibakeresési információk kiírása"
+
+msgid "Priority"
+msgstr "Prioritás"
+
+msgid "Privacy"
+msgstr "Magánélet védelme"
+
+msgid "Private"
+msgstr "Nem nyilvános"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile application with cprofile"
+msgstr "Az alkalmazás profilozása cProfile-lal"
+
+msgid "Progress"
+msgstr "Állapot"
+
+msgid "Prox_y"
+msgstr "Prox_y"
+
+msgid "Proxy"
+msgstr "Proxy"
+
+msgid "Proxy Host"
+msgstr "Proxy gépneve"
+
+msgid "Proxy Type"
+msgstr "Proxy típusa"
+
+msgid "Proxy, custom hostname and port"
+msgstr "Proxy, egyéni gépnév/port"
+
+msgid "Public"
+msgstr "Nyilvános"
+
+#, python-format
+msgid "Pulse: %s"
+msgstr "Pulse: %s"
+
+msgid "Purge Chat History…"
+msgstr "Beszélgetési előzmények törlése…"
+
+msgid "Purge all Chat History"
+msgstr "Beszélgetési előzmények törlése"
+
+#, python-format
+msgid "PyGObject Version: %s"
+msgstr "PyGObject verzió: %s"
+
+msgid "Quit"
+msgstr "Kilépés"
+
+msgid "Quit Gajim"
+msgstr "Kilépés a programból"
+
+msgid "Re-Login"
+msgstr "Ismételt bejelentkezés"
+
+msgid "Re-Login now?"
+msgstr "Bejelentkezés újra?"
+
+msgid "Re_gister"
+msgstr "Re_gisztrálás"
+
+msgid "Read _Wikipedia Article"
+msgstr "Szócikk a _Wikipédián"
+
+msgid "Really block this contact?"
+msgstr "Biztos tiltható ez az ismerős?"
+
+msgid "Reason"
+msgstr "Indoklás"
+
+msgid "Reason (optional)"
+msgstr "Indoklás (nem kötelező)"
+
+msgid "Reason (optional)..."
+msgstr "Indoklás (nem kötelező)…"
+
+msgid "Reason for destruction"
+msgstr "A megszűnés oka"
+
+#, python-format
+msgid "Reason: %s"
+msgstr "Ok: %s"
+
+msgid "Recent history"
+msgstr "Legutóbbii üzenetek"
+
+msgid "Recipient: "
+msgstr "Címzett: "
+
+#, python-format
+msgid "Recipient: %s"
+msgstr "Címzett: %s"
+
+msgid "Recognize your account by color"
+msgstr "A fiók megkülönböztető színének kiválasztása"
+
+msgid "Redirect"
+msgstr "Átirányítás"
+
+msgid "Register"
+msgstr "Regisztrálás"
+
+msgid "Register on the Website"
+msgstr "Webes regisztráció"
+
+msgid "Registering…"
+msgstr "Regisztrálás…"
+
+msgid "Registration failed"
+msgstr "Sikertelen regisztráció"
+
+msgid "Registration successful"
+msgstr "Sikeres regisztráció"
+
+msgid "Reject file transfer"
+msgstr "Fájlátvitel elutasítása"
+
+msgid "Remember Last Status"
+msgstr "A legutóbbi jelenléti állapot mentése"
+
+msgid "Remote server not found"
+msgstr "A kiszolgáló nem található"
+
+msgid "Remote server timeout"
+msgstr "Időtúllépés"
+
+msgid "Remove"
+msgstr "Eltávolítás"
+
+msgid "Remove Account"
+msgstr "Fiók törlése"
+
+msgid "Remove Chat History"
+msgstr "Beszélgetési előzmények törlése"
+
+msgid "Remove Chat History?"
+msgstr "Törölhetők az előzmények?"
+
+msgid "Remove Contact"
+msgstr "Névjegy törlése"
+
+msgid "Remove Group"
+msgstr "Csoport törlése"
+
+msgid "Remove Group..."
+msgstr "Csoport törlése…"
+
+msgid "Remove History…"
+msgstr "Előzmények törlése…"
+
+msgid "Remove Notification"
+msgstr "Értesítés törlése"
+
+msgid "Remove Proxy"
+msgstr "Proxy törlése"
+
+msgid "Remove Setting"
+msgstr "Beállítás törlése"
+
+msgid "Remove Theme"
+msgstr "Téma törlése"
+
+msgid "Remove Transport"
+msgstr "Közvetített kapcsolat törlése"
+
+msgid "Remove Workspace"
+msgstr "Munkaterület törlése"
+
+msgid "Remove completed, cancelled and failed file transfers from the list"
+msgstr ""
+"A folyamatban lévő, befejezett és megállított fájlátvitelek törlése a "
+"listából"
+
+msgid "Remove contact from contact list"
+msgstr "Egy ismerős törlése a névjegyek közül"
+
+msgid "Remove from contact list"
+msgstr "Törlés a névjegyekből"
+
+msgid "Remove this workspace"
+msgstr "A munkaterület törlése"
+
+msgid "Remove your profile picture"
+msgstr "Profilkép törlése"
+
+#, python-format
+msgid "Removed %d contact"
+msgid_plural "Removed %d contacts"
+msgstr[0] "%d névjegy lett törölve"
+msgstr[1] "%d névjegy lett törölve"
+
+msgid "Remove…"
+msgstr "Eltávolítás…"
+
+msgid "Removing Account..."
+msgstr "Fiók törlése…"
+
+msgid "Report"
+msgstr "Jelentés"
+
+msgid "Request Search Form"
+msgstr "Keresési űrlap lekérése"
+
+msgid "Request Voice"
+msgstr "Szólási jog kérése"
+
+msgid "Request contact information (Tune, Location)"
+msgstr "Névjegy-információk kérése (zene, tartózkodási hely)"
+
+msgid "Request to see this contact's online status"
+msgstr "A másik fél felkérése a jelenléti állapotának megosztására"
+
+msgid "Requesting Command List"
+msgstr "Parancsok lekérése"
+
+msgid "Requesting HTTP File Upload Slot…"
+msgstr "HTTP-fájlfeltöltés kezdeményezése…"
+
+msgid "Requesting Register Form"
+msgstr "Regisztrációs űrlap lekérése"
+
+msgid "Requesting register form from server…"
+msgstr "A regisztrációs űrlap lekérése a kiszolgálóról…"
+
+msgid "Requesting search form from server"
+msgstr "Keresési űrlap lekérése a kiszolgálóról"
+
+msgid "Required"
+msgstr "Kötelező"
+
+msgid "Requires: Gspell"
+msgstr "Követelmény: Gspell"
+
+msgid ""
+"Requires: farstream-0.2, gstreamer-1.0, gst-plugins-base-1.0, gst-plugins-"
+"ugly-1.0, gst-libav and gstreamer-gtk3-plugin"
+msgstr ""
+"Követelmény: farstream-0.2, gstreamer-1.0, gst-plugins-base-1.0, gst-plugins-"
+"ugly-1.0, gst-libav and gstreamer-gtk3-plugin"
+
+msgid "Requires: gnome-keyring or kwallet"
+msgstr "Követelmény: gnome-keyring vagy kwallet"
+
+msgid "Requires: gsound"
+msgstr "Követelmény: gsound"
+
+msgid "Requires: gstreamer-1.0, gst-plugins-base-1.0"
+msgstr "Követelmény: gstreamer-1.0, gst-plugins-base-1.0"
+
+msgid "Requires: gupnpigd-1.0"
+msgstr "Követelmény: gupnpigd-1.0"
+
+msgid "Requires: libappindicator3"
+msgstr "Követelmény: libappindicator3"
+
+msgid "Requires: libxss"
+msgstr "Követelmény: libxss"
+
+msgid "Reserved Name"
+msgstr "Foglalt név"
+
+msgid "Reset"
+msgstr "Alaphelyzet"
+
+msgid "Reset Hints"
+msgstr "Javaslatok alaphelyzetbe"
+
+msgid "Reset all chats to the current default value"
+msgstr "A jelenlegi alapértelmezések beállítása minden beszélgetésre"
+
+msgid "Reset all group chats to the current default value"
+msgstr "A jelenlegi alapértelmezések beállítása minden társalgóban"
+
+msgid "Resets value to default"
+msgstr "Visszaállítás az alapértelmezett értékre"
+
+msgid "Resource"
+msgstr "Erőforrás"
+
+msgid "Restart Gajim for changes to take effect"
+msgstr "A változások érvényesítéséhez a Gajim újraindítása szükséges"
+
+msgid "Restore chat"
+msgstr "Beszélgetés újranyitása"
+
+msgid "Restore last state"
+msgstr "Legutóbbi állapot"
+
+msgid "Restore status and status message of your last session"
+msgstr ""
+"A legutóbbi munkamenet jelenléti állapotának és állapotüzenetének "
+"visszaállítása"
+
+msgid "Retract Message"
+msgstr "Üzenet visszavonása"
+
+msgid "Retract message?"
+msgstr "Vissza kell vonni az üzenetet?"
+
+msgid "Revoke Member"
+msgstr "Tagság elvétele"
+
+msgid "Revoke Voice"
+msgstr "Szólási jog megvonása"
+
+msgid "Role"
+msgstr "Szerepkör"
+
+msgid "SHA-1"
+msgstr "SHA-1"
+
+msgid "SHA-1:"
+msgstr "SHA-1:"
+
+msgid "SHA-256"
+msgstr "SHA-256"
+
+msgid "SHA-256:"
+msgstr "SHA-256:"
+
+msgctxt "proxy configuration"
+msgid "SOCKS5"
+msgstr "SOCKS5"
+
+msgid "SSL Certificate Verification Error"
+msgstr "Hiba az SSL-tanúsítvány ellenőrzésekor"
+
+msgid "SSL certificate error"
+msgstr "Hibás SSL-tanúsítvány"
+
+msgid "STUN Server"
+msgstr "STUN-kiszolgáló"
+
+msgid "STUN Server Settings"
+msgstr "STUN-kiszolgáló beállításai"
+
+msgid "STUN server to use when using Jingle"
+msgstr "A Jingle használatát segítő STUN-kiszolgáló"
+
+msgid "SVG files"
+msgstr "SVG-fájlok"
+
+msgid "Sales"
+msgstr "Értékesítés"
+
+msgid "Save"
+msgstr "Mentés"
+
+msgid "Save File as…"
+msgstr "Fájl mentése másként…"
+
+msgid "Save Password"
+msgstr "Jelszó megjegyzése"
+
+msgid "Save as..."
+msgstr "Mentés másként…"
+
+msgid "Save as…"
+msgstr "Mentés másként…"
+
+msgid "Saving Avatar Failed"
+msgstr "A profilkép mentése nem sikerült"
+
+msgid "Saving avatar image failed"
+msgstr "A profilkép mentése nem sikerült"
+
+msgid "Say hi to your new contact…"
+msgstr "Az új ismerős üdvözlése…"
+
+#, python-format
+msgid "Scanning %(current)d / %(total)d ..."
+msgstr "Vizsgálat: %(current)d / %(total)d…"
+
+msgid "Scroll down"
+msgstr "Görgetés le"
+
+msgid "Scroll up"
+msgstr "Görgetés fel"
+
+msgid "Scroll up to load more chat history…"
+msgstr "Felfelé görgetve korábbi üzenetek tölthetők be…"
+
+msgid "Search"
+msgstr "Keresés"
+
+msgid "Search Result"
+msgstr "Találatok"
+
+msgid "Search all Chats"
+msgstr "Keresés az összes beszélgetésben"
+
+msgid "Search contacts..."
+msgstr "Névjegy keresése…"
+
+msgid "Search for Gajim updates periodically?"
+msgstr "Keressen időnként a program frissítéseket?"
+
+msgid ""
+"Search for group chats globally\n"
+"(press Return to start search)"
+msgstr ""
+"Társalgó keresése globálisan\n"
+"(az Enter gombbal indítható a keresés)"
+
+msgid "Searching"
+msgstr "Keresés"
+
+msgid "Searching…"
+msgstr "Keresés…"
+
+msgid "Search…"
+msgstr "Keresés…"
+
+msgid "Secure Password Storage"
+msgstr "Biztonságos jelszótárolás"
+
+msgid "Security"
+msgstr "Biztonság"
+
+msgid "Security Labels"
+msgstr "Biztonsági címkék"
+
+msgid "Security Warning"
+msgstr "Biztonsági figyelmeztetés"
+
+msgid "Select Account"
+msgstr "Fiókválasztás"
+
+msgid "Select Contacts"
+msgstr "Névjegyek választása"
+
+msgid "Select File…"
+msgstr "Fájl választása…"
+
+msgid "Select a security label for your message…"
+msgstr "Az üzenet biztonsági címkéjének kiválasztása…"
+
+msgid "Select an audio output (e.g. speakers, headphones)"
+msgstr "A hangkimeneti eszköz (pl. hangszórók, fejhallgatók) kiválasztása"
+
+msgid "Select an emoji"
+msgstr "Hangulatjel beszúrása"
+
+msgid "Select the account with which you want to synchronise"
+msgstr "A szinkronizálandó fiók kiválasztása"
+
+msgid "Select the contacts you want to synchronise"
+msgstr "A szinkronizálandó névjegyek kijelölése"
+
+msgid "Select your audio input (e.g. microphone)"
+msgstr "A hangbemeneti eszköz (pl. mikrofon) kiválasztása"
+
+msgid "Select your video input device (e.g. webcam, screen capture)"
+msgstr "A videobemeneti eszköz (pl. webkamera, képernyőfelvevő) kiválasztása"
+
+msgid "Selected image could not be loaded."
+msgstr "A kiválasztott kép nem tölthető be."
+
+#, python-format
+msgid "Selected security label: %s"
+msgstr "A kiválasztott biztonsági címke: %s"
+
+msgid "Self signed certificate"
+msgstr "Saját aláírású tanúsítvány"
+
+msgid "Self signed certificate in certificate chain"
+msgstr "Saját aláírású tanúsítvány a tanúsítványláncban"
+
+msgid "Send Chat Markers"
+msgstr "Olvasás visszaigazolása"
+
+msgid "Send Chat State"
+msgstr "Beszélgetésállapot küldése"
+
+msgid "Send Chatstate"
+msgstr "Beszélgetésállapot küldése"
+
+msgid "Send Chatstate in Group Chats"
+msgstr "Beszélgetésállapot küldése társalgókban"
+
+msgid "Send File"
+msgstr "Fájlküldés"
+
+#, python-format
+msgid "Send File (max. %s)…"
+msgstr "Fájlküldés (max. %s)…"
+
+msgid "Send File Directly…"
+msgstr "Közvetlen fájlküldés…"
+
+msgid "Send Files"
+msgstr "Fájlküldés"
+
+msgid "Send Files Directly"
+msgstr "Közvetlen fájlküldés"
+
+msgid "Send File…"
+msgstr "Fájlküldés…"
+
+msgid "Send Message"
+msgstr "Üzenet küldése"
+
+msgid "Send Message Receipts"
+msgstr "Üzenetnyugták küldése"
+
+msgid "Send Messages with Control+Enter"
+msgstr "Küldés a Ctrl+Enter billentyűkombinációval"
+
+msgid "Send Read Markers"
+msgstr "Olvasás visszajelzése"
+
+msgid "Send _Report"
+msgstr "Jelentés _küldése"
+
+msgid "Send message on Ctrl+Enter and make a new line with Enter."
+msgstr ""
+"A Ctrl+Enter az üzenet elküldésére, az Enter új sor beszúrására szolgáljon."
+
+msgid "Send the message"
+msgstr "Az üzenet elküldése"
+
+msgid "Sender: "
+msgstr "Feladó: "
+
+#, python-format
+msgid "Sent contact: \"%(jid)s\" (%(name)s)"
+msgstr "Továbbított névjegy: %(jid)s (%(name)s)"
+
+msgid "Sent contacts:"
+msgstr "Továbbított névjegyek:"
+
+msgid "Separate profile files completely (even history database and plugins)"
+msgstr ""
+"Teljesen különálló profilfájlok (a mentett beszélgetések és a bővítmények is)"
+
+msgid "Serial Number"
+msgstr "Sorozatszám"
+
+msgid "Serial Number: "
+msgstr "Sorozatszám: "
+
+msgid "Server"
+msgstr "Kiszolgáló"
+
+msgid "Server Info"
+msgstr "Kiszolgáló-információ"
+
+msgid "Server Shutdown"
+msgstr "Kiszolgálói üzemszünet"
+
+msgid "Server Software"
+msgstr "Kiszolgálószoftver"
+
+#, python-format
+msgid "Server Software: %s\n"
+msgstr "Kiszolgálószoftver: %s\n"
+
+msgid "Server Uptime"
+msgstr "A kiszolgáló üzemideje"
+
+msgid "Service"
+msgstr "Szolgáltatás"
+
+msgid "Service Discovery"
+msgstr "Szolgáltatásfelderítés"
+
+#, python-format
+msgid "Service Discovery using account %s"
+msgstr "Szolgáltatások felderítése ezzel a fiókkal: %s"
+
+msgid "Service Gateway"
+msgstr "Szolgáltatásátjáró"
+
+msgid "Set configuration directory"
+msgstr "A beállítási könyvtár megadása"
+
+msgid "Set status message"
+msgstr "Állapotüzenet beállítása"
+
+msgid "Set your activity or tune to show your friends how you are feeling"
+msgstr "Tudatható a barátokkal az elfoglaltság, zenehallgatás vagy hangulat"
+
+msgid "Sets an environment variable so GLib debug messages are printed"
+msgstr "A GLib hibaüzenetek kiírását biztosító környezeti változó beállítása"
+
+msgid "Setting is locked by the system"
+msgstr "A beállítást a rendszer zárolta"
+
+msgid "Settings"
+msgstr "Beállítások"
+
+msgid "Share Status"
+msgstr "Jelenléti állapot megosztása"
+
+msgid "Share Video"
+msgstr "Videó megosztása"
+
+msgid "Share my online status"
+msgstr "Láthatja a jelenléti állapotomat"
+
+msgid "Show"
+msgstr "Megjelenítés"
+
+msgid "Show Commands"
+msgstr "Parancsok megjelenítése"
+
+msgid "Show Contact Infos"
+msgstr "A névjegy tulajdonságainak megjelenítése"
+
+msgid "Show Content"
+msgstr "Tartalom megjelenítése"
+
+msgid "Show Gajim"
+msgstr "A főablak megnyitása"
+
+msgid "Show Invitation"
+msgstr "A meghívás részletei"
+
+msgid "Show Join/Leave"
+msgstr "Be- és kilépések jelzése"
+
+msgid "Show Joined / Left"
+msgstr "Be- és kilépések jelzése"
+
+msgid "Show Location"
+msgstr "Hely megjelenítése"
+
+msgid "Show My Video Stream"
+msgstr "A saját képem megjelenítése"
+
+msgid "Show Notifications"
+msgstr "Értesítések megjelenítése"
+
+msgid "Show Offline Contacts"
+msgstr "Kilépettek megjelenítése"
+
+msgid "Show Send Message Button"
+msgstr "Küldés gomb megjelenítése"
+
+msgid "Show Status Changes"
+msgstr "Állapotváltozások jelzése"
+
+msgid "Show Subject"
+msgstr "Téma megjelenítése"
+
+msgid "Show Transfers"
+msgstr "Fájlátvitelek"
+
+msgid "Show XML console"
+msgstr "XML-parancssor"
+
+msgid "Show _Features"
+msgstr "_Tulajdonságok"
+
+msgid "Show a confirmation dialog before connecting unencrypted"
+msgstr "Legyen megerősítő kérdés a titkosítás nélküli kapcsolódás előtt"
+
+msgid ""
+"Show a confirmation dialog to block a contact? Empty string means never show "
+"the dialog."
+msgstr ""
+"Megerősítés kérése egy ismerős letiltásakor. Üresen hagyva nem jelenik meg "
+"kérdés."
+
+msgid "Show a list of emojis"
+msgstr "Hangulatjelek"
+
+msgid "Show a live preview to test your video source"
+msgstr "Élőkép megjelenítése a videóforrás kipróbálásához"
+
+msgid "Show all warnings"
+msgstr "Minden figyelmeztetés megjelenítése"
+
+msgid "Show chat list"
+msgstr "Beszélgetéslista megjelenítése"
+
+msgid "Show chat state (e.g. \"is typing…\") next to your contact’s name"
+msgstr ""
+"A beszélgetésállapot (pl. „éppen gépel”) jelzése a beszélgetőtárs neve után"
+
+msgid "Show in Taskbar"
+msgstr "Megjelenés a feladatsávon"
+
+msgid ""
+"Show labels describing confidentiality of messages, if the server supports "
+"XEP-0258"
+msgstr ""
+"Az üzenet bizalmasságát leíró címkék megjelenítése, ha a kiszolgáló "
+"támogatja a XEP-0258 bővítményt"
+
+msgid ""
+"Show message meta data (avatar, nickname, timestamp) only once, if there are "
+"multiple messages from the same sender within a specific timespan."
+msgstr ""
+"Az üzenet metaadatainak (profilkép, becenév, időbélyeg) összevont kijelzése "
+"az egyazon küldőtől adott időtartamon belül érkező üzeneteknél."
+
+msgid "Show notifications even if you are Away, Busy, etc."
+msgstr ""
+"Értesítések megjelenítése a „távol”, „elfoglalt” stb. jelenléti állapotoknál"
+
+msgid "Show on Startup"
+msgstr "Megjelenés indításkor"
+
+msgid "Show only critical errors"
+msgstr "Csak a kritikus hibák megjelenítése"
+
+msgid ""
+"Show previews automatically in public group chats (may disclose your data)"
+msgstr ""
+"Automatikus előnézet a nyilvános társalgókban (személyes adatok felfedésével "
+"járhat)"
+
+msgid "Show previews for any URLs containing images (may be unsafe)"
+msgstr "Előnézet minden URL-hez, amely képre hivatkozik (veszélyes lehet)"
+
+msgid "Show previews for files"
+msgstr "A fájlok előnézetének megjelenítése"
+
+msgid "Show suggestions for shortcodes, e.g. :+1:"
+msgstr "Javaslatok megjelenítése hangulatjelkódok (pl. :+1:) beírásakor"
+
+msgid "Show the application's version"
+msgstr "Az alkalmazás verziószámának megjelenítése"
+
+msgid "Show window in the taskbar"
+msgstr "Az ablak megjelenítése a feladatsávon"
+
+msgid "Show window when starting Gajim"
+msgstr "A programablak legyen látható a Gajim indításakor"
+
+msgid "Show your own video stream in calls"
+msgstr "A hívások alatt a saját képem is legyen látható"
+
+msgid "Show/Hide Window"
+msgstr "Ablak elrejtése/felfedése"
+
+msgid "Shows a list of file transfers between you and your contacts"
+msgstr "A küldött és fogadott fájlok megjelenítése"
+
+msgid "Shutting down Gajim"
+msgstr "A Gajim bezárása"
+
+msgid "Sign In"
+msgstr "Bejelentkezéskor"
+
+msgid "Sign Up"
+msgstr "Regisztráció"
+
+msgid "Sign up Anonymously"
+msgstr "Névtelen regisztráció"
+
+msgid "Sign up for a new account on a server of your choice"
+msgstr "Új fiók létrehozása egy tetszőleges kiszolgálón"
+
+msgid "Signup not allowed"
+msgstr "A regisztráció tiltott"
+
+msgid "Size of preview images in pixels"
+msgstr "Az előnézeti képek pixelben megadott mérete"
+
+msgid "Sleeping"
+msgstr "Alvás"
+
+msgid "Software"
+msgstr "Szoftver"
+
+msgid "Something went wrong. Video feature disabled."
+msgstr "Valami nem működik. A videófunkció le lett tiltva."
+
+msgid "Sorry, that should not have happened"
+msgstr "Elnézést, ennek nem kellett volna előfordulni"
+
+msgid "Sort Participant List by Status"
+msgstr "A résztvevők rendezése a jelenléti állapotuk alapján"
+
+msgid "Sort by Status"
+msgstr "Állapot szerinti rendezés"
+
+msgid "Sounds"
+msgstr "Hangok"
+
+msgid "Sounds When Away"
+msgstr "Hangok távollét esetén is"
+
+msgid "Spaces are not allowed"
+msgstr "A név nem tartalmazhat szóközt"
+
+msgid "Spam"
+msgstr "Spam"
+
+#, python-format
+msgid "Speed: %s"
+msgstr "Sebesség: %s"
+
+msgid "Spell Checker"
+msgstr "Helyesírás-ellenőrző"
+
+msgid "Spell Checking"
+msgstr "Helyesírás ellenőrzése"
+
+msgid "Sta_tus"
+msgstr "Jelenléti állapo_t"
+
+msgid "Stage"
+msgstr "Parancsbeállítások"
+
+msgid "Start / Join Chat"
+msgstr "Beszélgetés kezdeményezése"
+
+msgid "Start Chat"
+msgstr "Beszélgetés kezdeményezése"
+
+msgid "Start Chatting…"
+msgstr "Beszélgetés kezdeményezése…"
+
+msgid "Start Chat…"
+msgstr "Beszélgetés kezdeményezése…"
+
+msgid "Start New Chat"
+msgstr "Beszélgetés kezdeményezése"
+
+msgid "Start Search..."
+msgstr "Keresés…"
+
+msgid "Start Video Call…"
+msgstr "Videóhívás…"
+
+msgid "Start Voice Call…"
+msgstr "Hanghívás…"
+
+msgid "Start a new chat"
+msgstr "Beszélgetés kezdeményezése"
+
+msgid ""
+"Start a new chat, join a group chat or search for new group chats globally. "
+"You can also enter an XMPP address."
+msgstr ""
+"Beszélgetés kezdeményezése, belépés egy társalgóba vagy új társalgó "
+"keresése. XMPP-cím is megadható."
+
+msgid "Start/stop playback"
+msgstr "Lejátszás indítása/leállítása"
+
+msgid "State"
+msgstr "Állam"
+
+msgid "Status"
+msgstr "Jelenléti állapot"
+
+msgid "Status Message"
+msgstr "Állapotüzenet"
+
+msgid "Status Message: Text Color"
+msgstr "Állapotüzenet: szövegszín"
+
+msgid "Status Message: Text Font"
+msgstr "Állapotüzenet: betűkészlet"
+
+msgid "Status Messages in Participants List"
+msgstr "Állapotüzenetek a résztvevők listájában"
+
+msgid "Status and status message for all accounts"
+msgstr "Jelenléti állapot és állapotüzenet az összes fiókhoz"
+
+msgid "Status message…"
+msgstr "Állapotüzenet…"
+
+#, python-format
+msgid "Status: %s"
+msgstr "Jelenléti állapot: %s"
+
+msgid "Status: Away Color"
+msgstr "Jelenléti állapot: „távol” színe"
+
+msgid "Status: DND Color"
+msgstr "Jelenléti állapot: „elfoglalt” színe"
+
+msgid "Status: Offline Color"
+msgstr "Jelenléti állapot: „kilépett” színe"
+
+msgid "Status: Online Color"
+msgstr "Jelenléti állapot: „elérhető” színe"
+
+msgid "Stop File Transfers"
+msgstr "Fájlátvitel leállítása"
+
+msgid "Stop sharing online status?"
+msgstr "Ne legyen látható a jelenléti állapot?"
+
+msgid "Stopped sharing their status with you"
+msgstr "Már nem osztja meg a jelenléti állapotát"
+
+msgid "Street"
+msgstr "Utca"
+
+msgid "Style"
+msgstr "Stílus"
+
+msgid "Subject"
+msgstr "Téma"
+
+msgid "Subject issuer mismatch"
+msgstr "A tárgy és a kibocsátó eltérő"
+
+msgid "Submit"
+msgstr "Alkalmaz"
+
+msgid "Subscribe"
+msgstr "Feliratkozás"
+
+msgid "Subscribed"
+msgstr "Feliratkozva"
+
+msgid "Subscription Request"
+msgstr "Feliratkozási kérelem"
+
+msgid "Subscription:"
+msgstr "Feliratkozás:"
+
+msgid "Support"
+msgstr "Támogatás"
+
+msgid "Support for multiple accounts"
+msgstr "Több fiók kezelése"
+
+msgid "Support for service discovery including nodes and search for users"
+msgstr ""
+"A csomópontokat is érintő szolgáltatásfelderítés és felhasználók keresése"
+
+msgid "Switch Workspace"
+msgstr "Munkaterület-váltás"
+
+msgid "Switch to the first - ninth chat"
+msgstr "Váltás az első … kilencedik beszélgetésre"
+
+msgid "Switch to the first - ninth workspace"
+msgstr "Váltás az első … kilencedik munkaterületre"
+
+msgid "Switch to the next chat"
+msgstr "Váltás a következő beszélgetésre"
+
+msgid "Switch to the next unread chat"
+msgstr "Váltás a következő olvasatlan beszélgetésre"
+
+msgid "Switch to the previous chat"
+msgstr "Váltás az előző beszélgetésre"
+
+msgid "Switch to the previous unread chat"
+msgstr "Váltás az előző olvasatlan beszélgetésre"
+
+msgid "Sync Threshold"
+msgstr "Szinkronizálási küszöb"
+
+msgid "Synchronise"
+msgstr "Szinkronizálás"
+
+msgid "Synchronise History…"
+msgstr "Előzmények szinkronizálása…"
+
+msgid "Synchronise the status of all accounts"
+msgstr "A fiókok jelenléti állapotának összhangban tartása"
+
+msgid "Synchronize"
+msgstr "Szinkronizálás"
+
+msgid "Synchronize Accounts"
+msgstr "Fiókok szinkronizálása"
+
+msgid "Synchronize Chat History"
+msgstr "Beszélgetési előzmények szinkronizálása"
+
+msgid "Synchronizing Chat History…"
+msgstr "Beszélgetési előzmények szinkronizálása…"
+
+msgid "System"
+msgstr "Rendszer"
+
+msgid "TLS Version"
+msgstr "TLS verzió"
+
+#, python-format
+msgid "TLS verification failed: %s"
+msgstr "A TLS-ellenőrzés sikertelen: %s"
+
+msgid "Tabbed chat window"
+msgstr "Beszélgetések külön lapokon"
+
+msgid "Tell your contacts if you received a message"
+msgstr "A küldő értesítése az üzenete beérkezéséről"
+
+msgid "Text File"
+msgstr "Szövegfájl"
+
+msgid "Thanks"
+msgstr "Köszönet"
+
+msgid "The certificate does not match the expected identity of the site"
+msgstr "A tanúsítvány nem a webhelyhez tartozik"
+
+msgid "The certificate has been revoked"
+msgstr "Visszavont tanúsítvány"
+
+msgid "The certificate has expired"
+msgstr "A tanúsítvány lejárt"
+
+msgid "The certificate’s activation time is in the future"
+msgstr "A tanúsítvány aktiválási ideje a jövőben van"
+
+msgid "The certificate’s algorithm is insecure"
+msgstr "A tanúsítvány algoritmusa nem biztonságos"
+
+msgid ""
+"The contact will be informed that you stopped sharing your status. Please "
+"note that this can have other side effects."
+msgstr ""
+"A másik fél értesül a jelenléti állapot láthatóságának kikapcsolásáról. "
+"Megfontolandó ennek az esetleges mellékhatása is."
+
+#, python-format
+msgid ""
+"The file %s has been received, but it seems to have been damaged along the "
+"way.\n"
+"Do you want to download it again?"
+msgstr ""
+"A fájl (%s) megérkezett, de az átvitel során valószínűleg megsérült.\n"
+"Meg kell próbálni újra a letöltést?"
+
+msgid ""
+"The following warnings came up while trying to verify the server's "
+"certificate"
+msgstr "Figyelmeztetések a kiszolgáló tanúsítványának ellenőrzésekor"
+
+msgid "The last message was written on a mobile client"
+msgstr "A legutóbbi üzenet mobil eszközről érkezett"
+
+msgid "The server has assigned or modified your nickname in this group chat"
+msgstr ""
+"A kiszolgáló kiosztotta vagy módosította a társalgóban használt becenevet"
+
+msgid "The server rejected the registration without an error message"
+msgstr "A kiszolgáló hibaüzenet nélkül utasította el a regisztrációt"
+
+msgid "The server returned an insecure transport (HTTP)."
+msgstr "A kiszolgáló által felajánlott átvitel nem biztonságos (HTTP)."
+
+msgid "The server was shut down."
+msgstr "A kiszolgáló leállt."
+
+msgid "The service could not be found"
+msgstr "A szolgáltatás nem található"
+
+msgid "The service is not browsable"
+msgstr "A szolgáltatás nem tallózható"
+
+msgid "The signing certificate authority is not known"
+msgstr "Az aláíró hitelesítő szervezet ismeretlen"
+
+msgid "Theme"
+msgstr "Téma"
+
+msgid "Themes"
+msgstr "Témák"
+
+msgid ""
+"There are plenty of servers to choose from.\n"
+"Creating an account on one server allows you to communicate with contacts "
+"from other servers as well."
+msgstr ""
+"Számos kiszolgáló közül lehet választani.\n"
+"Az egyes kiszolgálók felhasználói egyformán kommunikálhatnak egymással."
+
+msgid "There are updates for Gajim’s plugins"
+msgstr "A bővítményekhez frissítés érhető el"
+
+msgid "There is no encryption method available for the chosen encryption."
+msgstr "A választott titkosításhoz nincs megfelelő titkosítási módszer."
+
+msgid "There is no more history"
+msgstr "Nincs több előzmény"
+
+msgid ""
+"There is no service at the address you entered, or it is not responding. "
+"Check the address and try again."
+msgstr ""
+"Nincs szolgáltatás a megadott címen, vagy nincs válasz a kérésre. A cím "
+"ellenőrzése után újrapróbálható."
+
+#, python-format
+msgid ""
+"There was an error while attempting to verify the SSL certificate of your "
+"XMPP server (%s)."
+msgstr ""
+"Hiba történt az XMPP-kiszolgáló (%s) SSL-tanúsítványának ellenőrzése során."
+
+msgid "This account is not connected to the server"
+msgstr "Ez a fiók nem kapcsolódik a kiszolgálóhoz"
+
+msgid "This address does not seem to offer any gateway service."
+msgstr "A cím nem biztosít semmilyen átjáró-szolgáltatást."
+
+msgid "This address is not reachable."
+msgstr "Ezzel a címmel nem lehet kapcsolatba lépni."
+
+msgid "This device is not compatible."
+msgstr "Ez az eszköz nem kompatibilis."
+
+msgid "This gateway does not support Ad-Hoc Commands."
+msgstr "Ez az átjáró nem ad lehetőséget ad-hoc parancsok futtatására."
+
+msgid "This gateway does not support direct registering."
+msgstr "Ez az átjáró nem biztosít közvetlen regisztrációt."
+
+msgid "This group chat can not be found via search"
+msgstr "A társalgó nem található meg kereséssel"
+
+msgid "This group chat does not require a password upon entry"
+msgstr "A társalgóba jelszó nélkül lehet belépni"
+
+msgid "This group chat does require a password upon entry"
+msgstr "A társalgóba csak jelszóval lehet belépni"
+
+msgid "This group chat is restricted to members only"
+msgstr "A társalgóba csak tagok léphetnek be"
+
+msgid "This group chat persists even if there are no participants"
+msgstr "A társalgó azután is létezik, ha már nem tartózkodik benne senki"
+
+msgid "This group chat will be destroyed once the last participant left"
+msgstr "A társalgó megszűnik, miután az utolsó résztvevő is elhagyja"
+
+msgid "This is a public group chat. Encryption is not available."
+msgstr "Nyilvános társalgóban az üzeneteket nem lehet titkosítani."
+
+msgid ""
+"This is the theme you are currently using.\n"
+"Do you want to delete this theme?"
+msgstr ""
+"Ez a téma van jelenleg használatban.\n"
+"Biztosan törölhető ?"
+
+#, python-format
+msgid "This message has been retracted by %s."
+msgstr "Ezt az üzenetet %s visszavonta."
+
+#, python-format
+msgid "This message was encrypted with %s and could not be decrypted."
+msgstr "Az üzenet %s titkosítással van kódolva, és nem lehet visszafejteni."
+
+msgid ""
+"This message was encrypted with Legacy OpenPGP and could not be decrypted. "
+"You can install the PGP plugin to handle those messages."
+msgstr ""
+"Az üzenet a hagyományos OpenPGP titkosítással van kódolva, és nem lehet "
+"visszafejteni. Az ilyen üzenetekhez telepíteni kell a PGP bővítményt."
+
+msgid "This message was encrypted with OTR and could not be decrypted."
+msgstr "Az üzenet OTR titkosítással van kódolva, és nem lehet visszafejteni."
+
+msgid ""
+"This message was encrypted with OpenPGP for XMPP and could not be decrypted. "
+"You can install the OpenPGP plugin to handle those messages."
+msgstr ""
+"Az üzenet az XMPP OpenPGP titkosításával van kódolva, és nem lehet "
+"visszafejteni. Az ilyen üzenetekhez telepíteni kell a PGP bővítményt."
+
+msgid "This server does not allow signup."
+msgstr "Ez a kiszolgáló nem ad lehetőséget a regisztrációra."
+
+msgid "This server does not support anonymous login."
+msgstr "Ez a kiszolgáló nem teszi lehetővé a névtelen bejelentkezést."
+
+msgid ""
+"This service could not respond with detailed information.\n"
+"It is most likely a legacy service or broken."
+msgstr ""
+"A szolgáltatás nem közölt részletes információt.\n"
+"Valószínűleg elavult vagy hibás a szolgáltatás."
+
+msgid "This service does not contain any items to browse."
+msgstr "Ez a szolgáltatás nem tartalmaz tallózható elemet."
+
+msgid "This service has not yet responded with detailed information"
+msgstr "A szolgáltatás még nem közölt részletes információt"
+
+msgid "This type of service does not contain any items to browse."
+msgstr "Ez a típusú szolgáltatás nem tartalmaz tallózható elemeket."
+
+msgid "This will remove your account from Gajim."
+msgstr "Ez a művelet törli a fiókot a Gajimból."
+
+msgid "This will reset all introduction hints"
+msgstr "A bevezető javaslatok alaphelyzetbe állítása"
+
+msgid ""
+"This workspace contains chats. All chats will be moved to the next "
+"workspace. Remove anyway?"
+msgstr ""
+"A munkaterület beszélgetései a következő munkaterületre lesznek áthelyezve. "
+"Biztosan törölhető?"
+
+msgid "Three Months"
+msgstr "Három hónap"
+
+msgid "Time"
+msgstr "Idő"
+
+msgid "Time Until Away"
+msgstr "Távollét időküszöbe"
+
+msgid "Time Until Not Available"
+msgstr "Tartós távollét időküszöbe"
+
+msgid "To"
+msgstr "Én"
+
+msgid "To apply all changes instantly, you have to re-login."
+msgstr ""
+"Az összes változás azonnali érvényesítéséhez ismét be kell jelentkezni."
+
+msgid "Toggle Chat List"
+msgstr "Oldalsáv ki-/be"
+
+msgid "Toggle participants list"
+msgstr "Résztvevők megjelenítése/elrejtése"
+
+msgid "Topic"
+msgstr "Téma"
+
+msgid "Transferring File…"
+msgstr "Fájl átvitele…"
+
+#, python-format
+msgid "Transport \"%s\" will be removed"
+msgstr "A közvetített kapcsolat (%s) törölve lesz"
+
+msgid "Transports"
+msgstr "Közvetített kapcsolatok"
+
+msgid "Treat * / _ pairs as possible formatting characters."
+msgstr "A * / _ karakterpárok formázási jelként kezelése."
+
+msgid "Trust Not Decided"
+msgstr "A megbízhatóság kétes"
+
+msgid "Try Again"
+msgstr "Újra"
+
+msgid "Trying to change password..."
+msgstr "A jelszó módosítása…"
+
+msgid "Trying to create account..."
+msgstr "Fiók létrehozása…"
+
+msgid "Trying to gather information on this address…"
+msgstr "A címhez tartozó információk begyűjtése…"
+
+msgid "Trying to remove account..."
+msgstr "A fiók törlése…"
+
+msgid "Tune:"
+msgstr "Zene:"
+
+msgid "Turn Camera off"
+msgstr "Kamera kikapcsolása"
+
+msgid "Turn Camera on"
+msgstr "Kamera bekapcsolása"
+
+msgid "Type"
+msgstr "Típus"
+
+msgid "Type to search for values..."
+msgstr "Keresés…"
+
+msgid "UPnP-IGD Port Forwarding"
+msgstr "UPnP-IGD porttovábbítás"
+
+msgid "URI"
+msgstr "URI"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Unable to decode issuer public key"
+msgstr "Nem lehet dekódolni a kibocsátó publikus kulcsát"
+
+msgid "Unable to decrypt CRL's signature"
+msgstr "Nem lehet dekódolni a CRL aláírását"
+
+msgid "Unable to decrypt certificate's signature"
+msgstr "Nem lehet dekódolni a tanúsítvány aláírását"
+
+msgid "Unable to get certificate CRL"
+msgstr "Nem lehet lekérni a tanúsítvány CRL-jét"
+
+msgid "Unable to get issuer certificate"
+msgstr "Nem lehet lekérni a kibocsátó tanúsítványát"
+
+msgid "Unable to get local issuer certificate"
+msgstr "Nem lehet lekérni a helyi kibocsátó tanúsítványát"
+
+msgid "Unable to properly remove the plugin"
+msgstr "Nem sikerült megfelelően eltávolítani a bővítményt"
+
+msgid "Unable to verify the first certificate"
+msgstr "Nem lehet ellenőrizni az első tanúsítványt"
+
+msgid "Unblock"
+msgstr "Tiltás feloldása"
+
+msgid "Uninstall Plugin"
+msgstr "Bővítmény eltávolítása"
+
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+msgid "Unknown Artist"
+msgstr "Ismeretlen előadó"
+
+#, python-format
+msgid "Unknown SSL error \"%s\""
+msgstr "Ismeretlen SSL-hiba: „%s”"
+
+msgid "Unknown Source"
+msgstr "Ismeretlen album"
+
+#, python-format
+msgid "Unknown TLS error \"%s\""
+msgstr "Ismeretlen TLS-hiba: „%s”"
+
+msgid "Unknown Title"
+msgstr "Ismeretlen cím"
+
+#, python-format
+msgid "Unknown command: %s"
+msgstr "Ismeretlen parancs: %s"
+
+msgid "Unknown language"
+msgstr "Ismeretlen nyelv"
+
+msgid "Unknown validation error"
+msgstr "Ismeretlen érvényesítési hiba"
+
+msgid "Unpin Chat"
+msgstr "Kitűzés megszüntetése"
+
+msgid "Unread Messages"
+msgstr "Olvasatlan üzenetek"
+
+msgid "Unsupported certificate purpose"
+msgstr "A tanúsítvány célja nem támogatott"
+
+msgid "Until Gajim is Closed"
+msgstr "A Gajim bezárásáig"
+
+msgid "Untrusted"
+msgstr "Nem megbízható"
+
+msgid "Unverified"
+msgstr "Nem ellenőrzött"
+
+msgid "Update"
+msgstr "Frissítés"
+
+msgid "Update Avatar"
+msgstr "Profilkép cseréje"
+
+msgid "Update Check"
+msgstr "Frissítés keresése"
+
+msgid "Update automatically"
+msgstr "Automatikus frissítés"
+
+msgid "Update available"
+msgstr "Rendelkezésre áll frissítés"
+
+msgid "Update plugins automatically"
+msgstr "A bővítmények automatikus frissítése"
+
+msgid "Updates"
+msgstr "Frissítések"
+
+msgid "Updates will be installed next time Gajim is started"
+msgstr "A frissítések telepítése a Gajim következő indulásakor fog megtörténni"
+
+msgid "Upload Files"
+msgstr "Fájlfeltöltés"
+
+msgid "Upload File…"
+msgstr "Fájlfeltöltés…"
+
+msgid "Uploading Avatar Failed"
+msgstr "A profilkép feltöltése nem sikerült"
+
+#, python-format
+msgid "Uploading avatar image failed: %s"
+msgstr "A profilkép feltöltése nem sikerült: %s"
+
+msgid "Uploading via HTTP File Upload…"
+msgstr "Fájl feltöltése HTTP protokollal…"
+
+msgid "Use GSSAPI"
+msgstr "GSSAPI használata"
+
+msgid "Use Image"
+msgstr "Kép használata"
+
+msgid "Use STUN Server"
+msgstr "STUN-kiszolgáló használata"
+
+msgid "Use System Keyring"
+msgstr "A rendszer kulcstartójának használata"
+
+msgid "Use Unencrypted Connection"
+msgstr "Titkosítás nélküli kapcsolat"
+
+msgid "Use an unencrypted connection to the server"
+msgstr "Titkosítás nélküli kapcsolódás a kiszolgálóhoz"
+
+msgid "Use defined profile in configuration directory"
+msgstr "A megadott nevű profil használata"
+
+msgid "Use file transfer proxies"
+msgstr "Fájlküldő proxy használata"
+
+msgid ""
+"Use filters to narrow down your search:\n"
+"from:username\n"
+"before:yyyy-mm-dd\n"
+"after:yyyy-mm-dd"
+msgstr ""
+"Szűrőkifejezések is alkalmazhatók:\n"
+"from:felhasználónév\n"
+"before:ÉÉÉÉ-HH-NN\n"
+"after:ÉÉÉÉ-HH-NN"
+
+msgid "Use proxy auth_entication"
+msgstr "Hit_elesítés szükséges"
+
+msgid "Use your favorite emoticons, set your own profile picture"
+msgstr "Választható hangulatjelkészletek, személyre szabható profilkép"
+
+msgid "Use your system’s keyring to store passwords"
+msgstr "A rendszer kulcstartójának használata a jelszavak tárolására"
+
+#, python-format
+msgid "User %s not found"
+msgstr "Nincs %s nevű felhasználó"
+
+msgid "Users"
+msgstr "Felhasználók"
+
+#, python-format
+msgid "V4L2: %s"
+msgstr "V4L2: %s"
+
+msgid "Validity"
+msgstr "Érvényesség"
+
+msgid "Validity\n"
+msgstr "Érvényesség\n"
+
+msgid "Verified"
+msgstr "Ellenőrzött"
+
+msgid "Version"
+msgstr "Verzió"
+
+#, python-format
+msgid "Version %s is available"
+msgstr "Az elérhető verzió: %s"
+
+msgid "Video"
+msgstr "Videó"
+
+msgid "Video Framerate"
+msgstr "Képkockasebesség"
+
+msgid "Video Input Device"
+msgstr "Bemeneti eszköz"
+
+msgid "Video Resolution"
+msgstr "Felbontás"
+
+msgid "Video calls are not available on Windows"
+msgstr "A videóhívás Windows rendszeren nem lehetséges"
+
+msgid "Video test"
+msgstr "Videopróba"
+
+msgid "Visit Server's Website"
+msgstr "A kiszolgáló webhelyének meglátogatása"
+
+msgid "Visit Website"
+msgstr "Webhely megnyitása"
+
+msgid "Visitor"
+msgstr "Látogató"
+
+msgid "Visitors"
+msgstr "Látogatók"
+
+msgid "Visual Notifications"
+msgstr "Vizuális értesítések"
+
+msgid "Waiting…"
+msgstr "Várakozás…"
+
+msgid "Wav Sounds"
+msgstr "Wav hangfájlok"
+
+#, python-format
+msgid "Web Search URL is missing a \"%s\""
+msgstr "A webkeresés URL-jében nincs „%s”"
+
+msgid "Web _Search for it"
+msgstr "Rá_keresés a weben"
+
+msgid "Website"
+msgstr "Webhely"
+
+msgid "Welcome"
+msgstr "Üdvözlet!"
+
+msgid "What does this mean?"
+msgstr "Mit jelent ez?"
+
+msgid "What happened"
+msgstr "Esetleírás"
+
+msgid "Where participants should go"
+msgstr "Egy társalgó, ahová a résztvevők átköltözhetnek"
+
+msgid ""
+"Whether to check for a valid certificate before downloading (not safe to "
+"disable)"
+msgstr ""
+"Letöltés előtt a tanúsítvány érvényességének ellenőrzése (a tiltása "
+"veszélyes lehet)"
+
+msgid "Which server should I choose?"
+msgstr "Melyik kiszolgálót érdemes választani?"
+
+msgid "Why do you want to retract this message?"
+msgstr "Miért kell visszavonni ezt az üzenetet?"
+
+msgid "Width of group chat roster in pixel"
+msgstr "A társalgó résztvevőit megjelenítő panel szélessége pixelben"
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Without a connection, you can not browse available services"
+msgstr "Kapcsolat nélkül nem lehet tallózni az elérhető szolgáltatásokat"
+
+msgid "Work"
+msgstr "Munkahelyi"
+
+msgid "Working"
+msgstr "Munkavégzés"
+
+msgid "Workspace Settings"
+msgstr "Munkaterület beállításai"
+
+msgid "Workspaces"
+msgstr "Munkaterületek"
+
+msgid "X11"
+msgstr "X11"
+
+msgid "XML Console"
+msgstr "XML-parancssor"
+
+msgid "XML console to see what's happening on the protocol layer"
+msgstr "XML-parancssor a kommunikáció protokollszintű követéséhez"
+
+msgid "XMPP Address"
+msgstr "XMPP-cím"
+
+msgid "XMPP Address…"
+msgstr "XMPP-cím…"
+
+msgid "XMPP Chat Client"
+msgstr "XMPP üzenetküldő"
+
+msgid "YYYY-MM-DD"
+msgstr "ÉÉÉÉ-HH-NN"
+
+msgid "Yes"
+msgstr "Igen"
+
+msgid "Yesterday"
+msgstr "Tegnap"
+
+msgid "You"
+msgstr "Én"
+
+#, python-format
+msgid "You (%s) joined the group chat"
+msgstr "%s néven beléptem a társalgóba"
+
+msgid "You are a visitor"
+msgstr "Szerepkör: vendég"
+
+#, python-format
+msgid ""
+"You are about to connect to the account %(account)s (%(server)s) using an "
+"insecure connection method. This means conversations will not be encrypted. "
+"Connecting PLAIN is strongly discouraged."
+msgstr ""
+"A fiók (%(account)s) nem biztonságos módon fog a kiszolgálóhoz (%(server)s) "
+"kapcsolódni. Így a beszélgetések nem lesznek titkosítva. Az ilyen "
+"kapcsolódás egyáltalán nem javasolt."
+
+msgid "You are about to quit Gajim"
+msgstr "Kilépés a programból"
+
+#, python-format
+msgid "You are about to remove %(name)s (%(jid)s) from your contact list.\n"
+msgstr "%(name)s (%(jid)s) törölve lesz a névjegyek közül.\n"
+
+msgid "You are currently not joined this group chat"
+msgstr "A parancs kiadása előtt be kell lépni a társalgóba"
+
+msgid "You are not allowed to modify the affiliation of Admins and Owners"
+msgstr ""
+"Nincs engedély az adminisztrátorok és tulajdonosok tagsági szintjének "
+"módosításához"
+
+msgid "You are not connected"
+msgstr "Nincs kapcsolat a kiszolgálóval"
+
+msgid "You are not connected to the server"
+msgstr "Nincs kapcsolat a kiszolgálóval"
+
+#, python-format
+msgid "You are now known as %s"
+msgstr "A becenevem mostantól: %s"
+
+#, python-brace-format
+msgid "You are now {show}{status}"
+msgstr "A jelenléti állapotom mostantól: {show}{status}"
+
+msgid "You are offline."
+msgstr "Nincs élő kapcsolat."
+
+#, python-format
+msgid "You can join this group chat instead: xmpp:%s?join"
+msgstr "Ez a társalgó használható helyette: xmpp:%s?join"
+
+msgid "You can not join a group chat unless you are connected."
+msgstr "Egy társalgóba csak kapcsolódás után lehet belépni."
+
+msgid "You can see the contact's online status"
+msgstr "Látom a jelenléti állapotát"
+
+msgid "You cancelled the transfer"
+msgstr "A fájlátvitelt a felhasználó leállította"
+
+msgid "You cannot add yourself to your contact list."
+msgstr "A saját azonosító nem adható a névjegyekhez."
+
+msgid "You cannot see this contact's online status"
+msgstr "Nem osztja meg a jelenléti állapotát"
+
+msgid "You cannot synchronize with an account unless it is connected."
+msgstr "Kapcsolódás nélkül a fiók nem szinkronizálható."
+
+msgid "You do not have permissions to create files in this directory."
+msgstr "A könyvtár jogosultságai nem teszik lehetővé fájlok létrehozását."
+
+msgid ""
+"You do not have the proper permissions to create files in this directory."
+msgstr "A könyvtár jogosultságai nem teszik lehetővé fájlok létrehozását."
+
+#, python-format
+msgid "You dropped something Gajim could not process: %s"
+msgstr "Nem sikerült feldolgozni az ablakba ejtett fájlt: %s"
+
+#, python-brace-format
+msgid "You have been banned{actor}{reason}"
+msgstr "Ki lettem tiltva a társalgóból{actor}{reason}"
+
+#, python-format
+msgid "You have been invited to %s"
+msgstr "Egy %s nevű társalgóba szóló meghívó érkezett"
+
+#, python-brace-format
+msgid "You have been kicked{actor}{reason}"
+msgstr "Ki lettem dobva a társalgóból{actor}{reason}"
+
+#, python-brace-format
+msgid "You have been removed from the group chat{actor}{reason}"
+msgstr "El lettem távolítva a társalgóból{actor}{reason}"
+
+msgid "You have insufficient permissions"
+msgstr "Nincs engedélyezve a művelet"
+
+#, python-brace-format
+msgid "You have left due to an error{reason}"
+msgstr "A társalgó egy hiba miatt el lett hagyva{reason}"
+
+msgid "You have to be connected to create a group chat."
+msgstr "Társalgó létrehozásához előbb kapcsolódni kell."
+
+msgid "You have to invite people so they can join"
+msgstr "Csak meghívóval lehet belépni a társalgóba"
+
+msgid "You left this group chat"
+msgstr "A társalgó el lett hagyva"
+
+msgid "You need Owner permission to change the configuration"
+msgstr "A beállítás megváltoztatásához tulajdonosi engedély kell"
+
+msgid "You requested to see this contact's online status"
+msgstr "Fel lett kérve a jelenléti állapotának megosztására"
+
+msgid "You still have running file transfers"
+msgstr "Még nem ért véget minden fájlátvitel"
+
+msgid "You still have unread messages"
+msgstr "Még vannak olvasatlan üzenetek"
+
+msgid ""
+"You will appear offline for this contact and you will not receive further "
+"messages."
+msgstr ""
+"Az ismerős nem fog értesülni az elérhetőségről, és nem fog tudni üzenni sem."
+
+msgid ""
+"You will no longer be able to send and receive messages from and to contacts "
+"using this transport."
+msgstr ""
+"Később nem lehet üzenetet váltani azokkal az ismerősökkel, akik ezen a "
+"közvetített kapcsolaton érhetők el."
+
+msgid "Your Nickname"
+msgstr "Becenév"
+
+msgid "Your XMPP address (e.g. user@example.org)"
+msgstr "XMPP-cím (pl.: felhasznalo@pelda.hu)"
+
+msgid "Your account has has been removed successfully."
+msgstr "A fiók törlése sikerült."
+
+msgid "Your archiving preferences have successfully been saved."
+msgstr "Az archiválási beállítások mentése sikerült."
+
+msgid "Your message can not be sent until you are connected."
+msgstr "Az üzenet elküldéséhez előbb kapcsolódni kell."
+
+msgid "Your messages have been exported successfully"
+msgstr "Az üzenetek exportálása sikerült"
+
+msgid "Your password"
+msgstr "A használni kívánt jelszó"
+
+msgid "Your password has successfully been changed."
+msgstr "A jelszó módosítása sikerült."
+
+msgid "Your public key or authentication certificate"
+msgstr "A saját publikus kulcs vagy hitelesítő tanúsítvány"
+
+msgid "ZIP files"
+msgstr "ZIP-fájlok"
+
+msgid "ZZZZzzzzzZZZZZ"
+msgstr "ZZZZzzzzzZZZZZ"
+
+msgid "_Abort"
+msgstr "_Megszakítás"
+
+msgid "_About"
+msgstr "Név_jegy"
+
+msgid "_Accept"
+msgstr "_Elfogadás"
+
+msgid "_Account"
+msgstr "_Fiók"
+
+msgid "_Accounts"
+msgstr "_Fiókok"
+
+#, python-format
+msgid "_Actions for \"%s\""
+msgstr "_Műveletek ehhez: „%s”"
+
+msgid "_Add Account…"
+msgstr "Ú_j fiók…"
+
+msgid "_Add to Trusted Certificates"
+msgstr "_A tanúsítvány megbízhatónak jelölése"
+
+msgid "_Address"
+msgstr "_Cím"
+
+msgid "_Advanced Settings"
+msgstr "_Speciális beállítások"
+
+msgid "_Back"
+msgstr "_Vissza"
+
+msgid "_Block"
+msgstr "_Tiltás"
+
+msgid "_Busy"
+msgstr "El_foglalt"
+
+msgid "_Cancel"
+msgstr "_Mégsem"
+
+msgid "_Clear"
+msgstr "Öss_zes törlése"
+
+msgid "_Close"
+msgstr "_Bezárás"
+
+msgid "_Command"
+msgstr "_Parancsok"
+
+msgid "_Connect"
+msgstr "_Csatlakozás"
+
+msgid "_Connect Anyway"
+msgstr "_Csatlakozás mégis"
+
+msgid "_Copy Link"
+msgstr "Hivat_kozás másolása"
+
+msgid "_Create"
+msgstr "_Létrehozás"
+
+msgid "_Decline"
+msgstr "_Elutasítás"
+
+msgid "_Default"
+msgstr "Alapé_rtelmezett"
+
+msgid "_Delete"
+msgstr "_Törlés"
+
+msgid "_Description"
+msgstr "_Leírás"
+
+msgid "_Destroy"
+msgstr "Meg_szüntetés"
+
+msgid "_Disable Account"
+msgstr "Fiók _tiltása"
+
+msgid "_Do not ask me again"
+msgstr "_Ne kérdezze újra"
+
+msgid "_Don’t ask again"
+msgstr "_Ne kérdezze újra"
+
+msgid "_Download"
+msgstr "_Letöltés"
+
+msgid "_Download Again"
+msgstr "_Letöltés újra"
+
+msgid "_Edit"
+msgstr "_Szerkesztés"
+
+msgid "_Features"
+msgstr "F_unkciók"
+
+msgid "_File Transfer"
+msgstr "_Fájlátvitel"
+
+msgid "_Free for Chat"
+msgstr "_Ráér beszélgetni"
+
+msgid "_Help"
+msgstr "_Súgó"
+
+msgid "_Host"
+msgstr "_Gép"
+
+msgid "_Hostname"
+msgstr "_Gépnév"
+
+msgid "_Join"
+msgstr "_Belépés"
+
+msgid "_Keyboard Shortcuts"
+msgstr "Billen_tyűparancsok"
+
+msgid "_Later"
+msgstr "_Később"
+
+msgid "_Leave"
+msgstr "_Elhagyás"
+
+msgid "_Log In"
+msgstr "Beje_lentkezés"
+
+msgid "_Login"
+msgstr "_Bejelentkezés"
+
+msgid "_Modify Accounts…"
+msgstr "Fiókok _módosítása…"
+
+msgid "_Modify Account…"
+msgstr "Fiók _módosítása…"
+
+msgid "_Name"
+msgstr "_Név"
+
+msgid "_New post"
+msgstr "Új _bejegyzés"
+
+msgid "_No"
+msgstr "_Nem"
+
+msgid "_Not Available"
+msgstr "Tartósa_n távol"
+
+msgid "_OK"
+msgstr "_OK"
+
+msgid "_Offline"
+msgstr "_Kijelentkezett"
+
+msgid "_Open"
+msgstr "_Megnyitás"
+
+msgid "_Open Folder"
+msgstr "M_appa megnyitása"
+
+msgid "_Overwrite"
+msgstr "_Felülírás"
+
+msgid "_Please choose a server"
+msgstr "_Kiszolgáló választása"
+
+msgid "_Port"
+msgstr "_Port"
+
+msgid "_Preferences"
+msgstr "_Beállítások"
+
+msgid "_Purge"
+msgstr "_Törlés"
+
+msgid "_Quit"
+msgstr "_Kilépés"
+
+msgid "_Re-Login"
+msgstr "Ki- és _bejelentkezés"
+
+msgid "_Remove"
+msgstr "_Eltávolítás"
+
+msgid "_Report Spam"
+msgstr "_Spam jelentése"
+
+msgid "_Request"
+msgstr "_Kérelem"
+
+msgid "_Reset Value"
+msgstr "_Alaphelyzetbe"
+
+msgid "_Retract"
+msgstr "_Visszavonás"
+
+msgid "_Save"
+msgstr "_Mentés"
+
+msgid "_Save as…"
+msgstr "Menté_s másként…"
+
+msgid "_Search"
+msgstr "_Keresés"
+
+msgid "_Select"
+msgstr "_Kiválasztás"
+
+msgid "_Send"
+msgstr "_Küldés"
+
+msgid "_Show Certificate"
+msgstr "A tanú_sítvány részletei"
+
+msgid "_Show notification when file transfer is complete"
+msgstr "Ér_tesítés a fájlátvitel befejezése után"
+
+msgid "_Sign Up"
+msgstr "_Regisztráció"
+
+msgid "_Start / Join Chat…"
+msgstr "Beszélgeté_s kezdeményezése…"
+
+msgid "_Start Chat..."
+msgstr "Új beszélgeté_s…"
+
+msgid "_Stop Sharing"
+msgstr "_Megosztás kikapcsolása"
+
+msgid "_Subscribe"
+msgstr "_Feliratkozás"
+
+msgid "_Type"
+msgstr "_Típus"
+
+msgid "_Undo"
+msgstr "_Visszavonás"
+
+msgid "_Unregister account from service"
+msgstr "_Leiratkozás a szolgáltatásról"
+
+msgid "_Unsubscribe"
+msgstr "_Leiratkozás"
+
+msgid "_Username"
+msgstr "_Felhasználónév"
+
+msgid "_View"
+msgstr "_Nézet"
+
+msgid "_View Certificate"
+msgstr "Tanúsítvány _megtekintése"
+
+msgid "_Wiki (Online)"
+msgstr "_Wiki (Online)"
+
+msgid "_XML Console"
+msgstr "_XML-parancssor"
+
+msgid "accuracy"
+msgstr "pontosság"
+
+msgid "alt"
+msgstr "magasság"
+
+msgid "and NOT authenticated"
+msgstr "NEM hitelesített"
+
+msgid "and authenticated"
+msgstr "Hitelesített"
+
+msgid "area"
+msgstr "terület"
+
+msgid "audio input"
+msgstr "hangbemenet"
+
+msgid "audio output"
+msgstr "hangkimenet"
+
+msgid "bearing"
+msgstr "irány"
+
+msgid "bold"
+msgstr "Félkövér"
+
+msgid "building"
+msgstr "épület"
+
+#, python-format
+msgid "cairo Version: %s"
+msgstr "cairo verzió: %s"
+
+msgid "chat;messaging;im;xmpp;voip;"
+msgstr "csevegés;üzenetküldés;azonnali üzenetküldő;xmpp;voip;"
+
+msgid "column"
+msgstr "oszlop"
+
+msgid "country"
+msgstr "ország"
+
+msgid "countrycode"
+msgstr "országkód"
+
+msgid "dark skin"
+msgstr "fekete bőrű"
+
+msgid "datum"
+msgstr "irányjel"
+
+msgid "description"
+msgstr "leírás"
+
+#, python-format
+msgid "e.g. %s"
+msgstr "pl. %s"
+
+msgid "error"
+msgstr "hiba"
+
+msgid "example.org"
+msgstr "pelda.hu"
+
+msgid "file transfers list"
+msgstr "fájlátvitelek"
+
+msgid "floor"
+msgstr "emelet"
+
+msgid ""
+"has invited you to a group chat.\n"
+"Do you want to join?"
+msgstr ""
+"egy társalgóba szóló meghívót küldött.\n"
+"El legyen fogadva a meghívás?"
+
+msgid "help"
+msgstr "súgó"
+
+msgid "is composing a message…"
+msgstr "üzenetet fogalmaz…"
+
+msgid "is doing something else"
+msgstr "mással foglalkozik"
+
+msgid "italic"
+msgstr "Dőlt"
+
+msgid "lat"
+msgstr "szélesség"
+
+msgid "light skin"
+msgstr "fehér bőrű"
+
+msgid "locality"
+msgstr "fekvés"
+
+msgid "lon"
+msgstr "hosszúság"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "medium skin tone"
+msgstr "kreol bőrű"
+
+msgid "medium-dark skin"
+msgstr "barna bőrű"
+
+msgid "medium-light skin"
+msgstr "világos bőrű"
+
+msgid "or"
+msgstr "vagy"
+
+msgid "org.gajim.Gajim"
+msgstr "org.gajim.Gajim"
+
+msgid "paused composing a message"
+msgstr "félbehagyta a gépelést"
+
+msgid "postalcode"
+msgstr "irányítószám"
+
+#, python-format
+msgid "pycairo Version: %s"
+msgstr "pycairo verzió: %s"
+
+#, python-format
+msgid "python-nbxmpp Version: %s"
+msgstr "python-nbxmpp verzió: %s"
+
+msgid "region"
+msgstr "régió"
+
+msgid "room"
+msgstr "szoba"
+
+msgid "speed"
+msgstr "sebesség"
+
+msgid "street"
+msgstr "utca"
+
+msgid "strike"
+msgstr "Áthúzott"
+
+msgid "text"
+msgstr "szöveg"
+
+msgid "timestamp"
+msgstr "időbélyeg"
+
+msgid "translator-credits"
+msgstr ""
+"cr04ch <cr04ch AT disroot.org>\n"
+"Gabriel Papp <gabriel.papp@gmx.com>\n"
+"Göller Bertalan <>"
+
+msgid "video input"
+msgstr "videobemenet"
+
+msgid "we would like to thank all the package maintainers."
+msgstr "szeretnénk köszönetet mondani minden csomagkarbantartónak."
+
+#, python-brace-format
+msgid "{nick} has been banned{actor}{reason}"
+msgstr "{nick} ki lett tiltva{actor}{reason}"
+
+#, python-brace-format
+msgid "{nick} has been kicked{actor}{reason}"
+msgstr "{nick} ki lett dobva{actor}{reason}"
+
+#, python-brace-format
+msgid "{nick} has been removed from the group chat{by}{reason}"
+msgstr "{nick} el lett távolítva a társalgóból{by}{reason}"
+
+#, python-brace-format
+msgid "{nick} has left due to an error{reason}"
+msgstr "{nick} kilépett egy hiba miatt{reason}"
+
+#, python-brace-format
+msgid "{nick} has left{reason}"
+msgstr "{nick} kilépett{reason}"
+
+#, python-brace-format
+msgid "{nick} is now known as {new_nick}"
+msgstr "{nick} új beceneve mostantól {new_nick}"
+
+#, python-brace-format
+msgid "{nick} is now {show}"
+msgstr "{nick} mostantól {show}"
+
+#, python-brace-format
+msgid "{nick} is now {show}{status}"
+msgstr "{nick} mostantól {show}{status}"
+
+msgid "…or drop it here"
+msgstr "…vagy ide is ejthető egy kép"

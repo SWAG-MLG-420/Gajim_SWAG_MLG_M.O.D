@@ -1,0 +1,154 @@
+image: gajim-master:latest
+
+workflow:
+  rules:
+    - if: $GAJIM_NIGHTLY_BUILD
+    - if: $CI_PIPELINE_SOURCE == "push"
+
+stages:
+  - test
+  - build
+  - deploy
+  - publish
+
+test-other:
+  stage: test
+  script:
+    - codespell gajim
+    - python3 setup.py build
+    - appstream-util validate build/data/org.gajim.Gajim.appdata.xml
+  interruptible: true
+
+test-pyright:
+  stage: test
+  rules:
+    - changes:
+      - "**/*.py"
+  script:
+    - pip3 install git+https://dev.gajim.org/gajim/python-nbxmpp.git
+    - pip3 install git+https://github.com/pygobject/pygobject-stubs.git
+    - npm install pyright
+    - python3 .ci/link-gtk.py
+    - $(npm bin)/pyright --version
+    - $(npm bin)/pyright
+  interruptible: true
+
+test-ruff:
+  stage: test
+  rules:
+    - changes:
+      - "**/*.py"
+  script:
+    - pip3 install ruff
+    - ruff .
+  interruptible: true
+
+test-unittest:
+  stage: test
+  script:
+    - pip3 install -I git+https://dev.gajim.org/gajim/python-nbxmpp.git
+    - coverage run --source=gajim -m unittest discover -s test -v
+    - coverage report -mi
+    - coverage xml -i
+  coverage: "/TOTAL.+ ([0-9]{1,3}%)/"
+  artifacts:
+    reports:
+      coverage_report: 
+        coverage_format: cobertura
+        path: coverage.xml
+  interruptible: true
+
+build-linux:
+  image: gajim-deb-build:latest
+  stage: build
+  dependencies: []
+  rules:
+    - if: '$GAJIM_NIGHTLY_BUILD'
+    - if: '$CI_COMMIT_TAG'
+  script:
+    - apt-get update
+    - apt-get install -y python3-nbxmpp-nightly
+    - python3 setup.py sdist
+    - python3 .ci/debian_build.py "$(find dist/gajim-*)" 1
+
+  artifacts:
+    name: "gajim-$CI_COMMIT_REF_NAME-$CI_COMMIT_SHA"
+    expire_in: 1 week
+    paths:
+      - dist/gajim-*.tar.gz
+
+build-windows:
+  stage: build
+  dependencies: []
+  rules:
+    - if: '$GAJIM_NIGHTLY_BUILD'
+    - if: '$CI_COMMIT_TAG'
+  script:
+    - python3 .ci/appveyor_build.py
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - build/*.json
+
+deploy-linux:
+  stage: deploy
+  dependencies:
+    - build-linux
+  rules:
+    - if: '$GAJIM_NIGHTLY_BUILD'
+    - if: '$CI_COMMIT_TAG'
+  variables:
+    DEPLOY_TYPE: "linux"
+  script:
+    - python3 .ci/deploy.py dist
+
+deploy-windows:
+  stage: deploy
+  dependencies:
+    - build-windows
+  rules:
+    - if: '$GAJIM_NIGHTLY_BUILD'
+    - if: '$CI_COMMIT_TAG'
+  variables:
+    DEPLOY_TYPE: "windows"
+  script:
+    - python3 .ci/deploy.py build
+
+deploy-flatpak:
+  image: git-deploy:latest
+  stage: deploy
+  dependencies: []
+  rules:
+    - if: '$CI_COMMIT_TAG'
+  before_script:
+    - eval $(ssh-agent -s)
+    - .ci/prepare_git.sh github.com "${FLATHUB_DEPLOY_KEY}"
+  script:
+    - git clone git@github.com:flathub/org.gajim.Gajim.git
+    - cd org.gajim.Gajim
+    - mv ../flatpak/org.gajim.Gajim.yaml org.gajim.Gajim.yaml
+    - mv ../flatpak/app-overrides.json app-overrides.json
+    - git diff
+    - git add --all
+    - git commit -m "$CI_COMMIT_TAG"
+    - git push
+
+publish-release:
+  image: git-deploy:latest
+  stage: publish
+  dependencies: []
+  rules:
+    - if: '$CI_COMMIT_TAG'
+  before_script:
+    - eval $(ssh-agent -s)
+    - .ci/prepare_git.sh dev.gajim.org "${WEBSITE_DEPLOY_KEY}"
+  script:
+    - git clone git@dev.gajim.org:gajim/website.git
+    - cd website
+    - git checkout master
+    - python3 ./scripts/bump_version.py $CI_COMMIT_TAG
+    - git diff
+    - git add -u
+    - git commit -m "Release Gajim $CI_COMMIT_TAG"
+    - git push
+    - .ci/make_release.py $CI_COMMIT_TAG "${PROJECT_TOKEN}"

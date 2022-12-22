@@ -1,0 +1,1778 @@
+Gajim 1.5.4 (04 Dec 2022)
+
+  Improvements
+
+  * DataFormWidget: Set min width on right box (#11222)
+  * MUC: Add method for aborting join
+  * Message selection: Imrpove wording for deselecting messages
+  * Message selection: Improve styling
+  * Features: Add entry for Audio Preview
+  * Styling: Introduce URI scheme whitelisting (#11266)
+  * Message selection: Use date_time_format instead of time_format
+  * Settings: Unify timestamp settings (#10948)
+  * Prettify display of geographical locations
+  * ChatList: Scroll to top when switching workspace
+  * Preferences: Improve preview settings
+  * Chatstates: Add a timeout for the "composing" animation
+  * Accounts window: Use equal widths for account switch label
+  * VCardGrid: Linkify all URI-type fields iff they are valid URIs
+  * URI parsing: Detect invalid file URIs earlier
+  * Styling: Validate link syntax deeper and *after* parenthesis correction
+  * Add msg_log_id to live message events (#11263)
+
+  Change
+
+  * Dependencies: Remove pyOpenSSL, add python-cryptography
+  * Jingle: Remove XTLS support (#11160)
+  * Add FileTransferSelector as a central page for sending files (#9511)
+  * Block opening file:/ links by default (#11276)
+
+  Performance
+
+  * Control: Request history more efficiently
+
+  Bug Fixes
+
+  * Preview: Handle multiple simultaneous certificate verification errors
+  * Styling: Linkify URIs only if at the start of a word
+  * MessageInputTextView: Reintroduce gui_extension_point
+  * GUI tests: Adapt GUI tests to Gajim changes
+  * SSLErrorDialog: Fix test, remove OpenSSL usage
+  * ChatFunctionPage: Don't close control on cancelling join error (#11116)
+  * SearchView: Set chat type correctly for ResultRows (#11087)
+  * Chatstates: Switch to Chatstate.ACTIVE after timeout
+  * GroupchatRoster: Set visibility when hiding
+  * MessageActionsBox: Reintroduce gui_extension_point
+  * Preview: Respect MUC context for PMs (#11289)
+  * ConversationView: Fix scrollbar not being the right-most widget
+  * Preview: Stop further processing if decompression bomb detected (#11280)
+  * URI parsing: More robustness with geo URIs
+  * URI parsing: Properly unescape mailto URIs
+  * URI parsing: Properly unescape XMPP URIs and handle unknown query types
+  * MessageInputTextView: Handle is_correcting if no contact is set (#11272)
+  * Fix various issues with chat markers
+  * Plugins: Replace usage of gui_extention_point()
+  * CSS: Fix settings related inconsistencies
+  * CSS: Move overriding rules to bottom (#11269)
+  * Message selection: Don’t fail hard if log_line_id is None (#11263)
+  * Don’t fail when trying to reset last message id
+
+Gajim 1.5.3 (31 Oct 2022)
+
+  New
+
+  * Allow to copy multiple messages
+  * Accounts: Add setting for default workspace (#11208)
+
+  Improvements
+
+  * Preferences: Add send_on_ctrl_enter setting (#11242)
+  * Add actions menu to Start Chat button (#11241)
+  * ExceptionDialog: Close dialog with ESC
+  * ChatList: Show drafts
+  * StartChat: Recognize input of xmpp uris
+  * Workspaces: Add 'Mark as read' menu item (#11198)
+  * Improve emoji completion
+  * ACE: Enable reset button only for changed values
+  * Avatar: Follow modernxmpps suggestions for color generation
+
+  Change
+
+  * Raise nbxmpp version
+  * Preferences: Add escape_key_closes to "Chat" section
+  * Preferences: Reorder "Chat" settings and add a "General" section
+  * Preferences: Move show_chatstate_in_banner to ACE settings
+  * Remove confirm_paste_image setting
+  * Remove setting to hide the chat banner
+
+  Performance
+
+  * GroupchatRoster: Don’t load roster when its hidden
+  * Emoji completion: Abort early if max menu entry count reached
+
+  Bug Fixes
+
+  * Disable loading of GUPnPIgd library (#11183)
+  * Remote: Make get_status() return correct status when offline
+  * Plugins: Use correct gettext import
+  * Make strings translatable
+  * Enable emoji chooser action
+  * AvatarBox: Only react to clicks for GroupchatContacts
+  * Remote: Return True for change_status
+  * ChatActionProcessor: Popdown on focus out event (#11254)
+  * Avatar placeholders: Correctly use the first grapheme as the "letter"
+  * Fix quoting /me messages (#11224)
+  * StartChat: Don’t use jid argument for global dialog
+  * Try leaving group chat only if account is online (#11247)
+  * AccountPage: Disable profile button when not connected (#11249)
+  * MUC: Allow changing subject if there is none (#11250)
+  * PluginsWindow: Fix typo in plugin tooltip
+  * PluginManager: Block plugins which have been integrated into Gajim (#11244)
+  * MessageInputTextView: Fix correction mode when switching chats (#11213)
+  * AdHoc: Make MultiLineLabel selectable
+  * Settings: Check if account is connected before trying to get context (#11243)
+  * Styling: Various link parsing issues (#11218#11144)
+  * Windows build: Remove build time package remnants (#11234)
+  * Send message icon: Increase line width and make icon symbolic
+  * Accounts: Use account label for disable confirmation
+  * AccountBadge: Update colors correctly
+  * Update account label when changing label setting (#11238)
+  * SearchView: Scroll to to when resetting (#11240)
+  * Notification: Draw avatar correctly on scale > 1 (#11229)
+  * Preview: Don’t fail hard when parsing fragments
+  * PreviewAudio: Increase update rate for seek bar (#11215)
+  * AccountPage: Disable Excute Command button by default (#11216)
+  * Client: Load trusted certificates on connect() (#11220)
+  * ChatList: Don’t increase in width while drag and drop
+  * Roster: Always show workspace when starting chat
+  * WorkspaceSidebar: Don't increase in width while drag and drop (#11210)
+  * ChatFunctionPage: React to connection changes (#11206)
+  * Preview: Set user-agent for session (#11205)
+  * SearchView: Limit displayed results to account_id of contact
+  * Don’t fail when disabling accounts (#11199)
+
+Gajim 1.5.2 (08 Oct 2022)
+
+  New
+
+  * PEPConfig: Add PEP item view
+  * Add shortcut to restore chats after closing (#11088)
+  * ServerInfo: Add TLS version and cipher suite
+
+  Improvements
+
+  * XMLConsole: Apply account filter to all visible stanzas (#11193)
+  * Features dialog: Simplify statements on Windows
+  * MessageRow: Set text direction for RTL text (#11148)
+  * AvatarSelector: Add border to mark drag and drop zone
+  * Drag and drop: Highlight target areas (#11173)
+  * GroupChatNickCompletion: Simplify suggestions (#11155)
+  * MUC: Add participant menu to avatar
+  * StartChat: Add timeout when requesting MUC disco info
+  * StartChat: Pass message body from XMPP URI (#11140)
+  * Windows: Ellipsize body text in notifications
+  * Emojis: Improve shortcode usability
+  * Avatars: Use PangoCairo for generate_avatar (#10960)
+  * Emojis: Extract codepoints for all emoji variants
+
+  Change
+
+  * Raise nbxmpp version
+  * Show account color bar only when multiple accounts are active
+
+  Performance
+
+  * Remove queue_resize leftover from MessageTextView
+  * SearchView: Update calendar only if widget is visible
+  * SearchView: Speed up clearing of search results (#11158)
+  * Styling: Parse emojis for Darwin only
+
+  Bug Fixes
+
+  * Control: Load events before messages (#11129)
+  * Fix disabling accounts while reconnecting (#11194)
+  * Use custom icon for 'Send Message' action
+  * MessageActionsBox: Don’t fail if no contact is set while updating file actions
+  * Scroll to end after sending message (#10871)
+  * Update chat actions when account state changes (#11184)
+  * StatusIcon: Reset unread state correctly when using Flatpak (#11069)
+  * Notifications: Show correct message sender for MUC notifications (#11177)
+  * Discovery: Don’t allow to join top level components (#11175)
+  * ChatList: Show context menu in correct position (#11165)
+  * Styling: Allow dots in local part of email addresses
+  * ChatList: Set message_id correctly (#11168)
+  * Notifications: React to incoming group chat messages (#11161)
+  * When removing a chat, clear view only if it's currently loaded (#11164)
+  * AccountPage: Disable Ad-Hoc Commands button when offline (#11167)
+  * CreateGroupchatWindow: Fix Create button state when switching MUC type (#11162)
+  * React correctly to UserAvatar updates (#11065)
+  * GajimRemote: Remove not needed shebang
+
+Gajim 1.5.1 (19 Sep 2022)
+
+  Bug Fixes
+
+  * ChatBanner: Format markup string correctly
+
+Gajim 1.5.0 (19 Sep 2022)
+
+  CVE-2022-39835
+
+  This release fixes a vulnerability which allowed attackers to craft a XML
+  stanza in a way, so Gajim would accept it as message correction for messages
+  not originating from the attacker.
+
+  New
+
+  * Add drag and drop support for pinned chats
+  * Workspaces: Add shortcuts for switching
+  * Refactor ChatWidgets so they are only created once (#10987, #11038, #10973, #10119, #11052, #10945)
+
+  Improvements
+
+  * Preview: Improve mime type detection (#11150)
+  * SearchView: Add hint for search filters (#11136)
+  * Preview: Show left click action tooltip on icon (#11138)
+  * ACE: Highlight non-default values (#11120)
+  * XMLConsole: Use SourceView for XML input (#11121)
+  * Migration: Make archive migation more resilient
+  * Workspaces: Move chats when removing workspace (#11098)
+  * ChatList: Always show when switching workspace (#11108)
+  * MessageActionsBox: Disable encryption button if MUC is public (#10959)
+  * Increase contrast for message row meta elements
+  * StatusIcon: Use new icon for pending events
+  * WorkspaceSidebar: Allow removing workspace from context menu
+  * AccountPage: Add button for Ad-Hoc commands
+  * Don’t try to query avatars in MUCs which don’t allow it (#10937)
+  * Don’t disco MUC participants on presence
+  * Chatstate: Don’t make too many assumptions
+  * Windows: Increase default font size
+  * CSS: Use relative sizes for fonts
+  * ChatControl: Show error if encryption plugin is missing
+  * Store and restore running HTTP File Transfer uploads
+  * Add button for toggling chat list (#11035)
+  * ContactInfo/GroupchatDetails: Toggle icon when editing name
+
+  Change
+
+  * Raise nbxmpp version
+  * Raise PyGObject version (#11132)
+  * Add requirement for min sqlite version
+  * ChatBanner: Add button for managing voice requests
+  * Remove IPython support
+  * Rework ChatCommands
+  * Shortcuts: Use Ctrl+F for opening the search bar (#11073)
+  * Remove clear-chat action (Ctrl+L)
+  * Raise required nbxmpp version to 3.2.2
+
+  Performance
+
+  * Use Task Queue to request avatars on MUC join
+
+  Bug Fixes
+
+  * GroupchatState: Hide when we are offline
+  * Corrections: Don’t correct message if text has not changed (#11146)
+  * Make plugin usable check work on all unix/linux systems (#11134)
+  * MUC: Don’t ignore MUC invites when ignore_unknown_contacts is set (#11107)
+  * Make shortcuts more discoverable (#11122, #11127)
+  * Better validate message corrections
+  * MUC: Improve automatically adding members on invite
+  * Preview: Sanitize filename from disallowed chars (#11105#10752)
+  * Chatstates: Don’t sent chatstate delayed to ourself
+  * Don’t reset setting when closing single chat
+  * Preview: Don’t fail if thumb file already exists (#11091)
+  * MessageInputTextView: Account for having multiple blocks when applying style (#11015)
+  * ActionMenu: Correctly execute text actions if text contains underscore
+  * InfoMessage: Don’t escape text
+  * MUC: Send password and reason correctly on invite
+  * Preview: Reset received size before cancelling or downloading
+  * BlockingList: Don’t fail with placeholder address (#11084)
+  * ChatList: Update status for private chats correctly
+  * ChatList: Update avatar for all chats correctly
+  * GroupChat: Handle nickname changes correctly
+  * Roster: Add missing contact-info action
+  * Make switch-next-unread-tab action work
+  * ChatBanner: Use correct scaling for chatstates
+  * FileTransferRow: Don’t cancel transfer when switching chat
+  * ChatBanner: Don’t show phone icon for group chats
+  * Don’t handle message-sent even for groupchats
+  * ChatBanner: Display account badge again
+  * Make nick completion test pass
+  * Preview: Store last_save_dir with Save As
+  * Preview: Make sure the widget is not being destroyed while updating (#10920)
+  * Fix handling of URLs without scheme (#11059)
+  * GroupchatState: Call correct page for not-joined
+  * ChatControl: Don’t assume messages always have a resource (#11042)
+
+  Notes
+
+  * ChatCommands have been reworked. Only following commands are now available
+
+    - status
+    - invite
+    - ban
+    - affiliate
+    - kick
+    - role
+
+  * Ctrl+H for opening the search bar has been removed, please use the
+    commonly used Ctrl+F (find). The shortcut for starting a file transfer
+    has been dropped.
+
+Gajim 1.4.7 (24 Jul 2022)
+
+  Improvements
+
+  * Startup: Show hint in console if Gajim is already running (#11039)
+  * Preview: Add setting to disable file preview (#10991)
+
+  Performance
+
+  * Roster: Don’t invalidate filter on contact update
+  * Roster: Sort more efficiently
+
+  Bug Fixes
+
+  * Settings migration: Don’t fail on missing proxies key (#11050)
+  * Chat Markers: Don’t send marker for outgoing messages (#11043)
+  * Main Window: Move to stored position on startup
+  * Preview: Allow manual download for all mime types (#11044)
+  * GroupchatInfo: Don’t set subject when loading from disco info (#11040)
+  * Preview: Hide download hint if we sent the file (#11036)
+
+Gajim 1.4.6 (07 Jul 2022)
+
+  Improvements
+
+  * Roster: Display show value in tooltip (#11010)
+  * ChatActionProcessor: Improve detection of emoji shortcode start
+
+  Bug Fixes
+
+  * Flatpak: Fix display of tray icon using libappindicator (#10869)
+  * Remote: Console scripts need a method as entry point (#11034)
+  * CodeWidget: Don’t default to python for highlighting (#11012)
+  * ContactInfo: Preserve groups when changing contact name (#11028)
+  * CodeWidget: Don't highlight matching brackets (#11026)
+  * StatusIcon: Don’t lose new message icon on state change (#11013)
+  * GtkStatusIcon: Always show when Gajim has not toplevel focus
+  * GroupChatNickCompletion: Only process Tab press
+  * Notifications: Change Gdk window hints on Windows (#11008)
+  * Row name: Align label correctly
+  * StatusIcon: Logic error on activate
+
+Gajim 1.4.5 (21 Jun 2022)
+
+  New
+
+  * Add new Shortcut for toggling the chat list
+
+  Improvements
+
+  * Preferences: Add setting for emoji shortcodes
+  * Disable plugin updates by Gajim on flatpak
+
+  Bug Fixes
+
+  * Use nickname provided in subscription requests everywhere
+  * GroupchatOutcasts: Make removing users work
+  * Chat: Display corrections for /me messages correctly (#10933)
+  * Styling: Process URIs when using /me command (#10988)
+  * Preview: Align link button correctly (#10997)
+  * MUC: Don’t fail on presence from unknown occupants (#10981)
+  * SystemStyleListener: Fix handling of color scheme states (#10996)
+  * Styling: Improve address regex
+  * Styling: Improve uri regex
+  * Styling: Parse text correctly which contains uris and addresses (#10974)
+  * Main: Process window shortcuts when no chat is open
+  * Restore minimal AdHoc module
+
+Gajim 1.4.4 (18 Jun 2022)
+
+  New
+  
+  * Add support for inputing emoji short codes
+  * Add freedesktop colorscheme preference support
+  * Add new CLI command --show
+  * Add new CLI command --cprofile
+  * Preferences: Add `Action on Close Button` setting
+  * Preferences: Add `Show in Taskbar` setting
+  * Preferences: Add D-Bus Interface setting
+  * Rewrite gajim-remote
+  * #10040 Logind: Listen to system shutdown and quit Gajim gracefully
+  
+  Improvements
+  
+  * CreateGroupchatWindow: Enable emoji completion for description
+  * CreateGroupchatWindow: Produce valid addresses from name
+  * Gateways: Use avatar if published
+  * History: Add Keep History 'Until Gajim is Closed' option
+  * MUC: Base invitation type on MUC type and affiliation
+  * Rework DBus Remote Interface
+  * StatusMessageSelector: Enable emoji completion
+  * #10908 Group chats: Ask for confirmation before leaving
+  * #10958 #10949 #10943 Preview: Improve layout and display errors
+  
+  Performance
+  
+  * #10828 Limit message size for styling
+
+  Change
+
+  * Remove remote AdHocCommands feature
+  * #10986 Remove ask for status settings
+  
+  Bug Fixes
+  
+  * Chat banner: Show phone image if last message came from a phone
+  * Flatpak: Determine notification backend caps with dbus
+  * Groupchat: Prevent automatic roster revealer toggling on join
+  * Make plugins_repository_enabled available via ACE
+  * MucJoinLeft: Align timestamp correctly
+  * NotificationManager: Make displaying an invitation more robust
+  * StatusIcon: Reliably raise/hide window
+  * #10900 Groupchat: don't steal active msg textbox focus
+  * #10913 Groupchat: Load GroupChatState widget early
+  * #10934 DBus: Unify presence signals
+  * #10938 JingleAudio: Check if webrtcdsp is available
+  * #10944 Groupchat: Show correct icon when toggling roster revealer
+  * #10950 WorkspaceDialog: Show correct settings for workspace if there is only one
+  * #10953 Status messages: Check for correct setting
+  * #10955 MessageInputTextView: Don’t remove tags for spell checking
+  * #10961 Workspaces: Fix image scaling
+  * #10965 AvatarSelector: Add fail-safes for loading images
+  * #10977 Limit max quote recursion
+  * #10978 Make drag & drop more reliable
+  * #10984 Preview: Don’t fail on invalid IPV6 urls
+  * #10985 Remote: Don’t fail on list_contacts
+  * #10989 Preview: Catch PIL errors while generating preview
+
+Gajim 1.4.3 (01 Jun 2022)
+
+  Improvements
+  
+  * AppPage: Show plugin update notifications
+  * ChatList: Add middle mouse click for closing a chat
+  * DirectorySearch: Use Gio.Menu, add Start Chat item
+  * Group chat roster: Store visibility
+  * Smaller Jingle file transfer widget
+  * Unify ContactInfo and GroupchatDetails elements width
+  * Windows: Change PANGOCAIRO backend to enable colored emojis
+  * Windows: Enable native emoji chooser
+  * Workspaces: Add Move to new workspace functionality
+  * #10812 Workspaces: Enable emoji picker
+  * #10876 Windows: Simplify installer
+  * #10905 Avatars: Render emojis correctly
+  
+  Bug Fixes
+  
+  * AddContact: Fix opening AdHocCommands window
+  * ContactInfo: Fix copying name and JID by Ctrl+C
+  * DirectorySearch: Correctly connect form validation
+  * Don’t fail on GajimPlugin equality test
+  * History: Don’t remove JID IDs from database
+  * InfoBar: Add style rule for anchors in dark mode
+  * Make GStreamer an optional dependency again
+  * Plugins: Unregister modules after calling deactivate()
+  * Replace user-visible strings of 'Groupchat' with 'Group Chat'
+  * WorkspaceDialog: Disable Remove button for last workspace
+  * #10903 Notifications: Show correct chat when clicking notification on Windows
+  * #10911 AccountsWindow: Use get_app_window to reliably access window's methods
+  * #10912 VCardGrid: Request minimum width
+  * #10921 ChatControl: Don't update AV actions for PMs
+  * #10922 Search: Add fail-safe for incomplete JID ID tables
+  * #10924 StartChat: Allow transport JIDs without successful discovery
+
+Gajim 1.4.2 (25 May 2022)
+
+  New
+  
+  * SearchView: Add calendar for browsing history
+  
+  Improvements
+  
+  * MUC: Enable history when creating rooms
+  * #10671 Preferences: Bind show_send_message_button to send_on_ctrl_enter
+  
+  Performance
+  
+  * #10828 MessageInputTextView: Limit chars when applying styles
+  
+  Bug Fixes
+  
+  * Accounts: Fix accessing disabled accounts
+  * MUC: Display moderated messages again
+  * MUC: Ignore gateway services for room creation
+  * Preferences: Hide non-functional xhtml setting
+  * Remove `Save conversation` setting
+  * Reset conversation view when switching chat
+  * #10265 Socks5: Catch specific exception
+  * #10867 Status: Restore last status correctly
+  * #10889 Jingle: Stop early if no transport is available
+  * #10898 Roster: Filter list on contact update
+  * #10898 Roster: Sort DND last
+  * #10902 Don't set read marker when receiving own carbons
+
+Gajim 1.4.1 (21 May 2022)
+
+  New
+
+  * Add 'Join Support Chat' help item
+
+  Improvements
+
+  * ConversationView: Add date for timestamps older than current date
+  * SearchView: Add margins and border-radius to ResultRow
+  * ConversationView: Move timestamp widget to the left
+
+  Bug Fixes
+
+  * Access jingle transport values fallback correctly
+  * Avatar: Fallback to default avatar when image is missing
+  * Draw icon avatars with correct size and scale
+  * ExceptionDialog: Effectively hide sentry-sdk hint on Windows
+  * HistoryExport: Process folder URI correctly on Windows
+  * HistoryExport: Show error if creating path fails
+  * Improve joining support chat if single account is online
+  * Jingle: Use SendFileDialog for DND and paste events
+  * Trayicon: Remove obsolete config option
+  * #10552 Chat: Handle race condition when calling focus()
+  * #10781 Bookmarks: Ignore bookmarks for roster contacts
+  * #10810 Update unread counter on mention in public MUCs
+  * #10833 Add workspace avatar fallback for missing images
+  * #10849 Set encoding when calling open()
+  * #10850 PluginManager: Make config_dialog required
+  * #10851 Remove iconset leftovers
+  * #10856 Handle missing trust data when displaying messages
+  * #10862 Windows: Hide status icon on shutdown
+  * #10865 Main: Show window correctly on startup
+  * #10880 Don't fail when trying to remove chat history
+  * #10883 Preferences: Add plugin settings binding for better usability
+
+
+Gajim 1.4.0 (11 May 2022)
+
+  New
+
+  * Rework GUI (Main Window and Chat)
+  * Integrate Plugin Installer
+  * Integrate Image Preview Plugin
+  * Integrate Syntax Highlight Plugin
+  * Integrate AppIndicator Plugin
+  * Allow customizing Shortcuts
+  * Support Message Moderation in Group Chats
+  * Allow administrators to define setting overrides
+
+  Changes
+
+  * Drop zeroconf support
+  * Remove History Manager
+  * Remove Single Message Dialog
+  * Group Chat: Move many menu options into details dialog
+
+  Bug fixes / Closed issues
+
+  * #5671  File transfer in history
+  * #7381  Wrong presence displayed if there are multiple resources with the same priority
+  * #7857  Click-able Email address and Telephone number
+  * #8353  Roster sort items with activity to top
+  * #8412  Save and restore tab positions
+  * #8584  Display vcard-temp JABBERIDs somewhere
+  * #8631  Vertical tabs can not be adjusted in width in latest master
+  * #8742  Integrate the Appindicator plugin into Gajim
+  * #8745  Allow successive bookmarked MUC autojoins (in oposite to concurrent)
+  * #8849  Error when disabling an account: Account iter of <the server> could not be found
+  * #8897  Roster filter crashes
+  * #8898  Roster tree elements have wrong collapse state during and after roster filtering
+  * #8900  Black bar artifact below the conversation text
+  * #9041  HTTPUpload: Add upload button to contact right-click menu
+  * #9046  Add a "Minimize on close" in Preferences for all MUC rooms
+  * #9145  Roster not showing number of contacts logged in per group
+  * #9164  Chatstates: Color of tab as "typing/composing" indicator get's lost on focus
+  * #9174  Changing status results in an error
+  * #9202  No context menu on MUC's tab
+  * #9321  Cannot allow contact to see my status
+  * #9360  Allow disabling keyboard shorcut ctrl+L (clear chat window)
+  * #9457  Add global search in History window
+  * #9501  Mark corrected messages (LMC) in history browser
+  * #9596  Add UI to search history from contact/chat window
+  * #9615  Corrected messages (LMC) sporadically overlapped in the chat window
+  * #9681  Highlight quotes in chat
+  * #9683  Dynamically load history when scrolling to top
+  * #9694  AttributeError: 'NoneType' object has no attribute 'room_jid'
+  * #9695  Jingle file transfer does not work in LAN
+  * #9709  Roster remove request?
+  * #9712  Show multiple subscription requests in a single window
+  * #9750  Command line flag to start in tray icon?
+  * #9767  GDBus.Error:org.freedesktop.login1.OperationInProgress: The operation inhibition has been requested for is already running (36)
+  * #9846  AttributeError in reconfig() when changing window mode: 'NoneType' object has no attribute 'contact'
+  * #9847  Showing avatars disabled but avatars displayed in group chats
+  * #9887  Scrolling performance issue with ConversationTextview
+  * #9933  Contact missing for predefined roster after deleting history
+  * #9940  Show maximized group chats in contact list
+  * #9992  TypeError: unknown type (null) in on_modelfilter_row_has_child_toggled
+  * #10000 Transport in roster not being discovered
+  * #10108 Self contact is not always shown
+  * #10123 error sending file with jingle through gajim
+  * #10133 Account Wizard: Let user choose account label
+  * #10166 AttributeError: 'NoneType' object has no attribute 'show'
+  * #10205 Restoring conversation tabs fails if JID contains comma
+  * #10236 MUC: Error in update_actions when clicking on tray notification
+  * #10242 Bug with roster:  Repeating error message: "too many values to unpack (exptected 2)"
+  * #10248 logind timeout error (24) in _inhibit_sleep
+  * #10249 StatusIcon: Show connection lost icon when at least one account is not connected
+  * #10279 error after wake-up from hibernation
+  * #10281 Last message correction doesn't work correctly with HTTP upload
+  * #10450 Clicking a link in the message window can cause Gajim 1.3 to crash
+  * #10452 Various contact list issues
+  * #10455 App crashing if quit from tray in Windows
+  * #10461 TypeError: can only concatenate str (not "NoneType") to str when receving bare jid presence from localpart@component.domain.tld
+  * #10472 ConfirmationCheckDialog: DELETE_EVENT does not propagate checkbox state
+  * #10483 Don't interrupt onboarding with update dialog
+  * #10490 Gajim does not send XHTML in MUC
+  * #10493 Gajim’s minimum width is constrained by group chat window’s minimum width
+  * #10496 Accounts: Login settings not accessible
+  * #10506 Clicking "information" after right-click my friend causes error
+  * #10512 Setting MOTD without text triggers error
+  * #10513 Window management: AttributeError: 'NoneType' object has no attribute 'set_control_active'
+  * #10525 Sending an empty file creates errors
+  * #10526 Chat-to-MUC dialog: Contact name not shown sometimes
+  * #10531 Right-click popup menu appears, but also serves me this error reporting dialog that's annoying
+  * #10550 Joining a conference room: `AttributeError: 'NoneType' object has no attribute 'parent_win'` with `gc_ctrl` object.
+  * #10555 Crash on start with broken OMEMO archived message
+  * #10562 UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfc in position 100: invalid start byte
+  * #10575 AttributeError 'NoneType' object has no attribute 'parent_win' while trying to join group chat
+  * #10578 Disabling account should retract status icon events
+  * #10586 Answering PM from Bot leads to 'NoneType' object has no attribute 'get_full_jid'
+  * #10599 MUC notifications: add sender's nickname
+  * #10608 Non-square shaped avatars are not displayed properly
+  * #10635 Groupchat mention notifications produce sound in do-not-disturb although settings are set not to do so
+  * #10644 Notification: Error in handle_event when clicking button (login failed)
+  * #10658 Account wizard stuck on spinner when connected to broken server
+  * #10666 Creating a new groupchat fails if there is no network connection
+  * #10667 Show username/JID in password request dialog
+  * #10669 mumble:// URIs are not linkified and can't be clicked to open
+  * #10676 Files containing %20 do not download/upload correctly
+  * #10677 Jingle: file-sent-error not handled correctly
+  * #10678 Invalid version error when launching from a repository checked into Git
+  * #10692 ValueError: no kind attribute
+  * #10695 MUC Participant Information Dialog Device Page
+  * #10696 Clicking Avatar in MUC should focus Message Input
+  * #10697 AttributeError
+  * #10710 Click on found history item causes AttributeError: 'Row' object has no attribute 'stanza_id'
+  * #10713 Gajim UI unresponsive during history search
+  * #10715 Clean up GStreamer libraries
+  * #10716 Invalid type error in group chat settings
+  * #10721 No image preview with special image
+  * #10724 Entering emoji in contact list
+  * #10726 Code widget error
+  * #10734 Preview: Generating fails with gdk-pixbuf-error-quark: Unrecognized image file format (3)
+  * #10736 Preview Generating with PIL fails with OSError: encoder error -2 when writing image file
+  * #10741 Remove History Manager
+  * #10744 Preview own uploads
+  * #10745 error when hiding notification area icon
+  * #10751 Inconsistent notifications behavior in 1.4 nightlies
+  * #10773 Failure to store roster notes not reported
+  * #10774 AppIndicator should be used for the tray icon on Wayland
+  * #10801 Unknown IQ errors shown in chat
+  * #10813 Receiving a notification creates exception
+  * #10814 Unable to delete custom theme
+  * #10815 Improve Security Labels (XEP-0258) feature
+  * #10816 AttributeError: PrivateChatControl object has no attribute
+  * #10822 Exception when running contact info on a contact that stop sending status updates
+  * #10841 HTTPUpload: Error not shown when filesize limit is reached
+
+
+Gajim 1.3.3 (10 October 2021)
+
+  New
+
+  * Profile: Add NOTE entry
+
+  Changes
+
+  * Port AdHocCommand window to new Assistant
+  * Update API JID for search.jabber.network integration
+  * Build with Python 3.9
+  * Provider list: Remove blabber.im
+
+  Bug fixes
+
+  * #10638 Depend on nbxmpp>=2.0.4 (CVE-2021-41055)
+  * #10560 HTTPUpload: Raise FileError if path is not accessible
+  * #10558 Fix spell checking
+  * #10551 Check for gstreamer GTK plugin for AV support
+  * #10545 Jingle: Fix UnboundLocalError for transports variable
+  * #10540 Windows: Add GSSAPI dependency
+  * #10539 Stop gdbus.exe when running uninstaller
+  * #10478 Fix test_gui_interface testsuite
+  * #10477 Migration routine for portable installer
+  * #10441 Reload CSS after switching dark/light theme
+  * #10150 Dead key improvements
+  * Fix starting History Manager in standalone mode
+
+Gajim 1.3.2 (24 April 2021)
+
+  New
+
+  * Accounts: Add account switch description
+
+  Changes
+
+  * MessageInput: Remove custom placeholder
+  * MessageInput: Add focus borders
+
+  Bug fixes
+
+  * #10010 Only convert domain name to ASCII
+  * #10342 UnicodeDecodeError related to avatars
+  * #10428 Roster: Handle missing avatar_sha
+
+
+Gajim 1.3.1 (01 March 2021)
+
+  New
+
+  * Add setting for GSSAPI authentication
+
+  Changes
+
+  * #10416 Remove conversion of ASCII emojis
+
+  Bug fixes
+
+  * #10273 VcardWindow: Fix resource string if resource is missing
+  * #10424 GroupChatInvitation: Show account badge
+  * #10430 Preferences: Check for pipeline before removing elements
+  * #10436 Stop early when handling connection-failed in handle_event
+  * #10438 Set account window stack as non-vhomogeneous
+  * #10443 ServiceRegistration: Use nbxmpp register methods
+  * #10445 Change dataform to href markup URLs in fixed field
+  * #10450 Workaround for crash on clicking links
+  * AvatarSelector: Improve error handling
+  * Profile: Show error if avatar upload fails
+  * UserAvatar: Handle empty data nodes
+  * StatusIcon: Only hide application when its focused
+
+
+Gajim 1.3.0 (08 February 2021)
+
+  New
+
+  * Add --gdebug option
+
+  Bug fixes
+
+  * Search also in user data dir for translations
+  * AV: Fix closing chat window while in call
+  * Chat: Don’t unselect text after key press
+  * Profile: Correctly handle not existing vcard
+  * Fix display problems with feather icons
+  * Bookmarks: Check for config-node-max feature
+  * #10401 Fix race condition when removing an account
+  * #10421 Chat: Fix race condition when closing with ESC
+
+
+Gajim 1.3.0-beta2 (10 January 2021)
+
+  Changes
+
+  * Use direct messages in non-anonymous group chats instead of PM
+
+  Bug fixes
+
+  * Fix a problem with the Gajim symbolic icon when opening the Accounts dialog
+  * Make Gajim connect even if the Private XML Storage extension is not available on the server
+  * #10235 Roster tooltip error
+  * #10342 Add Workaround for UnicodeDecodingError popups
+  * #10377 Profile: Make adding a Organisation entry work
+  * #10384 Make the HistoryManager work again in standalone mode
+
+
+Gajim 1.3.0-beta1 (29 December 2020)
+
+  New
+
+  * Completely rewritten settings backend
+  * Redesigned Preferences user interface
+  * Setting for automatic history cleanup
+  * Chat-specific 'Group Chat Settings' page
+  * Support for Chat Markers (XEP-0333)
+  * Completely rewritten Profile window
+  * Support for vCard4 (XEP-0292)
+  * Redesigned Voice/Video chat interface
+  * Group chat invitations show Avatars and additional infos
+  * 'Mark as Read' button for message notifications
+  * 'Send Message' button in chat windows
+  * Windows: support for XMPP link handling
+  * Preview for pasting images from the clipboard
+
+  Changes
+
+  * Sync threshold setting could not be migrated to new settings (please make sure to check if you set a custom value)
+  * Message styling: `_underline_` style has been removed, and a new `~strikethrough~` style has been added
+  * Notification for contact sign in/out has been removed
+  * 'Auto copy' workaround for Ctrl+C usage in the chat window has been removed
+  * If Gajim fails to join a group chat, it now offers a Retry button (and also 'Forget Group Chat')
+  * Pressing the Escape key will not close chat windows by default
+  * Some shortcuts now use Primary (Ctrl/Cmd) instead of Alt (which is often used by Window Management): Change Subject (`<Primary><Shift>S`), Emoji Chooser (`<Primary><Shift>M`)
+  * Linux: Emoji button now opens GTK’s native Emoji chooser (with categories and recently used emojis)
+  * A/V codec selection has been improved
+
+  Bug fixes
+
+  * Some regressions with non-english keyboard layouts have been fixed
+  * Command for opening the Start Chat window (`gajim --start-chat`) has been fixed
+  * A/V menu entries are now updated (enabled/disabled) correctly when receiving the contact’s capabilities
+  * GSSAPI support has been fixed
+  * A bug where dropping selected text on a chat window would fail has been fixed
+  * 'Show status changes' setting has been fixed for group chats
+  * A bug where removing a plugin would fail has been fixed
+  * List of fixed issues https://dev.gajim.org/gajim/gajim/-/issues?scope=all&utf8=%E2%9C%93&state=closed&milestone_title=1.3.0
+
+
+Gajim 1.2.2 (15 August 2020)
+
+  New
+
+  * Status Selector was reworked
+  * Status Change dialog was reworked
+  * Preferences: Added Setting to toggle the use of a keyring
+  * Windows/Mac: Gajim notifies now about new updates
+  * ServerInfo: Show more details about the current connection
+
+  Changes
+
+  * The status "Free for Chat" was removed
+  * Default status message was removed, use presets instead
+  * XHTML: Support for the <img> tag was removed
+  * DBus: Ability to change settings was removed
+  * Removed ability to ignore TLS errors
+
+  Bug fixes
+
+  * #9011 Add support for KDE notification drag and drop
+  * #10176 Login Dialog throws error
+  * #10192 MUC: Respect print status setting for own status changes
+  * #10197 AddContact: Validate JID on input
+  * #10200 MUC: Gajim fails to connect to after suspend
+  * #10201 GroupchatRoster: Don’t fix height of rows
+  * #10208 PluginManager: Show error correctly when plugin removal fails
+  * Flatpak: Add hole for kwallet password storage
+  * Fix Jingle session termination
+  * #10221 ChatControl: Don’t fail when dropping text on chat
+  * StatusIcon: Fix setting status
+
+
+Gajim 1.2.1 (08 July 2020)
+
+  New
+
+  * ServerInfo: Display status address
+  * Add block and spam reporting in various places
+  * Roster: Allow to add contacts from `Not in contact list` group via DND
+  * Roster: Allow sending message to serveral groups
+  * Groupchat/Chat: Rework DND
+  * Groupchat: Display recent history from the database
+
+  Changes
+
+  * Removed Privacy Lists support
+  * Roster: Remove blocking whole group feature
+
+  Bug fixes
+
+  * #10067 Error when showing invite menu
+  * #10144 Windows: Multiple instances of Gajim not possible
+  * #10152 Error when trying to disactivate or delete account
+  * #10160 Can't http upload with self signed Certificate
+  * #10162 Add option to use fixed-width horizontal tabs
+  * #10164 Timeout error when using music track listener
+  * #10171 Show error when MUC invite fails
+  * GroupchatRoster: Sort contacts in correct order
+  * MamPreferences: Correctly display preference state for JID
+  * Windows: Auto activate shipped plugins
+
+
+Gajim 1.2.0 (21 June 2020)
+
+  New
+
+  * Add account badges
+  * Add usage hint for the Start Chat dialog
+  * Various smaller improvements
+
+  Bug fixes
+
+  * Various smaller bug fixes reported in beta
+
+
+Gajim 1.2.0-beta1 / 1.1.99.1 (01 May 2020)
+
+  New
+
+  * Rewritten network code
+  * Support for WebSocket (RFC 7395)
+  * Improved proxy handling
+  * Group chat pages (invite, information, nickname, subject, etc.)
+  * Group chat creation window
+  * Updated account creation assistant
+  * Updated assistants for password changing and account removal
+  * Updated server info window (connection details)
+  * Updated theme manager
+  * Default avatars (XEP-0392)
+  * Paste images from clipboard
+  * Contrast and color improvements for both light and dark themes
+  * Removed 'Invisible' status
+  * Removed FuzzyClock feature
+
+  Bug fixes
+
+  * List of fixed issues https://dev.gajim.org/gajim/gajim/-/issues?scope=all&utf8=%E2%9C%93&state=closed&milestone_title=1.2.0
+
+Gajim 1.1.3-1 (15 January 2020)
+
+  * Flatpak build update
+
+Gajim 1.1.3 (23 April 2019)
+
+  New
+
+  * Add a mobile phone indicator to the chat window
+  * Rework HTTPUpload dialog
+  * Add a "paste as quote" option to the message input
+
+  Bug fixes
+
+  * #8822 Fix memory leak when using spell checker
+  * #9514 Fix jingle filetransfers not working in some circumstances
+  * #9573 Dont leak DNS query when connecting over proxy
+  * #9578 Determine Windows version more reliably
+  * #9622 Fix an error while quitting Gajim
+  * #9633 Fix an error while sending a file
+  * #9637 Restore window size correctly on wayland
+  * #9660 GPG Agent setting is ignored
+  * #9645 Make zeroconf IPV6 compatible
+  * Improve dark theme colors
+  * Fix access to GnuPG keys
+  * Use UUID4 item ids for pubsub posts
+  * Dont send invalid show values
+  * Windows: Dont override format region settings
+  * Various smaller improvements
+
+Gajim 1.1.2 (15 January 2019)
+
+  New
+
+  * Remove support for XEP-0091
+
+  Bug fixes
+
+  * #9322 Error when adding contact
+  * #9385 Ignore invalid bookmarks
+  * #9386 Discovery: Browsing nodes without identity
+  * #9393 Error when parsing invalid timestamps
+  * #9398 Error on jingle file transfer
+
+Gajim 1.1.1 (24 December 2018)
+
+  Bug fixes
+
+  * #8362 DBus: Incorrect unread message count
+  * #9427 Placeholder not cleared if pasting text into message input
+  * #9444 Determine the delay timestamp correctly when using mam:1
+  * #9453 Fix opening links inside the group chat subject (MacOS/Windows)
+  * #9465 Allow the full range of possible nicknames in group chats
+  * #9067 Gajim crashes when receiving xhtml messages
+  * #9096 Error when clicking on a subscription notification
+  * #9446 Chatstate error in MUC conversation
+  * #9471 Conversation Textview: Error on key press
+  * #9472 Handle presences without from attr correctly
+  * #9473 Error when creating a new group chat
+  * #9491 Identify group chat subject changes correctly
+  * #9496 Error on MUC roster selection change
+  * Determine soundplayer correctly on unix systems
+  * In some circumstances plugins could not be deleted
+  * Show correct contact status on tabs
+  * Dont answer group chat receipt requests
+  * Fix receipts for private messages
+  * Pressing the back button in the Accounts window leads to an error
+  * Better handle not available keyring backends
+  * Dont show incorrect contact on private messages
+  * Join group chat menu is disabled when there are no bookmarks
+  * Error on start chat menu action
+  * Error when opening sign-in/out notification
+  * Copying text does not work with different keyboard layouts
+
+Gajim 1.1.0 (06 May 2018)
+
+  New
+
+  * Remove support for XEP-0091
+
+  Bug fixes
+
+  * #9322 Error when adding contact
+  * #9385 Ignore invalid bookmarks
+  * #9386 Discovery: Browsing nodes without identity
+  * #9393 Error when parsing invalid timestamps
+  * #9398 Error on jingle file transfer
+
+Gajim 1.1.0-beta2 / 1.0.99.1 (13 October 2018)
+
+  New
+
+  * Implement XEP-0398
+  * MUC: Set Threshold for requesting history
+  * Show icon for unencrypted messages
+  * Support more media players for broadcasting the current tune
+  * Windows: Add a debug logging switch in preferences
+  * Preferences: enable/disable dark theme
+  * Preferences: enable/disable the MUC subject beeing shown on join
+  * Preferences: enable/disable ascii emoji conversion
+
+  Bug fixes
+
+  * #9198 Creating new MUCs with captial letters is not possible
+  * #9210 Error when clicking on new message indicator
+  * #9280 Inviting users to a MUC causes error
+  * #9301 Error when opening service discovery window
+  * #9309 Error when clicking on a groupchat invite notification
+  * #9311 Error when requesting server info
+  * #9117 Windows UAC changes status not available
+  * #9324 No menus/dialogs on Win7
+  * #9326 IPV6 Connection problem on Win10
+  * #9334 Joining big MUCs takes very long
+  * #9339 Error caused by remote_control
+
+Gajim 1.1.0-beta1 / 1.0.99 (19 August 2018)
+
+  New
+
+  * Support for setting a MUC Avatar
+  * Support for PKIX over Secure HTTP (POSH)
+  * Support idle time for GNOME on Wayland
+  * New Emoji chooser
+  * Noto Emoji theme updated to Unicode 11
+  * Twitter Emoji theme added
+  * Gajim Theming reworked
+  * Design updates to many dialogs
+    - Join Groupchat
+    - Bookmarks
+    - Add new contact
+    - History
+    - Profile
+    - Accounts
+
+  Bug fixes
+
+  * #8658 Translation doesnt work on Windows
+  * #8750 Increase time frame for duplicate search in MUCs
+  * #9138 Translation in Flatpak does not work
+  * #9140 Error when clicking on the notification of an incoming message
+  * #9159 Wrong form type when responding to a voice request
+  * #9069 Send cancel IQ if muc configuration is aborted
+  * #9167 Flatpak fails to determine locale settings
+  * #9171 Gajim requests vcard multiple times
+  * #9198 Creating new MUCs with capital letters is not possible
+  * #9211 Punycode and Unicode with Internationalized Domain Names
+
+  Other changes
+
+  * Support http:upload:0
+  * Remove forward message adhoc commands 
+  * Remove support for XEP-0090
+  * Remove RC4-SHA because it is insecure (Was not used with current OpenSSL versions)
+  * Improve speed when loading the roster
+  * Handle new MUC status code 333
+  * Switch to GDBus for Gajim remote
+  * Removed support for ESessions
+  * Improvements to the dark theme of Gajim
+  * New dependency: python3-cssutils >= 1.0.2
+  * New dependency: python3-keyring
+  * Removed dependency: python3-avahi
+  * Removed dependency: python3-pyasn1
+
+Gajim 1.0.3 (20 May 2018)
+
+  Bugs fixed:
+
+  * #8296 Fix errors on roster updates after stream management resume
+  * #9106 Convert font weight from pango to css values
+  * #9124 Bring ChatControl to front when notification is clicked
+
+  * Set no-store hint on groupchat chatstates
+  * Dont show OOB uri if message body is the same
+  * Add missing bybonjour dependency for Windows zeroconf
+
+  Flatpak:
+
+  * Limit dbus access
+
+Gajim 1.0.2 (30 April 2018)
+
+  Bugs fixed:
+
+  * #7879 Server name is rejected for group chat bookmarks
+  * #8964 setup.py install misses some files if used with "--skip-build"
+  * #9017 Password was sometimes stored in plaintext
+  * #9022 Dont show error when receiving invalid avatars
+  * #9031 Windows: Always hide roster window on X
+  * #9038 No License in About dialog
+  * #9039 Encode filenames before sending
+  * #9044 Catch invalid IQ stanzas and log them
+  * #9049 XMPP logo in "Add New Contact" window instead Gajim logo
+  * #9050 Mark some strings as translatable
+  * #9054 Error on file send completion
+  * #9055 Removing a bookmark causes error
+  * #9057 Avatar is deleted when updating vCard
+  * #9065 Account label isn't change in tooltip of notification area icon
+  * #9066 Placeholder text does't disappear
+  * #9068 Missing pulseaudio in Flatpak image
+  * #9070 Fix History Manager search
+  * #9074 Proxy comobobox in accounts/connections doesn't get update after ManageProxies
+  * #9094 problem receiving file
+  * #9101 Notification never autohides in gnome
+
+  * Correctly reload Plugins
+  * Save history export with utf8 encoding
+  * Dont allow plain BOSH by default
+
+Gajim 1.0.1 (1 April 2018)
+
+  * Improve MAM support
+  * Image preview in file chooser dialog
+  * Groupchat: Set minimize on auto join default True
+  * Delete bookmark when we destroy a room
+  * Fix account deletion
+  * Fix custom font handling
+  * Fix OpenPGP message decryption
+  * Fix window position restore on multi-head setups
+  * Fix scrolling in message window
+  * Improve Windows build and build for 64 bits
+
+Gajim 1.0.0 (17 March 2018)
+
+  * Ported to GTK3 / Python3
+  * Integrate HTTPUpload
+  * Add Navigation buttons in History Window
+  * Improvements for HiDPI Screens
+  * Depend on the python keyring package for password storage
+  * Flatpak support
+  * Lots of refactoring
+  * New Emoji support
+  * New Chat Window design
+  * New StartChat Window (Ctrl+N)
+  * New ServerInfo Window
+  * AccountWindow Redesign
+  * Moved some encryption code out into Plugins (see PGP Plugin, Esessions Plugin)
+  * OTR Plugin was not ported, use OMEMO
+  * Added mam:1 and mam:2 support (mam:0 was removed)
+  * Added MAM for MUCs support
+  * Added support for showing XEP-0084 Avatars
+  * Add support for geo: URIs
+  * Added xmpp URI handling directly in Gajim
+  * Removed Gajim-Remote
+  * Removed XEP-0012 (Last Activity)
+  * Removed XEP-0136 (Message Archiving)
+  * Added XEP-0156 (Discovering Alternative XMPP Connection Methods)
+  * Added XEP-0319 (Last User Interaction in Presence)
+  * Added XEP-0368 (SRV records for XMPP over TLS)
+  * Added XEP-0380 (Explicit Message Encryption)
+  * Added Jingle FT:5 support
+  * Lots of other small bugfixes
+
+  KNOWN ISSUES: 
+
+    - Meta Contacts: Filtering the roster could lead to a crash in some circumstances. Use CTRL + N for starting new chats as a workaround
+    - Audio/Video support is currently not maintained and most likely not working
+    - Windows: Translation is not working currently
+
+Gajim 0.16.9 (30 November 2017)
+
+  * Improve Zeroconf behavior
+  * Fix showing normal message event
+  * remove usage of OpenSSL.rand
+  * a few minor bugfixes
+
+Gajim 0.16.8 (04 June 2017)
+
+  * Fix rejoining MUCs after connection loss
+  * Fix Groupchat invites
+  * Fix encoding problems with newer GnuPG versions
+  * Fix old messages randomly reappearing in the chat window
+  * Fix some problems with IBB filetransfer
+  * Make XEP-0146 Commands opt-in
+  * Improve sending messages to your own resources
+  * Improve reliability of delivery recipes
+  * Many minor bugfixes
+
+Gajim 0.16.7 (30 January 2017)
+
+  * Better compatibility with XEP-0191: Blocking Command
+  * Windows Credential Vault is used for password storage on Windows
+  * Gajim now depends on python-gnupg for PGP encryption
+  * Add portable installer for Windows
+  * Remove usage of demandimport
+  * Many minor bugfixes
+
+Gajim 0.16.6 (02 October 2016)
+
+  * Fix using gpg2
+  * Improve message receipts usage
+  * Improve roster filtering
+  * several minor bugs
+
+Gajim 0.16.5 (28 December 2015)
+
+  * Improve MAM implementation
+  * Improve security on connexion and for roster managment
+  * Ability for emoticons to be sorted in menu
+
+Gajim 0.16.4 (26 September 2015)
+
+  * Fix trusting GPG keys
+  * Ability to disable synchronization of logs with server
+  * Improve MAM usage
+
+Gajim 0.16.3 (31 July 2015)
+
+  * Fix reading secret file
+  * Fix reconnection after suspend
+  * Fix sending GPG-encrypted file to non-trusted key
+
+Gajim 0.16.2 (24 July 2015)
+
+  * improve Zeroconf under windows and with IPv6
+  * Fix errors with GnuPG
+  * Minor fixes and improvements
+
+Gajim 0.16.1 (28 February 2015)
+
+  * Fix sending Zeroconf messages
+  * Make ipython compatible to version >= 1.0
+  * Support XEP-0313 MAM
+  * Minor fixes and improvements
+
+Gajim 0.16 (04 October 2014)
+
+  * Improve File transfer support by adding Jingle file transfer
+  * use external python-nbxmpp library
+  * Improve audio / Video calls and add screensharing feature
+  * Support audio under windows
+  * Support systemd-logind
+  * Support XEP-0308 Last message correction
+  * Support XEP-0224 Attention
+  * Support XEP-0191 Blocking command
+  * Better RTL languages support
+  * use host command to resolve SRV records if it is available
+
+Gajim 0.15.4 (25 May 2013)
+
+  * Fix usage of OTR plugin
+  * Fix connection to non-SSL server
+  * Fix receiving GPG-encrypted messages while offline.
+
+Gajim 0.15.3 (17 March 2013)
+
+  * Better handling of SSL errors
+  * Better handling of canceling file transfer
+  * Improve farstream calls
+  * Minor fixes and improvements
+
+Gajim 0.15.2 (30 October 2012)
+
+  * Show punycode encoded urls if they contain non-ascii chars
+  * Fix crash when pressing Esc in chat window
+  * Support Network Manager 0.9
+  * decrypt GPG messages in the correct order
+
+Gajim 0.15.1 (29 August 2012)
+
+  * Switch from python-farsight to python-farstream
+  * improve performances
+  * Fix roster filter with unicode chars
+  * Fix connection to msn jabber server
+  * Fix some GPG issues
+  * Fix other small issues
+
+Gajim 0.15 (18 March 2012)
+
+  * Plugin system
+  * Whiteboard (via a plugin)
+  * Message archiving
+  * Stream managment
+  * IBB
+  * Nested roster group
+  * Roster filtrering
+  * UPower support
+  * GPG support for windows
+  * Spell checking support for windows
+
+Gajim 0.14.4 (22 July 2011)
+
+  * Fix translation issue
+  * other minor fixes
+
+Gajim 0.14.3 (19 June 2011)
+
+  * Fix history viewer
+  * Fix closing roster window
+  * Prevent some erros with metacontacts
+
+Gajim 0.14.2 (07 June 2011)
+
+  * Fix CPU usage when testing file transfer proxies
+  * Fix invalid XML char regex
+  * Fix subscription request window handling
+  * Fix URL display in chat message banner
+  * Other minor bugfixes
+
+Gajim 0.14.1 (26 October 2010)
+
+  * Fix changing account name
+  * Fix sending XHTML
+  * Fix GnomeKayring usage
+  * Fix some GPG bugs
+  * Minor bugfixes
+
+Gajim 0.14 (02 September 2010)
+
+  * Jingle audio / video chat
+  * Improve Startup time
+  * Copy emoticons, LaTeX expressions when they are selected
+  * Fix status icon transparency by using gtk.statusicon
+  * Groupchat auto-rejoin
+  * geolocation (with geoclue)
+  * use XDG standards
+  * SCRAM-SHA-1 and SASL EXTERNAL authentication
+  * MUC captcha
+  * Lots of refactoring
+
+Gajim 0.13.4 (02 April 2010)
+
+  * Add japanese translation
+  * Fix some TLS connection
+  * Don't raise a lot of "DB Error" dialog
+  * Fix contact synchronisation
+  * Minor fixes
+
+Gajim 0.13.3 (23 February 2010)
+
+  * Fix facebook xmpp server connection
+  * Fix copy / paste with Ctrl+C on non-latin keyboard
+  * Fix sending PEP information when connecting
+  * Fix parsing HTML messages that have ascii markup
+
+Gajim 0.13.2 (14 January 2010)
+
+  * Fix some translations
+  * Fix string comparison according to locales
+  * Fix resizing of groupchat occupant treeview
+  * Fix some gnomekeyring glitches
+  * better SRV usage with libasyncns
+  * copy emoticons when we copy / paste in conversations
+
+Gajim 0.13.1 (28 November 2009)
+
+  * Fix a bug when no account exists and bonjour is not available
+  * Fix a bug when opening advanced option in MUC
+  * Fix a bug when using non-BOSH proxies
+
+Gajim 0.13 (24 November 2009)
+
+  * Improve gtkspell (fix memleak)
+  * BOSH connection
+  * Roster versioning
+  * Ability to send contacts
+  * GUI to send XHTML messages
+  * Improve sessions handling
+  * pubsub storage (for bookmarks)
+  * Ability to select account when joining a groupchat
+  * Better Gnome keyring support
+  * Ability to ignore occupants in groupchats
+  * Ability to show / hide self contact row
+  * Automatically go away when screensaver is enabled under windows
+  * Ability to enable / disable accounts
+  * better URL recognition
+  * groupchat autoreconnect
+  * Store passwords in KDE wallet if available
+  * Better MUC errors handling
+  * Fix sound player launch (don't create zombies anymore)
+  * Optional shell like completion
+  * New color theme
+
+Gajim 0.12.5 (08 August 2009)
+
+  * Don't depend on GTK 2.14
+
+Gajim 0.12.4 (07 August 2009)
+
+  * Fix History manager
+  * Fix file transfer proxy discovering at connection
+  * Improve filetransfer with IPv6
+  * Fix zeroconf when receiving badly encoded info
+
+Gajim 0.12.3 (12 June 2009)
+
+  * Fix PLAIN authentication (in particular with Gtalk
+  * fix PEP discovery
+
+Gajim 0.12.2 (07 June 2009)
+
+  * Better keepalive / ping behaviour
+  * Fix custom port handling
+  * Improve error messages handling
+  * Totem support for played music
+  * Fix SSL with some servers
+  * Handle XFCE notification-daemon
+  * Restore old behaviour of click on systray: left click to open events
+  * Network manager 0.7 support
+  * Move logs file under windows to $APPDATA/gajim
+  * Improve Kerberos support
+  * Many bugfixes here and there
+  * Add -c option to history_manager
+
+Gajim 0.12.1 (21 December 2008)
+
+  * Fix filetransfer
+  * Updated german translation
+  * Fix click on notifications when text string is empty
+  * Improve systray popup menu
+
+Gajim 0.12 (17 December 2008)
+
+  * Fix text rendering in notifications
+  * Fix forward unread messages under Windows
+  * Better sessions support
+  * Better auto-away support
+  * Fix banshee support
+  * Quodlibet support
+  * Fix GSSAPI authentification 
+  * Fix IPV4 filetransfer on Windows Vista when IPV6 is used too
+  * Fix caps usage
+  * Fix end to end encryption autonegotiation
+
+Gajim 0.12-beta1 (11 November 2008)
+
+  * SECURITY
+  * Implement Kerberos (GSSAPI) SASL Authentication mechanism
+  * Prevent affiliation spoofing in groupchats
+  * Improve GPG and E2E support
+
+  * GUI
+  * Highlight all valid IANA schemes
+  * Improved E2E, Mood and Activity dialogs
+  * Show number of participants in groupchats
+
+  * Connection
+  * Correctly parse IDNA names in SRV records
+  * Disable proxy resolution (#4299)
+  * Fix handling of namespace invalid XML
+  * Do not freeze on connection failures (#4366, #4107)
+
+  * OTHERS
+  * Do not crash on fluxbox restarts
+  * Update several hotkeys and make them work on non-latin keyboards
+  * Prevent a user from sending invalid XML chars
+  * Do not try to save a file with a too long filename when a nick is long
+  * Implement XEP-0203 (Delayed Delivery)
+  * Improved windows installer
+  * Latex support for windows
+
+Gajim 0.12-alpha1 (12 August 2008)
+
+  * Change licence from GPLv2 to GPLv3
+
+  * SECURITY
+  * Support for End-To-End encryption (XEP-0116)
+  * SSL certificate verification
+  * Improve GPG support (#2390, #2783)
+  * Ability to disable message previews in notify popups
+
+  * GROUP CHATS
+  * Support for sending files over group chats
+  * List of bookmarked rooms is now sorted alphabetically
+  * Support for transforming a one-to-one chat into a groupchat
+  * Send invitation by drag-and-dropping a contact from roster
+  * Send messages to conference using gajim-remote
+  * Ability to destroy a room when we are owner, give a reason and alternative room jid
+  * Ability to minimize group chats in roster
+  
+  * USABILITY
+  * Files transfers using drag and drop
+  * Ability to select and interact with status messages in chat windows (using libsexy)
+  * Ability to set a custom avatar for a contact
+  * Better handling of resource collisions
+  * Option to Sign On as a Certain Status (#3314)
+  * Block/Unblock contact directly from roster using privacy lists
+  
+  * GUI
+  * Single window mode
+  * Close change status windows after 15 seconds of inactivity
+  * Simplified "Accounts" dialog
+  * Preferences window redesign
+  * New GUI for chat window
+  * Roster treeview now uses modelfilter (way way much faster)
+
+  * OTHER
+  * Support of PEP (Personal Eventing Protocol) (XEP-0163)
+    * User Mood (XEP-0107)
+    * User Activity (XEP-0108)
+    * User Tune (XEP-0118)
+    * User Nickname (XEP-0172)
+  * Support for Google Talk accounts with non gmail.com domain (+ GMail notifications)
+  * Modified the format of emoticons list file, so we can choose the default code (#3696)
+  * New Remote Controlling Option (XEP-0146): forward unread messages
+  * Support for User Search (XEP-0055)
+  * Support for jabber:x:data in message elements (Part of XEP-0004)
+  * Added a «supported features» window
+  * Latex support (#2796)
+  * Link-local messaging with Windows (#2883)
+  * Ability to send a custom status to a group, a contact or a transport
+  * Support of Message Receipts (XEP-0184)
+
+Gajim 0.11.4 (06 December 2007)
+
+  * Fix /nick command in groupchats
+  * Better Metacontacts sorting
+  * Fix Ctrl + PageUP/Down behaviour
+  * Fix saving files from filetransfer under windows
+
+Gajim 0.11.3 (17 November 2007)
+
+  * Fix bookmarks support detection
+  * Improve file transfer on windows
+  * Fix some zeroconf bugs
+  * Fix focus bug in chat window
+  * Fix nickname changement behaviour in groupchats
+
+Gajim 0.11.2 (22 September 2007)
+
+  * Improve idle, transports support
+  * Enable ellipsization in roster and chatwindow
+  * Fixed some metacontacts problems (#2156, #2761)
+  * Beter support of XEP-0070 (Verifying HTTP Requests via XMPP)
+  * Make the same height of a banner for all chat tabs
+  * Fix a bug with french translation and invitations (#3043)
+  * Fix a bug with UTF-8 and emoticons
+  * Corrected many bugs with passwords and gnome-keyring
+  * Improve xhtml-im and pictures support
+  * Improve Ad-Hoc support
+  * And many other bufixes
+
+Gajim 0.11.1 (18 February 2007)
+  * Fixes in gajim-remote and the way XMPP URI are handled
+  * Fix Idle under Windows
+  * Fix Gajim under non-ascii languages Windows
+  * Fix International Domain Name usage
+  * Fix when removing active privacy list
+  * Fix problem with adhoc command and multi-step forms
+  * Fixed avatars cache problems in group chats
+  * KDE integration for XMPP URI
+  * Support of Banshee Music player
+  * Support of XEP-0202 (Entity Time)
+  * Support of XEP-0199 (XMPP Ping)
+
+Gajim 0.11 (19 December 2006)
+  * New build system, using GNU autotools. See README.html
+  * Support for link-local messaging via Zeroconf using Avahi (XEP-0174)
+  * Automatically connect and disconnect to accounts according to network availability (if Network Manager is present)
+  * IPV6 support to connect to server
+  * Ad-Hoc commands
+  * GNOME Keyring Support (if GNOME keyring is available, manage passwords and save them in an encrypted file)
+  * Introducing View Menu (GNOME HIG)
+  * Ability to now hide the Transports group
+  * Support for notify-python. So if notification-daemon is not available, we still can show cool popups
+  * Connection lost is now a non-intrusive popup
+  * Try to get contact desired nick when we add him to roster aka User Nickname (XEP-0172)
+  * Support for Privacy Lists (XEP-0016)
+  * Better design of User Profile window, with a progress bar
+  * New Add User dialog, with possibility to register to transport directly from it
+  * Completion for "Start Chat" input dialog
+  * Metacontacts across accounts (#1596)
+  * Ability to have a different spellchecking language in each chat window. (#2383 and #746)
+  * Forbid to run multiple instances (but you can use differents profiles)
+  * Ability to save avatar with right click on avatar in chat banner
+  * Annotations (XEP-0145)
+  * XHTML Support 
+  * Rhythmbox and Muine song change notification
+  * Ability to operate on more than one contact at once in roster (#1514)
+  * Send single message to a whole group 
+  * Delete a whole group
+  * Gajim now remembers if GPG encyption was enabled per contact
+  * Priority can be changed automatically when we change status
+  * Fuzzyclock support
+  * Mute sounds from systray menu
+  * Add possibility to start a chat or see contact's infos from subscription request window
+  * Use different colors for each participant in groupchats
+  * Ability to show only Join/Leave in groupchats instead of all status changes
+  * New possibilities to insert nickname of a participant in groupchat conversations: Tab in an empty line now cycles through nicks, maj+right click->inserts nickname, maj+click on name in gc-roster, /names command to show all users presence
+  * Fixed bugs when removing or renaming an account with tabs open (#2369 and #2370)
+  * New translations: Croatian, Esperanto, British English, Belarusian
+
+Gajim 0.10.1 (06 June 2006)
+
+  * Freeze and lost contacts in roster (#1953)
+  * Popup menus are correctly placed
+  * High CPU usage on FreeBSD (#1963)
+  * Nickname can contain '|' (#1913)
+  * Update pl, cs, fr translations
+  * Don't play sound when no event is shown (#1970)
+  * Set gajim icon for history manager
+  * gajim.desktop is generated with translation (#834)
+  * Preventing several TBs and annoyances (r6273, r6275, r6279, r6301,
+  r6308, r6311, r6323, r6326, r6327, r6335, r6342, r6346, r6348)
+
+Gajim 0.10 (01 May 2006)
+
+  * One Messages Window ability (default to it) with tab reordering ability
+  * Non blocking socket connections. Gajim no longer remains unresponsive.
+  * Gajim now uses less memory
+  * File Transfer improvements (now should work out of the box for all)
+  * Meta Contacts ability (relationships between contacts)
+  * Support for legacy composing event (JEP-0022). Now 'Contact is composing a message' will always work
+  * Gajim now defaults to theme that uses GTK colors
+  * Roster Management Improvements (f.e. editablity of transport names, extended Drag and Drop Functionality)
+  * History (chat logs) Manager (search globally, delete, etc)
+  * Animated Emoticons ability
+  * Support for GTalk email notifications for GMail
+  * Room administrators can modify room ban list
+  * Gajim no longer optionally depends on pydns or dnspython. Requires
+  dnsutils (or whatever package provides the nslookup binary)
+  * gajim-remote has extended functionality
+  * Improved Preset Status Messages Experience
+  * Detection for CRUX as user's operating system
+  * New art included, appropriate sizes of icons used where available
+  * Translations under Windows now work okay
+  * Tons of fixes for bugs and annoyances: http://trac.gajim.org/query?status=closed&milestone=0.10
+
+
+Gajim 0.9.1 (27 December 2005)
+
+  * Fix bug when joining a Groupchat
+  * Fix bug when starting Gajim without old logs
+
+Gajim 0.9 (23 December 2005)
+
+  * Avatars and status messages in roster window
+  * Improved service discovery window
+  * Emoticons selector, Cooler Popup Windows (notification-daemon). Read more information in case you did not notice something different in http://trac.gajim.org/wiki/GajimDBus#notif_daemon
+  * Caching of Avatars, Less UI freezing
+  * New Account creation wizard
+  * Better History Window with searching capabilities
+  * Gajim now tries to reconnect to a jabber server if connection is lost
+  * Queue for all events (File Transfer, private messages, etc)
+  * A lot of new irc-like commands in group chat. Do for example /help invite
+  * X11 Session Management support
+  * Gajim registers and handles xmpp: and xmpp:// (GNOME/gconfd only)
+  * Use pysqlite for conversation history. Automigration for old logs 
+  * New translations: Italian, Swedish, Slovak, Basque
+
+Gajim 0.8.2 (06 Sep 2005)
+  
+  * Fix so Gajim runs in pygtk2.8.x
+  * Gajim can use pydns too (apart from dnspython) to do SRV lookup
+  * Other minor fixes
+
+Gajim 0.8.1 (02 Sep 2005)
+
+  * Systray icon for windows
+  * Gajim is available in Dutch
+  * Gajim can use gpg-agent
+
+Gajim 0.8 (18 Aug 2005)
+
+  * Avatars (JEP-0153)
+  * Chat state notifications aka. typing notification (JEP-0085)
+  * Bookmark storage (JEP-0048)
+  * File Transfer (JEP-0096)
+  * Major changes to adhere to GNOME HIG
+  * Complete vcard fields support
+  * New and better user interface for chat and groupchat windows
+  * SRV capabilities and custom hostname/port
+  * Many improvements in group chat and IRC emulation (eg. nick autocompletation and cycling)
+  * Gajim can now send and receive single messages
+  * New iconsets and new dialog for customizing the user interface
+  * Mouseover information for contacts in the roster window (aka tooltips)
+  * DBus Capabilities. Now Gajim can be remote controlled
+  * Authenticating HTTP Requests via XMPP (JEP-0070)
+  * Now you can lookup a word in Wikipedia, dictionary or in search engine
+  * XML Console
+  * Gajim is now also available in norwegian and czech language
+
+
+Gajim 0.7.1 (5 Jun 2005)  
+
+  * Transports icon as an option and error/mesage icon for transports  
+  * Gajim is more HIG compatible  
+  * Editing registration information on transports  
+  * Messages stanza without <body> element are not printed  
+  * SASL bugfix  
+  * GtkSpell capabilities  
+  * Support SSL (legacy) connection  
+  * Assign gpg key to specific contact  
+  * Contacts are sortable by status  
+  * Gajim remembers last lines when reopening chat  
+  * New translations available: German, Russian, Spanish, Bulgarian
+
+Gajim 0.7 (23 May 2005)
+
+  * Ability for groupchat reserved rooms with full affiliations and roles support
+  * Popup notification for incoming events
+  * Protocol icons for contacts from transports
+  * Gajim's user interface is now more HIG compliant
+  * Gajim now detects and can send operating system information
+  * Gajim now can inform the user about new version availability
+  * Gajim jabber library migration from jabberpy to xmpppy
+  * Rewrite the plugin system to remove threads and improve latency
+  * Gajim now supports Nodes in Service Discovery
+  * Greek and Polish translations
+
+
+Gajim 0.6.1 (03 April 2005)
+
+  * Rewrite of service discovery. It doesn't freeze Gajim anymore.
+  * More HIG Compliant.
+  * Gajim is faster (do not redraw preferences_window each time we open it, use
+  of psyco if available)
+
+Gajim 0.6 (23 March 2005)
+
+  * Gajim's user interface is now nicer.
+  * Groupchat just got better.
+  * URL, mailto and ascii formatin (* / _) detection
+  * Better transports detection, group management, and many minor additions/bugfixes
+
+Gajim 0.5.1 (27 February 2005)
+
+  * Minor bugfixes.
+
+Gajim 0.5 (26 February 2005)
+
+  * Possibility to use tabbed chat window
+  * Sound support under GNU/linux
+  * Autoaway available under Microsoft Windows
+
+Gajim 0.4.1 (23 January 2005)
+
+  * Bugfix in config file parser (fix config file parser to handle emoticons)
+  * Bugfix with GPG signatures
+
+Gajim 0.4 (21 January 2005)
+
+  * New option: regroup accounts
+  * Emoticons support with a binder
+  * GUI improvements
+  * Bugfixes
+
+Gajim 0.3 (18 December 2004)
+
+  * GUI improvements
+  * group chat support with MUC (JEP 45)
+  * New agent browser (JEP 30)
+  * GnuPG support
+  * Autoconnect at startup
+  * New socket plugin 
+
+Gajim 0.2.1 (1 July 2004)
+
+  * bugfixes : when configfile is incomplete
+  * icon in systray with popup menu (for linux)
+  * "auto away even if not online" option
+  * always show contacts with unread messages
+  * new imageCellRenderer to show animated gifs
+  * allow agents unregistration 
+
+Gajim 0.2 (8 June 2004)
+
+  * bugfix for french translation
+  * multi-resource support
+  * auto away support (for linux)
+  * invisible support
+  * priority support 
+
+Gajim 0.1 (21 May 2004)
+
+  * Initial release. 

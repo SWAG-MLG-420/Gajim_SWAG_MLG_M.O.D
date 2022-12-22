@@ -1,0 +1,74 @@
+
+.gajim-incoming-nickname {
+    color: rgb(200, 40, 40);
+}
+.gajim-outgoing-nickname {
+    color: rgb(50, 90, 140);
+}
+.gajim-conversation-text text {
+    color: inherit;
+}
+.gajim-status-message {
+    color: rgb(100, 130, 160);
+}
+.gajim-subject-message {
+    color: rgb(40, 70, 100);
+    background: rgb(225, 235, 250);
+}
+.gajim-call-message {
+    color: rgb(70, 70, 70);
+    background: rgb(230, 230, 230);
+}
+.gajim-command-error {
+    background-color: rgb(10, 50, 70);
+    color: rgb(220, 80, 80);
+}
+.gajim-command-output {
+    background-color: rgb(10, 50, 70);
+    color: rgb(170, 180, 200)
+}
+.gajim-mention-highlight {
+    background: rgb(255, 215, 194);
+}
+.gajim-url {
+    color: rgb(30, 75, 135);
+}
+.gajim-user-disconnected {
+    color: rgb(230, 170, 170);
+}
+.gajim-user-connected {
+    color: rgb(160, 200, 170);
+}
+.gajim-msg-correcting text {
+    background: rgb(240, 230, 170);
+}
+.gajim-notify-message {
+	color: rgb(30, 144, 255);
+}
+.gajim-notify-invite {
+	color: rgb(224, 145, 42);
+}
+.gajim-notify-error {
+	color: rgb(226, 33, 33);
+}
+.gajim-notify-success {
+	color: rgb(139, 185, 48);
+}
+.gajim-notify-other {
+	color: rgb(255, 255, 255);
+}
+.gajim-status-online {
+    color: rgb(102, 191, 16);
+}
+.gajim-status-away {
+    color: rgb(255, 133, 51);
+}
+.gajim-status-dnd {
+    color: rgb(230, 46, 0);
+}
+.gajim-status-offline {
+    color: rgb(154, 154, 154);
+}
+.gajim-status-connecting {
+    color: rgb(77, 166, 255);
+}

@@ -1,0 +1,351 @@
+app-id: org.gajim.Gajim.Devel
+runtime: org.gnome.Platform
+runtime-version: '43'
+sdk: org.gnome.Sdk
+command: gajim-devel
+tags:
+  - devel
+  - development
+  - nightly
+rename-icon: org.gajim.Gajim
+rename-desktop-file: org.gajim.Gajim.desktop
+rename-appdata-file: org.gajim.Gajim.appdata.xml
+finish-args:
+  - --share=ipc
+  - --share=network
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --socket=pulseaudio
+  - --system-talk-name=org.freedesktop.login1
+  - --talk-name=org.mpris.MediaPlayer2.*
+  # Automatic status
+  - --talk-name=org.freedesktop.ScreenSaver
+  - --talk-name=org.gnome.Mutter.IdleMonitor
+  # Keyring
+  - --talk-name=org.freedesktop.secrets
+  - --talk-name=org.kde.kwalletd5
+  # Notifications
+  - --talk-name=org.freedesktop.Notifications
+  # tray/status icon
+  - --talk-name=org.kde.StatusNotifierWatcher
+  # GnuPG
+  - --filesystem=~/.gnupg
+  # camera access
+  - --device=all
+  # extensions
+  - --env=PYTHONPATH=/app/plugins/site-packages
+  - --env=GI_TYPELIB_PATH=/app/lib/girepository-1.0:/app/plugins/lib/girepository-1.0
+
+add-extensions:
+  org.gajim.Gajim.Devel.Plugin:
+    directory: plugins
+    merge-dirs: lib;site-packages
+    add-ld-path: lib
+    subdirectories: true
+    no-autodownload: true
+    autodelete: true
+
+build-options:
+  env:
+    PIP_PREFIX: /app
+    PIP_DISABLE_PIP_VERSION_CHECK: "1"
+
+cleanup:
+  - /include
+  - /lib/pkgconfig
+  - /share/gtk-doc
+  - /share/man
+  - '*.a'
+  - '*.la'
+
+modules:
+  - shared-modules/libappindicator/libappindicator-gtk3-introspection-12.10.json
+
+  - name: python3-pyparsing
+    buildsystem: simple
+    build-commands:
+      - pip3 install pyparsing-3.0.9-py3-none-any.whl
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py3/p/pyparsing/pyparsing-3.0.9-py3-none-any.whl
+        sha256: 5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc
+
+  - name: python3-packaging
+    buildsystem: simple
+    build-commands:
+      - pip3 install packaging-21.3-py3-none-any.whl
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py3/p/packaging/packaging-21.3-py3-none-any.whl
+        sha256: ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522
+
+  - name: python3-pycparser
+    buildsystem: simple
+    build-commands:
+      - pip3 install pycparser-2.21-py2.py3-none-any.whl
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py2.py3/p/pycparser/pycparser-2.21-py2.py3-none-any.whl
+        sha256: 8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9
+
+  - name: python3-cffi
+    buildsystem: simple
+    build-commands:
+      - pip3 install .
+    sources:
+      - type: archive
+        url: https://files.pythonhosted.org/packages/source/c/cffi/cffi-1.15.1.tar.gz
+        sha256: d400bfb9a37b1351253cb402671cea7e89bdecc294e8016a707f6d1d8ac934f9
+
+  - name: python3-asn1crypto
+    buildsystem: simple
+    build-commands:
+      - pip3 install asn1crypto-1.5.1-py2.py3-none-any.whl
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py2.py3/a/asn1crypto/asn1crypto-1.5.1-py2.py3-none-any.whl
+        sha256: db4e40728b728508912cbb3d44f19ce188f218e9eba635821bb4b68564f8fd67
+
+  - name: python3-idna
+    buildsystem: simple
+    build-commands:
+      - pip3 install idna-3.4-py3-none-any.whl
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py3/i/idna/idna-3.4-py3-none-any.whl
+        sha256: 90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2
+
+  - name: python3-cryptography
+    buildsystem: simple
+    only-arches:
+      - aarch64
+    build-commands:
+      - pip3 install cryptography-38.0.4-cp36-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/cp36/c/cryptography/cryptography-38.0.4-cp36-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+        sha256: 50a1494ed0c3f5b4d07650a68cd6ca62efe8b596ce743a5c94403e6f11bf06c1
+
+  - name: python3-cryptography
+    buildsystem: simple
+    only-arches:
+      - x86_64
+    build-commands:
+      - pip3 install cryptography-38.0.4-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/cp36/c/cryptography/cryptography-38.0.4-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+        sha256: a10498349d4c8eab7357a8f9aa3463791292845b79597ad1b98a543686fb1ec8
+
+  - name: python3-dbus-python
+    build-options:
+      env:
+        PYTHON_VERSION: '3'
+    sources:
+      - type: archive
+        url: https://files.pythonhosted.org/packages/source/d/dbus-python/dbus-python-1.3.2.tar.gz
+        sha256: ad67819308618b5069537be237f8e68ca1c7fcc95ee4a121fe6845b1418248f8
+
+  - name: python3-jeepney
+    buildsystem: simple
+    build-commands:
+      - pip3 install jeepney-0.8.0-py3-none-any.whl
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py3/j/jeepney/jeepney-0.8.0-py3-none-any.whl
+        sha256: c0a454ad016ca575060802ee4d590dd912e35c122fa04e70306de3d076cce755
+
+  - name: python3-secretstorage
+    buildsystem: simple
+    build-commands:
+      - pip3 install SecretStorage-3.3.3-py3-none-any.whl
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py3/S/SecretStorage/SecretStorage-3.3.3-py3-none-any.whl
+        sha256: f356e6628222568e3af06f2eba8df495efa13b3b63081dafd4f7d9a7b7bc9f99
+
+  # importlib-metadata dependency
+  - name: python3-zipp
+    buildsystem: simple
+    build-commands:
+      - pip3 install zipp-3.11.0-py3-none-any.whl
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py3/z/zipp/zipp-3.11.0-py3-none-any.whl
+        sha256: 83a28fcb75844b5c0cdaf5aa4003c2d728c77e05f5aeabe8e95e56727005fbaa
+
+  # jaraco.classes dependency
+  - name: python3-more-itertools
+    buildsystem: simple
+    build-commands:
+      - pip3 install more_itertools-9.0.0-py3-none-any.whl
+    cleanup:
+      - /bin
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py3/m/more_itertools/more_itertools-9.0.0-py3-none-any.whl
+        sha256: 250e83d7e81d0c87ca6bd942e6aeab8cc9daa6096d12c5308f3f92fa5e5c1f41
+
+  # keyring dependency
+  - name: python3-importlib-metadata
+    buildsystem: simple
+    build-commands:
+      - pip3 install importlib_metadata-5.1.0-py3-none-any.whl
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py3/i/importlib_metadata/importlib_metadata-5.1.0-py3-none-any.whl
+        sha256: d84d17e21670ec07990e1044a99efe8d615d860fd176fc29ef5c306068fda313
+
+  - name: python3-jaraco.classes
+    buildsystem: simple
+    build-commands:
+      - pip3 install jaraco.classes-3.2.3-py3-none-any.whl
+    cleanup:
+      - /bin
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py3/j/jaraco.classes/jaraco.classes-3.2.3-py3-none-any.whl
+        sha256: 2353de3288bc6b82120752201c6b1c1a14b058267fa424ed5ce5984e3b922158
+
+  - name: python3-keyring
+    buildsystem: simple
+    build-commands:
+      - pip3 install keyring-23.11.0-py3-none-any.whl
+    cleanup:
+      - /bin
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py3/k/keyring/keyring-23.11.0-py3-none-any.whl
+        sha256: 3dd30011d555f1345dec2c262f0153f2f0ca6bca041fb1dc4588349bb4c0ac1e
+
+  - name: python3-css-parser
+    buildsystem: simple
+    build-commands:
+      - pip3 install css_parser-1.0.8-py2.py3-none-any.whl
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py2.py3/c/css_parser/css_parser-1.0.8-py2.py3-none-any.whl
+        sha256: 8f227506d21e2236f328781d41e055b5665ed2016137567841449035298ce439
+
+  - name: python3-precis_i18n
+    buildsystem: simple
+    build-commands:
+      - pip3 install precis_i18n-1.0.4-py3-none-any.whl
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py3/p/precis_i18n/precis_i18n-1.0.4-py3-none-any.whl
+        sha256: 8b4f6100c2f5e44db61081d53c9c07ff92e50d0a7b36eedd2f4fb7d40c48576d
+
+  # GSound dependency
+  - shared-modules/libcanberra/libcanberra.json
+
+  - name: gsound
+    buildsystem: meson
+    sources:
+      - type: archive
+        url: https://download.gnome.org/sources/gsound/1.0/gsound-1.0.3.tar.xz
+        sha256: ca2d039e1ebd148647017a7f548862350bc9af01986d39f10cfdc8e95f07881a
+
+  - name: gspell
+    cleanup:
+      - /bin
+    sources:
+      - type: archive
+        url: https://download.gnome.org/sources/gspell/1.12/gspell-1.12.0.tar.xz
+        sha256: 40d2850f1bb6e8775246fa1e39438b36caafbdbada1d28a19fa1ca07e1ff82ad
+
+  - name: farstream
+    rm-configure: true
+    sources:
+      - type: archive
+        url: https://freedesktop.org/software/farstream/releases/farstream/farstream-0.2.9.tar.gz
+        sha256: cb7d112433cf7c2e37a8ec918fb24f0ea5cb293cfa1002488e431de26482f47b
+      - type: patch
+        path: farstream-make-4.3.patch
+
+  - name: python3-pillow
+    buildsystem: simple
+    build-commands:
+      - pip3 install .
+    sources:
+      - type: archive
+        url: https://files.pythonhosted.org/packages/source/p/pillow/Pillow-9.3.0.tar.gz
+        sha256: c935a22a557a560108d780f9a0fc426dd7459940dc54faa49d83249c8d3e760f
+
+  # sentry-sdk dependency
+  - name: python3-urllib3
+    buildsystem: simple
+    build-commands:
+      - pip3 install urllib3-1.26.13-py2.py3-none-any.whl
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py2.py3/u/urllib3/urllib3-1.26.13-py2.py3-none-any.whl
+        sha256: 47cc05d99aaa09c9e72ed5809b60e7ba354e64b59c9c173ac3018642d8bb41fc
+
+  - name: python3-certifi
+    buildsystem: simple
+    build-commands:
+      - pip3 install certifi-2022.9.24-py3-none-any.whl
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py3/c/certifi/certifi-2022.9.24-py3-none-any.whl
+        sha256: 90c1a32f1d68f940488354e36370f6cca89f0f106db09518524c88d6ed83f382
+
+  - name: python3-sentry-sdk
+    buildsystem: simple
+    build-commands:
+      - pip3 install sentry_sdk-1.11.1-py2.py3-none-any.whl
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py2.py3/s/sentry_sdk/sentry_sdk-1.11.1-py2.py3-none-any.whl
+        sha256: 8b4ff696c0bdcceb3f70bbb87a57ba84fd3168b1332d493fcd16c137f709578c
+
+  # gssapi dependency
+  - name: python3-decorator
+    buildsystem: simple
+    build-commands:
+      - pip3 install decorator-5.1.1-py3-none-any.whl
+    sources:
+      - type: file
+        url: https://files.pythonhosted.org/packages/py3/d/decorator/decorator-5.1.1-py3-none-any.whl
+        sha256: b8c3f85900b9dc423225913c5aace94729fe1fa9763b38939a95226f02d37186
+
+  # nbxmpp dependency (optional)
+  - name: python3-gssapi
+    buildsystem: simple
+    build-commands:
+      - pip3 install -v --no-build-isolation .
+    sources:
+      - type: archive
+        url: https://files.pythonhosted.org/packages/source/g/gssapi/gssapi-1.8.2.tar.gz
+        sha256: b78e0a021cc91158660e4c5cc9263e07c719346c35a9c0f66725e914b235c89a
+
+  - name: python3-nbxmpp
+    buildsystem: simple
+    build-commands:
+      - pip3 install --no-build-isolation .
+    sources:
+      - type: git
+        url: https://dev.gajim.org/gajim/python-nbxmpp.git
+
+  - name: gajim
+    buildsystem: simple
+    build-commands:
+      - pip3 install --no-build-isolation .
+      - touch /app/share/run-as-flatpak
+      - cp -t ${FLATPAK_DEST} app-overrides.json
+      - echo -e '#!/bin/sh\ngajim --gapplication-app-id=org.gajim.Gajim.Devel "$@"' > /app/bin/gajim-devel
+      - chmod 755 /app/bin/gajim-devel
+    sources:
+      - type: git
+        url: https://dev.gajim.org/gajim/gajim.git
+      - type: file
+        path: app-overrides.json
+      - type: shell
+        commands:
+          - sed -i "s+<id>org.gajim.Gajim</id>+<id>org.gajim.Gajim.Devel</id>+" data/org.gajim.Gajim.appdata.xml.in
+          - sed -i "s+<name>Gajim</name>+<name>Gajim (Nightly)</name>+" data/org.gajim.Gajim.appdata.xml.in
+          - sed -i "s+Exec=gajim+Exec=gajim-devel+" data/org.gajim.Gajim.desktop.in
+          - mv gajim/data/icons/hicolor/scalable/apps/org.gajim.Gajim{.Devel,}.svg
+    post-install:
+      - install -d /app/plugins

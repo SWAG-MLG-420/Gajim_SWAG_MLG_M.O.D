@@ -1,0 +1,6253 @@
+# Copyright (C) Gajim Team
+# This file is distributed under the same license as the Gajim package.
+#
+# Stéphan Kochen <stephan@kochen.nl>, 2005.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gajim\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-03 08:42+0000\n"
+"PO-Revision-Date: 2015-04-24 00:10+0100\n"
+"Last-Translator: Nathan Follens <nthn@unseen.is>\n"
+"Language-Team: none\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#, fuzzy
+msgid " (Video Call)"
+msgstr "Videotest"
+
+#, fuzzy
+msgid " (Voice Call)"
+msgstr "Audiogespreksverzoek"
+
+#, python-brace-format
+msgid " by {actor}"
+msgstr " door {actor}"
+
+#, fuzzy, python-format
+msgid "%(contact)s declined your invitation to %(chat)s"
+msgstr "%(jid)s heeft de uitnodiging geweigerd: %(reason)s"
+
+#, fuzzy, python-format
+msgid "%(contact)s invited you to %(chat)s"
+msgstr ""
+"<b>%(contact)s</b> heeft u uitgenodigd in groepsgesprek <b>%(room_jid)s</b>"
+
+#, python-format
+msgid "%(days)s days, %(hours)s hours"
+msgstr "%(days)s dagen, %(hours)s uur"
+
+#, python-format
+msgid "%(minutes)s min %(seconds)s s"
+msgstr ""
+
+#, fuzzy, python-format
+msgid "%(name)s %(jid)s suggested me to add you to my contact list."
+msgstr "%s heeft me aangeraden je aan mijn rooster toe te voegen."
+
+#, fuzzy, python-format
+msgid ""
+"%(name)s (%(jid)s) would like to add some contacts to your contact list."
+msgstr "Ik wil je graag toevoegen aan mijn contacten."
+
+#, fuzzy, python-format
+msgid ""
+"%(name)s (%(jid)s) would like to delete some contacts from your contact list."
+msgstr "<b>%(jid)s</b> wil dat je enkele contacten zou <b>%(action)s</b>."
+
+#, fuzzy, python-format
+msgid ""
+"%(name)s (%(jid)s) would like to modify some contacts in your contact list."
+msgstr "<b>%(jid)s</b> wil dat je enkele contacten zou <b>%(action)s</b>."
+
+#, fuzzy, python-format
+msgid "%(name)s cancelled the transfer (%(reason)s)"
+msgstr "%(jid)s heeft de uitnodiging geweigerd: %(reason)s"
+
+#, fuzzy, python-format
+msgid "%(nickname)s:"
+msgstr "Bijnaam:"
+
+#, python-format
+msgid "%(owner_or_admin_or_member)s of this group chat"
+msgstr "%(owner_or_admin_or_member)s van dit groepsgesprek"
+
+#, fuzzy, python-format
+msgid "%(progress)s %% (%(time)s remaining)"
+msgstr "%(progress)s van %(total)s MiB verzonden"
+
+#, python-format
+msgid "%(received)s of %(max)s"
+msgstr "%(received)s van %(max)s"
+
+#, python-format
+msgid "%(type)s encryption is active %(authenticated)s."
+msgstr "%(type)s-versleuteling is actief %(authenticated)s."
+
+#, python-format
+msgid "%i min ago"
+msgid_plural "%i mins ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#, fuzzy, python-format
+msgid "%s (desynced)"
+msgstr "gedesynchroniseerd"
+
+#, fuzzy, python-format
+msgid "%s asks you to share your status"
+msgstr "‘%s’ zal nu je status zien."
+
+#, fuzzy, python-format
+msgid "%s group chats found"
+msgstr "%s groepsgesprekken gevonden"
+
+#, fuzzy, python-format
+msgid "%s has been invited to this group chat"
+msgstr "%(jid)s is in dit groepsgesprek uitgenodigd"
+
+#, fuzzy, python-format
+msgid "%s has joined"
+msgstr "%s heeft het groepsgesprek verlaten"
+
+#, python-format
+msgid "%s has read up to this point"
+msgstr ""
+
+#, python-format
+msgid "%s is a file but it should be a directory"
+msgstr "%s is een bestand maar zou een map moeten zijn"
+
+#, fuzzy, python-format
+msgid "%s is already in your contact list"
+msgstr "Dit contact staat al in je rooster."
+
+#, python-format
+msgid "%s is calling"
+msgstr ""
+
+#, python-format
+msgid "%s is not a valid loglevel"
+msgstr "%s is geen geldig logniveau"
+
+#, python-format
+msgid ""
+"%s is online with multiple devices.\n"
+"Choose the device you would like to send the files to."
+msgstr ""
+
+#, python-format
+msgid "%s s"
+msgstr ""
+
+#, python-format
+msgid "%s stopped sharing their status"
+msgstr ""
+
+#, fuzzy, python-format
+msgid "%s stopped the transfer"
+msgstr "Contact heeft de overdracht gestopt"
+
+#, fuzzy, python-format
+msgid "%s wants to send you a file"
+msgstr "%s wil je een bestand sturen."
+
+#, python-format
+msgctxt "positive longitude"
+msgid "%sE"
+msgstr ""
+
+#, python-format
+msgctxt "positive latitude"
+msgid "%sN"
+msgstr ""
+
+#, python-format
+msgctxt "negative latitude"
+msgid "%sS"
+msgstr ""
+
+#, python-format
+msgctxt "negative longitude"
+msgid "%sW"
+msgstr ""
+
+#, python-format
+msgid "(%(filesize_unit)s/s)"
+msgstr "(%(filesize_unit)s/s)"
+
+#, python-brace-format
+msgid "** Affiliation of {nick} has been set to {affiliation}{actor}{reason}"
+msgstr "** Aansluiting van {nick} is ingesteld op {affiliation}{actor}{reason}"
+
+#, python-brace-format
+msgid "** Role of {nick} has been set to {role}{actor}{reason}"
+msgstr "** Rol van {nick} is ingesteld op {role}{actor}{reason}"
+
+#, python-brace-format
+msgid "** Your Affiliation has been set to {affiliation}{actor}{reason}"
+msgstr "** Je aansluiting is ingesteld op {affiliation}{actor}{reason}"
+
+#, python-brace-format
+msgid "** Your Role has been set to {role}{actor}{reason}"
+msgstr "** Je rol is ingesteld op {role}{actor}{reason}"
+
+msgid "1 Day"
+msgstr ""
+
+#, fuzzy
+msgid "1 Month"
+msgstr "Een maand"
+
+msgid "1 Week"
+msgstr ""
+
+#, fuzzy
+msgid "1 Year"
+msgstr "Een jaar"
+
+msgid "2 Days"
+msgstr ""
+
+#, fuzzy
+msgid "3 Months"
+msgstr "Een maand"
+
+#, fuzzy
+msgid "6 Months"
+msgstr "Een maand"
+
+msgid ": Affiliation changed"
+msgstr ": aansluiting veranderd"
+
+#, fuzzy
+msgid ": Group chat configuration changed to members-only"
+msgstr ": gespreksconfiguratie veranderd naar alleen-leden"
+
+msgid "<Description>"
+msgstr "<Beschrijving>"
+
+msgid "<Plugin Name>"
+msgstr "<Naam van plug-in>"
+
+#, python-format
+msgid ""
+"<b>\"%(title)s\"</b> by <i>%(artist)s</i>\n"
+"from <i>%(source)s</i>"
+msgstr ""
+"<b>‘%(title)s’</b> door <i>%(artist)s</i>\n"
+"van <i>%(source)s</i>"
+
+msgid "<b>#</b>"
+msgstr "<b>#</b>"
+
+msgid "<b>*</b>"
+msgstr "<b>*</b>"
+
+msgid "<b>0</b>"
+msgstr "<b>0</b>"
+
+msgid "<b>1</b>"
+msgstr "<b>1</b>"
+
+msgid "<b>2</b> abc"
+msgstr "<b>2</b> abc"
+
+msgid "<b>3</b> def"
+msgstr "<b>3</b> def"
+
+msgid "<b>4</b> ghi"
+msgstr "<b>4</b> ghi"
+
+msgid "<b>5</b> jkl"
+msgstr "<b>5</b> jkl"
+
+msgid "<b>6</b> mno"
+msgstr "<b>6</b> mno"
+
+msgid "<b>7</b> pqrs"
+msgstr "<b>7</b> pqrs"
+
+msgid "<b>8</b> tuv"
+msgstr "<b>8</b> tuv"
+
+msgid "<b>9</b> wxyz"
+msgstr "<b>9</b> wxyz"
+
+#, fuzzy
+msgid ""
+"<b>XMPP Address</b>\n"
+"&lt;user@domain/resource&gt; (only that resource matches)\n"
+"&lt;user@domain&gt; (any resource matches)\n"
+"&lt;domain/resource&gt; (only that resource matches)\n"
+"&lt;domain&gt; (the domain itself matches, as does any user@domain or domain/"
+"resource)\n"
+msgstr ""
+"<b>Jabber-ID</b>\n"
+"&lt;gebruiker@domein/bron&gt; (alleen die bron komt overeen).\n"
+"&lt;gebruiker@domein&gt; (eender welke bron komt overeen).\n"
+"&lt;domein/bron&gt; (alleen die bron komt overeen).\n"
+"&lt;domein&gt; (het domein zelf komt overeen, net als gelijk welke "
+"gebruiker@domein of domein/bron)\n"
+
+msgid "<empty>"
+msgstr "<leeg>"
+
+#, fuzzy
+msgid "<error>"
+msgstr "fout"
+
+msgid "?Ask (for Subscription):None"
+msgstr "?Vragen (voor abonnering):Geen"
+
+#, fuzzy
+msgid "?Gender:None"
+msgstr "Afzender: "
+
+msgid "?Gender:Other"
+msgstr ""
+
+msgid "?Group Chat Contact Affiliation:None"
+msgstr "?Aansluiting van contact in groepsgesprek:Geen"
+
+msgid "?Group Chat Contact Role:None"
+msgstr "?Contactrol voor groepsgesprek:Geen"
+
+msgid "?Group chat address:family"
+msgstr ""
+
+#, fuzzy
+msgid "?Group chat address:news"
+msgstr "Nieuw bericht in groepsgesprek"
+
+#, fuzzy
+msgid "?Group chat address:repairs"
+msgstr "Ondersteuning voor groepsgesprekken"
+
+#, fuzzy
+msgid "?Group chat address:team"
+msgstr "Ondersteuning voor groepsgesprekken"
+
+#, fuzzy
+msgid "?Group chat address:vacation"
+msgstr "Uitnodiging voor groepsgesprek"
+
+msgid "?Group chat description:Local help group"
+msgstr ""
+
+#, fuzzy
+msgid "?Group chat description:Local news and reports"
+msgstr "Aanmaken van groepsgesprekken is niet toegestaan."
+
+msgid "?Group chat description:Project discussion"
+msgstr ""
+
+msgid "?Group chat description:Spring gathering"
+msgstr ""
+
+msgid "?Group chat description:Trip planning"
+msgstr ""
+
+#, fuzzy
+msgid "?Group chat feature:Archiving"
+msgstr "Uitnodiging voor groepsgesprek"
+
+#, fuzzy
+msgid "?Group chat feature:Hidden"
+msgstr "?Contactrol voor groepsgesprek:Geen"
+
+#, fuzzy
+msgid "?Group chat feature:Members Only"
+msgstr "Markering in groepsgesprek"
+
+#, fuzzy
+msgid "?Group chat feature:Moderated"
+msgstr "?Contactrol voor groepsgesprek:Geen"
+
+#, fuzzy
+msgid "?Group chat feature:No Password Required"
+msgstr "Ondersteuning voor groepsgesprekken"
+
+#, fuzzy
+msgid "?Group chat feature:Not Anonymous"
+msgstr "Ondersteuning voor groepsgesprekken"
+
+#, fuzzy
+msgid "?Group chat feature:Not Moderated"
+msgstr "Ondersteuning voor groepsgesprekken"
+
+#, fuzzy
+msgid "?Group chat feature:Open"
+msgstr "?Contactrol voor groepsgesprek:Geen"
+
+#, fuzzy
+msgid "?Group chat feature:Password Required"
+msgstr "Ondersteuning voor groepsgesprekken"
+
+#, fuzzy
+msgid "?Group chat feature:Persistent"
+msgstr "Ondersteuning voor groepsgesprekken"
+
+#, fuzzy
+msgid "?Group chat feature:Public"
+msgstr "Markering in groepsgesprek"
+
+#, fuzzy
+msgid "?Group chat feature:Semi-Anonymous"
+msgstr "Markering in groepsgesprek"
+
+#, fuzzy
+msgid "?Group chat feature:Temporary"
+msgstr "?Contactrol voor groepsgesprek:Geen"
+
+#, fuzzy
+msgid "?Group chat name:Family"
+msgstr "Markering in groepsgesprek"
+
+#, fuzzy
+msgid "?Group chat name:News"
+msgstr "?Contactrol voor groepsgesprek:Geen"
+
+#, fuzzy
+msgid "?Group chat name:Repairs"
+msgstr "Groepsgesprekbladwijzers"
+
+#, fuzzy
+msgid "?Group chat name:Team"
+msgstr "?Contactrol voor groepsgesprek:Geen"
+
+#, fuzzy
+msgid "?Group chat name:Vacation"
+msgstr "Uitnodiging voor groepsgesprek"
+
+#, fuzzy
+msgid "?Message row action:Copy"
+msgstr "Bericht opstellen"
+
+#, fuzzy
+msgid "?Message row action:Correct…"
+msgstr "Bericht opstellen"
+
+msgid "?Message row action:Quote…"
+msgstr ""
+
+# Eerste bericht ontvangen?
+#, fuzzy
+msgid "?Message row action:Retract…"
+msgstr "Eerste ontvangen bericht"
+
+#, fuzzy
+msgid "?Message row action:Select Messages…"
+msgstr "Bericht opstellen"
+
+# Eerste bericht ontvangen?
+#, fuzzy
+msgid "?Message state:Received"
+msgstr "Eerste ontvangen bericht"
+
+msgid "?Noun:Download"
+msgstr "?Znw:Download"
+
+msgid "?Noun:Upload"
+msgstr "?Znw:Upload"
+
+msgid "?Subscription we already have:None"
+msgstr "?Abonnement dat we al hebben:Geen"
+
+#, fuzzy
+msgid "?config description:None"
+msgstr "?Vragen (voor abonnering):Geen"
+
+msgid "?config type:Boolean"
+msgstr ""
+
+msgid "?config type:Integer"
+msgstr ""
+
+msgid "?config type:Text"
+msgstr ""
+
+#, fuzzy
+msgid "?config:Preference Name"
+msgstr "Voorkeurnaam"
+
+msgid "?config:Type"
+msgstr ""
+
+#, fuzzy
+msgid "?config:Value"
+msgstr "Configureren"
+
+#, fuzzy
+msgid "?profile:Address"
+msgstr "Adres"
+
+#, fuzzy
+msgid "?profile:Full Name"
+msgstr "Volledige naam"
+
+msgid "?profile:Gender"
+msgstr ""
+
+msgid "?profile:IM Address"
+msgstr ""
+
+#, fuzzy
+msgid "?profile:Note"
+msgstr "Profiel"
+
+msgid "?profile:Organisation"
+msgstr ""
+
+msgid "?profile:Public Encryption Key"
+msgstr ""
+
+#, fuzzy
+msgid "?profile:Role"
+msgstr "Profiel"
+
+msgid "?profile:Title"
+msgstr ""
+
+msgid "?switch:Off"
+msgstr ""
+
+msgid "?switch:On"
+msgstr ""
+
+#, fuzzy
+msgid "?transfer status:Aborted"
+msgstr "?overdrachtstatus:Gepauzeerd"
+
+#, fuzzy
+msgid "?transfer status:Completed"
+msgstr "?overdrachtstatus:Gepauzeerd"
+
+#, fuzzy
+msgid "?transfer status:Not started"
+msgstr "?overdrachtstatus:Gepauzeerd"
+
+msgid "?transfer status:Paused"
+msgstr "?overdrachtstatus:Gepauzeerd"
+
+#, fuzzy
+msgid "?transfer status:Stalled"
+msgstr "?overdrachtstatus:Gepauzeerd"
+
+#, fuzzy
+msgid "?transfer status:Status: "
+msgstr "?overdrachtstatus:Gepauzeerd"
+
+#, fuzzy
+msgid "?transfer status:Transferred: "
+msgstr "?overdrachtstatus:Gepauzeerd"
+
+#, fuzzy
+msgid "?transfer status:Transferring"
+msgstr "?overdrachtstatus:Gepauzeerd"
+
+#, fuzzy
+msgid "?transfer type:Type: "
+msgstr "Bestandsoverdracht gestopt"
+
+msgid "?user status:Available"
+msgstr "?gebruikersstatus:Aanwezig"
+
+msgid "?user status:_Available"
+msgstr "?gebruikersstatus:_Aanwezig"
+
+msgid "A Feature Comparison of Various Servers"
+msgstr ""
+
+msgid "A Group Chat needs at least one Owner"
+msgstr "Een groepsgesprek heeft minstens één eigenaar nodig"
+
+msgid ""
+"A file with this name already exists and you do not have permission to "
+"overwrite it."
+msgstr ""
+"Een bestand met deze naam bestaat al en je hebt geen toestemming om het te "
+"overschrijven."
+
+msgid "A fully-featured XMPP chat client"
+msgstr ""
+
+msgid "A list of active, completed and stopped file transfers"
+msgstr "Een lijst van actieve, afgeronde en gestopte bestandsoverdrachten"
+
+#, fuzzy
+msgid ""
+"A list of words (semicolon separated) that will be highlighted in group "
+"chats."
+msgstr ""
+"Een puntkomma-onderbroken lijst van woorden die gemarkeerd worden in een "
+"groepsgesprek."
+
+#, fuzzy
+msgid "A new group chat has been created"
+msgstr "Een nieuw groepsgesprek is aangemaakt"
+
+#, fuzzy
+msgid "A restart may be required for some settings to take effect"
+msgstr ""
+"Je moet Gajim herstarten vooraleer sommige instellingen in werking treden"
+
+msgid "A setting not related to privacy has been changed"
+msgstr "Een instelling is gewijzigd, niet gerelateerd aan privacy"
+
+#, python-format
+msgid "ALSA: %s"
+msgstr "ALSA: %s"
+
+msgid "API Preferences. Possible values: \"http\", \"iq\""
+msgstr ""
+
+msgid "A_way"
+msgstr "Af_wezig"
+
+#, fuzzy
+msgid "Abort"
+msgstr "Afgebroken"
+
+msgid "Abuse"
+msgstr ""
+
+msgid "Accept"
+msgstr "Accepteren"
+
+#, fuzzy
+msgid "Accept all Contact Requests"
+msgstr "Audiogespreksverzoek"
+
+msgid "Account"
+msgstr "Account"
+
+#, python-format
+msgid "Account %s is still connected"
+msgstr "Account %s is nog verbonden"
+
+#, fuzzy
+msgid "Account Added"
+msgstr "Accountrijlettertype"
+
+#, fuzzy
+msgid "Account Name..."
+msgstr "Accountrijlettertype"
+
+#, fuzzy
+msgid "Account Removal Failed"
+msgstr "Geen accounts beschikbaar"
+
+#, fuzzy
+msgid "Account Removed"
+msgstr "Accountrijlettertype"
+
+#, fuzzy
+msgid "Account Settings…"
+msgstr "Plug-in-instellingen"
+
+#, fuzzy
+msgid "Account Wizard"
+msgstr "Account is uitgeschakeld"
+
+#, fuzzy
+msgid "Account disabled"
+msgstr "Account is uitgeschakeld"
+
+msgid "Account has been added successfully"
+msgstr "Account is toegevoegd"
+
+#, fuzzy
+msgid "Account has to be connected"
+msgstr "Account %s is nog verbonden"
+
+#, fuzzy
+msgid "Account is being created"
+msgstr "Account %s is nog verbonden"
+
+#, fuzzy, python-format
+msgid "Account: %s"
+msgstr "Accounts"
+
+msgid "Accounts"
+msgstr "Accounts"
+
+msgid "Action for left-clicking a preview"
+msgstr ""
+
+#, fuzzy
+msgid "Action on Close"
+msgstr "Gajim afsluiten"
+
+#, fuzzy
+msgid "Action when closing Gajim’s window"
+msgstr "Gajim altijd sluiten"
+
+#, fuzzy
+msgid "Activate"
+msgstr "Ingeschakeld"
+
+msgid "Activated"
+msgstr "Ingeschakeld"
+
+msgid "Active"
+msgstr "Actief"
+
+msgid "Add"
+msgstr "Toevoegen"
+
+#, fuzzy
+msgid "Add Account"
+msgstr "Account toevoegen…"
+
+msgid "Add Contact"
+msgstr "Contact toevoegen"
+
+#, fuzzy
+msgid "Add Contact…"
+msgstr "Contact toevoegen…"
+
+#, fuzzy
+msgid "Add Entry"
+msgstr "Item:"
+
+#, fuzzy
+msgid "Add Files…"
+msgstr "Bestanden:"
+
+#, fuzzy
+msgid "Add Group…"
+msgstr "_Groepen bewerken…"
+
+msgid "Add Proxy"
+msgstr "Proxy toevoegen"
+
+#, fuzzy
+msgid "Add Setting"
+msgstr "Instellingen"
+
+msgid "Add Workspace"
+msgstr ""
+
+#, fuzzy
+msgid "Add _Contact…"
+msgstr "Contact toevoegen…"
+
+msgid "Add a checkmark to received messages"
+msgstr ""
+
+msgid "Add a name and color for your account"
+msgstr ""
+
+msgid "Add a setting you would like to change"
+msgstr ""
+
+#, fuzzy
+msgid "Add new Theme"
+msgstr "Nieuwe regel toevoegen"
+
+msgid "Add new line"
+msgstr "Nieuwe regel toevoegen"
+
+#, fuzzy
+msgid "Add some details…"
+msgstr "Contact toevoegen…"
+
+#, fuzzy
+msgid "Add this certificate to the list of _trusted certificates"
+msgstr ""
+"Voeg dit certificaat toe aan de lijst van vertrouwde certificaten.\n"
+"SHA1-vingerafdruk van het certificaat:\n"
+
+#, fuzzy
+msgid "Add to Contact List…"
+msgstr "Contact toevoegen…"
+
+#, python-format
+msgid "Added %d contact"
+msgid_plural "Added %d contacts"
+msgstr[0] "%d contact toegevoegd"
+msgstr[1] "%d contacten toegevoegd"
+
+msgid "Address"
+msgstr "Adres"
+
+#, fuzzy
+msgid "Address does not belong to a group chat server"
+msgstr "%s is geen groepsgespreksserver"
+
+msgid "Adjust to Status"
+msgstr "Aanpassen aan status"
+
+msgid "Adjust to status"
+msgstr "Aanpassen aan status"
+
+msgid "Admin"
+msgstr "Admin"
+
+#, fuzzy
+msgid "Administration"
+msgstr "Administrator"
+
+msgid "Administrator"
+msgstr "Administrator"
+
+#, fuzzy
+msgid "Administrators"
+msgstr "Administrator"
+
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+msgid "Advanced Configuration Editor (ACE)"
+msgstr "Geavanceerde configuratie (ACE)"
+
+#, fuzzy
+msgid "Advanced Configuration Editor… "
+msgstr "Geavanceerde configuratie (ACE)"
+
+#, fuzzy
+msgid "Advanced Settings"
+msgstr "Gea_vanceerde Acties"
+
+#, fuzzy
+msgid "Advanced settings"
+msgstr "Gea_vanceerde Acties"
+
+msgid "Affiliation"
+msgstr "Aansluiting"
+
+msgid "Affiliations"
+msgstr "Aansluitingen"
+
+msgid "All"
+msgstr "Iedereen"
+
+#, fuzzy
+msgid "All Accounts"
+msgstr "Accounts"
+
+#, fuzzy
+msgid "All Chat States"
+msgstr "Alle gesprekstoestanden"
+
+#, fuzzy
+msgid "All chat and group chat windows will be closed."
+msgstr ""
+"Alle gespreks- en groepsgespreksvensters zullen worden gesloten. Wil je "
+"doorgaan?"
+
+msgid "All files"
+msgstr "Alle bestanden"
+
+#, fuzzy
+msgid "All other group chat participants can see your XMPP address"
+msgstr ""
+"Semi-anoniem\n"
+"<span size=\"small\">(Enkel moderators kunnen je XMPP-adres zien)</span>"
+
+msgid ""
+"Allow Gajim to broadcast useful information via D-Bus. It also allows other "
+"applications to control Gajim remotely."
+msgstr ""
+
+msgid "Allows opening file:/ URIs when clicked."
+msgstr ""
+
+#, fuzzy
+msgid "Alternate venue (optional)..."
+msgstr "Je kan ook een andere locatie opgeven:"
+
+msgid "Always"
+msgstr "Altijd"
+
+#, fuzzy
+msgid "An Error Occurred"
+msgstr "<b>Er is een fout opgetreden:</b>"
+
+#, fuzzy
+msgid "An entry with this XMPP Address already exists"
+msgstr "Er bestaat al een item met deze Jabber-ID"
+
+#, fuzzy
+msgid "An error occurred"
+msgstr "<b>Er is een fout opgetreden:</b>"
+
+msgid "An error occurred during account creation"
+msgstr "Er is een fout opgetreden bij het aanmaken van de account"
+
+#, fuzzy
+msgid "An error occurred while exporting your messages"
+msgstr "Er is een fout opgetreden bij het aanmaken van de account"
+
+#, fuzzy
+msgid "An error occurred while trying to change your password."
+msgstr "Er is een fout opgetreden bij het aanmaken van de account"
+
+#, fuzzy, python-format
+msgid "An error occurred while trying to create a file at %(path)s: %(error)s"
+msgstr "Er is een fout opgetreden bij het aanmaken van de account"
+
+msgid "Anonymous login not supported"
+msgstr ""
+
+msgid "Another process is using this file."
+msgstr "Dit bestand is in gebruik door een ander proces."
+
+#, fuzzy
+msgid "Any participant is allowed to see your full XMPP Address"
+msgstr "Elke deelnemer kan je volledige JID te zien"
+
+#, fuzzy
+msgid "Anyone can join"
+msgstr "%s neemt nu deel aan het groepsgesprek"
+
+#, fuzzy
+msgid "Anyone can join this group chat"
+msgstr "%s neemt nu deel aan het groepsgesprek"
+
+msgid "Application verification failure"
+msgstr "Toepassingsverificatie mislukt"
+
+msgid "Apply"
+msgstr ""
+
+#, fuzzy
+msgid "Approve"
+msgstr "approve"
+
+msgid "Archive"
+msgstr "Archiveren"
+
+msgid "Archive corrupted"
+msgstr "Archief corrupt"
+
+msgid "Archive empty"
+msgstr "Leeg archief"
+
+msgid "Archive is malformed"
+msgstr "Archief is misvormd"
+
+msgid "Archiving Preferences"
+msgstr "Archiefvoorkeuren"
+
+#, fuzzy
+msgid "Archiving Preferences Error"
+msgstr "Archiefvoorkeuren"
+
+#, fuzzy
+msgid "Archiving Preferences Saved"
+msgstr "Archiefvoorkeuren"
+
+#, python-format
+msgid "Archiving Preferences for %s"
+msgstr "Archiefvoorkeuren voor %s"
+
+#, fuzzy
+msgid "Are you sure you want to leave this group chat?"
+msgstr "Weet je zeker dat je het groepsgesprek ‘%s’ wil verlaten?"
+
+msgid "Are you sure you want to quit Gajim?"
+msgstr "Weet je zeker dat je Gajim wil afsluiten?"
+
+msgid "Artists"
+msgstr "Artiesten"
+
+#, fuzzy
+msgid "Ask For Status Message on…"
+msgstr "Vraag om statusbericht wanneer ik"
+
+msgid "Ask before closing a group chat tab/window."
+msgstr ""
+"Vraag bevestiging voor het sluiten van een groepsgespreksvenster of -tab."
+
+msgid "Ask before quitting when Gajim’s window is closed"
+msgstr ""
+
+msgid "Attention Message Received"
+msgstr "Aandachtsbericht ontvangen"
+
+msgid "Audio"
+msgstr "Audio"
+
+#, fuzzy
+msgid "Audio / Video Calls"
+msgstr "Audio / video"
+
+#, fuzzy
+msgid "Audio File"
+msgstr "Bestanden:"
+
+#, fuzzy
+msgid "Audio Input Device"
+msgstr "_Audio-invoerapparaat"
+
+#, fuzzy
+msgid "Audio Output Device"
+msgstr "A_udio-uitvoerapparaat"
+
+#, fuzzy
+msgid "Audio Preview"
+msgstr "Bestanden:"
+
+#, fuzzy
+msgid "Audio preview is not available"
+msgstr "Audiosessies zijn niet beschikbaar"
+
+msgid "Audio test"
+msgstr "Audiotest"
+
+msgid "Audio/Video"
+msgstr "Audio/video"
+
+#, fuzzy
+msgid "Authentication aborted"
+msgstr "Machtiging geaccepteerd"
+
+msgid "Authentication currently not possible"
+msgstr ""
+
+#, fuzzy
+msgid "Authentication failed"
+msgstr "Authenticatie met ‘%s’ mislukt"
+
+#, fuzzy
+msgid "Authentication mechanism not supported"
+msgstr "Extensie wordt niet ondersteund"
+
+#, fuzzy
+msgid "Authentication mechanism too weak"
+msgstr "Authenticatie met ‘%s’ mislukt"
+
+#, fuzzy
+msgid "Author"
+msgstr "Auteurs"
+
+msgid "Authority and issuer serial number mismatch"
+msgstr "Autoriteit en uitgeverserienummer komen niet overeen"
+
+msgid "Authority and subject key identifier mismatch"
+msgstr "Autoriteit en subjectsleutelidentificatie komen niet overeen"
+
+#, fuzzy
+msgid "Authorization Request"
+msgstr "Machtiging verzonden"
+
+msgid "Authors"
+msgstr "Auteurs"
+
+#, fuzzy
+msgid "Auto Away"
+msgstr "Afwezig"
+
+#, fuzzy
+msgid "Auto Away Settings"
+msgstr "Gespreksinstellingen"
+
+#, fuzzy
+msgid "Auto Extended Away Settings"
+msgstr "Lang weg"
+
+#, fuzzy
+msgid "Auto Not Available"
+msgstr "Niet beschikbaar"
+
+msgid "Autodetect"
+msgstr "Automatisch herkennen"
+
+msgid "Autojoin"
+msgstr "Automatisch deelnemen"
+
+msgid "Automatic Status"
+msgstr "Automatische status"
+
+#, fuzzy
+msgid "Automatic Status Change"
+msgstr "Automatische status"
+
+msgid "Automatic preview disabled"
+msgstr ""
+
+msgid "Automatic preview disabled (file too big)"
+msgstr ""
+
+msgid "Automatic spell-checking for your messages"
+msgstr "Automatische spellingscontrole voor je berichten"
+
+#, fuzzy
+msgid "Automatically accept all contact requests"
+msgstr "Automatisch contacten toestemming geven"
+
+msgid "Available"
+msgstr "Beschikbaar"
+
+#, fuzzy
+msgid "Avatar file size too big"
+msgstr "Afbeelding is te groot"
+
+msgid "Away"
+msgstr "Afwezig"
+
+#, fuzzy
+msgid "Back"
+msgstr "Zo terug"
+
+msgid "Back in some minutes."
+msgstr "In een paar minuten terug."
+
+msgid "Back soon"
+msgstr "Zo terug"
+
+#, fuzzy
+msgid "Ban"
+msgstr "Ver_bannen"
+
+#, fuzzy, python-format
+msgid "Ban %s"
+msgstr "Banlijst"
+
+msgid "Ban…"
+msgstr ""
+
+#, fuzzy
+msgid "Behaviour of Application Window"
+msgstr "Gedrag van vensters en tabbladen"
+
+msgid "Birthday"
+msgstr "Verjaardag"
+
+#, fuzzy
+msgid "Block"
+msgstr "_Blokkeren"
+
+#, fuzzy
+msgid "Block Contact"
+msgstr "Geblokkeerde contacten"
+
+#, fuzzy
+msgid "Block Contact…"
+msgstr "Geblokkeerde contacten"
+
+msgid "Blocking List"
+msgstr "Blokkeringslijst"
+
+#, python-format
+msgid "Blocking List for %s"
+msgstr "Blokkeringslijst voor %s"
+
+#, fuzzy
+msgid "Block…"
+msgstr "_Blokkeren"
+
+msgid "Bookmarks"
+msgstr "Bladwijzers"
+
+#, fuzzy, python-format
+msgid "Bookmarks for %s"
+msgstr "Bladwijzers"
+
+msgid "Both"
+msgstr "Beide"
+
+msgid "Browse"
+msgstr "Bladeren"
+
+msgid "Browse history by date"
+msgstr ""
+
+#, python-format
+msgid "Browsing %(address)s using account %(account)s"
+msgstr "Bladeren op %(address)s met account %(account)s"
+
+msgid "Busy"
+msgstr "Bezig"
+
+msgid "CRL has expired"
+msgstr "CRL is verlopen"
+
+msgid "CRL is not yet valid"
+msgstr "CRL is nog niet geldig"
+
+msgid "CRL signature failure"
+msgstr "CRL-handtekeningsfout"
+
+msgid "Call"
+msgstr ""
+
+msgid "Call Incoming"
+msgstr ""
+
+msgid "Call Outgoing"
+msgstr ""
+
+msgid "Call ended"
+msgstr ""
+
+#, python-format
+msgid "Call with %s"
+msgstr ""
+
+msgid "Calling (Video)…"
+msgstr ""
+
+#, fuzzy
+msgid "Calling…"
+msgstr "Wordt verbannen…"
+
+msgid "Cancel"
+msgstr "Annuleren"
+
+#, fuzzy
+msgid "Cancel Download"
+msgstr "?Znw:Download"
+
+msgid "Cancel the selected file transfer and remove incomplete files"
+msgstr ""
+"De geselecteerde bestandsoverdracht annuleren en onvolledige bestanden "
+"verwijderen"
+
+#, fuzzy, python-format
+msgid "Cannot overwrite existing file \"%s\""
+msgstr "Kan bestaand bestand ‘%s’ niet overschrijven"
+
+msgid "Certificate"
+msgstr "Certificaat"
+
+#, fuzzy
+msgid "Certificate Settings"
+msgstr "Certificaatopties"
+
+#, fuzzy
+msgid "Certificate Verification Failed"
+msgstr "SSL-certificaatverificatie voor %s"
+
+msgid "Certificate chain too long"
+msgstr "Certificaatketen te lang"
+
+#, fuzzy, python-format
+msgid ""
+"Certificate for \n"
+"%s"
+msgstr ""
+"Certificaat voor account\n"
+"%s"
+
+msgid "Certificate has expired"
+msgstr "Certificaat is verlopen"
+
+msgid "Certificate is not yet valid"
+msgstr "Certificaat is nog niet geldig"
+
+msgid "Certificate not trusted"
+msgstr "Certificaat niet vertrouwd"
+
+msgid "Certificate rejected"
+msgstr "Certificaat geweigerd"
+
+msgid "Certificate revoked"
+msgstr "Certificaat ingetrokken"
+
+msgid "Certificate signature failure"
+msgstr "Certificaatsondertekeningsfout"
+
+#, fuzzy
+msgid "Ch_ange Subject"
+msgstr "Onderwerp veranderen"
+
+#, fuzzy
+msgid "Change"
+msgstr "Bijnaam veranderen"
+
+#, fuzzy
+msgid "Change Nickname"
+msgstr "Bij_naam veranderen…"
+
+#, fuzzy
+msgid "Change Nickname…"
+msgstr "Bij_naam veranderen…"
+
+msgid "Change Password"
+msgstr "Verander wachtwoord"
+
+msgid "Change Subject"
+msgstr "Onderwerp veranderen"
+
+msgid "Change your account’s password, etc."
+msgstr ""
+
+#, fuzzy
+msgid "Change your profile picture"
+msgstr "Je bijnaam veranderen (Ctrl+N)"
+
+msgid "Change your status to \"Away\" after a certain amount of time"
+msgstr ""
+
+msgid "Change your status to \"Not Available\" after a certain amount of time"
+msgstr ""
+
+#, fuzzy, python-format
+msgid "Changed by %s"
+msgstr "Bijnaam veranderen"
+
+#, fuzzy
+msgid "Changing Password..."
+msgstr "Verander wachtwoord"
+
+#, fuzzy
+msgid ""
+"Character to add after nickname when using nickname completion (tab) in "
+"group chat."
+msgstr ""
+"Teken om achter bijnaam in te voegen bij gebruik van bijnaamaanvulling (tab) "
+"in groepsgesprekken."
+
+#, fuzzy
+msgid "Chat Banner: Background Color"
+msgstr "Banier achtergrondkleur"
+
+#, fuzzy
+msgid "Chat Banner: Foreground Color"
+msgstr "Banier voorgrondkleur"
+
+#, fuzzy
+msgid "Chat Banner: Text Font"
+msgstr "Gespreksbanner"
+
+#, fuzzy
+msgid "Chat List"
+msgstr "Contacten"
+
+msgid "Chat history"
+msgstr "Gespreksgeschiedenis"
+
+#, fuzzy
+msgid "Chat securely with End-to-End encryption via OMEMO or OpenPGP"
+msgstr "Chat veilig met eind-tot-eind-versleuteling via OMEMO of PGP"
+
+#, fuzzy
+msgid "Chat securely with End-to-End encryption via OMEMO or OpenPGP."
+msgstr "Chat veilig met eind-tot-eind-versleuteling via OMEMO of PGP"
+
+msgid "Chats"
+msgstr "Gesprekken"
+
+msgid "Chats from this account will use this workspace by default"
+msgstr ""
+
+msgid "Check For Updates"
+msgstr ""
+
+msgid "Check for Gajim updates periodically"
+msgstr ""
+
+#, fuzzy
+msgid "Check for updates"
+msgstr "Controleren op updates bij opstarten"
+
+msgid "Check for updates periodically"
+msgstr ""
+
+msgid "Checking file…"
+msgstr "Bestand wordt gecontroleerd…"
+
+msgid "Choose Archive"
+msgstr "Kies archief"
+
+msgid "Choose Avatar…"
+msgstr "Kies avatar…"
+
+#, fuzzy
+msgid "Choose Device"
+msgstr "Kies archief"
+
+msgid "Choose File to Send…"
+msgstr "Kies het bestand om te verzenden…"
+
+msgid "Choose History Export Directory"
+msgstr ""
+
+msgid "Choose Sound"
+msgstr "Kies geluid"
+
+msgid "Choose a color or select an image"
+msgstr ""
+
+#, fuzzy
+msgid "Choose a group…"
+msgstr "Kies avatar…"
+
+msgid "Choose encryption"
+msgstr "Kies een versleutelingstype"
+
+#, fuzzy
+msgid "Choose the contact's groups"
+msgstr "Profiel van contact weergeven (Ctrl+I)"
+
+msgid "Cipher Suite"
+msgstr ""
+
+msgid "City"
+msgstr "Stad"
+
+msgid "Clear"
+msgstr "Wissen"
+
+msgid "Clear File"
+msgstr "Bestand wissen"
+
+msgid "Clear Sound"
+msgstr "Geluid wissen"
+
+msgid "Clear message entry"
+msgstr "Berichtinvoer wissen"
+
+msgid ""
+"Click messages to select them\n"
+"(Ctrl + Double Click to deselect)"
+msgstr ""
+
+#, fuzzy
+msgid "Click on contacts you would like to invite to this group chat."
+msgstr "%(jid)s is in dit groepsgesprek uitgenodigd"
+
+msgid "Click to view Gajim's wiki page on how to install plugins in Flatpak."
+msgstr ""
+"Klik voor meer informatie over het installeren van Gajim-plug-ins met "
+"Flatpak."
+
+#, fuzzy
+msgid "Click to view location"
+msgstr "Klik om je avatar in te stellen"
+
+msgid ""
+"Clickable schemes in addition to the hard-coded list of IANA-registered "
+"ones. Space-separated, lower-case, no colons."
+msgstr ""
+
+msgid "Client Certificate"
+msgstr "Cliëntcertificaat"
+
+msgid "Close"
+msgstr "Sluiten"
+
+#, fuzzy
+msgid "Close Search"
+msgstr "Zoeken"
+
+msgid "Close a chat by pressing the Escape key"
+msgstr ""
+
+msgid "Close chat"
+msgstr "Gesprek sluiten"
+
+msgid "Close with Escape"
+msgstr ""
+
+msgid "Code snippet"
+msgstr ""
+
+#, python-format
+msgid "Code snippet (%s)"
+msgstr ""
+
+msgid "Color"
+msgstr "Kleur"
+
+msgid "Command List"
+msgstr "Opdrachtlijst"
+
+#, fuzzy
+msgid "Command executed successfully"
+msgstr "Account is toegevoegd"
+
+msgid "Commands"
+msgstr "Opdrachten"
+
+msgid "Common Name (CN)"
+msgstr "Algemene naam (CN)"
+
+#, fuzzy
+msgid "Common Name (CN): "
+msgstr "Algemene naam (CN)"
+
+#, fuzzy
+msgid "Complete"
+msgstr "Afgerond"
+
+#, fuzzy
+msgid "Complete a command or a nickname"
+msgstr "Opdracht of bijnaam aanvullen"
+
+msgid "Completed"
+msgstr "Afgerond"
+
+#, fuzzy
+msgid "Composing Only"
+msgstr "Alleen ‘aan het typen’"
+
+#, fuzzy
+msgid "Computer"
+msgstr "Afgerond"
+
+msgid "Configuration"
+msgstr "Configuratie"
+
+msgid "Configure"
+msgstr "Configureren"
+
+msgid "Configure logging system"
+msgstr "Logboeksysteem configureren"
+
+#, fuzzy
+msgid "Confirm Unencrypted Connection"
+msgstr "Onveilige verbinding"
+
+#, fuzzy
+msgid "Confirm new password..."
+msgstr "Nieuw wachtwoord bevestigen"
+
+#, fuzzy
+msgid "Connect"
+msgstr "Verbonden"
+
+msgid "Connect on startup"
+msgstr "Verbinding maken bij opstarten"
+
+msgid "Connect to other Messengers via Transports (Facebook, IRC, ...)"
+msgstr ""
+"Maak verbinding met andere Messengers via Transporten (Facebook, IRC, …)"
+
+msgid "Connecting"
+msgstr "Bezig met verbinden"
+
+#, fuzzy
+msgid "Connecting to server..."
+msgstr "Verbinden…"
+
+msgid "Connecting..."
+msgstr "Verbinden…"
+
+msgid "Connection"
+msgstr "Verbinding"
+
+#, fuzzy
+msgid "Connection Error"
+msgstr "Verbinding"
+
+#, fuzzy
+msgid "Connection Settings"
+msgstr "Verbindingsopties"
+
+#, fuzzy
+msgid "Connection failed"
+msgstr "Verbinding mislukt"
+
+msgid "Connection not available"
+msgstr "Verbinding niet beschikbaar"
+
+#, fuzzy, python-format
+msgid "Connection with %s could not be established."
+msgstr "Kon geen verbinding maken met gebruiker."
+
+msgid "Contact"
+msgstr "Contact"
+
+#, fuzzy
+msgid "Contact Addresses"
+msgstr "Bericht van contact"
+
+msgid "Contact Connected"
+msgstr "Contact verbonden"
+
+msgid "Contact Disconnected"
+msgstr "Contact heeft de verbinding verbroken"
+
+msgid "Contact Information"
+msgstr "Contactinformatie"
+
+#, fuzzy
+msgid "Contact Infos"
+msgstr "Contact _Info"
+
+#, fuzzy
+msgid "Contact List"
+msgstr "Contacten"
+
+#, fuzzy
+msgid "Contact List Exchange"
+msgstr "Roosteritemuitwisseling"
+
+#, fuzzy
+msgid "Contact List: Contact Background Color"
+msgstr "Contactrij achtergrondkleur"
+
+#, fuzzy
+msgid "Contact List: Contact Font"
+msgstr "Gesprekssneltoetsen"
+
+#, fuzzy
+msgid "Contact List: Contact Foreground Color"
+msgstr "Contactrij voorgrondkleur"
+
+#, fuzzy
+msgid "Contact List: Group Background Color"
+msgstr "Contactrij achtergrondkleur"
+
+#, fuzzy
+msgid "Contact List: Group Font"
+msgstr "Contactrijlettertype"
+
+#, fuzzy
+msgid "Contact List: Group Foreground Color"
+msgstr "Contactrij voorgrondkleur"
+
+#, fuzzy
+msgid "Contact Unsubscribed"
+msgstr "Abonnement opgezegd"
+
+msgid "Contact information"
+msgstr "Contactinformatie"
+
+#, fuzzy
+msgid "Contact list"
+msgstr "Contacten"
+
+msgid "Contacts"
+msgstr "Contacten"
+
+msgid "Conversation: Nickname Color (Incoming)"
+msgstr ""
+
+msgid "Conversation: Nickname Color (Outgoing)"
+msgstr ""
+
+#, fuzzy
+msgid "Conversation: Text Color"
+msgstr "Gespreksgeschiedenis"
+
+#, fuzzy
+msgid "Conversation: Text Font"
+msgstr "Gesprekslettertype"
+
+#, fuzzy
+msgid "Conversation: URL Color"
+msgstr "Gesprekslettertype"
+
+#, fuzzy
+msgid "Conversations"
+msgstr "Gesprekslettertype"
+
+#, fuzzy
+msgid "Conversations are not stored on the server"
+msgstr "Informatie over jou, zoals op de server opgeslagen"
+
+#, fuzzy
+msgid "Conversations are stored on the server"
+msgstr "Deze sessie ZAL gearchiveerd worden op de server"
+
+#, fuzzy
+msgid "Copy"
+msgstr "JID kopiëren"
+
+#, fuzzy
+msgid "Copy Address"
+msgstr "E-mailadres kopiëren"
+
+#, fuzzy
+msgid "Copy Certificate Information"
+msgstr "Contactinformatie"
+
+msgid "Copy Email Address"
+msgstr "E-mailadres kopiëren"
+
+#, fuzzy
+msgid "Copy Link"
+msgstr "Verwijzingslocatie kopiëren"
+
+msgid "Copy Link Location"
+msgstr "Verwijzingslocatie kopiëren"
+
+#, fuzzy
+msgid "Copy Location"
+msgstr "Verwijzingslocatie kopiëren"
+
+#, fuzzy
+msgid "Copy Text"
+msgstr "JID kopiëren"
+
+#, fuzzy
+msgid "Copy XMPP Address"
+msgstr "E-mailadres kopiëren"
+
+#, fuzzy
+msgid "Copy XMPP Address/Email"
+msgstr "E-mailadres kopiëren"
+
+msgid "Copy code snippet"
+msgstr ""
+
+msgid "Copy info to clipboard"
+msgstr "Info kopiëren naar klembord"
+
+#, fuzzy
+msgid "Correct the last message"
+msgstr "Statusbericht instellen"
+
+#, fuzzy
+msgid "Could not access file"
+msgstr "Kon bestand niet openen"
+
+#, fuzzy, python-format
+msgid "Could not open file (%s)"
+msgstr "Kon bestand niet openen"
+
+msgid "Country"
+msgstr "Land"
+
+#, fuzzy
+msgid "Create Account"
+msgstr "Account %s wordt verwijderd"
+
+#, fuzzy
+msgid "Create Group Chat"
+msgstr "Groepsgesprekken verlaten"
+
+#, fuzzy
+msgid "Create Group Chat…"
+msgstr "Groepsgesprekken verlaten"
+
+#, fuzzy
+msgid "Create New Account"
+msgstr "Nieuwe post maken"
+
+#, fuzzy
+msgid "Create _Group Chat…"
+msgstr "Groepsgesprekken verlaten"
+
+#, fuzzy
+msgid "Create new group chat"
+msgstr "Groepsgesprekken verlaten"
+
+msgid "Create new post"
+msgstr "Nieuwe post maken"
+
+#, fuzzy
+msgid "Creating Account..."
+msgstr "Account %s wordt verwijderd"
+
+msgid "Creating thumbnail failed"
+msgstr ""
+
+#, fuzzy
+msgid "Credentials expired"
+msgstr "Gebruikersreferenties"
+
+msgid "Current Developers"
+msgstr "Huidige ontwikkelaars"
+
+msgid "D-Bus Interface"
+msgstr ""
+
+#, fuzzy
+msgid "Dark Theme"
+msgstr "_Donker thema"
+
+msgid "Deactivated"
+msgstr "Uitgeschakeld"
+
+#, fuzzy
+msgid "Debug Logging"
+msgstr "Joggen"
+
+#, fuzzy
+msgid "Decline"
+msgstr "_Weigeren"
+
+msgid "Decline Invitation"
+msgstr ""
+
+msgid "Default"
+msgstr "Standaard"
+
+msgid "Default Sync Threshold"
+msgstr "Standaarddrempelwaarde voor synchronisatie"
+
+#, fuzzy
+msgid "Default Workspace"
+msgstr "Contact hernoemen"
+
+msgid "Default device"
+msgstr "Standaardapparaat"
+
+#, fuzzy
+msgid "Default for chats"
+msgstr "Open voor gesprek"
+
+#, fuzzy
+msgid "Default for chats and private group chats"
+msgstr "%s neemt nu deel aan het groepsgesprek"
+
+#, fuzzy
+msgid "Default for group chats"
+msgstr "Nieuw groepsgesprek"
+
+#, fuzzy
+msgid "Default for new group chats"
+msgstr "Groepsgesprekken verlaten"
+
+#, fuzzy
+msgid "Default for new public group chats"
+msgstr "Groepsgesprekken verlaten"
+
+msgid "Delete"
+msgstr "Verwijderen"
+
+msgid "Delete Theme"
+msgstr "Thema verwijderen"
+
+msgid "Deny"
+msgstr "Weigeren"
+
+msgid "Description"
+msgstr "Beschrijving"
+
+msgid "Description: "
+msgstr "Beschrijving: "
+
+#, fuzzy
+msgid "Destroy Group Chat…"
+msgstr "Nieuw groepsgesprek"
+
+#, fuzzy
+msgid "Destroy This Chat"
+msgstr "Nieuw groepsgesprek"
+
+msgid "Details"
+msgstr "Details"
+
+#, python-format
+msgid "Device \"%s\""
+msgstr ""
+
+#, fuzzy
+msgid "Devices"
+msgstr "Server"
+
+#, fuzzy, python-format
+msgid "Dictionary URL is missing a \"%s\""
+msgstr "‘%s’ ontbreekt in de URL van de zoekmachine"
+
+#, fuzzy
+msgid "Direct Messages"
+msgstr "Bericht verwijderen"
+
+#, fuzzy
+msgid "Direct transfer (not encrypted)"
+msgstr "Bestandsoverdracht gestopt"
+
+#, fuzzy
+msgid "Directory"
+msgstr "Geschiedenis"
+
+#, fuzzy, python-format
+msgid "Directory \"%s\" is not writable"
+msgstr "Map ‘%s’ is niet schrijfbaar"
+
+msgid "Disable Account"
+msgstr "Account uitschakelen"
+
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#, fuzzy
+msgid "Disabled in Preferences"
+msgstr "Archiefvoorkeuren"
+
+#, fuzzy
+msgid ""
+"Disclose information about media that is currently being played on your "
+"system."
+msgstr ""
+"Laat Gajim toe informatie te versturen over het besturingssysteem dat je "
+"gebruikt."
+
+#, fuzzy
+msgid "Disclose information about the operating system you currently use"
+msgstr ""
+"Laat Gajim toe informatie te versturen over het besturingssysteem dat je "
+"gebruikt."
+
+msgid "Disclose the local system time of the device Gajim runs on"
+msgstr ""
+
+msgid "Disclose the time of your last activity"
+msgstr ""
+
+#, fuzzy
+msgid "Discover Services…"
+msgstr "Diensten ontdekken"
+
+msgid "Discussion Logs"
+msgstr ""
+
+msgid "Dismiss"
+msgstr ""
+
+#, fuzzy, python-format
+msgid "Do you accept this request (account: %s)?"
+msgstr "Accepteer je dit verzoek op account %s?"
+
+msgid "Do you accept this request?"
+msgstr "Accepteer je dit verzoek?"
+
+#, fuzzy, python-format
+msgid "Do you really want to remove \"%s\"?"
+msgstr "Wil je ze echt allemaal sluiten?"
+
+msgid ""
+"Do you really want to remove all chat messages from Gajim?\n"
+"Warning: This can’t be undone!\n"
+"Gajim will quit afterwards."
+msgstr ""
+
+#, fuzzy
+msgid "Do you really want to remove your chat history for this chat?"
+msgstr "Wil je ze echt allemaal sluiten?"
+
+#, fuzzy
+msgid "Do you want to delete this theme?"
+msgstr "Wil je dit thema voorgoed verwijderen?"
+
+#, fuzzy
+msgid "Do you want to overwrite the currently installed version?"
+msgstr "Wil je de uitnodiging accepteren?"
+
+#, python-format
+msgid "Do you want to unregister your account on <b>%s</b> as well?"
+msgstr ""
+
+#, fuzzy
+msgid "Don’t show this again"
+msgstr "Vraag mij _dit niet nogmaals"
+
+#, fuzzy
+msgid "Download"
+msgstr "?Znw:Download"
+
+#, fuzzy
+msgid "Download File"
+msgstr "?Znw:Download"
+
+#, fuzzy
+msgid "Download Update"
+msgstr "?Znw:Download"
+
+#, fuzzy
+msgid "Download and Install"
+msgstr "Vraag mij _dit niet nogmaals"
+
+#, fuzzy, python-format
+msgid "Download failed (%s)"
+msgstr "Vraag mij _dit niet nogmaals"
+
+#, fuzzy, python-format
+msgid "Downloaded %s messages"
+msgstr "%s berichten gedownload"
+
+#, fuzzy
+msgid "Downloading…"
+msgstr "Bezig met laden"
+
+#, fuzzy, python-format
+msgid "Draft: %s"
+msgstr "Status: "
+
+#, fuzzy
+msgid "Drop files here"
+msgstr "Stuurt een bestand naar een contact"
+
+#, fuzzy
+msgid "Drop files or contacts"
+msgstr "Stuurt een bestand naar een contact"
+
+msgid "Easily send pictures, videos or other files to friends and groups"
+msgstr "Stuur foto’s, video’s of andere bestanden naar vrienden en groepen"
+
+msgid "Eating"
+msgstr "Eten"
+
+#, fuzzy
+msgid "Edit Name…"
+msgstr "Voornaam"
+
+#, fuzzy
+msgid "Edit Profile…"
+msgstr "Profiel wordt verzonden…"
+
+#, fuzzy
+msgid "Edit workspace…"
+msgstr "_Groepen bewerken…"
+
+#, fuzzy
+msgid "Edit…"
+msgstr "B_ewerken"
+
+#, fuzzy, python-format
+msgid ""
+"Either a custom URL with %%s in it (where %%s is the word/phrase) or "
+"\"WIKTIONARY\" (which means use Wikitionary)."
+msgstr ""
+"Ofwel een aangepaste URL met %%s erin verwerkt, waar %%s een woord/zin is, "
+"ofwel ‘WIKTIONARY’, wat betekent dat Wiktionary gebruikt zal worden."
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Emoji Shortcodes"
+msgstr ""
+
+msgid "Enable"
+msgstr "Inschakelen"
+
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#, fuzzy
+msgid ""
+"Enables Gajim to measure your computer’s idle time in order to set your "
+"Status automatically"
+msgstr ""
+"Geeft Gajim de mogelijkheid om de inactiviteitsduur van je computer te meten "
+"om automatische status in te stellen"
+
+#, fuzzy
+msgid "Enables Gajim to play sounds for various notifications"
+msgstr "Geeft Gajim de mogelijkheid om audio- en videogesprekken aan te bieden"
+
+msgid "Enables Gajim to provide Audio and Video chats"
+msgstr "Geeft Gajim de mogelijkheid om audio- en videogesprekken aan te bieden"
+
+#, fuzzy
+msgid "Enables Gajim to provide a Audio preview"
+msgstr "Geeft Gajim de mogelijkheid om audio- en videogesprekken aan te bieden"
+
+#, fuzzy
+msgid "Enables Gajim to provide a notification area icon"
+msgstr "Geeft Gajim de mogelijkheid om audio- en videogesprekken aan te bieden"
+
+msgid ""
+"Enables Gajim to request your router to forward ports for file transfers"
+msgstr ""
+"Geeft Gajim de mogelijkheid om je router te vragen een poort door te sturen "
+"voor bestandsoverdrachten"
+
+msgid "Enables Gajim to spell check your messages while composing"
+msgstr ""
+"Geeft Gajim de mogelijkheid om de spelling in je berichten te controleren "
+"tijdens het opstellen"
+
+msgid ""
+"Enables Gajim to store Passwords securely instead of storing them in "
+"plaintext"
+msgstr ""
+"Geeft Gajim de mogelijkheid om wachtwoorden veilig op te slaan in plaats van "
+"onversleuteld"
+
+msgid "Enables libappindicator, an alternative tray icon provider"
+msgstr ""
+
+#, python-format
+msgid "Encrypted (%s)"
+msgstr "Versleuteld (%s)"
+
+msgid "Encrypted Certificate"
+msgstr "Versleuteld certificaat"
+
+msgid "Encrypting file…"
+msgstr "Bestand versleutelen…"
+
+#, fuzzy
+msgid "Encryption error"
+msgstr "Versleutelingsfout"
+
+#, fuzzy
+msgid "Encryption required"
+msgstr "Versleutelingsfout"
+
+msgid "End call"
+msgstr ""
+
+msgid "Enter a password to join this chat"
+msgstr ""
+
+#, fuzzy
+msgid "Enter new password..."
+msgstr "Voer nieuw wachtwoord in:"
+
+#, fuzzy
+msgid "Enter your new nickname"
+msgstr "Bijnaam invoeren"
+
+msgid ""
+"Enter your nickname. This is how your name is displayed to your contacts."
+msgstr ""
+
+msgid "Error"
+msgstr "Fout"
+
+#, fuzzy
+msgid "Error Loading Image"
+msgstr "Kies afbeelding"
+
+#, python-format
+msgid "Error message: %s"
+msgstr "Foutbericht: %s"
+
+msgid "Error opening file"
+msgstr "Fout bij openen van bestand"
+
+msgid "Error received: {}"
+msgstr "Fout ontvangen: {}"
+
+#, fuzzy
+msgid "Error while Exporting"
+msgstr "Fout bij toevoegen van dienst. %s"
+
+#, fuzzy
+msgid "Error while processing image"
+msgstr "Fout bij laden van afbeelding"
+
+#, fuzzy
+msgid "Error while receiving search results."
+msgstr "Fout bij laden van afbeelding"
+
+#, fuzzy
+msgid "Error while retrieving search form."
+msgstr "Fout bij toevoegen van dienst. %s"
+
+#, fuzzy
+msgid "Error while uploading avatar"
+msgstr "Fout bij toevoegen van transportcontact"
+
+msgid "Error!"
+msgstr "Fout!"
+
+#, python-format
+msgid "Error: %s"
+msgstr "Fout: %s"
+
+#, python-format
+msgid "Error: cannot open %s for reading"
+msgstr "Fout: kan %s niet voor lezen openen"
+
+msgid "Even more features via plugins"
+msgstr "Nog meer functies via plug-ins"
+
+msgid "Event"
+msgstr "Gebeurtenis"
+
+#, fuzzy
+msgid "Everyone"
+msgstr "Alles"
+
+msgid "Everything"
+msgstr "Alles"
+
+msgid "Execute"
+msgstr "Uitvoeren"
+
+#, fuzzy
+msgid "Execute Command…"
+msgstr "Opdra_cht uitvoeren…"
+
+msgid "Executing…"
+msgstr "Uitvoeren…"
+
+msgid "Expires on"
+msgstr "Verloopt op"
+
+#, fuzzy
+msgid "Expires on: "
+msgstr "Verloopt op"
+
+#, fuzzy
+msgid "Export"
+msgstr "_Exporteren"
+
+#, fuzzy
+msgid "Export Chat History"
+msgstr "Gespreksgeschiedenis"
+
+#, fuzzy
+msgid "Export Finished"
+msgstr "Voltooid"
+
+msgid "Export your chat history from Gajim"
+msgstr ""
+
+#, fuzzy
+msgid "Exporting History..."
+msgstr "Geschiedenislogboeken worden geëxporteerd…"
+
+#, fuzzy
+msgid "Exporting your messages..."
+msgstr "Berichten worden versleuteld."
+
+#, fuzzy
+msgid "Extended Address"
+msgstr "Extra adres"
+
+#, fuzzy
+msgid "FA_Q (Online)"
+msgstr "Online"
+
+#, fuzzy
+msgid "Failed to Configure Group Chat"
+msgstr "Groepsgesprekken verlaten"
+
+#, fuzzy
+msgid "Failed to Create Group Chat"
+msgstr "Groepsgesprekken verlaten"
+
+#, fuzzy
+msgid "Failed to Join Group Chat"
+msgstr "Kan niet deelnemen aan het groepsgesprek"
+
+#, fuzzy
+msgid "Failed to generate avatar."
+msgstr "Groepsgesprekken verlaten"
+
+msgid "Fake audio output"
+msgstr "Valse audio-uitvoer"
+
+#, fuzzy
+msgid "Feature not available on Windows"
+msgstr "Functie niet beschikbaar voor Windows"
+
+msgid "Features"
+msgstr "Functies"
+
+msgid "Features:"
+msgstr "Functies:"
+
+msgid "Feedback"
+msgstr ""
+
+msgid "Female"
+msgstr ""
+
+#, fuzzy
+msgid "Fetching messages…"
+msgstr "is een bericht aan het typen…"
+
+msgid "File"
+msgstr "Bestand"
+
+#, fuzzy
+msgid "File Name: "
+msgstr "Bestandsnaam: %s"
+
+#, fuzzy
+msgid "File Offered"
+msgstr "Bestandsoverdracht"
+
+msgid "File Offered…"
+msgstr ""
+
+msgid "File Preview"
+msgstr ""
+
+#, fuzzy
+msgid "File Size Limit"
+msgstr "Bestand is leeg"
+
+msgid "File Transfer"
+msgstr "Bestandsoverdracht"
+
+#, fuzzy
+msgid "File Transfer Cancelled"
+msgstr "Bestandsoverdracht geannuleerd"
+
+msgid "File Transfer Completed"
+msgstr "Bestandsoverdracht voltooid"
+
+msgid "File Transfer Error"
+msgstr "Fout bij bestandsoverdracht"
+
+msgid "File Transfer Failed"
+msgstr "Bestandsoverdracht mislukt"
+
+msgid "File Transfer Stopped"
+msgstr "Bestandsoverdracht gestopt"
+
+msgid "File Transfers"
+msgstr "Bestandsoverdrachten"
+
+#, fuzzy
+msgid "File Verification Failed"
+msgstr "SSL-certificaatverificatie voor %s"
+
+#, fuzzy
+msgid "File corrupted during transfer"
+msgstr "Bestandsoverdracht annuleren"
+
+msgid "File does not exist"
+msgstr "Bestand bestaat niet"
+
+msgid "File error"
+msgstr "Bestandsfout"
+
+msgid "File is empty"
+msgstr "Bestand is leeg"
+
+#, python-format
+msgid "File is too large, maximum allowed file size is: %s"
+msgstr "Bestand is te groot, maximale bestandsgrootte is: %s"
+
+msgid "File size unknown"
+msgstr ""
+
+msgid "File too big, will use direct transfer (not encrypted)"
+msgstr ""
+
+msgid "File transfer stopped"
+msgstr "Bestandsoverdracht gestopt"
+
+msgid "File transfers"
+msgstr "Bestandsoverdrachten"
+
+#, python-format
+msgid "File: %s"
+msgstr "Bestand: %s"
+
+#, python-format
+msgid "Filename: %s"
+msgstr "Bestandsnaam: %s"
+
+#, fuzzy
+msgid "Filetransfer Preference"
+msgstr "Fout bij bestandsoverdracht"
+
+msgid "Filter"
+msgstr "Filteren"
+
+#, fuzzy
+msgid "Filter Chats"
+msgstr "Privégesprekken"
+
+#, fuzzy
+msgid "Filter Chats…"
+msgstr "Privégesprekken"
+
+msgid "Fingerprints"
+msgstr "Vingerafdrukken"
+
+#, fuzzy
+msgid "Finished"
+msgstr "Voltooid"
+
+#, fuzzy, python-format
+msgid ""
+"Finished synchronising chat history:\n"
+"%s messages downloaded"
+msgstr ""
+"\n"
+"        Geschiedenis gesynchroniseerd.\n"
+"        {received} berichten gedownload.\n"
+"        "
+
+msgid "For example: \"Julia is now online\""
+msgstr ""
+
+#, fuzzy
+msgid "Force Bookmark 2 usage"
+msgstr "Bladwijzernaam"
+
+#, fuzzy
+msgid "Forever"
+msgstr "Nooit"
+
+#, fuzzy
+msgid "Forget Group Chat"
+msgstr "Groepsgesprekken verlaten"
+
+#, fuzzy
+msgid "Forget this Group Chat"
+msgstr "Groepsgesprekken verlaten"
+
+msgid "Format error in CRL's lastUpdate field"
+msgstr "Formatteringsfout in lastUpdate-veld van CRL"
+
+msgid "Format error in CRL's nextUpdate field"
+msgstr "Formatteringsfout in nextUpdate-veld van CRL"
+
+msgid "Format error in certificate's notAfter field"
+msgstr "Formatteringsfout in notAfter-veld van certificaat"
+
+msgid "Format error in certificate's notBefore field"
+msgstr "Formatteringsfout in notBefore-veld van certificaat"
+
+#, fuzzy
+msgid "Format your message"
+msgstr "Ongelezen berichten doorsturen"
+
+msgid "Free for Chat"
+msgstr "Open voor gesprek"
+
+msgid "From"
+msgstr "Van"
+
+msgid "Full Name"
+msgstr "Volledige naam"
+
+msgid "Fully-featured XMPP chat client"
+msgstr ""
+
+#, fuzzy, python-format
+msgid "GLib Version: %s"
+msgstr "GTK+-versie: %s"
+
+#, fuzzy, python-format
+msgid "GTK Version: %s"
+msgstr "GTK+-versie: %s"
+
+msgid "Gajim"
+msgstr "Gajim"
+
+#, fuzzy
+msgid "Gajim - Error"
+msgstr "Gajim - %s"
+
+msgid "Gajim Themes"
+msgstr "Gajim-thema’s"
+
+msgid "Gajim Update"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Gajim aims to be an easy to use and fully-featured XMPP client. Just chat "
+"with your friends or family, easily share pictures and thoughts or discuss "
+"the news with your groups."
+msgstr ""
+"Chat met je vrienden of familie, wissel eenvoudig foto’s en gedachten uit of "
+"praat over het nieuws met je groepen."
+
+msgid "Gajim can not read this file"
+msgstr "Gajim kan dit bestand niet lezen"
+
+msgid ""
+"Gajim encountered an error.\n"
+"Please help us fixing this issue by sending this report."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Gajim integrates well with your other devices: simply continue conversations "
+"on your mobile device."
+msgstr ""
+"Gajim integreert goed met je andere apparaten: wat je via Gajim zegt zal je "
+"ook op je mobiele apparaat kunnen zien."
+
+#, fuzzy
+msgid "Gajim is fully synchronised with the archive."
+msgstr ""
+"\n"
+"        Gajim is volledig gesynchroniseerd\n"
+"        met het archief.\n"
+"        "
+
+msgid ""
+"Gajim was not able to reach the server. Make sure your XMPP address is "
+"correct."
+msgstr ""
+
+msgid "Gajim will now exit"
+msgstr "Gajim sluit nu af"
+
+#, fuzzy
+msgid "Gathering information…"
+msgstr "Contactinformatie"
+
+#, fuzzy
+msgid "Gender"
+msgstr "Afzender: "
+
+msgid "General"
+msgstr "Algemeen"
+
+#, fuzzy
+msgid "Global Group Chat Search"
+msgstr "Deelnemen aan groepsgesprek"
+
+#, fuzzy
+msgid "Global Proxy"
+msgstr "_Globale proxy"
+
+msgid "Global Status"
+msgstr "Globale status"
+
+#, fuzzy
+msgid "Go"
+msgstr "_Ga"
+
+msgid "Grant Voice"
+msgstr ""
+
+msgid "Group"
+msgstr "Groep"
+
+#, fuzzy
+msgid "Group Chat"
+msgstr "_Groupsgesprek"
+
+#, fuzzy
+msgid "Group Chat Details"
+msgstr "Gespreksinstellingen"
+
+msgid "Group Chat Invitation"
+msgstr "Uitnodiging voor groepsgesprek"
+
+#, fuzzy
+msgid "Group Chat Invitation Declined"
+msgstr "Uitnodiging voor groepsgesprek"
+
+#, fuzzy
+msgid "Group Chat Invitation Received"
+msgstr "Uitnodiging voor groepsgesprek"
+
+#, fuzzy
+msgid "Group Chat Language"
+msgstr "Groepsgespreksconfiguratie"
+
+msgid "Group Chat Message Highlight"
+msgstr "Vermeld in groepsgesprek"
+
+msgid "Group Chat Message Received"
+msgstr "Bericht ontvangen in groepsgesprek"
+
+#, fuzzy
+msgid "Group Chats"
+msgstr "_Groupsgesprek"
+
+#, fuzzy
+msgid "Group chat already exists"
+msgstr "Account ‘Lokaal’ bestaat al."
+
+msgid "Group chat can be found via search"
+msgstr ""
+
+#, fuzzy
+msgid "Group chat does not exist"
+msgstr "Groepsgesprek <b>%s</b> bestaat niet."
+
+#, fuzzy
+msgid "Group chat has been destroyed"
+msgstr "Groepsgesprek is verwijderd"
+
+#, fuzzy
+msgid "Group chat is closed"
+msgstr "Status: "
+
+#, fuzzy
+msgid "Group chat is now fully anonymous"
+msgstr "Groepsgesprek is nu volledig anoniem"
+
+#, fuzzy
+msgid "Group chat is now non-anonymous"
+msgstr "Groepsgesprek is nu niet-anoniem"
+
+#, fuzzy
+msgid "Group chat is now semi-anonymous"
+msgstr "Groepsgesprek is nu semi-anoniem"
+
+#, fuzzy
+msgid "Group chat now does not show unavailable members"
+msgstr "Groepsgesprek verbergt nu niet-beschikbare leden"
+
+#, fuzzy
+msgid "Group chat now shows unavailable members"
+msgstr "Groepsgesprek toont nu niet beschikbare leden"
+
+msgid "Group chat support"
+msgstr "Ondersteuning voor groepsgesprekken"
+
+msgid "Groups"
+msgstr "Groepen"
+
+msgctxt "proxy configuration"
+msgid "HTTP"
+msgstr ""
+
+#, python-format
+msgid "HTTP (%(method)s) Authorization for %(url)s (ID: %(id)s)"
+msgstr "HTTP (%(method)s)-machtiging voor %(url)s (id: %(id)s)"
+
+#, fuzzy
+msgid "HTTP Authorization Request"
+msgstr "Machtiging verzonden"
+
+#, fuzzy
+msgid "HTTPS Verification"
+msgstr "Melding"
+
+#, fuzzy, python-format
+msgid "Hello, I am $name. %s"
+msgstr "Hallo, ik ben $name."
+
+msgid "Helps to establish calls through firewalls"
+msgstr ""
+
+msgid "Hide"
+msgstr ""
+
+#, fuzzy
+msgid "Hide chat list"
+msgstr "Videosessie in-/uitschakelen"
+
+msgid "Hide this menu"
+msgstr "Verberg dit menu"
+
+#, fuzzy
+msgid "Home"
+msgstr "Website"
+
+msgid "Homepage"
+msgstr "Website"
+
+msgid "Hostname"
+msgstr "Hostnaam"
+
+#, fuzzy
+msgid "How far back should the chat history be synchronised?"
+msgstr "Hoe ver terug wil je gaan?"
+
+msgid "How long Gajim should keep your chat history"
+msgstr ""
+
+#, fuzzy
+msgid "I can see contact's online status"
+msgstr "Vraag hem/haar toe_stemming zijn/haar status te zien"
+
+msgid "I would like to add you to my contact list."
+msgstr "Ik wil je graag toevoegen aan mijn contacten."
+
+msgid "I would like to add you to my roster."
+msgstr "Ik zou je graag aan mijn rooster willen toevoegen."
+
+msgid "IEC standard says KiB = 1024 bytes, KB = 1000 bytes."
+msgstr "Volgens de IEC standaard is 1 KiB = 1024 bytes, 1 KB = 1000 bytes."
+
+#, fuzzy
+msgid "IM Address"
+msgstr "Adres"
+
+msgid "Id"
+msgstr "ID"
+
+#, fuzzy
+msgid "Identified Error"
+msgstr "SSL-certificaatfout"
+
+#, fuzzy
+msgid "Idle Time"
+msgstr "Inactief sinds:"
+
+#, fuzzy, python-format
+msgid "Idle since: %s"
+msgstr "Inactief sinds:"
+
+#, fuzzy
+msgid ""
+"If enabled, Gajim makes the window flash (the default behaviour in most "
+"Window Managers) when holding pending events."
+msgstr ""
+"Indien ingeschakeld flikkert het venster (standaardgedrag bij de meeste "
+"vensterbeheerders) wanneer er lopende gebeurtenissen zijn."
+
+msgid "If enabled, Gajim offers to download plugins hosted on gajim.org"
+msgstr ""
+
+#, fuzzy
+msgid "If enabled, Gajim will ignore incoming attention requests (\"wizz\")."
+msgstr ""
+"Indien ingeschakeld zal Gajim inkomende aandachtsverzoeken negeren (‘wizz’)."
+
+#, fuzzy
+msgid ""
+"If enabled, Gajim will save the main window position when hiding it, and "
+"restore it when showing the window again."
+msgstr ""
+"Indien ingeschakeld zal Gajim de positie van het rooster onthouden bij "
+"verbergen, en deze herstellen wanneer het rooster weer wordt weergegeven."
+
+#, fuzzy
+msgid ""
+"If enabled, Gajim will try to use a STUN server when using Jingle. The one "
+"in \"stun_server\" option, or the one given by the XMPP server."
+msgstr ""
+"Indien ingeschakeld zal Gajim een STUN-server proberen gebruiken bij gebruik "
+"van Jingle, ofwel die in de optie ‘stun_server’, ofwel die gegeven door de "
+"XMPP-server."
+
+#, fuzzy
+msgid ""
+"If enabled, you will be able to set a negative priority to your account in "
+"the Accounts window. BE CAREFUL, when you are logged in with a negative "
+"priority, you will NOT receive any message from your server."
+msgstr ""
+"Indien ingeschakeld zal je een negatieve prioriteit kunnen instellen voor je "
+"account. LET OP, wanneer je ingelogd bent met een negatieve prioriteit zal "
+"je GEEN ENKEL bericht van je server ontvangen."
+
+#, fuzzy, python-format
+msgid "If you close this chat, you will leave \"%s\"."
+msgstr ""
+"Als je dit venster sluit zal de verbinding verbroken worden met deze ruimten."
+
+#, fuzzy
+msgid ""
+"If you quit now, the file(s) being transferred will be lost.\n"
+"Do you still want to quit?"
+msgstr ""
+"Als je nu afsluit zullen de momenteel bezige bestandsoverdrachten worden "
+"stopgezet. Wil je nog steeds afsluiten?"
+
+#, fuzzy
+msgid "Ignore Unknown Contacts"
+msgstr "Contacten uitnodigen"
+
+#, fuzzy
+msgid "Ignore everything from contacts not in your contact list"
+msgstr "_Negeer gebeurtenissen van contacten die niet op mijn rooster staan"
+
+msgid "Image"
+msgstr "Afbeelding"
+
+msgid "Images"
+msgstr "Afbeeldingen"
+
+msgid "Import Contacts"
+msgstr "Contacten importeren"
+
+msgid ""
+"In order to write messages in this chat, you need to request voice first.\n"
+"A moderator will process your request."
+msgstr ""
+
+#, fuzzy
+msgid "Incoming Call"
+msgstr "Binnenkomend bericht:"
+
+msgid "Incoming Call (Video)"
+msgstr ""
+
+msgid "Information"
+msgstr "Informatie"
+
+#, fuzzy
+msgid "Insecure Connection"
+msgstr "Onveilige verbinding"
+
+#, fuzzy
+msgid "Insert Emoji"
+msgstr "ASCII-emoji’s _converteren"
+
+msgid "Install <tt>sentry-sdk</tt> to make reporting issues easier."
+msgstr ""
+
+#, fuzzy
+msgid "Install Plugin from ZIP-File"
+msgstr "Plug-in installeren van bestand"
+
+msgid "Install a keyring to store passwords on your system."
+msgstr ""
+
+msgid "Install from File…"
+msgstr "Installeren van bestand…"
+
+#, fuzzy
+msgid "Installation failed"
+msgstr "Registratie mislukt"
+
+msgid "Installed"
+msgstr "Geïnstalleerd"
+
+#, fuzzy
+msgid "Invalid Address"
+msgstr "Ongeldig knooppunt"
+
+msgid "Invalid CA certificate"
+msgstr "Ongeldig CA-certificaat"
+
+msgid "Invalid File"
+msgstr "Ongeldig bestand"
+
+msgid "Invalid Name"
+msgstr "Ongeldige naam"
+
+msgid "Invalid Node"
+msgstr "Ongeldig knooppunt"
+
+msgid "Invalid Server Name"
+msgstr "Ongeldige servernaam"
+
+#, fuzzy
+msgid "Invalid XMPP Address"
+msgstr "Ongeldig knooppunt"
+
+#, fuzzy, python-format
+msgid "Invalid address: %s"
+msgstr "Ongeldig knooppunt"
+
+#, fuzzy
+msgid "Invalid domain name"
+msgstr "Ongeldige accountnaam"
+
+#, fuzzy
+msgid "Invite"
+msgstr "Uit_nodigen"
+
+#, fuzzy
+msgid "Invite Contacts"
+msgstr "_Contacten uitnodigen"
+
+#, fuzzy
+msgid "Invite Contacts…"
+msgstr "Contacten uitnodigen"
+
+#, fuzzy
+msgid "Invite New Contact"
+msgstr "Contacten uitnodigen"
+
+msgid "Invite friends to group chats or join one"
+msgstr "Nodig vrienden uit in groepsgesprekken, of neem eraan deel"
+
+#, fuzzy
+msgid "Invitees"
+msgstr "Uit_nodigen"
+
+msgid "Issued by"
+msgstr "Uitgegeven door"
+
+#, fuzzy
+msgid "Issued by\n"
+msgstr "Uitgegeven door"
+
+msgid "Issued on"
+msgstr "Uitgegeven op"
+
+#, fuzzy
+msgid "Issued on: "
+msgstr "Uitgegeven op"
+
+msgid "Issued to"
+msgstr "Uitgegeven aan"
+
+#, fuzzy
+msgid "Issued to\n"
+msgstr "Uitgegeven aan"
+
+msgid "It is not possible to send empty files"
+msgstr "Het is onmogelijk lege bestanden te sturen"
+
+#, fuzzy
+msgid "I’m eating."
+msgstr "Ik ben aan het werk."
+
+#, fuzzy
+msgid "I’m out enjoying life."
+msgstr "Ik ben buiten van het leven aan het genieten."
+
+#, python-format
+msgid ""
+"I’m synchronizing my contacts from my account at \"%s\". Could you please "
+"add this address to your contact list?"
+msgstr ""
+
+#, fuzzy
+msgid "I’m watching a movie."
+msgstr "Ik been een film aan het kijken."
+
+#, fuzzy
+msgid "I’m working."
+msgstr "Ik ben aan het werk."
+
+msgid "JID"
+msgstr "JID"
+
+msgid "JPEG files"
+msgstr "JPEG-bestanden"
+
+msgid "Join"
+msgstr "Lid worden"
+
+msgid "Join Group Chat"
+msgstr "Deelnemen aan groepsgesprek"
+
+#, fuzzy
+msgid "Join Group Chat as…"
+msgstr "Deelnemen aan groepsgesprek"
+
+#, fuzzy
+msgid "Join Group Chat?"
+msgstr "Deelnemen aan groepsgesprek"
+
+msgid "Join Groupchat"
+msgstr "Deelnemen aan groepsgesprek"
+
+#, fuzzy
+msgid "Join Support Chat"
+msgstr "Deelnemen aan groepsgesprek"
+
+#, fuzzy
+msgid "Joining…"
+msgstr "Wordt verbannen…"
+
+#, fuzzy
+msgid "Join…"
+msgstr "Wordt verbannen…"
+
+msgid "Just now"
+msgstr ""
+
+#, fuzzy
+msgid "Keep Chat History"
+msgstr "Gespreksgeschiedenis"
+
+msgid "Keep and manage all your chat history"
+msgstr "Bewaar en beheer je gespreksgeschiedenis"
+
+msgid "Key usage does not include certificate signing"
+msgstr "Sleutelgebruik bevat geen certificaatondertekening"
+
+#, fuzzy
+msgid "Kick"
+msgstr "Uit_schoppen"
+
+#, fuzzy, python-format
+msgid "Kick %s"
+msgstr "%s uit de ruimte schoppen"
+
+#, fuzzy
+msgid "Kick…"
+msgstr "Uit_schoppen"
+
+msgid "Label"
+msgstr "Label"
+
+msgid "Last but not least"
+msgstr "Tenslotte"
+
+#, fuzzy
+msgid "Leave Group Chat"
+msgstr "Groepsgesprekken verlaten"
+
+msgid "Left Click Action"
+msgstr ""
+
+msgid "Let others know if you read up to this point"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"List of send hosts (comma separated) in addition to local interfaces for "
+"file transfers (in case of address translation/port forwarding)."
+msgstr ""
+"Door komma’s gescheiden lijst van hosts die we verzenden, samen met lokale "
+"interfaces, voor bestandsoverdrachten in het geval van adresvertaling of "
+"port forwarding."
+
+msgid "Listing of Servers"
+msgstr ""
+
+msgid "Live Preview"
+msgstr ""
+
+#, fuzzy
+msgid "Load Image"
+msgstr "Kies afbeelding"
+
+#, fuzzy
+msgid "Loading Avatar Failed"
+msgstr "Uploaden van avatar is mislukt"
+
+#, fuzzy
+msgid "Loading avatar image failed"
+msgstr "Sturen van privébericht mislukt"
+
+#, fuzzy
+msgid "Loading…"
+msgstr "Bezig met laden"
+
+msgid "Local System Time"
+msgstr ""
+
+#, fuzzy
+msgid "Local Time"
+msgstr "Lokale JID:"
+
+#, fuzzy, python-format
+msgid "Location at %s"
+msgstr "Locatie:"
+
+msgid "Location:"
+msgstr "Locatie:"
+
+#, fuzzy
+msgid "Log In"
+msgstr "_Log in"
+
+msgid "Log in with your credentials"
+msgstr ""
+
+msgid "Login"
+msgstr "Inloggen"
+
+#, fuzzy
+msgid "Login Settings"
+msgstr "Plug-in-instellingen"
+
+msgid "Look it up in _Dictionary"
+msgstr "Opzoeken in woor_denboek"
+
+msgid ""
+"Lookup things on Wikipedia, dictionaries or other search engines directly "
+"from the chat window"
+msgstr ""
+"Zoek dingen op op Wikipedia, in woordenboeken of met andere zoekmachines, "
+"rechtstreeks vanuit het gespreksvenster"
+
+#, fuzzy
+msgid "Make Admin"
+msgstr "Admin"
+
+#, fuzzy
+msgid "Make Member"
+msgstr "Lid"
+
+#, fuzzy
+msgid "Make Owner"
+msgstr "Eigenaar"
+
+msgid "Make your profile visible for everyone or just for your contacts."
+msgstr ""
+
+msgid "Male"
+msgstr ""
+
+#, fuzzy
+msgid "Manage"
+msgstr "Beheren…"
+
+msgid "Manage Proxies"
+msgstr "Proxy’s beheren"
+
+#, fuzzy
+msgid "Manage Proxies..."
+msgstr "Proxy’s beheren"
+
+#, fuzzy
+msgid "Manage Sounds"
+msgstr "Beheer geluiden"
+
+msgid "Manually set the hostname for the server"
+msgstr "Hostnaam voor server handmatig instellen"
+
+msgid "Mark as Read"
+msgstr ""
+
+msgid "Mark as read"
+msgstr ""
+
+msgid "Maximum file size for preview downloads"
+msgstr ""
+
+#, fuzzy
+msgid "Me"
+msgstr "Gemeen"
+
+msgid "Media Playback"
+msgstr ""
+
+msgid "Member"
+msgstr "Lid"
+
+#, fuzzy
+msgid "Members"
+msgstr "Lid"
+
+#, fuzzy
+msgid "Mention: Message Background Color"
+msgstr "Banier achtergrondkleur"
+
+msgid "Message"
+msgstr "Bericht"
+
+#, fuzzy
+msgid "Message Correction: Background Color"
+msgstr "Contactrij achtergrondkleur"
+
+#, fuzzy
+msgid "Message Receipts (✔)"
+msgstr "Ontvangst_bevestigingen weergeven (✔)"
+
+# Eerste bericht ontvangen?
+#, fuzzy
+msgid "Message Received"
+msgstr "Eerste ontvangen bericht"
+
+msgid "Message Sent"
+msgstr "Bericht verzonden"
+
+msgid "Message composition"
+msgstr "Bericht opstellen"
+
+#, fuzzy, python-format
+msgid ""
+"Message corrected. Original message:\n"
+"%s"
+msgstr ""
+"<b>Bericht is gewijzigd. Oorspronkelijk bericht was:</b>\n"
+"{}"
+
+#, fuzzy
+msgid "Messages are archived on the server"
+msgstr "Deze sessie ZAL gearchiveerd worden op de server"
+
+#, fuzzy
+msgid ""
+"Messages will only be available for reading them later if storing chat "
+"history is enabled and if the contact is in your contact list."
+msgstr ""
+"Berichten zullen alleen voor later beschikbaar zijn als je geschiedenis "
+"ingeschakeld hebt en het contact in je rooster staat."
+
+#, fuzzy
+msgid "Minimize"
+msgstr "Gajim afsluiten"
+
+#, fuzzy
+msgid "Minutes until your status gets changed"
+msgstr "Statusveranderingen tonen"
+
+msgid "Miscellaneous"
+msgstr "Overige"
+
+msgid "Missing dependencies for Audio/Video"
+msgstr ""
+
+msgid "Missing necessary encryption plugin"
+msgstr ""
+
+#, fuzzy
+msgid "Moderation"
+msgstr "Beheerder"
+
+msgid "Moderator"
+msgstr "Beheerder"
+
+msgid "Moderators"
+msgstr "Beheerders"
+
+msgid "Modify"
+msgstr "Bewerken"
+
+#, fuzzy
+msgid "Modify Gateway…"
+msgstr "Account Be_werken..."
+
+#, fuzzy
+msgid "Move Chat"
+msgstr "Audiogespreksverzoek"
+
+msgid "Movie"
+msgstr "Film"
+
+#, fuzzy
+msgid "Must be a port number"
+msgstr "Aangepaste poort moet een geldig poortnummer zijn."
+
+msgid "Mute Sounds"
+msgstr "Geluiden dempen"
+
+msgid "My Workspace"
+msgstr ""
+
+msgid "Name"
+msgstr "Naam"
+
+msgid "Name <b>default</b> is not allowed"
+msgstr "Naam <b>standaard</b> is niet toegestaan"
+
+msgid "Needs gspell to be installed"
+msgstr ""
+
+msgid "Never"
+msgstr "Nooit"
+
+msgid "Never miss a message, keep all your chat clients synchronized"
+msgstr "Mis nooit een bericht, en hou al je chatcliënten gesynchroniseerd"
+
+msgid "New Contact"
+msgstr "Nieuw contact"
+
+#, fuzzy
+msgid "New Group"
+msgstr "Nieuw groepsgesprek"
+
+#, fuzzy
+msgid "New Search"
+msgstr "Zoeken"
+
+#, fuzzy
+msgid "New Workspace"
+msgstr "Contact hernoemen"
+
+#, fuzzy
+msgid "New message from"
+msgstr "Nieuw bericht van %(nickname)s"
+
+msgid "Next"
+msgstr "Volgende"
+
+msgid "Nickname"
+msgstr "Bijnaam"
+
+msgid "No"
+msgstr "Nee"
+
+#, fuzzy
+msgid "No Connection Available"
+msgstr "Verbinding niet beschikbaar"
+
+msgid "No File Transfer available"
+msgstr "Geen bestandsoverdracht beschikbaar"
+
+#, fuzzy
+msgid "No Notifications"
+msgstr "Meldingen"
+
+msgid "No Proxy"
+msgstr "Geen proxy"
+
+msgid "No Results Found"
+msgstr "Geen resultaten gevonden"
+
+msgid "No Sync"
+msgstr ""
+
+#, fuzzy
+msgid "No Threshold"
+msgstr "Geen drempelwaarde"
+
+msgid "No additional requirements"
+msgstr "Geen extra vereisten"
+
+#, fuzzy
+msgid "No commands available"
+msgstr "Geen accounts beschikbaar"
+
+msgid "No contact addresses published for this server."
+msgstr ""
+
+msgid ""
+"No contacts found\n"
+"You can also type an XMPP address"
+msgstr ""
+
+msgid ""
+"No contacts left.\n"
+"You can also type an XMPP address."
+msgstr ""
+
+msgid "No devices online"
+msgstr ""
+
+#, fuzzy
+msgid "No info available"
+msgstr "Geen account beschikbaar"
+
+#, fuzzy
+msgid "No proxy used"
+msgstr "Geen proxy"
+
+#, fuzzy
+msgid "No results"
+msgstr "Geen resultaat"
+
+#, fuzzy
+msgid "No results found"
+msgstr "Geen resultaten gevonden"
+
+#, fuzzy
+msgid "No updates available"
+msgstr "Geen account beschikbaar"
+
+msgid "Node"
+msgstr "Knooppunt"
+
+msgid "Not Available"
+msgstr "Niet beschikbaar"
+
+#, fuzzy
+msgid "Not Connected"
+msgstr "Verbonden"
+
+#, fuzzy
+msgid "Not accelerated"
+msgstr "Niet versleuteld"
+
+#, fuzzy
+msgid "Not available"
+msgstr "Niet beschikbaar"
+
+msgid "Not encrypted"
+msgstr "Niet versleuteld"
+
+msgid "Note to myself"
+msgstr ""
+
+msgid "Note: Anonymous accounts are not possible on all servers"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+#, fuzzy
+msgid "Notification Area Icon"
+msgstr "Pictogram weergeven i_n meldingsvak"
+
+#, fuzzy
+msgid "Notification Sounds"
+msgstr "Meldingen"
+
+msgid "Notifications"
+msgstr "Meldingen"
+
+#, fuzzy
+msgid "Notifications When Away"
+msgstr "Meldingen"
+
+msgid "Notify after update"
+msgstr ""
+
+msgid "Notify me when the automatic update was successful"
+msgstr ""
+
+msgid "Notify of events in the notification area."
+msgstr "Meldingen van gebeurtenissen weergeven in het systeemvak."
+
+#, fuzzy
+msgid "Notify on all Messages"
+msgstr "Melding bij alle berichten"
+
+#, fuzzy
+msgid "OK"
+msgstr "_Oké"
+
+msgid "Offline"
+msgstr "Offline"
+
+msgid "One Month"
+msgstr "Een maand"
+
+msgid "One Year"
+msgstr "Een jaar"
+
+#, fuzzy
+msgid "Online Status"
+msgstr "Status"
+
+msgid "Only Admins and Owners can modify the affiliation"
+msgstr "Enkel administrators en eigenaars kunnen de aansluiting wijzigen"
+
+#, fuzzy
+msgid "Only moderators can see your XMPP address"
+msgstr ""
+"Semi-anoniem\n"
+"<span size=\"small\">(Enkel moderators kunnen je XMPP-adres zien)</span>"
+
+msgid "Open"
+msgstr "Openen"
+
+msgid "Open Email Composer"
+msgstr "E-mailopsteller openen"
+
+#, fuzzy
+msgid "Open Folder"
+msgstr "_Open bovenliggende map"
+
+msgid "Open Link in Browser"
+msgstr "Verwijzing openen in browser"
+
+#, fuzzy
+msgid "Open Link in _Browser"
+msgstr "Verwijzing openen in browser"
+
+#, fuzzy
+msgid "Open Plugins…"
+msgstr "Plug-ins"
+
+#, fuzzy
+msgid "Open _Folder"
+msgstr "_Bovenliggende map openen"
+
+msgid "Open as _Link"
+msgstr "Openen a_ls verwijzing"
+
+#, fuzzy
+msgid "Open folder"
+msgstr "_Bovenliggende map openen"
+
+msgid "Open search bar"
+msgstr ""
+
+msgid "OpenGL accelerated"
+msgstr ""
+
+#, fuzzy
+msgid "Operating System"
+msgstr "Cliëntcertificaat"
+
+#, fuzzy
+msgid "Organisation"
+msgstr "Organisatie (O)"
+
+msgid "Organization (O)"
+msgstr "Organisatie (O)"
+
+#, fuzzy
+msgid "Organization (O): "
+msgstr "Organisatie (O)"
+
+msgid "Organizational Unit (OU)"
+msgstr "Organisatorische eenheid (OU)"
+
+#, fuzzy
+msgid "Organizational Unit (OU): "
+msgstr "Organisatorische eenheid (OU)"
+
+#, fuzzy
+msgid "Organize your chats with workspaces"
+msgstr "Organiseer je gesprekken met tabbladen"
+
+msgid "Others"
+msgstr "Overigen"
+
+msgid "Out"
+msgstr "Uit"
+
+msgid "Out of memory"
+msgstr "Geheugentekort"
+
+msgid "Outcasts"
+msgstr ""
+
+#, fuzzy
+msgid "Overwrite Plugin?"
+msgstr "Overschrijven?"
+
+msgid "Owner"
+msgstr "Eigenaar"
+
+#, fuzzy
+msgid "Owners"
+msgstr "Eigenaar"
+
+#, fuzzy
+msgid "PEP Configuration"
+msgstr "Configuratie"
+
+#, fuzzy, python-format
+msgid "PEP Service Configuration (%s)"
+msgstr "PEP-dienstconfiguratie"
+
+#, fuzzy, python-format
+msgid ""
+"PEP node %(node)s was not removed:\n"
+"%(message)s"
+msgstr "PEP-knooppunt %(node)s niet verwijderd: %(message)s"
+
+msgid "PEP node was not removed"
+msgstr "PEP-knooppunt niet verwijderd"
+
+msgid "PKCS12 Files"
+msgstr "PKCS12-bestanden"
+
+msgid "PNG files"
+msgstr "PNG-bestanden"
+
+#, fuzzy
+msgid "Pa_use/Resume"
+msgstr "He_rvatten"
+
+#, fuzzy, python-format
+msgid "Pango Version: %s"
+msgstr "GTK+-versie: %s"
+
+msgid "Participant"
+msgstr "Deelnemer"
+
+msgid "Participants"
+msgstr "Deelnemers"
+
+msgid "Participants asking for voice:"
+msgstr ""
+
+msgid "Participants entering this group chat are allowed to send messages"
+msgstr ""
+
+msgid ""
+"Participants entering this group chat need to request permission to send "
+"messages"
+msgstr ""
+
+msgid "Pass_word"
+msgstr "_Wachtwoord"
+
+msgid "Password"
+msgstr "Wachtwoord"
+
+#, fuzzy
+msgid "Password Change Failed"
+msgstr "Wachtwoord vereist"
+
+#, fuzzy
+msgid "Password Changed"
+msgstr "Wachtwoord vereist"
+
+msgid "Password Required"
+msgstr "Wachtwoord vereist"
+
+msgid "Passwords do not match"
+msgstr "Wachtwoord komt niet overeen"
+
+msgid "Past Developers"
+msgstr "Vroegere ontwikkelaars"
+
+msgid "Paste Last Input"
+msgstr ""
+
+#, fuzzy
+msgid "Paste as Code Block"
+msgstr "Postcode"
+
+#, fuzzy
+msgid "Paste as Quote"
+msgstr "Kies afbeelding"
+
+msgid "Path length constraint exceeded"
+msgstr "Padlengtelimiet overschreden"
+
+#, fuzzy
+msgid "Pause or resume file transfer"
+msgstr "Bestandsoverdracht annuleren"
+
+#, fuzzy
+msgid "Pending Event"
+msgstr "Toon alle wachtende gebeurt_enissen"
+
+#, fuzzy
+msgid "Pending Voice Requests"
+msgstr "Audiogespreksverzoek"
+
+#, fuzzy
+msgid "Personal notes about this contact"
+msgstr "Is OpenPGP ingeschakeld voor dit contact?"
+
+msgid "Phone"
+msgstr "Telefoon"
+
+msgid "Phone No."
+msgstr "Telefoonnr."
+
+#, fuzzy
+msgid "Picture and Name"
+msgstr "Te gebruiken afbeelding"
+
+#, fuzzy
+msgid "Pin Chat"
+msgstr "Start Gesprek"
+
+msgid "Pinned"
+msgstr ""
+
+msgid "Pipewire"
+msgstr ""
+
+#, fuzzy
+msgid "Pl_ugins"
+msgstr "Plug-ins"
+
+msgid "Play Sound"
+msgstr "Geluid afspelen"
+
+#, fuzzy
+msgid "Play Sounds"
+msgstr "Geluid afspelen"
+
+#, fuzzy
+msgid "Play sounds even when you are Away, Busy, etc."
+msgstr "Geluid afspelen wanneer gebruiker bezig is"
+
+msgid "Play sounds to notify about events"
+msgstr ""
+
+#, fuzzy
+msgid "Please choose an account"
+msgstr "Kies een groepsgesprek"
+
+#, fuzzy
+msgid "Please enter an XMPP address"
+msgstr "Maak een mooi nieuw thema."
+
+#, fuzzy
+msgid "Please enter your credentials or Sign Up"
+msgstr "Maak een mooi nieuw thema."
+
+#, fuzzy
+msgid "Please enter your new password."
+msgstr "Maak een mooi nieuw thema."
+
+#, fuzzy, python-format
+msgid ""
+"Please enter your password for\n"
+"%(jid)s\n"
+"(Account: %(account)s)"
+msgstr "Voer je wachtwoord voor account %s in"
+
+#, fuzzy, python-format
+msgid "Please make sure you are connected with \"%s\"."
+msgstr "Zorg ervoor dat je verbinding hebt met ‘%s’."
+
+msgid ""
+"Please select one of your accounts.\n"
+"Gajim will export all messages from the selected account to a directory of "
+"your choice."
+msgstr ""
+
+#, fuzzy
+msgid "Please use these settings with caution!"
+msgstr "Let op: wees voorzichtig in het gebruik van deze opties!"
+
+msgid "Please use yyyy-mm-dd"
+msgstr ""
+
+msgid "Plugin Settings"
+msgstr "Plug-in-instellingen"
+
+#, fuzzy
+msgid "Plugin Updates"
+msgstr "Updates voor plug-ins"
+
+msgid "Plugin already exists"
+msgstr "Plug-in bestaat al"
+
+msgid "Plugin failed"
+msgstr "Plug-in mislukt"
+
+msgid "Plugin manager"
+msgstr "Plug-inbeheer"
+
+msgid "Plugins"
+msgstr "Plug-ins"
+
+#, fuzzy
+msgid "Plugins Updated Successfully"
+msgstr "Updates voor plug-ins"
+
+msgid "Port"
+msgstr "Poort"
+
+#, fuzzy
+msgid "Port must be a number between 0 and 65535"
+msgstr "Bron moet tussen 1 en 1023 bytes lang zijn"
+
+msgid "Post Office Box"
+msgstr ""
+
+msgid "Postal Code"
+msgstr "Postcode"
+
+#, fuzzy
+msgid "Prefer direct messages in private group chats "
+msgstr "Statusberichte_n van contacten weergeven in rooster"
+
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#, fuzzy
+msgid "Preferred file transfer mechanism for file drag&drop on a chat window"
+msgstr ""
+"Voorkeursmechanisme voor bestandsoverdracht bij verslepen en neerzetten van "
+"bestand op gespreksvenster. Kan ‘httpupload’ (standaard) of ‘jingle’ zijn"
+
+msgid "Presets"
+msgstr "Voorinstellingen"
+
+msgid "Preview Size"
+msgstr ""
+
+msgid "Preview all Image URLs"
+msgstr ""
+
+#, fuzzy
+msgid "Preview in Public Group Chats"
+msgstr "Groepsgesprekken verlaten"
+
+msgid "Preview new messages in notification popup?"
+msgstr "Nieuwe berichten in meldingspop-up weergeven?"
+
+msgid "Previous"
+msgstr "Vorige"
+
+msgid "Print XML stanzas and other debug information"
+msgstr "XML-stanza’s en andere debuginformatie afdrukken"
+
+msgid "Priority"
+msgstr "Prioriteit"
+
+msgid "Privacy"
+msgstr "Privacy"
+
+#, fuzzy
+msgid "Private"
+msgstr "Start Gesprek"
+
+msgid "Profile"
+msgstr "Profiel"
+
+msgid "Profile application with cprofile"
+msgstr ""
+
+msgid "Progress"
+msgstr "Voortgang"
+
+#, fuzzy
+msgid "Prox_y"
+msgstr "Prox_y:"
+
+msgid "Proxy"
+msgstr "Proxy"
+
+#, fuzzy
+msgid "Proxy Host"
+msgstr "Proxy_host"
+
+#, fuzzy
+msgid "Proxy Type"
+msgstr "Proxy"
+
+#, fuzzy
+msgid "Proxy, custom hostname and port"
+msgstr "Gebruik aangepaste hostnaam/poort"
+
+msgid "Public"
+msgstr ""
+
+#, python-format
+msgid "Pulse: %s"
+msgstr "Puls: %s"
+
+#, fuzzy
+msgid "Purge Chat History…"
+msgstr "Gespreksgeschiedenis"
+
+#, fuzzy
+msgid "Purge all Chat History"
+msgstr "Status: "
+
+#, python-format
+msgid "PyGObject Version: %s"
+msgstr "PyGObject-versie: %s"
+
+#, fuzzy
+msgid "Quit"
+msgstr "_Afsluiten"
+
+msgid "Quit Gajim"
+msgstr "Gajim afsluiten"
+
+#, fuzzy
+msgid "Re-Login"
+msgstr "Inloggen"
+
+#, fuzzy
+msgid "Re-Login now?"
+msgstr "Nu opnieuw inloggen?"
+
+msgid "Re_gister"
+msgstr "Re_gistreren"
+
+msgid "Read _Wikipedia Article"
+msgstr "_Wikipedia-artikel lezen"
+
+#, fuzzy
+msgid "Really block this contact?"
+msgstr "Is OpenPGP ingeschakeld voor dit contact?"
+
+msgid "Reason"
+msgstr "Reden"
+
+#, fuzzy
+msgid "Reason (optional)"
+msgstr "Je kan ook een andere locatie opgeven:"
+
+#, fuzzy
+msgid "Reason (optional)..."
+msgstr "Reden"
+
+msgid "Reason for destruction"
+msgstr ""
+
+#, fuzzy, python-format
+msgid "Reason: %s"
+msgstr "Reden"
+
+msgid "Recent history"
+msgstr "Recente geschiedenis"
+
+msgid "Recipient: "
+msgstr "Ontvanger: "
+
+#, python-format
+msgid "Recipient: %s"
+msgstr "Ontvanger: %s"
+
+msgid "Recognize your account by color"
+msgstr ""
+
+msgid "Redirect"
+msgstr ""
+
+msgid "Register"
+msgstr "Registreren"
+
+#, fuzzy
+msgid "Register on the Website"
+msgstr "Registreren bij %s"
+
+#, fuzzy
+msgid "Registering…"
+msgstr "Registreren"
+
+msgid "Registration failed"
+msgstr "Registratie mislukt"
+
+msgid "Registration successful"
+msgstr "Registratie geslaagd"
+
+#, fuzzy
+msgid "Reject file transfer"
+msgstr "Verwijderen van geselecteerde bestandsoverdracht"
+
+msgid "Remember Last Status"
+msgstr ""
+
+#, fuzzy
+msgid "Remote server not found"
+msgstr "De dienst kon niet gevonden worden"
+
+msgid "Remote server timeout"
+msgstr ""
+
+msgid "Remove"
+msgstr "Verwijderen"
+
+#, fuzzy
+msgid "Remove Account"
+msgstr "Account %s wordt verwijderd"
+
+#, fuzzy
+msgid "Remove Chat History"
+msgstr "Gespreksgeschiedenis"
+
+#, fuzzy
+msgid "Remove Chat History?"
+msgstr "Gespreksgeschiedenis"
+
+#, fuzzy
+msgid "Remove Contact"
+msgstr "Contact hernoemen"
+
+msgid "Remove Group"
+msgstr "Groep verwijderen"
+
+#, fuzzy
+msgid "Remove Group..."
+msgstr "Groep verwijderen"
+
+#, fuzzy
+msgid "Remove History…"
+msgstr "Geschiedenis synchroniseren"
+
+#, fuzzy
+msgid "Remove Notification"
+msgstr "Melding"
+
+msgid "Remove Proxy"
+msgstr "Proxy verwijderen"
+
+#, fuzzy
+msgid "Remove Setting"
+msgstr "Plug-in-instellingen"
+
+#, fuzzy
+msgid "Remove Theme"
+msgstr "Actief thema"
+
+#, fuzzy
+msgid "Remove Transport"
+msgstr "Transporten weergeven"
+
+#, fuzzy
+msgid "Remove Workspace"
+msgstr "Contact hernoemen"
+
+msgid "Remove completed, cancelled and failed file transfers from the list"
+msgstr ""
+"Afgeronde, geannuleerde en mislukte bestandsoverdrachten van de lijst "
+"verwijderen"
+
+#, fuzzy
+msgid "Remove contact from contact list"
+msgstr "Verwijdert contact van rooster"
+
+#, fuzzy
+msgid "Remove from contact list"
+msgstr "Verwijdert contact van rooster"
+
+msgid "Remove this workspace"
+msgstr ""
+
+msgid "Remove your profile picture"
+msgstr ""
+
+#, python-format
+msgid "Removed %d contact"
+msgid_plural "Removed %d contacts"
+msgstr[0] "%d contact verwijderd"
+msgstr[1] "%d contacten verwijderd"
+
+#, fuzzy
+msgid "Remove…"
+msgstr "Verwijderen"
+
+#, fuzzy
+msgid "Removing Account..."
+msgstr "Account %s wordt verwijderd"
+
+#, fuzzy
+msgid "Report"
+msgstr "_Fout melden"
+
+msgid "Request Search Form"
+msgstr ""
+
+msgid "Request Voice"
+msgstr "Stem aanvragen"
+
+#, fuzzy
+msgid "Request contact information (Tune, Location)"
+msgstr "Contacten uitnodigen in gesprek (Ctrl+G)"
+
+#, fuzzy
+msgid "Request to see this contact's online status"
+msgstr "Vraag hem/haar toe_stemming zijn/haar status te zien"
+
+#, fuzzy
+msgid "Requesting Command List"
+msgstr "Opdrachtlijst opvragen"
+
+#, fuzzy
+msgid "Requesting HTTP File Upload Slot…"
+msgstr "HTTP-uploadslot opvragen…"
+
+msgid "Requesting Register Form"
+msgstr ""
+
+msgid "Requesting register form from server…"
+msgstr ""
+
+msgid "Requesting search form from server"
+msgstr ""
+
+msgid "Required"
+msgstr "Vereist"
+
+msgid "Requires: Gspell"
+msgstr "Vereist: Gspell"
+
+#, fuzzy
+msgid ""
+"Requires: farstream-0.2, gstreamer-1.0, gst-plugins-base-1.0, gst-plugins-"
+"ugly-1.0, gst-libav and gstreamer-gtk3-plugin"
+msgstr ""
+"Vereist: gir1.2-farstream-0.2, gir1.2-gstreamer-1.0, gstreamer1.0-libav, "
+"gstreamer1.0-plugins-ugly"
+
+#, fuzzy
+msgid "Requires: gnome-keyring or kwallet"
+msgstr "Vereist gnome-keyring en python-gnome2-desktop, of kwalletcli."
+
+#, fuzzy
+msgid "Requires: gsound"
+msgstr "Vereist: python-dbus"
+
+msgid "Requires: gstreamer-1.0, gst-plugins-base-1.0"
+msgstr ""
+
+#, fuzzy
+msgid "Requires: gupnpigd-1.0"
+msgstr "Vereist: gir1.2-gupnpigd-1.0"
+
+#, fuzzy
+msgid "Requires: libappindicator3"
+msgstr "Vereist: libxss"
+
+msgid "Requires: libxss"
+msgstr "Vereist: libxss"
+
+msgid "Reserved Name"
+msgstr "Gereserveerde naam"
+
+#, fuzzy
+msgid "Reset"
+msgstr "Voorinstellingen"
+
+msgid "Reset Hints"
+msgstr ""
+
+msgid "Reset all chats to the current default value"
+msgstr ""
+
+msgid "Reset all group chats to the current default value"
+msgstr ""
+
+#, fuzzy
+msgid "Resets value to default"
+msgstr "He_rstellen naar standaardwaarden"
+
+msgid "Resource"
+msgstr "Bron"
+
+#, fuzzy
+msgid "Restart Gajim for changes to take effect"
+msgstr ""
+"Je moet Gajim herstarten vooraleer sommige instellingen in werking treden"
+
+#, fuzzy
+msgid "Restore chat"
+msgstr "Laatste toestand"
+
+#, fuzzy
+msgid "Restore last state"
+msgstr "Laatste toestand"
+
+#, fuzzy
+msgid "Restore status and status message of your last session"
+msgstr ""
+"Indien aangevinkt zullen de status en het statusbericht gebruikt in de "
+"vorige sessie worden hersteld"
+
+#, fuzzy
+msgid "Retract Message"
+msgstr "Statusbericht"
+
+#, fuzzy
+msgid "Retract message?"
+msgstr "statusbericht"
+
+#, fuzzy
+msgid "Revoke Member"
+msgstr "Lid"
+
+#, fuzzy
+msgid "Revoke Voice"
+msgstr "Stem aanvragen"
+
+msgid "Role"
+msgstr "Rol"
+
+msgid "SHA-1"
+msgstr "SHA-1"
+
+#, fuzzy
+msgid "SHA-1:"
+msgstr "SHA-1"
+
+msgid "SHA-256"
+msgstr "SHA-256"
+
+#, fuzzy
+msgid "SHA-256:"
+msgstr "SHA-256"
+
+#, fuzzy
+msgctxt "proxy configuration"
+msgid "SOCKS5"
+msgstr "SOCKS5"
+
+#, fuzzy
+msgid "SSL Certificate Verification Error"
+msgstr "SSL-certificaatverificatie voor %s"
+
+#, fuzzy
+msgid "SSL certificate error"
+msgstr "SSL-certificaatfout"
+
+#, fuzzy
+msgid "STUN Server"
+msgstr "STU_N-server"
+
+#, fuzzy
+msgid "STUN Server Settings"
+msgstr "Plug-in-instellingen"
+
+msgid "STUN server to use when using Jingle"
+msgstr "Te gebruiken STUN-server bij gebruik van Jingle"
+
+msgid "SVG files"
+msgstr "SVG-bestanden"
+
+msgid "Sales"
+msgstr ""
+
+#, fuzzy
+msgid "Save"
+msgstr "Opslaan _als"
+
+msgid "Save File as…"
+msgstr "Bestand opslaan als…"
+
+msgid "Save Password"
+msgstr "Wachtwoord opslaan"
+
+#, fuzzy
+msgid "Save as..."
+msgstr "Opslaan _als"
+
+#, fuzzy
+msgid "Save as…"
+msgstr "Opslaan _als"
+
+#, fuzzy
+msgid "Saving Avatar Failed"
+msgstr "Uploaden van avatar is mislukt"
+
+#, fuzzy
+msgid "Saving avatar image failed"
+msgstr "Sturen van privébericht mislukt"
+
+#, fuzzy
+msgid "Say hi to your new contact…"
+msgstr "Stuur een ping naar het contact"
+
+#, fuzzy, python-format
+msgid "Scanning %(current)d / %(total)d ..."
+msgstr "Onderzoeken van %(current)d / %(total)d…"
+
+msgid "Scroll down"
+msgstr "Omlaag scrollen"
+
+msgid "Scroll up"
+msgstr "Omhoog scrollen"
+
+msgid "Scroll up to load more chat history…"
+msgstr ""
+
+msgid "Search"
+msgstr "Zoeken"
+
+#, fuzzy
+msgid "Search Result"
+msgstr "Zoeken"
+
+#, fuzzy
+msgid "Search all Chats"
+msgstr "Zoeken in database"
+
+#, fuzzy
+msgid "Search contacts..."
+msgstr "Database zoeken…"
+
+msgid "Search for Gajim updates periodically?"
+msgstr ""
+
+msgid ""
+"Search for group chats globally\n"
+"(press Return to start search)"
+msgstr ""
+
+#, fuzzy
+msgid "Searching"
+msgstr "Zoeken"
+
+#, fuzzy
+msgid "Searching…"
+msgstr "Zoeken"
+
+#, fuzzy
+msgid "Search…"
+msgstr "Zoeken"
+
+msgid "Secure Password Storage"
+msgstr "Veilige wachtwoordopslag"
+
+msgid "Security"
+msgstr ""
+
+#, fuzzy
+msgid "Security Labels"
+msgstr "Waarschuwing"
+
+#, fuzzy
+msgid "Security Warning"
+msgstr "Waarschuwing"
+
+#, fuzzy
+msgid "Select Account"
+msgstr "Account %s wordt verwijderd"
+
+# Verzonden aan contacten?
+#, fuzzy
+msgid "Select Contacts"
+msgstr "Verzonden contacten:"
+
+#, fuzzy
+msgid "Select File…"
+msgstr "Bestand verzenden…"
+
+msgid "Select a security label for your message…"
+msgstr ""
+
+msgid "Select an audio output (e.g. speakers, headphones)"
+msgstr ""
+
+msgid "Select an emoji"
+msgstr "Selecteer een emoji"
+
+msgid "Select the account with which you want to synchronise"
+msgstr "Selecteer de account waarmee je wil synchroniseren"
+
+msgid "Select the contacts you want to synchronise"
+msgstr "Selecteer de contacten die je wil synchroniseren"
+
+msgid "Select your audio input (e.g. microphone)"
+msgstr ""
+
+msgid "Select your video input device (e.g. webcam, screen capture)"
+msgstr ""
+
+#, fuzzy
+msgid "Selected image could not be loaded."
+msgstr "De dienst kon niet gevonden worden"
+
+#, fuzzy, python-format
+msgid "Selected security label: %s"
+msgstr "Waarschuwing"
+
+msgid "Self signed certificate"
+msgstr "Zelfgetekend certificaat"
+
+msgid "Self signed certificate in certificate chain"
+msgstr "Zelfgetekend certificaat in certificaatsketen"
+
+#, fuzzy
+msgid "Send Chat Markers"
+msgstr "Chatstatus verzenden"
+
+#, fuzzy
+msgid "Send Chat State"
+msgstr "Chatstatus verzenden"
+
+msgid "Send Chatstate"
+msgstr "Chatstatus verzenden"
+
+#, fuzzy
+msgid "Send Chatstate in Group Chats"
+msgstr "Kan niet deelnemen aan het groepsgesprek"
+
+#, fuzzy
+msgid "Send File"
+msgstr "_Bestand Verzenden"
+
+#, fuzzy, python-format
+msgid "Send File (max. %s)…"
+msgstr "Bestand opslaan als…"
+
+msgid "Send File Directly…"
+msgstr "Bestand rechtstreeks verzenden…"
+
+#, fuzzy
+msgid "Send Files"
+msgstr "_Bestand Verzenden"
+
+#, fuzzy
+msgid "Send Files Directly"
+msgstr "Bestand rechtstreeks verzenden…"
+
+msgid "Send File…"
+msgstr "Bestand verzenden…"
+
+#, fuzzy
+msgid "Send Message"
+msgstr "Bericht verzenden"
+
+#, fuzzy
+msgid "Send Message Receipts"
+msgstr "Aandachtsbericht ontvangen"
+
+#, fuzzy
+msgid "Send Messages with Control+Enter"
+msgstr "Een bericht naar het contact sturen"
+
+#, fuzzy
+msgid "Send Read Markers"
+msgstr "Keep-alive-pakketten verzenden"
+
+#, fuzzy
+msgid "Send _Report"
+msgstr "_Fout melden"
+
+#, fuzzy
+msgid "Send message on Ctrl+Enter and make a new line with Enter."
+msgstr ""
+"Ctrl+Enter stuurt bericht, enkel Enter maakt een nieuwe regel "
+"(standaardgedrag van Mirabilis ICQ)."
+
+msgid "Send the message"
+msgstr "Bericht verzenden"
+
+msgid "Sender: "
+msgstr "Afzender: "
+
+#, python-format
+msgid "Sent contact: \"%(jid)s\" (%(name)s)"
+msgstr "Contact verzonden: ‘%(jid)s’ (%(name)s)"
+
+# Verzonden aan contacten?
+msgid "Sent contacts:"
+msgstr "Verzonden contacten:"
+
+msgid "Separate profile files completely (even history database and plugins)"
+msgstr ""
+"Profielbestanden volledig scheiden (zelfs geschiedenisdatabase en plug-ins)"
+
+msgid "Serial Number"
+msgstr "Serienummer"
+
+#, fuzzy
+msgid "Serial Number: "
+msgstr "Serienummer"
+
+msgid "Server"
+msgstr "Server"
+
+msgid "Server Info"
+msgstr "Serverinfo"
+
+#, fuzzy
+msgid "Server Shutdown"
+msgstr "Serversoftware"
+
+msgid "Server Software"
+msgstr "Serversoftware"
+
+#, fuzzy, python-format
+msgid "Server Software: %s\n"
+msgstr "Serversoftware"
+
+msgid "Server Uptime"
+msgstr "Serveruptime"
+
+#, fuzzy
+msgid "Service"
+msgstr "Server"
+
+msgid "Service Discovery"
+msgstr "Dienstontdekking"
+
+#, python-format
+msgid "Service Discovery using account %s"
+msgstr "Dienstontdekking met account %s"
+
+#, fuzzy
+msgid "Service Gateway"
+msgstr "Server"
+
+msgid "Set configuration directory"
+msgstr "Configuratiemap instellen"
+
+#, fuzzy
+msgid "Set status message"
+msgstr "Statusbericht instellen"
+
+#, fuzzy
+msgid "Set your activity or tune to show your friends how you are feeling"
+msgstr ""
+"Stel je activiteit, deuntje en humeur in om je vrienden te tonen hoe je je "
+"voelt"
+
+msgid "Sets an environment variable so GLib debug messages are printed"
+msgstr ""
+
+msgid "Setting is locked by the system"
+msgstr ""
+
+msgid "Settings"
+msgstr "Instellingen"
+
+#, fuzzy
+msgid "Share Status"
+msgstr "Status"
+
+#, fuzzy
+msgid "Share Video"
+msgstr "een video-"
+
+#, fuzzy
+msgid "Share my online status"
+msgstr "Status veranderen"
+
+msgid "Show"
+msgstr ""
+
+#, fuzzy
+msgid "Show Commands"
+msgstr "Opdrachten"
+
+#, fuzzy
+msgid "Show Contact Infos"
+msgstr "Alleen actieve contacten weergeven"
+
+#, fuzzy
+msgid "Show Content"
+msgstr "Alleen actieve contacten weergeven"
+
+#, fuzzy
+msgid "Show Gajim"
+msgstr "Gajim"
+
+#, fuzzy
+msgid "Show Invitation"
+msgstr "Locatie:"
+
+#, fuzzy
+msgid "Show Join/Leave"
+msgstr "Berichten over deelnemen/verlaten tonen"
+
+#, fuzzy
+msgid "Show Joined / Left"
+msgstr "Berichten over deelnemen/verlaten tonen"
+
+#, fuzzy
+msgid "Show Location"
+msgstr "Locatie:"
+
+msgid "Show My Video Stream"
+msgstr ""
+
+#, fuzzy
+msgid "Show Notifications"
+msgstr "Meldingen"
+
+#, fuzzy
+msgid "Show Offline Contacts"
+msgstr "Offline contacten weergeven"
+
+#, fuzzy
+msgid "Show Send Message Button"
+msgstr "Bericht verzenden"
+
+#, fuzzy
+msgid "Show Status Changes"
+msgstr "Statusveranderingen tonen"
+
+#, fuzzy
+msgid "Show Subject"
+msgstr "Onderwerp"
+
+#, fuzzy
+msgid "Show Transfers"
+msgstr "Transporten weergeven"
+
+#, fuzzy
+msgid "Show XML console"
+msgstr "_XML-console weergeven"
+
+#, fuzzy
+msgid "Show _Features"
+msgstr "Functies"
+
+#, fuzzy
+msgid "Show a confirmation dialog before connecting unencrypted"
+msgstr ""
+"Moet de dialoog voor het bevestigen van het blokkeren van een contact worden "
+"getoond? Een lege tekenreeks betekent dat de dialoog nooit wordt getoond."
+
+#, fuzzy
+msgid ""
+"Show a confirmation dialog to block a contact? Empty string means never show "
+"the dialog."
+msgstr ""
+"Moet de dialoog voor het bevestigen van het blokkeren van een contact worden "
+"getoond? Een lege tekenreeks betekent dat de dialoog nooit wordt getoond."
+
+#, fuzzy
+msgid "Show a list of emojis"
+msgstr "Een lijst van emoji’s weergeven (Alt+M)"
+
+msgid "Show a live preview to test your video source"
+msgstr ""
+
+msgid "Show all warnings"
+msgstr "Alle waarschuwingen weergeven"
+
+#, fuzzy
+msgid "Show chat list"
+msgstr "Locatie:"
+
+msgid "Show chat state (e.g. \"is typing…\") next to your contact’s name"
+msgstr ""
+
+#, fuzzy
+msgid "Show in Taskbar"
+msgstr "Transporten weergeven"
+
+msgid ""
+"Show labels describing confidentiality of messages, if the server supports "
+"XEP-0258"
+msgstr ""
+
+msgid ""
+"Show message meta data (avatar, nickname, timestamp) only once, if there are "
+"multiple messages from the same sender within a specific timespan."
+msgstr ""
+
+#, fuzzy
+msgid "Show notifications even if you are Away, Busy, etc."
+msgstr "Pictogram weergeven i_n meldingsvak"
+
+#, fuzzy
+msgid "Show on Startup"
+msgstr "Roo_ster weergeven bij opstarten"
+
+msgid "Show only critical errors"
+msgstr "Alleen kritieke fouten weergeven"
+
+msgid ""
+"Show previews automatically in public group chats (may disclose your data)"
+msgstr ""
+
+msgid "Show previews for any URLs containing images (may be unsafe)"
+msgstr ""
+
+#, fuzzy
+msgid "Show previews for files"
+msgstr "Audiosessies zijn niet beschikbaar"
+
+msgid "Show suggestions for shortcodes, e.g. :+1:"
+msgstr ""
+
+msgid "Show the application's version"
+msgstr "Toepassingsversie weergeven"
+
+#, fuzzy
+msgid "Show window in the taskbar"
+msgstr "Rooster niet weergeven in systeemvak."
+
+#, fuzzy
+msgid "Show window when starting Gajim"
+msgstr "Gajim altijd sluiten"
+
+msgid "Show your own video stream in calls"
+msgstr ""
+
+#, fuzzy
+msgid "Show/Hide Window"
+msgstr "Venster verbergen"
+
+#, fuzzy
+msgid "Shows a list of file transfers between you and your contacts"
+msgstr "Laat een lijst met bestandsoverdrachten zien tussen jou en anderen"
+
+#, fuzzy
+msgid "Shutting down Gajim"
+msgstr "Gajim"
+
+#, fuzzy
+msgid "Sign In"
+msgstr "_inlog"
+
+#, fuzzy
+msgid "Sign Up"
+msgstr "_inlog"
+
+msgid "Sign up Anonymously"
+msgstr ""
+
+msgid "Sign up for a new account on a server of your choice"
+msgstr ""
+
+#, fuzzy
+msgid "Signup not allowed"
+msgstr "Spaties zijn niet toegestaan"
+
+msgid "Size of preview images in pixels"
+msgstr ""
+
+msgid "Sleeping"
+msgstr "Slapen"
+
+#, fuzzy
+msgid "Software"
+msgstr "Serversoftware"
+
+msgid "Something went wrong. Video feature disabled."
+msgstr ""
+
+msgid "Sorry, that should not have happened"
+msgstr "Sorry, dat zou niet mogen gebeuren"
+
+#, fuzzy
+msgid "Sort Participant List by Status"
+msgstr "Sorteer contacten op status"
+
+#, fuzzy
+msgid "Sort by Status"
+msgstr "Sorteer contacten op status"
+
+msgid "Sounds"
+msgstr "Geluiden"
+
+msgid "Sounds When Away"
+msgstr ""
+
+msgid "Spaces are not allowed"
+msgstr "Spaties zijn niet toegestaan"
+
+msgid "Spam"
+msgstr ""
+
+#, fuzzy, python-format
+msgid "Speed: %s"
+msgstr "Afzender: %s"
+
+msgid "Spell Checker"
+msgstr "Spellingscontrole"
+
+#, fuzzy
+msgid "Spell Checking"
+msgstr "Spellingscontrole"
+
+msgid "Sta_tus"
+msgstr "Sta_tus"
+
+msgid "Stage"
+msgstr ""
+
+#, fuzzy
+msgid "Start / Join Chat"
+msgstr "Gesprek beginnen"
+
+msgid "Start Chat"
+msgstr "Gesprek beginnen"
+
+#, fuzzy
+msgid "Start Chatting…"
+msgstr "Gesprek beginnen"
+
+#, fuzzy
+msgid "Start Chat…"
+msgstr "Gesprek beginnen"
+
+#, fuzzy
+msgid "Start New Chat"
+msgstr "Gesprek beginnen"
+
+#, fuzzy
+msgid "Start Search..."
+msgstr "Gesprek beginnen…"
+
+#, fuzzy
+msgid "Start Video Call…"
+msgstr "Gesprek beginnen"
+
+#, fuzzy
+msgid "Start Voice Call…"
+msgstr "Gesprek beginnen"
+
+msgid "Start a new chat"
+msgstr "Nieuw gesprek beginnen"
+
+msgid ""
+"Start a new chat, join a group chat or search for new group chats globally. "
+"You can also enter an XMPP address."
+msgstr ""
+
+msgid "Start/stop playback"
+msgstr ""
+
+msgid "State"
+msgstr "Staat"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Status Message"
+msgstr "Statusbericht"
+
+#, fuzzy
+msgid "Status Message: Text Color"
+msgstr "Statusberichtkleur"
+
+#, fuzzy
+msgid "Status Message: Text Font"
+msgstr "Statusberichtlettertype"
+
+#, fuzzy
+msgid "Status Messages in Participants List"
+msgstr "Statusberichtlettertype"
+
+#, fuzzy
+msgid "Status and status message for all accounts"
+msgstr "Status van alle accounts synchroniseren"
+
+#, fuzzy
+msgid "Status message…"
+msgstr "_Statusbericht"
+
+#, fuzzy, python-format
+msgid "Status: %s"
+msgstr "Status: "
+
+#, fuzzy
+msgid "Status: Away Color"
+msgstr "Statusberichtkleur"
+
+#, fuzzy
+msgid "Status: DND Color"
+msgstr "Statusberichtkleur"
+
+#, fuzzy
+msgid "Status: Offline Color"
+msgstr "Statusberichtkleur"
+
+#, fuzzy
+msgid "Status: Online Color"
+msgstr "Statusberichtkleur"
+
+#, fuzzy
+msgid "Stop File Transfers"
+msgstr "Bestandsoverdrachten"
+
+#, fuzzy
+msgid "Stop sharing online status?"
+msgstr "mij status te sturen"
+
+msgid "Stopped sharing their status with you"
+msgstr ""
+
+msgid "Street"
+msgstr "Straat"
+
+msgid "Style"
+msgstr "Stijl"
+
+msgid "Subject"
+msgstr "Onderwerp"
+
+msgid "Subject issuer mismatch"
+msgstr "Subjectuitgever komt niet overeen"
+
+msgid "Submit"
+msgstr ""
+
+msgid "Subscribe"
+msgstr "Abonneren"
+
+msgid "Subscribed"
+msgstr "Geabonneerd"
+
+msgid "Subscription Request"
+msgstr "Abonneringsverzoek"
+
+msgid "Subscription:"
+msgstr "Abonnement:"
+
+msgid "Support"
+msgstr ""
+
+msgid "Support for multiple accounts"
+msgstr "Ondersteuning voor meerdere accounts"
+
+msgid "Support for service discovery including nodes and search for users"
+msgstr ""
+"Ondersteuning voor dienstontdekking, inclusief knooppunten en zoeken naar "
+"gebruikers"
+
+#, fuzzy
+msgid "Switch Workspace"
+msgstr "Contact hernoemen"
+
+#, fuzzy
+msgid "Switch to the first - ninth chat"
+msgstr "Wisselen naar het eerste - negende tabblad"
+
+#, fuzzy
+msgid "Switch to the first - ninth workspace"
+msgstr "Wisselen naar het eerste - negende tabblad"
+
+#, fuzzy
+msgid "Switch to the next chat"
+msgstr "Wisselend naar het volgende tabblad"
+
+#, fuzzy
+msgid "Switch to the next unread chat"
+msgstr "Wisselen naar het volgende ongelezen tabblad"
+
+#, fuzzy
+msgid "Switch to the previous chat"
+msgstr "Wisselen naar het vorig tabblad"
+
+#, fuzzy
+msgid "Switch to the previous unread chat"
+msgstr "Wisselen naar het vorige ongelezen tabblad"
+
+msgid "Sync Threshold"
+msgstr "Drempelwaarde voor synchronisatie"
+
+msgid "Synchronise"
+msgstr "Synchroniseren"
+
+#, fuzzy
+msgid "Synchronise History…"
+msgstr "Geschiedenis synchroniseren"
+
+msgid "Synchronise the status of all accounts"
+msgstr "Status van alle accounts synchroniseren"
+
+#, fuzzy
+msgid "Synchronize"
+msgstr "Synchroniseren"
+
+#, fuzzy
+msgid "Synchronize Accounts"
+msgstr "Contacten synchroniseren"
+
+#, fuzzy
+msgid "Synchronize Chat History"
+msgstr "Geschiedenis synchroniseren"
+
+#, fuzzy
+msgid "Synchronizing Chat History…"
+msgstr "Geschiedenis synchroniseren"
+
+msgid "System"
+msgstr "Systeem"
+
+#, fuzzy
+msgid "TLS Version"
+msgstr "Versie"
+
+#, fuzzy, python-format
+msgid "TLS verification failed: %s"
+msgstr "SSL-certificaatverificatie voor %s"
+
+msgid "Tabbed chat window"
+msgstr "Gespreksvenster met tabbladen"
+
+msgid "Tell your contacts if you received a message"
+msgstr ""
+
+#, fuzzy
+msgid "Text File"
+msgstr "_Bestand Verzenden"
+
+msgid "Thanks"
+msgstr "Met dank aan"
+
+msgid "The certificate does not match the expected identity of the site"
+msgstr ""
+
+#, fuzzy
+msgid "The certificate has been revoked"
+msgstr "Certificaat ingetrokken"
+
+#, fuzzy
+msgid "The certificate has expired"
+msgstr "Certificaat is verlopen"
+
+msgid "The certificate’s activation time is in the future"
+msgstr ""
+
+msgid "The certificate’s algorithm is insecure"
+msgstr ""
+
+msgid ""
+"The contact will be informed that you stopped sharing your status. Please "
+"note that this can have other side effects."
+msgstr ""
+
+#, fuzzy, python-format
+msgid ""
+"The file %s has been received, but it seems to have been damaged along the "
+"way.\n"
+"Do you want to download it again?"
+msgstr ""
+"Het bestand %(file)s is ontvangen, maar lijkt onderweg beschadigd te zijn.\n"
+"Wil je het opnieuw downloaden?"
+
+msgid ""
+"The following warnings came up while trying to verify the server's "
+"certificate"
+msgstr ""
+
+msgid "The last message was written on a mobile client"
+msgstr "Het laatste bericht is geschreven met een mobiele cliënt"
+
+#, fuzzy
+msgid "The server has assigned or modified your nickname in this group chat"
+msgstr "De server heeft je bijnaam toegewezen of aangepast"
+
+msgid "The server rejected the registration without an error message"
+msgstr ""
+
+#, fuzzy
+msgid "The server returned an insecure transport (HTTP)."
+msgstr "Server gaf een onveilig transport weer (HTTP)"
+
+#, fuzzy
+msgid "The server was shut down."
+msgstr "Je server biedt geen ondersteuning voor vCard"
+
+msgid "The service could not be found"
+msgstr "De dienst kon niet gevonden worden"
+
+msgid "The service is not browsable"
+msgstr "De dienst kan niet worden doorbladerd"
+
+msgid "The signing certificate authority is not known"
+msgstr ""
+
+#, fuzzy
+msgid "Theme"
+msgstr "Thema’s"
+
+msgid "Themes"
+msgstr "Thema’s"
+
+msgid ""
+"There are plenty of servers to choose from.\n"
+"Creating an account on one server allows you to communicate with contacts "
+"from other servers as well."
+msgstr ""
+
+msgid "There are updates for Gajim’s plugins"
+msgstr ""
+
+msgid "There is no encryption method available for the chosen encryption."
+msgstr ""
+
+#, fuzzy
+msgid "There is no more history"
+msgstr "Er is een fout"
+
+msgid ""
+"There is no service at the address you entered, or it is not responding. "
+"Check the address and try again."
+msgstr ""
+"Er bestaat geen dienst op het opgegeven adres, of de service geeft geen "
+"antwoord. Controleer het adres en probeer het opnieuw."
+
+#, fuzzy, python-format
+msgid ""
+"There was an error while attempting to verify the SSL certificate of your "
+"XMPP server (%s)."
+msgstr ""
+"Er trad een fout op bij het verifiëren van het SSL-certificaat van je XMPP-"
+"server: %(error)s\n"
+"Wil je nog steeds met deze server verbinden?"
+
+msgid "This account is not connected to the server"
+msgstr "Deze account is niet verbonden met de server"
+
+#, fuzzy
+msgid "This address does not seem to offer any gateway service."
+msgstr "%s is geen groepsgespreksserver"
+
+#, fuzzy
+msgid "This address is not reachable."
+msgstr "De dienst kan niet worden doorbladerd"
+
+#, fuzzy
+msgid "This device is not compatible."
+msgstr "De dienst kan niet worden doorbladerd"
+
+#, fuzzy
+msgid "This gateway does not support Ad-Hoc Commands."
+msgstr "Dit contact ondersteunt geen bestandsoverdracht."
+
+#, fuzzy
+msgid "This gateway does not support direct registering."
+msgstr "Dit contact ondersteunt geen bestandsoverdracht."
+
+#, fuzzy
+msgid "This group chat can not be found via search"
+msgstr "Deze ruimte heeft geen onderwerp"
+
+msgid "This group chat does not require a password upon entry"
+msgstr ""
+
+msgid "This group chat does require a password upon entry"
+msgstr ""
+
+#, fuzzy
+msgid "This group chat is restricted to members only"
+msgstr ""
+"Of het groepsgesprek geminimaliseerd wordt naar het rooster bij sluiten"
+
+msgid "This group chat persists even if there are no participants"
+msgstr ""
+
+msgid "This group chat will be destroyed once the last participant left"
+msgstr ""
+
+msgid "This is a public group chat. Encryption is not available."
+msgstr ""
+
+#, fuzzy
+msgid ""
+"This is the theme you are currently using.\n"
+"Do you want to delete this theme?"
+msgstr "Deze naam is al in gebruik. Wil je dit statusbericht overschrijven?"
+
+#, python-format
+msgid "This message has been retracted by %s."
+msgstr ""
+
+#, python-format
+msgid "This message was encrypted with %s and could not be decrypted."
+msgstr "Dit bericht is versleuteld met %s en kon niet ontsleuteld worden."
+
+msgid ""
+"This message was encrypted with Legacy OpenPGP and could not be decrypted. "
+"You can install the PGP plugin to handle those messages."
+msgstr ""
+"Dit bericht is versleuteld met Legacy OpenPGP en kon niet ontsleuteld "
+"worden. Installeer de PGP-plug-in om deze berichten te verwerken."
+
+msgid "This message was encrypted with OTR and could not be decrypted."
+msgstr "Dit bericht is versleuteld met OTR en kon niet ontsleuteld worden."
+
+#, fuzzy
+msgid ""
+"This message was encrypted with OpenPGP for XMPP and could not be decrypted. "
+"You can install the OpenPGP plugin to handle those messages."
+msgstr ""
+"Dit bericht is versleuteld met Legacy OpenPGP en kon niet ontsleuteld "
+"worden. Installeer de PGP-plug-in om deze berichten te verwerken."
+
+#, fuzzy
+msgid "This server does not allow signup."
+msgstr "Je server biedt geen ondersteuning voor vCard"
+
+#, fuzzy
+msgid "This server does not support anonymous login."
+msgstr "Je server biedt geen ondersteuning voor vCard"
+
+#, fuzzy
+msgid ""
+"This service could not respond with detailed information.\n"
+"It is most likely a legacy service or broken."
+msgstr ""
+"Deze dienst kon niet antwoorden met gedetailleerde informatie.\n"
+"Het is waarschijnlijk verouderd of kapot"
+
+msgid "This service does not contain any items to browse."
+msgstr "Deze dienst heeft geen items om te doorbladeren."
+
+msgid "This service has not yet responded with detailed information"
+msgstr "Deze dienst heeft nog niet geantwoord met gedetailleerde informatie"
+
+msgid "This type of service does not contain any items to browse."
+msgstr "Dit soort dienst heeft geen items om te doorbladeren."
+
+#, fuzzy
+msgid "This will remove your account from Gajim."
+msgstr "Verwijder account alleen van Gajim"
+
+msgid "This will reset all introduction hints"
+msgstr ""
+
+msgid ""
+"This workspace contains chats. All chats will be moved to the next "
+"workspace. Remove anyway?"
+msgstr ""
+
+msgid "Three Months"
+msgstr "Drie maanden"
+
+msgid "Time"
+msgstr "Duur"
+
+msgid "Time Until Away"
+msgstr ""
+
+#, fuzzy
+msgid "Time Until Not Available"
+msgstr "Niet beschikbaar"
+
+msgid "To"
+msgstr "Aan"
+
+#, fuzzy
+msgid "To apply all changes instantly, you have to re-login."
+msgstr ""
+"Als je alle wijzigingen onmiddellijk wil toepassen moet je opnieuw inloggen."
+
+#, fuzzy
+msgid "Toggle Chat List"
+msgstr "Videosessie in-/uitschakelen"
+
+#, fuzzy
+msgid "Toggle participants list"
+msgstr "Deelnemer"
+
+msgid "Topic"
+msgstr ""
+
+#, fuzzy
+msgid "Transferring File…"
+msgstr "Verzenden"
+
+#, fuzzy, python-format
+msgid "Transport \"%s\" will be removed"
+msgstr "Transport ‘%s’ zal worden verwijderd"
+
+msgid "Transports"
+msgstr "Transporten"
+
+msgid "Treat * / _ pairs as possible formatting characters."
+msgstr "Behandel koppels * / _ als mogelijke formatteringstekens."
+
+msgid "Trust Not Decided"
+msgstr "Vertrouwen nog niet bepaald"
+
+#, fuzzy
+msgid "Try Again"
+msgstr "Opnieuw verifiëren…"
+
+#, fuzzy
+msgid "Trying to change password..."
+msgstr "Klik om het wachtwoord van de account te wijzigen"
+
+#, fuzzy
+msgid "Trying to create account..."
+msgstr "Klik om het wachtwoord van de account te wijzigen"
+
+msgid "Trying to gather information on this address…"
+msgstr ""
+
+msgid "Trying to remove account..."
+msgstr ""
+
+msgid "Tune:"
+msgstr "Deuntje:"
+
+msgid "Turn Camera off"
+msgstr ""
+
+msgid "Turn Camera on"
+msgstr ""
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Type to search for values..."
+msgstr ""
+
+msgid "UPnP-IGD Port Forwarding"
+msgstr "UPnP-IGD-poortdoorsturen"
+
+msgid "URI"
+msgstr "URI"
+
+#, fuzzy
+msgid "URL"
+msgstr "URL:"
+
+msgid "Unable to decode issuer public key"
+msgstr "Kan publieke sleutel van uitgever niet ontcijferen"
+
+msgid "Unable to decrypt CRL's signature"
+msgstr "Kan CRL-ondertekening niet ontsleutelen"
+
+msgid "Unable to decrypt certificate's signature"
+msgstr "Kan certificaatsondertekening niet ontsleutelen"
+
+msgid "Unable to get certificate CRL"
+msgstr "Kan CRL van certificaat niet ophalen"
+
+msgid "Unable to get issuer certificate"
+msgstr "Kan uitgever van certificaat niet ophalen"
+
+msgid "Unable to get local issuer certificate"
+msgstr "Kan lokale uitgever van certificaat niet ophalen"
+
+msgid "Unable to properly remove the plugin"
+msgstr "Kon plug-in niet correct verwijderen"
+
+msgid "Unable to verify the first certificate"
+msgstr "Kan het eerste certificaat niet verifiëren"
+
+#, fuzzy
+msgid "Unblock"
+msgstr "_Deblokkeren"
+
+msgid "Uninstall Plugin"
+msgstr "Plug-in verwijderen"
+
+msgid "Unknown"
+msgstr "Onbekend"
+
+msgid "Unknown Artist"
+msgstr "Onbekende artiest"
+
+#, fuzzy, python-format
+msgid "Unknown SSL error \"%s\""
+msgstr "Onbekende SSL-fout: %d"
+
+msgid "Unknown Source"
+msgstr "Onbekende bron"
+
+#, fuzzy, python-format
+msgid "Unknown TLS error \"%s\""
+msgstr "Onbekende SSL-fout: %d"
+
+msgid "Unknown Title"
+msgstr "Onbekend nummer"
+
+#, fuzzy, python-format
+msgid "Unknown command: %s"
+msgstr "Opdrachten"
+
+#, fuzzy
+msgid "Unknown language"
+msgstr "Onbekend nummer"
+
+#, fuzzy
+msgid "Unknown validation error"
+msgstr "Onbekende SSL-fout: %d"
+
+#, fuzzy
+msgid "Unpin Chat"
+msgstr "Audiogespreksverzoek"
+
+#, fuzzy
+msgid "Unread Messages"
+msgstr "Ongelezen gebeurtenissen"
+
+msgid "Unsupported certificate purpose"
+msgstr "Niet-ondersteund certificaatsdoel"
+
+#, fuzzy
+msgid "Until Gajim is Closed"
+msgstr "Gajim afsluiten"
+
+msgid "Untrusted"
+msgstr "Niet vertrouwd"
+
+msgid "Unverified"
+msgstr "Ongeverifieerd"
+
+#, fuzzy
+msgid "Update"
+msgstr "MOTD bijwerken…"
+
+#, fuzzy
+msgid "Update Avatar"
+msgstr "Avatar uploaden…"
+
+#, fuzzy
+msgid "Update Check"
+msgstr "Spellingscontrole"
+
+#, fuzzy
+msgid "Update automatically"
+msgstr "Avatar uploaden…"
+
+#, fuzzy
+msgid "Update available"
+msgstr "Geen account beschikbaar"
+
+msgid "Update plugins automatically"
+msgstr ""
+
+msgid "Updates"
+msgstr ""
+
+msgid "Updates will be installed next time Gajim is started"
+msgstr ""
+
+#, fuzzy
+msgid "Upload Files"
+msgstr "Bestand uploaden…"
+
+msgid "Upload File…"
+msgstr "Bestand uploaden…"
+
+#, fuzzy
+msgid "Uploading Avatar Failed"
+msgstr "Avatar uploaden…"
+
+#, fuzzy, python-format
+msgid "Uploading avatar image failed: %s"
+msgstr "Sturen van privébericht mislukt"
+
+#, fuzzy
+msgid "Uploading via HTTP File Upload…"
+msgstr "Bestand uploaden met HTTP-bestandsupload…"
+
+msgid "Use GSSAPI"
+msgstr ""
+
+#, fuzzy
+msgid "Use Image"
+msgstr "Kies afbeelding"
+
+#, fuzzy
+msgid "Use STUN Server"
+msgstr "STU_N-server"
+
+msgid "Use System Keyring"
+msgstr ""
+
+#, fuzzy
+msgid "Use Unencrypted Connection"
+msgstr "Onveilige verbinding"
+
+#, fuzzy
+msgid "Use an unencrypted connection to the server"
+msgstr "Er is geen verbinding met de server"
+
+msgid "Use defined profile in configuration directory"
+msgstr "Gebruik opgegeven profiel in configuratiemap"
+
+msgid "Use file transfer proxies"
+msgstr "Gebruik bestandsoverdrachtsproxies"
+
+msgid ""
+"Use filters to narrow down your search:\n"
+"from:username\n"
+"before:yyyy-mm-dd\n"
+"after:yyyy-mm-dd"
+msgstr ""
+
+msgid "Use proxy auth_entication"
+msgstr "Gebruik proxy-auth_enticatie"
+
+msgid "Use your favorite emoticons, set your own profile picture"
+msgstr "Gebruik je favoriete emoticons, stel je eigen avatar in"
+
+msgid "Use your system’s keyring to store passwords"
+msgstr ""
+
+#, fuzzy, python-format
+msgid "User %s not found"
+msgstr "%s niet gevonden"
+
+msgid "Users"
+msgstr "Gebruikers"
+
+#, python-format
+msgid "V4L2: %s"
+msgstr "V4L2: %s"
+
+msgid "Validity"
+msgstr "Geldigheid"
+
+#, fuzzy
+msgid "Validity\n"
+msgstr "Geldigheid"
+
+msgid "Verified"
+msgstr "Geverifieerd"
+
+msgid "Version"
+msgstr "Versie"
+
+#, fuzzy, python-format
+msgid "Version %s is available"
+msgstr "Er is geen verbinding beschikbaar"
+
+msgid "Video"
+msgstr "Video"
+
+#, fuzzy
+msgid "Video Framerate"
+msgstr "Video_framerate"
+
+#, fuzzy
+msgid "Video Input Device"
+msgstr "_Video-invoerapparaat"
+
+#, fuzzy
+msgid "Video Resolution"
+msgstr "Videosessie"
+
+#, fuzzy
+msgid "Video calls are not available on Windows"
+msgstr "Videosessies zijn niet beschikbaar"
+
+msgid "Video test"
+msgstr "Videotest"
+
+msgid "Visit Server's Website"
+msgstr ""
+
+msgid "Visit Website"
+msgstr ""
+
+msgid "Visitor"
+msgstr "Bezoeker"
+
+msgid "Visitors"
+msgstr "Bezoekers"
+
+msgid "Visual Notifications"
+msgstr "Visuele meldingen"
+
+#, fuzzy
+msgid "Waiting…"
+msgstr "Schrijven"
+
+msgid "Wav Sounds"
+msgstr "WAV-geluiden"
+
+#, fuzzy, python-format
+msgid "Web Search URL is missing a \"%s\""
+msgstr "‘%s’ ontbreekt in de URL van de zoekmachine"
+
+msgid "Web _Search for it"
+msgstr "_Zoeken op het internet"
+
+msgid "Website"
+msgstr ""
+
+msgid "Welcome"
+msgstr ""
+
+#, fuzzy
+msgid "What does this mean?"
+msgstr "Verberg dit menu"
+
+msgid "What happened"
+msgstr ""
+
+msgid "Where participants should go"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Whether to check for a valid certificate before downloading (not safe to "
+"disable)"
+msgstr "Negeer deze fout voor dit certificaat."
+
+msgid "Which server should I choose?"
+msgstr ""
+
+#, fuzzy
+msgid "Why do you want to retract this message?"
+msgstr "Wil je dit bericht voorgoed verwijderen"
+
+#, fuzzy
+msgid "Width of group chat roster in pixel"
+msgstr "Nodig vrienden uit in groepsgesprekken, of neem eraan deel"
+
+#, fuzzy
+msgid "Windows"
+msgstr "venster1"
+
+msgid "Without a connection, you can not browse available services"
+msgstr ""
+"Zonder verbinding is het niet mogelijk te bladeren door aangeboden diensten"
+
+msgid "Work"
+msgstr "Werk"
+
+msgid "Working"
+msgstr "Werken"
+
+#, fuzzy
+msgid "Workspace Settings"
+msgstr "Gea_vanceerde Acties"
+
+#, fuzzy
+msgid "Workspaces"
+msgstr "Contact hernoemen"
+
+msgid "X11"
+msgstr ""
+
+msgid "XML Console"
+msgstr "XML-console"
+
+msgid "XML console to see what's happening on the protocol layer"
+msgstr "XML-console om na te kijken wat er gebeurt in de protocollaag"
+
+#, fuzzy
+msgid "XMPP Address"
+msgstr "AIM-adres:"
+
+#, fuzzy
+msgid "XMPP Address…"
+msgstr "AIM-adres:"
+
+#, fuzzy
+msgid "XMPP Chat Client"
+msgstr "Jabber-IM-cliënt"
+
+#, fuzzy
+msgid "YYYY-MM-DD"
+msgstr "Formaat: YYYY-MM-DD"
+
+msgid "Yes"
+msgstr "Ja"
+
+#, fuzzy
+msgid "Yesterday"
+msgstr "Gisteren"
+
+msgid "You"
+msgstr "Jij"
+
+#, fuzzy, python-format
+msgid "You (%s) joined the group chat"
+msgstr "%s neemt nu deel aan het groepsgesprek"
+
+msgid "You are a visitor"
+msgstr ""
+
+#, fuzzy, python-format
+msgid ""
+"You are about to connect to the account %(account)s (%(server)s) using an "
+"insecure connection method. This means conversations will not be encrypted. "
+"Connecting PLAIN is strongly discouraged."
+msgstr ""
+"Je staat op het punt met de account %(account)s (%(server)s) te verbinden "
+"over een onveilige verbinding. Dit betekent dat al je gesprekken "
+"onversleuteld worden verstuurd. Dit soort verbinding wordt sterk afgeraden.\n"
+"Ben je zeker dat je wil doorgaan?"
+
+#, fuzzy
+msgid "You are about to quit Gajim"
+msgstr "Weet je zeker dat je Gajim wil afsluiten?"
+
+#, fuzzy, python-format
+msgid "You are about to remove %(name)s (%(jid)s) from your contact list.\n"
+msgstr ""
+"Je staat op het punt ‘%(name)s’ (%(jid)s) uit je rooster te verwijderen.\n"
+
+#, fuzzy
+msgid "You are currently not joined this group chat"
+msgstr "%s neemt nu deel aan het groepsgesprek"
+
+msgid "You are not allowed to modify the affiliation of Admins and Owners"
+msgstr ""
+"Je bent niet gemachtigd om de aansluiting van administrators of eigenaars "
+"aan te passen"
+
+#, fuzzy
+msgid "You are not connected"
+msgstr "Er is geen verbinding met de server"
+
+msgid "You are not connected to the server"
+msgstr "Er is geen verbinding met de server"
+
+#, python-format
+msgid "You are now known as %s"
+msgstr "Je staat nu bekend als %s"
+
+#, python-brace-format
+msgid "You are now {show}{status}"
+msgstr "Je bent nu {show}{status}"
+
+#, fuzzy
+msgid "You are offline."
+msgstr "offline"
+
+#, fuzzy, python-format
+msgid "You can join this group chat instead: xmpp:%s?join"
+msgstr "Je kan in plaats daarvan aan dit groepsgesprek deelnemen: xmpp:%s?join"
+
+msgid "You can not join a group chat unless you are connected."
+msgstr ""
+"Het is niet mogelijk aan een groepsgesprek deel te nemen zonder verbonden te "
+"zijn."
+
+#, fuzzy
+msgid "You can see the contact's online status"
+msgstr "Vraag hem/haar toe_stemming zijn/haar status te zien"
+
+#, fuzzy
+msgid "You cancelled the transfer"
+msgstr "Annuleert de geselecteerde bestandsoverdracht"
+
+#, fuzzy
+msgid "You cannot add yourself to your contact list."
+msgstr "Je kan jezelf niet aan je rooster toevoegen."
+
+#, fuzzy
+msgid "You cannot see this contact's online status"
+msgstr "Je kan jezelf niet aan je rooster toevoegen."
+
+msgid "You cannot synchronize with an account unless it is connected."
+msgstr ""
+"Het is niet mogelijk met een account te synchroniseren zonder dat deze "
+"verbonden is."
+
+#, fuzzy
+msgid "You do not have permissions to create files in this directory."
+msgstr "Je hebt geen toestemming om bestanden aan te maken in deze map."
+
+#, fuzzy
+msgid ""
+"You do not have the proper permissions to create files in this directory."
+msgstr "Je hebt geen toestemming om bestanden aan te maken in deze map."
+
+#, python-format
+msgid "You dropped something Gajim could not process: %s"
+msgstr ""
+
+#, python-brace-format
+msgid "You have been banned{actor}{reason}"
+msgstr "Je bent uit het gesprek verbannen{actor}{reason}"
+
+#, fuzzy, python-format
+msgid "You have been invited to %s"
+msgstr "%(jid)s is in dit groepsgesprek uitgenodigd"
+
+#, python-brace-format
+msgid "You have been kicked{actor}{reason}"
+msgstr "Je bent uit het gesprek geschopt{actor}{reason}"
+
+#, fuzzy, python-brace-format
+msgid "You have been removed from the group chat{actor}{reason}"
+msgstr "Je bent uit het gesprek verwijderd{actor}{reason}"
+
+msgid "You have insufficient permissions"
+msgstr ""
+
+#, python-brace-format
+msgid "You have left due to an error{reason}"
+msgstr "Je hebt het gesprek verlaten vanwege een fout{reason}"
+
+#, fuzzy
+msgid "You have to be connected to create a group chat."
+msgstr "Je neemt niet deel aan een groepsgesprek."
+
+msgid "You have to invite people so they can join"
+msgstr ""
+
+#, fuzzy
+msgid "You left this group chat"
+msgstr "Je hebt deze groepsgesprekken verlaten:"
+
+msgid "You need Owner permission to change the configuration"
+msgstr ""
+
+#, fuzzy
+msgid "You requested to see this contact's online status"
+msgstr "Vraag hem/haar toe_stemming zijn/haar status te zien"
+
+#, fuzzy
+msgid "You still have running file transfers"
+msgstr "Je hebt lopende bestandsoverdrachten"
+
+#, fuzzy
+msgid "You still have unread messages"
+msgstr "Je hebt ongelezen berichten"
+
+#, fuzzy
+msgid ""
+"You will appear offline for this contact and you will not receive further "
+"messages."
+msgstr "JID of contact die het bericht zal ontvangen"
+
+#, fuzzy
+msgid ""
+"You will no longer be able to send and receive messages from and to contacts "
+"using this transport."
+msgstr ""
+"Het zal niet meer mogelijk zijn berichten te sturen en ontvangen van "
+"contacten via dit transport."
+
+#, fuzzy
+msgid "Your Nickname"
+msgstr "Je bijnaam"
+
+msgid "Your XMPP address (e.g. user@example.org)"
+msgstr ""
+
+#, fuzzy
+msgid "Your account has has been removed successfully."
+msgstr "Je nieuwe account is aangemaakt"
+
+#, fuzzy
+msgid "Your archiving preferences have successfully been saved."
+msgstr "Je archiefvoorkeuren zijn opgeslagen!"
+
+msgid "Your message can not be sent until you are connected."
+msgstr "Je bericht kan niet worden verzonden totdat je verbinding hebt."
+
+#, fuzzy
+msgid "Your messages have been exported successfully"
+msgstr "Je nieuwe account is aangemaakt"
+
+#, fuzzy
+msgid "Your password"
+msgstr "Voer nieuw wachtwoord in:"
+
+#, fuzzy
+msgid "Your password has successfully been changed."
+msgstr "Je archiefvoorkeuren zijn opgeslagen!"
+
+msgid "Your public key or authentication certificate"
+msgstr ""
+
+msgid "ZIP files"
+msgstr "ZIP-bestanden"
+
+msgid "ZZZZzzzzzZZZZZ"
+msgstr ""
+
+#, fuzzy
+msgid "_Abort"
+msgstr "Afgebroken"
+
+#, fuzzy
+msgid "_About"
+msgstr "Info"
+
+msgid "_Accept"
+msgstr "_Accepteren"
+
+#, fuzzy
+msgid "_Account"
+msgstr "_Accounts"
+
+#, fuzzy
+msgid "_Accounts"
+msgstr "Accounts"
+
+#, python-format
+msgid "_Actions for \"%s\""
+msgstr "_Acties voor ‘%s’"
+
+#, fuzzy
+msgid "_Add Account…"
+msgstr "Account toevoegen…"
+
+#, fuzzy
+msgid "_Add to Trusted Certificates"
+msgstr "Versleuteld certificaat"
+
+#, fuzzy
+msgid "_Address"
+msgstr "_Adres:"
+
+#, fuzzy
+msgid "_Advanced Settings"
+msgstr "Gea_vanceerde Acties"
+
+#, fuzzy
+msgid "_Back"
+msgstr "Zo terug"
+
+msgid "_Block"
+msgstr "_Blokkeren"
+
+msgid "_Busy"
+msgstr "_Bezig"
+
+msgid "_Cancel"
+msgstr "_Annuleren"
+
+msgid "_Clear"
+msgstr "_Wissen"
+
+msgid "_Close"
+msgstr "S_luiten"
+
+#, fuzzy
+msgid "_Command"
+msgstr "Opdrachten"
+
+#, fuzzy
+msgid "_Connect"
+msgstr "Verbonden"
+
+#, fuzzy
+msgid "_Connect Anyway"
+msgstr "Bezig met verbinden"
+
+#, fuzzy
+msgid "_Copy Link"
+msgstr "Verwijzingslocatie kopiëren"
+
+#, fuzzy
+msgid "_Create"
+msgstr "Creatief"
+
+msgid "_Decline"
+msgstr "_Weigeren"
+
+#, fuzzy
+msgid "_Default"
+msgstr "Standaard"
+
+#, fuzzy
+msgid "_Delete"
+msgstr "Verwijderen"
+
+#, fuzzy
+msgid "_Description"
+msgstr "Beschrijving"
+
+#, fuzzy
+msgid "_Destroy"
+msgstr "%s vernietigen"
+
+#, fuzzy
+msgid "_Disable Account"
+msgstr "Account uitschakelen"
+
+msgid "_Do not ask me again"
+msgstr "Vraag mij _dit niet nogmaals"
+
+#, fuzzy
+msgid "_Don’t ask again"
+msgstr "Vraag mij _dit niet nogmaals"
+
+#, fuzzy
+msgid "_Download"
+msgstr "Vraag mij _dit niet nogmaals"
+
+#, fuzzy
+msgid "_Download Again"
+msgstr "Vraag mij _dit niet nogmaals"
+
+msgid "_Edit"
+msgstr "B_ewerken"
+
+#, fuzzy
+msgid "_Features"
+msgstr "Functies"
+
+#, fuzzy
+msgid "_File Transfer"
+msgstr "Bestandsoverdracht"
+
+msgid "_Free for Chat"
+msgstr "Open voor _gesprek"
+
+#, fuzzy
+msgid "_Help"
+msgstr "Hulp"
+
+#, fuzzy
+msgid "_Host"
+msgstr "_Host:"
+
+#, fuzzy
+msgid "_Hostname"
+msgstr "_Hostnaam:"
+
+msgid "_Join"
+msgstr "_Binnengaan"
+
+#, fuzzy
+msgid "_Keyboard Shortcuts"
+msgstr "Sneltoetsen"
+
+msgid "_Later"
+msgstr ""
+
+msgid "_Leave"
+msgstr ""
+
+#, fuzzy
+msgid "_Log In"
+msgstr "_Log in"
+
+#, fuzzy
+msgid "_Login"
+msgstr "Inloggen"
+
+#, fuzzy
+msgid "_Modify Accounts…"
+msgstr "Account Be_werken..."
+
+#, fuzzy
+msgid "_Modify Account…"
+msgstr "Account Be_werken..."
+
+msgid "_Name"
+msgstr "_Naam"
+
+#, fuzzy
+msgid "_New post"
+msgstr "Nieuwe post"
+
+#, fuzzy
+msgid "_No"
+msgstr "Nee"
+
+msgid "_Not Available"
+msgstr "_Niet beschikbaar"
+
+msgid "_OK"
+msgstr "_Oké"
+
+msgid "_Offline"
+msgstr "_Offline"
+
+#, fuzzy
+msgid "_Open"
+msgstr "Openen"
+
+#, fuzzy
+msgid "_Open Folder"
+msgstr "_Open bovenliggende map"
+
+#, fuzzy
+msgid "_Overwrite"
+msgstr "Overschrijven?"
+
+#, fuzzy
+msgid "_Please choose a server"
+msgstr "Kies een bijnaam"
+
+#, fuzzy
+msgid "_Port"
+msgstr "_Poort:"
+
+msgid "_Preferences"
+msgstr "_Voorkeuren"
+
+msgid "_Purge"
+msgstr ""
+
+msgid "_Quit"
+msgstr "_Afsluiten"
+
+#, fuzzy
+msgid "_Re-Login"
+msgstr "Inloggen"
+
+msgid "_Remove"
+msgstr "_Verwijderen"
+
+#, fuzzy
+msgid "_Report Spam"
+msgstr "_Fout melden"
+
+#, fuzzy
+msgid "_Request"
+msgstr "Stem aanv_ragen"
+
+#, fuzzy
+msgid "_Reset Value"
+msgstr "He_rstellen naar standaardwaarden"
+
+msgid "_Retract"
+msgstr ""
+
+#, fuzzy
+msgid "_Save"
+msgstr "Opslaan _als"
+
+#, fuzzy
+msgid "_Save as…"
+msgstr "Opslaan _als"
+
+msgid "_Search"
+msgstr "_Zoeken"
+
+#, fuzzy
+msgid "_Select"
+msgstr "Selecteer bestanden"
+
+msgid "_Send"
+msgstr "Ver_zenden"
+
+#, fuzzy
+msgid "_Show Certificate"
+msgstr "Certificaat bekijken…"
+
+#, fuzzy
+msgid "_Show notification when file transfer is complete"
+msgstr "_Stel mij op de hoogte als een bestandsoverdracht voltooid is"
+
+#, fuzzy
+msgid "_Sign Up"
+msgstr "_inlog"
+
+#, fuzzy
+msgid "_Start / Join Chat…"
+msgstr "Gesprek beginnen"
+
+msgid "_Start Chat..."
+msgstr "Ge_sprek beginnen…"
+
+msgid "_Stop Sharing"
+msgstr ""
+
+msgid "_Subscribe"
+msgstr "_Abonneer"
+
+msgid "_Type"
+msgstr "_Type"
+
+msgid "_Undo"
+msgstr "_Ongedaan maken"
+
+msgid "_Unregister account from service"
+msgstr ""
+
+msgid "_Unsubscribe"
+msgstr "Abonnement _opzeggen"
+
+msgid "_Username"
+msgstr "Gebr_uikersnaam"
+
+#, fuzzy
+msgid "_View"
+msgstr "Weergeven"
+
+#, fuzzy
+msgid "_View Certificate"
+msgstr "Certificaat bekijken…"
+
+#, fuzzy
+msgid "_Wiki (Online)"
+msgstr "Online"
+
+#, fuzzy
+msgid "_XML Console"
+msgstr "XML-console"
+
+msgid "accuracy"
+msgstr "precisie"
+
+msgid "alt"
+msgstr "alt"
+
+msgid "and NOT authenticated"
+msgstr "en NIET geauthenticeerd"
+
+msgid "and authenticated"
+msgstr "en geauthenticeerd"
+
+msgid "area"
+msgstr "gebied"
+
+msgid "audio input"
+msgstr "audio-invoer"
+
+msgid "audio output"
+msgstr "audio-uitvoer"
+
+msgid "bearing"
+msgstr "lager"
+
+msgid "bold"
+msgstr ""
+
+msgid "building"
+msgstr "bouwen"
+
+#, fuzzy, python-format
+msgid "cairo Version: %s"
+msgstr "GTK+-versie: %s"
+
+#, fuzzy
+msgid "chat;messaging;im;xmpp;voip;"
+msgstr "chat;messaging;berichten;gesprekken;im;xmpp;bonjour;voip;"
+
+msgid "column"
+msgstr "kolom"
+
+msgid "country"
+msgstr "land"
+
+msgid "countrycode"
+msgstr "landcode"
+
+msgid "dark skin"
+msgstr ""
+
+msgid "datum"
+msgstr "datum"
+
+msgid "description"
+msgstr "beschrijving"
+
+#, python-format
+msgid "e.g. %s"
+msgstr ""
+
+msgid "error"
+msgstr "fout"
+
+#, fuzzy
+msgid "example.org"
+msgstr "gebruiker@voorbeeld.nl"
+
+msgid "file transfers list"
+msgstr "bestandsoverdrachtlijst"
+
+msgid "floor"
+msgstr "verdiep"
+
+#, fuzzy
+msgid ""
+"has invited you to a group chat.\n"
+"Do you want to join?"
+msgstr "Nodig een gebruiker uit in een groepsgesprek voor een reden"
+
+msgid "help"
+msgstr ""
+
+msgid "is composing a message…"
+msgstr "is een bericht aan het typen…"
+
+msgid "is doing something else"
+msgstr "is met iets anders bezig"
+
+#, fuzzy
+msgid "italic"
+msgstr "Schuingedrukt"
+
+msgid "lat"
+msgstr "breedte"
+
+msgid "light skin"
+msgstr ""
+
+msgid "locality"
+msgstr "plaats"
+
+msgid "lon"
+msgstr "lengte"
+
+msgid "macOS"
+msgstr ""
+
+msgid "medium skin tone"
+msgstr ""
+
+msgid "medium-dark skin"
+msgstr ""
+
+msgid "medium-light skin"
+msgstr ""
+
+#, fuzzy
+msgid "or"
+msgstr "Tor"
+
+msgid "org.gajim.Gajim"
+msgstr ""
+
+msgid "paused composing a message"
+msgstr "pauzeert tijdens het typen van een bericht"
+
+msgid "postalcode"
+msgstr "postcode"
+
+#, fuzzy, python-format
+msgid "pycairo Version: %s"
+msgstr "GTK+-versie: %s"
+
+#, python-format
+msgid "python-nbxmpp Version: %s"
+msgstr "python-nbxmpp-versie: %s"
+
+msgid "region"
+msgstr "regio"
+
+msgid "room"
+msgstr "groepsgesprek"
+
+msgid "speed"
+msgstr "snelheid"
+
+msgid "street"
+msgstr "straat"
+
+#, fuzzy
+msgid "strike"
+msgstr "Doorstrepen"
+
+msgid "text"
+msgstr "tekst"
+
+msgid "timestamp"
+msgstr "tijdsaanduiding"
+
+msgid "translator-credits"
+msgstr ""
+"Nathan Follens <nthn@unseen.is>\n"
+"Stéphan Kochen <stephan@kochen.nl>"
+
+msgid "video input"
+msgstr "video-invoer"
+
+msgid "we would like to thank all the package maintainers."
+msgstr "willen we alle pakketonderhouders bedanken."
+
+#, python-brace-format
+msgid "{nick} has been banned{actor}{reason}"
+msgstr "{nick} is uit het gesprek verbannen{actor}{reason}"
+
+#, python-brace-format
+msgid "{nick} has been kicked{actor}{reason}"
+msgstr "{nick} is uit het gesprek geschopt{actor}{reason}"
+
+#, fuzzy, python-brace-format
+msgid "{nick} has been removed from the group chat{by}{reason}"
+msgstr "{nick} is uit het gesprek verwijderd{by}{reason}"
+
+#, python-brace-format
+msgid "{nick} has left due to an error{reason}"
+msgstr "{nick} heeft het gesprek verlaten vanwege een fout{reason}"
+
+#, python-brace-format
+msgid "{nick} has left{reason}"
+msgstr "{nick} heeft het gesprek verlaten{reason}"
+
+#, python-brace-format
+msgid "{nick} is now known as {new_nick}"
+msgstr "{nick} is nu bekend als {new_nick}"
+
+#, fuzzy, python-brace-format
+msgid "{nick} is now {show}"
+msgstr "{nick} is nu {show}{status}"
+
+#, python-brace-format
+msgid "{nick} is now {show}{status}"
+msgstr "{nick} is nu {show}{status}"
+
+msgid "…or drop it here"
+msgstr ""
